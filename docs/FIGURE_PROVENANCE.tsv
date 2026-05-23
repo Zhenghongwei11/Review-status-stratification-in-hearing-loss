@@ -1,0 +1,6 @@
+figure_id	output_path	primary_script	anchor_table_paths
+Fig1	plots/hearing_loss_clinvar/fig1_workflow_schematic.pdf	scripts/hearing_loss_clinvar/plot_figures.py	(results/hearing_loss_clinvar/table1_dataset_provenance.tsv)
+Fig2	plots/hearing_loss_clinvar/fig2_tier_yield_stackedbar.pdf	scripts/hearing_loss_clinvar/plot_figures.py	(results/hearing_loss_clinvar/utility_overall_by_tier.tsv)
+Fig3	plots/hearing_loss_clinvar/fig3_actionability_vs_uncertainty.pdf	scripts/hearing_loss_clinvar/plot_figures.py	(results/hearing_loss_clinvar/utility_gene_all.tsv)
+Fig4	plots/hearing_loss_clinvar/fig4_conflict_hotspots_lollipop.pdf	scripts/hearing_loss_clinvar/plot_figures.py	(results/hearing_loss_clinvar/utility_gene_conflict_hotspots_top50.tsv)
+FigS1	plots/hearing_loss_clinvar/figS1_sensitivity_summary.pdf	scripts/hearing_loss_clinvar/plot_figures.py	(results/hearing_loss_clinvar_sensitivity/summary.tsv)

@@ -1,0 +1,2 @@
+dataset_id	source_url	downloaded_at_local	sha256	total_rows_processed	hearing_loss_rows_record_level	hearing_loss_variation_ids_unique	unique_genes_hearing_loss	highconf_plp_tier_ge_2_variation_ids_unique
+clinvar_variant_summary	https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz	2026-05-23T00:16:03	2f591d4ea919e81f0094c32f5901dbb3afad39a8d8de5c59ea9029d2d3a49ccc	8980556	36641	18384	293	1810

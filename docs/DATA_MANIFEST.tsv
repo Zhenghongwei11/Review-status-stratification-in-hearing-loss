@@ -1,0 +1,2 @@
+dataset_id	source	url	notes
+clinvar_variant_summary	NCBI ClinVar	https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz	Public ClinVar tab-delimited export used as the sole raw input; downloaded on demand by scripts with SHA256 recorded locally.

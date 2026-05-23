@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large public data downloads (download on demand)
+data/raw/
+
+# Run logs and intermediates
+logs/
+results/hearing_loss_clinvar_smoke/
