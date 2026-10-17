@@ -1,0 +1,5 @@
+definition	n_variation_ids	n_gene_symbols	n_multi_gene_variants	n_plp_review_stars_ge_2	plp_review_stars_ge_2_proportion	n_plp_review_stars_ge_2_gene_symbols	n_expert_panel	n_practice_guideline	n_vus	n_conflicting	n_single_gene_variants	n_no_gene_variants	n_unavailable_review_status	n_variants_with_participating_germline_scvs	sum_variant_participating_germline_scv_counts
+primary	18384	298	62	1810	0.09845517841601392	124	173	0	6908	2805	18309	13	0	18384	49565
+expanded	25661	467	86	2456	0.0957094423444137	179	205	0	9763	3562	25551	24	0	25661	65941
+disease_supported	473704	2971	962	29427	0.06212107138635097	1215	2428	23	171072	42228	472502	240	74	473630	937664
+curated_gene	162683	1484	1861	4745	0.02916715329813195	243	241	0	63305	9614	160822	0	2790	159893	254076

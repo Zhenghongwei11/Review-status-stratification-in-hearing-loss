@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "reference_status": "complete_with_ClinGen_GenCC_unavailable",
+  "gene_curation_source": "clingen",
+  "clinvar_snapshot_accessed": "2026-05-23",
+  "temporal_limitation": "HPO September 2026 and later gene-disease curations are applied to fixed May 2026 ClinVar records; these are not May 2026 annotations or an exhaustive gold standard.",
+  "sources": {
+    "hp.obo": {
+      "requested_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/hp.obo",
+      "resolved_url": null,
+      "retrieved_at_utc": "2026-10-13T08:56:38.105503+00:00",
+      "retrieval_metadata": "pre-existing local download; timestamp from file mtime; no response headers captured",
+      "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+      "bytes": 10863613,
+      "version": "v2026-09-01",
+      "license": "HPO custom license; attribution, version disclosure, integrity conditions",
+      "local_file": "data/sources/hp.obo"
+    },
+    "phenotype.hpoa": {
+      "requested_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/phenotype.hpoa",
+      "resolved_url": null,
+      "retrieved_at_utc": "2026-10-13T08:56:38.171859+00:00",
+      "retrieval_metadata": "pre-existing local download; timestamp from file mtime; no response headers captured",
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "bytes": 35816037,
+      "version": "v2026-09-01",
+      "license": "HPO custom license; attribution, version disclosure, integrity conditions",
+      "local_file": "data/sources/phenotype.hpoa"
+    },
+    "hpo_license.md": {
+      "requested_url": "https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/v2026-09-01/LICENSE.md",
+      "resolved_url": null,
+      "retrieved_at_utc": "2026-10-13T08:56:41.923564+00:00",
+      "retrieval_metadata": "pre-existing local download; timestamp from file mtime; no response headers captured",
+      "sha256": "534f0ba30b74d13590247ddb5e24d749f5733b41cf19a730010b55edf4266336",
+      "bytes": 90,
+      "version": "v2026-09-01",
+      "license": "HPO license pointer",
+      "local_file": "data/sources/hpo_license.md"
+    },
+    "hpo_legacy_license.html": {
+      "requested_url": "https://human-phenotype-ontology.github.io/license.html",
+      "resolved_url": null,
+      "retrieved_at_utc": "2026-10-13T08:56:51.158477+00:00",
+      "retrieval_metadata": "pre-existing local download; timestamp from file mtime; no response headers captured",
+      "sha256": "d63799ff8d381891114b22e78c8164f198a9642f9ed0ca8b53bc73238c318b39",
+      "bytes": 8351,
+      "version": "retrieval-time official legacy license page",
+      "license": "HPO custom license",
+      "local_file": "data/sources/hpo_legacy_license.html"
+    },
+    "clingen_gene_validity.csv": {
+      "requested_url": "https://search.clinicalgenome.org/kb/gene-validity/download",
+      "resolved_url": null,
+      "retrieved_at_utc": "2026-10-13T08:59:52.798247+00:00",
+      "retrieval_metadata": "pre-existing local download; timestamp from file mtime; no response headers captured",
+      "sha256": "e76ad9ff65af9515d0f909b351f440808d584c67842dc914026d3a8d0b20db10",
+      "bytes": 1130605,
+      "version": "live export; retrieval date and checksum identify snapshot",
+      "license": "CC0 1.0 Universal",
+      "local_file": "data/sources/clingen_gene_validity.csv"
+    },
+    "clingen_terms.html": {
+      "requested_url": "https://clinicalgenome.org/about/terms-of-use/",
+      "resolved_url": null,
+      "retrieved_at_utc": "2026-10-13T09:02:12.955026+00:00",
+      "retrieval_metadata": "pre-existing local download; timestamp from file mtime; no response headers captured",
+      "sha256": "bbeed8bdb6ba5029ee803b17b2e9a46cc92c9787c2cc5420a9c93477c50dc6ec",
+      "bytes": 116813,
+      "version": "retrieval-time terms page",
+      "license": "CC0 1.0 Universal",
+      "local_file": "data/sources/clingen_terms.html"
+    }
+  },
+  "hpo_ontology_data_version": "hp/releases/2026-09-01",
+  "hpo_annotation_metadata": [
+    "#description: \"HPO annotations for rare diseases [8478: OMIM; 47: DECIPHER; 4357 ORPHANET]\"",
+    "#version: 2026-09-02",
+    "#tracker: https://github.com/obophenotype/human-phenotype-ontology/issues",
+    "#hpo-version: http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json"
+  ],
+  "selection": {
+    "hpo_root": "HP:0000365",
+    "descendants_include_root": true,
+    "graph_edges": "is_a",
+    "exclude_obsolete_terms": true,
+    "exclude_negative_NOT_annotations": true,
+    "annotation_aspect": "P",
+    "gencc_id_match": "disease_curie OR disease_original_curie OR submitted_as_disease_id in HPO-selected disease IDs",
+    "gencc_name_pattern": "\\bhearing\\b|\\bdeaf(?:ness)?\\b|\\b(?:usher|pendred|waardenburg)\\b",
+    "gencc_scope": "Only matched gene-disease submissions; other diseases for the same gene are not automatically included.",
+    "clingen_selection": "HPO disease CURIE match OR explicit hearing/deaf/Usher/Pendred/Waardenburg disease name OR Hearing Loss Gene Curation Expert Panel; only selected relationships retained",
+    "gene_id_namespace": "HGNC; not NCBI GeneID",
+    "positive_comparator_classifications": [
+      "Definitive",
+      "Limited",
+      "Moderate",
+      "Strong",
+      "Supportive"
+    ]
+  },
+  "counts": {
+    "ontology_terms": 20482,
+    "hearing_hpo_terms_including_root": 38,
+    "hpo_annotation_rows": 286651,
+    "negative_hearing_annotation_rows_excluded": 7,
+    "hearing_disease_ids": 2104,
+    "gencc_input_submission_rows": null,
+    "hearing_gencc_submission_rows": null,
+    "hearing_gencc_unique_gene_symbols": null,
+    "positive_evidence_gene_symbols": 164,
+    "gencc_match_basis_counts": null,
+    "classification_counts": {
+      "Limited": 45,
+      "Definitive": 108,
+      "Disputed": 12,
+      "Moderate": 24,
+      "Strong": 7,
+      "Refuted": 4,
+      "No Known Disease Relationship": 1
+    },
+    "clingen_input_curation_rows": 3705,
+    "hearing_clingen_curation_rows": 201,
+    "hearing_clingen_unique_gene_symbols": 176,
+    "clingen_match_basis_counts": {
+      "hearing_loss_expert_panel": 192,
+      "explicit_disease_name": 9
+    }
+  },
+  "outputs": {
+    "hearing_diseases.tsv": {
+      "sha256": "79f3be09abfd6195b6d9d81db2a2f1ad9f2870d88320c0950eeb5d127efb28d0",
+      "bytes": 176705
+    },
+    "hearing_hpo_terms.tsv": {
+      "sha256": "9858ef4b3f876cb8cdd1aad1c525fc54ce5f802a22956b6a6bbb59018c608426",
+      "bytes": 1906
+    },
+    "hearing_genes.tsv": {
+      "sha256": "107b75c53d29527708bd513c379df9ae401f9e5869fd9ad55821b8802f8fe818",
+      "bytes": 66689
+    }
+  },
+  "clingen_creation_header": "FILE CREATED: 2026-10-13",
+  "unavailable_sources": [
+    {
+      "source": "GenCC",
+      "requested_url": "https://thegencc.org/download/action/submissions-export-csv?format=new",
+      "retrieval_date": "2026-10-13",
+      "status": "HTTP 429 Too Many Requests",
+      "access_limit": "official download page reports 20 requests/day; no further requests made after rate limitation was identified",
+      "partial_downloads_used": false,
+      "replacement": "complete official ClinGen gene-disease validity CSV; not equivalent to the full multi-submitter GenCC database"
+    }
+  ]
+}

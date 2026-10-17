@@ -7,10 +7,10 @@ from collections import defaultdict
 from pathlib import Path
 
 
-def read_tsv(path: Path) -> list[dict]:
+def read_tsv(path: Path):
     with path.open("r", encoding="utf-8") as f:
         r = csv.DictReader(f, delimiter="\t")
-        return list(r)
+        yield from r
 
 
 def write_tsv(path: Path, rows: list[dict], fieldnames: list[str]) -> None:
@@ -33,26 +33,51 @@ def safe_div(num: int, den: int) -> float:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Generate clinic-facing utility endpoint tables from ClinVar hearing-loss evidence map.")
+    ap = argparse.ArgumentParser(description="Generate descriptive classification and gene membership tables.")
     ap.add_argument("--outdir", default="results/hearing_loss_clinvar")
     ap.add_argument("--variant-aggregate", default="results/hearing_loss_clinvar/variant_aggregate.tsv")
     ap.add_argument("--gene-map", default="results/hearing_loss_clinvar/gene_evidence_map.tsv")
     ap.add_argument("--top-n", type=int, default=50)
+    ap.add_argument("--single-gene-only", action="store_true", help="Exclude variants annotated to multiple genes.")
     args = ap.parse_args()
 
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
 
     variants = read_tsv(Path(args.variant_aggregate))
+    if args.single_gene_only:
+        variants = (v for v in variants if int(v.get("gene_symbol_set_size", "1")) == 1)
 
-    # Overall tier x bucket table (utility: shows how tier filtering changes actionable yield vs uncertainty burden)
+    # Descriptive star-by-classification table; the denominator is VariationID records.
     by_tier_bucket: dict[tuple[str, str], int] = defaultdict(int)
     by_tier_total: dict[str, int] = defaultdict(int)
+    by_tier_joint_plp: dict[str, int] = defaultdict(int)
+    gene_counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     for v in variants:
-        tier = (v.get("review_tier_proxy_max") or "").strip()
-        bucket = (v.get("bucket_variant_level") or "").strip()
-        by_tier_bucket[(tier, bucket)] += 1
-        by_tier_total[tier] += 1
+        tier_text = (v.get("review_tier_proxy_max") or "").strip()
+        bucket_text = (v.get("bucket_variant_level") or "").strip()
+        by_tier_bucket[(tier_text, bucket_text)] += 1
+        by_tier_total[tier_text] += 1
+        by_tier_joint_plp[tier_text] += to_int(v.get("plp_review_stars_ge_2_same_row", "0"))
+        for gene in sorted(set((v.get("gene_symbols") or v.get("primary_gene_symbol") or "").split(";"))):
+            if not gene: continue
+            bucket = (v.get("bucket_variant_level") or "").strip()
+            tier = to_int((v.get("review_tier_proxy_max") or "").strip())
+
+            gene_counts[gene]["n_unique_variants"] += 1
+            if bucket == "pathogenic_or_likely_pathogenic":
+                gene_counts[gene]["n_plp"] += 1
+                if to_int(v.get("plp_review_stars_ge_2_same_row", "0")):
+                    gene_counts[gene]["n_plp_review_stars_ge_2"] += 1
+            elif bucket == "vus":
+                gene_counts[gene]["n_vus"] += 1
+            elif bucket == "conflicting":
+                gene_counts[gene]["n_conflicting"] += 1
+            elif bucket == "benign_or_likely_benign":
+                gene_counts[gene]["n_benign"] += 1
+            else:
+                gene_counts[gene]["n_other"] += 1
+
 
     tier_bucket_rows: list[dict] = []
     tiers_sorted = sorted(by_tier_total.keys(), key=lambda t: to_int(t), reverse=True)
@@ -68,9 +93,9 @@ def main() -> int:
         row = {"review_tier_proxy": tier, "n_variants": str(by_tier_total[tier])}
         for b in buckets:
             row[f"n::{b}"] = str(by_tier_bucket.get((tier, b), 0))
-        # Utility: "reportable-now" proxy within tier
-        reportable = by_tier_bucket.get((tier, "pathogenic_or_likely_pathogenic"), 0) if to_int(tier) >= 2 else 0
-        row["reportable_now_plp_tier_ge_2"] = str(reportable)
+        # Descriptive P/LP subset defined by official ClinVar review stars.
+        review_status_subset = by_tier_joint_plp.get(tier, 0)
+        row["n_plp_review_stars_ge_2"] = str(review_status_subset)
         tier_bucket_rows.append(row)
 
     write_tsv(
@@ -79,36 +104,11 @@ def main() -> int:
         fieldnames=list(tier_bucket_rows[0].keys()) if tier_bucket_rows else ["review_tier_proxy", "n_variants"],
     )
 
-    # Gene-level utility endpoints from variant_aggregate.tsv (exact, unique-variant level):
-    # - actionability: high-confidence P/LP (tier>=2)
-    # - uncertainty burden: VUS + conflicting
-    gene_counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
-    for v in variants:
-        gene = (v.get("primary_gene_symbol") or "").strip()
-        if not gene:
-            continue
-        bucket = (v.get("bucket_variant_level") or "").strip()
-        tier = to_int((v.get("review_tier_proxy_max") or "").strip())
-
-        gene_counts[gene]["n_unique_variants"] += 1
-        if bucket == "pathogenic_or_likely_pathogenic":
-            gene_counts[gene]["n_plp"] += 1
-            if tier >= 2:
-                gene_counts[gene]["n_highconf_plp_tier_ge_2"] += 1
-        elif bucket == "vus":
-            gene_counts[gene]["n_vus"] += 1
-        elif bucket == "conflicting":
-            gene_counts[gene]["n_conflicting"] += 1
-        elif bucket == "benign_or_likely_benign":
-            gene_counts[gene]["n_benign"] += 1
-        else:
-            gene_counts[gene]["n_other"] += 1
-
     gene_rows: list[dict] = []
     for gene, c in gene_counts.items():
         n_total = c["n_unique_variants"]
         n_plp = c["n_plp"]
-        n_high = c["n_highconf_plp_tier_ge_2"]
+        n_review_status = c["n_plp_review_stars_ge_2"]
         n_vus = c["n_vus"]
         n_conf = c["n_conflicting"]
         gene_rows.append(
@@ -116,7 +116,7 @@ def main() -> int:
                 "gene_symbol": gene,
                 "n_unique_variants": str(n_total),
                 "n_plp": str(n_plp),
-                "n_highconf_plp_tier_ge_2": str(n_high),
+                "n_plp_review_stars_ge_2": str(n_review_status),
                 "n_vus": str(n_vus),
                 "n_conflicting": str(n_conf),
                 "n_benign": str(c["n_benign"]),
@@ -124,15 +124,14 @@ def main() -> int:
                 "uncertainty_burden": str(n_vus + n_conf),
                 "conflict_rate": f"{safe_div(n_conf, n_total):.4f}",
                 "vus_rate": f"{safe_div(n_vus, n_total):.4f}",
-                "highconf_rate": f"{safe_div(n_high, n_total):.4f}",
-                "review_priority_score": str(2 * n_conf + n_vus),
+                "plp_review_stars_ge_2_rate": f"{safe_div(n_review_status, n_total):.4f}",
             }
         )
 
     # Sort for two separate tables: actionability-focused and re-review hotspot-focused
     def sort_actionability(x: dict) -> tuple:
         return (
-            -to_int(x["n_highconf_plp_tier_ge_2"]),
+            -to_int(x["n_plp_review_stars_ge_2"]),
             -to_int(x["n_plp"]),
             -to_int(x["n_unique_variants"]),
             x["gene_symbol"],

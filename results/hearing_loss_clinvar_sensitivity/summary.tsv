@@ -1,4 +1,0 @@
-run_label	hearing_loss_rows_record_level	hearing_loss_variation_ids_unique	highconf_plp_tier_ge_2_variation_ids_unique	unique_genes_hearing_loss
-hearing_loss_only	36641	18384	1810	293
-expanded_synonyms	51123	25661	2456	446
-top50_gene_jaccard			0.639	

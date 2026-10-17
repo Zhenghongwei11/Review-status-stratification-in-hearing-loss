@@ -1,0 +1,39 @@
+hpo_id	name	is_root
+HP:0000365	Hearing impairment	1
+HP:0000399	Prelingual sensorineural hearing impairment	0
+HP:0000405	Conductive hearing impairment	0
+HP:0000407	Sensorineural hearing impairment	0
+HP:0000408	Progressive sensorineural hearing impairment	0
+HP:0000410	Mixed hearing impairment	0
+HP:0001730	Progressive hearing impairment	0
+HP:0001757	High-frequency sensorineural hearing impairment	0
+HP:0005101	High-frequency hearing impairment	0
+HP:0008504	Moderate sensorineural hearing impairment	0
+HP:0008513	Bilateral conductive hearing impairment	0
+HP:0008527	Congenital sensorineural hearing impairment	0
+HP:0008542	Low-frequency hearing loss	0
+HP:0008573	Low-frequency sensorineural hearing impairment	0
+HP:0008587	Mild neurosensory hearing impairment	0
+HP:0008591	Congenital conductive hearing impairment	0
+HP:0008596	Postlingual sensorineural hearing impairment	0
+HP:0008598	Mild conductive hearing impairment	0
+HP:0008607	Progressive conductive hearing impairment	0
+HP:0008610	Infantile sensorineural hearing impairment	0
+HP:0008615	Adult onset sensorineural hearing impairment	0
+HP:0008619	Bilateral sensorineural hearing impairment	0
+HP:0008625	Severe sensorineural hearing impairment	0
+HP:0009900	Unilateral deafness	0
+HP:0011474	Childhood onset sensorineural hearing impairment	0
+HP:0011476	Profound sensorineural hearing impairment	0
+HP:0011975	Aminoglycoside-induced hearing loss	0
+HP:0012712	Mild hearing impairment	0
+HP:0012713	Moderate hearing impairment	0
+HP:0012714	Severe hearing impairment	0
+HP:0012715	Profound hearing impairment	0
+HP:0012716	Moderate conductive hearing impairment	0
+HP:0012717	Severe conductive hearing impairment	0
+HP:0012779	Transient hearing impairment	0
+HP:0012781	Mid-frequency hearing loss	0
+HP:0025797	Unilateral sensorineural hearing impairment	0
+HP:0040113	Old-aged sensorineural hearing impairment	0
+HP:0040119	Unilateral conductive hearing impairment	0

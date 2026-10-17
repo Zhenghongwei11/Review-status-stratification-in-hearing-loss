@@ -1,0 +1,17 @@
+left	right	n_left	n_right	n_intersection	n_left_only	n_right_only
+primary	primary	18384	18384	18384	0	0
+primary	expanded	18384	25661	18384	0	7277
+primary	disease_supported	18384	473704	18384	0	455320
+primary	curated_gene	18384	162683	15739	2645	146944
+expanded	primary	25661	18384	18384	7277	0
+expanded	expanded	25661	25661	25661	0	0
+expanded	disease_supported	25661	473704	25661	0	448043
+expanded	curated_gene	25661	162683	19297	6364	143386
+disease_supported	primary	473704	18384	18384	455320	0
+disease_supported	expanded	473704	25661	25661	448043	0
+disease_supported	disease_supported	473704	473704	473704	0	0
+disease_supported	curated_gene	473704	162683	45398	428306	117285
+curated_gene	primary	162683	18384	15739	146944	2645
+curated_gene	expanded	162683	25661	19297	143386	6364
+curated_gene	disease_supported	162683	473704	45398	117285	428306
+curated_gene	curated_gene	162683	162683	162683	0	0

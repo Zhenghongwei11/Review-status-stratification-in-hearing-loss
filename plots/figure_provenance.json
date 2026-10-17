@@ -1,0 +1,147 @@
+{
+  "renderer": "scripts/hearing_loss_clinvar/plot_revision.py",
+  "renderer_sha256": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
+  "inputs_sha256": {
+    "results/hearing_loss_clinvar_revision1/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
+    "results/hearing_loss_clinvar_revision1/primary/variant_aggregate.tsv": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
+    "results/hearing_loss_clinvar_revision1/expanded/variant_aggregate.tsv": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
+    "results/hearing_loss_clinvar_revision1/disease_supported/variant_aggregate.tsv": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
+    "results/hearing_loss_clinvar_revision1/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
+    "results/hearing_loss_clinvar_revision1/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
+    "results/hearing_loss_clinvar_revision1/run_metadata.json": "beb558fc2b4e53f9fc184b8feea143afa5f7504e89f0abf61a6b6bd0d84bb3ba",
+    "data/revision1/references/references_manifest.json": "dc4511ff0c2b8a08c0a72d94ca834accaa339c73e2a772d6c5f03def2f72ea32"
+  },
+  "analysis_metadata": {
+    "started_utc": "2026-10-15T05:52:02.102442+00:00",
+    "source_sha256": "2f591d4ea919e81f0094c32f5901dbb3afad39a8d8de5c59ea9029d2d3a49ccc",
+    "total_rows": 8980556,
+    "definitions": [
+      "primary",
+      "expanded",
+      "disease_supported",
+      "curated_gene"
+    ],
+    "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "reference_sha256": {
+      "hearing_diseases.tsv": "79f3be09abfd6195b6d9d81db2a2f1ad9f2870d88320c0950eeb5d127efb28d0",
+      "hearing_hpo_terms.tsv": "9858ef4b3f876cb8cdd1aad1c525fc54ce5f802a22956b6a6bbb59018c608426",
+      "hearing_genes.tsv": "107b75c53d29527708bd513c379df9ae401f9e5869fd9ad55821b8802f8fe818"
+    },
+    "aggregation_partitions": 32,
+    "elapsed_seconds": 894.7220017910004,
+    "references": "data/references",
+    "execution_code_sha256": {
+      "build_evidence_map.py": "ac277b34866feedb03f814d7d14d3eddf005b817cd1c81b8f6bd1dbb41d35466",
+      "generate_utility_tables.py": "7e26046abcc83ca8a92e5680a3dae2d45b70720ed420c2129f3c86254cee4052",
+      "run_revision.py": "42d10bb6c00e16a3719fee114e8a09fc415b9b3f6d0cab91ea6bbe7d6e6809b8",
+      "phenotype_filters.py": "fa3950f10aa28b2c124f7217e0907e7e397e4b0126b14db55a01847f21f32b0f"
+    },
+    "note": "Recorded analysis execution; file and entrypoint organization in this software release is separate from execution metadata."
+  },
+  "reference_resources": {
+    "hp.obo": {
+      "requested_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/hp.obo",
+      "version": "v2026-09-01",
+      "retrieved_at_utc": "2026-10-13T08:56:38.123011+00:00",
+      "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22"
+    },
+    "phenotype.hpoa": {
+      "requested_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/phenotype.hpoa",
+      "version": "v2026-09-01",
+      "retrieved_at_utc": "2026-10-13T08:56:38.190350+00:00",
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72"
+    },
+    "hpo_license.md": {
+      "requested_url": "https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/v2026-09-01/LICENSE.md",
+      "version": "v2026-09-01",
+      "retrieved_at_utc": "2026-10-13T08:56:41.931309+00:00",
+      "sha256": "534f0ba30b74d13590247ddb5e24d749f5733b41cf19a730010b55edf4266336"
+    },
+    "hpo_legacy_license.html": {
+      "requested_url": "https://human-phenotype-ontology.github.io/license.html",
+      "version": "retrieval-time official legacy license page",
+      "retrieved_at_utc": "2026-10-13T08:56:51.163641+00:00",
+      "sha256": "d63799ff8d381891114b22e78c8164f198a9642f9ed0ca8b53bc73238c318b39"
+    },
+    "clingen_gene_validity.csv": {
+      "requested_url": "https://search.clinicalgenome.org/kb/gene-validity/download",
+      "version": "live export; retrieval date and checksum identify snapshot",
+      "retrieved_at_utc": "2026-10-13T08:59:52.798247+00:00",
+      "sha256": "e76ad9ff65af9515d0f909b351f440808d584c67842dc914026d3a8d0b20db10"
+    },
+    "clingen_terms.html": {
+      "requested_url": "https://clinicalgenome.org/about/terms-of-use/",
+      "version": "retrieval-time terms page",
+      "retrieved_at_utc": "2026-10-13T09:02:12.955026+00:00",
+      "sha256": "bbeed8bdb6ba5029ee803b17b2e9a46cc92c9787c2cc5420a9c93477c50dc6ec"
+    }
+  },
+  "reference_selection": {
+    "hpo_root": "HP:0000365",
+    "descendants_include_root": true,
+    "graph_edges": "is_a",
+    "exclude_obsolete_terms": true,
+    "exclude_negative_NOT_annotations": true,
+    "annotation_aspect": "P",
+    "gencc_id_match": "disease_curie OR disease_original_curie OR submitted_as_disease_id in HPO-selected disease IDs",
+    "gencc_name_pattern": "\\bhearing\\b|\\bdeaf(?:ness)?\\b|\\b(?:usher|pendred|waardenburg)\\b",
+    "gencc_scope": "Only matched gene-disease submissions; other diseases for the same gene are not automatically included.",
+    "clingen_selection": "HPO disease CURIE match OR explicit hearing/deaf/Usher/Pendred/Waardenburg disease name OR Hearing Loss Gene Curation Expert Panel; only selected relationships retained",
+    "gene_id_namespace": "HGNC; not NCBI GeneID",
+    "positive_comparator_classifications": [
+      "Definitive",
+      "Limited",
+      "Moderate",
+      "Strong",
+      "Supportive"
+    ]
+  },
+  "hpo_annotation_metadata": [
+    "#description: \"HPO annotations for rare diseases [8478: OMIM; 47: DECIPHER; 4357 ORPHANET]\"",
+    "#version: 2026-09-02",
+    "#tracker: https://github.com/obophenotype/human-phenotype-ontology/issues",
+    "#hpo-version: http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json"
+  ],
+  "temporal_limitation": "HPO September 2026 and revision-time gene-disease curations are applied to fixed May 2026 ClinVar records; these are not May 2026 annotations or an exhaustive gold standard.",
+  "outputs": [
+    "plots/hearing_loss_clinvar_revision1/fig1.png",
+    "plots/hearing_loss_clinvar_revision1/fig1.pdf",
+    "plots/hearing_loss_clinvar_revision1/Fig1.tif",
+    "plots/hearing_loss_clinvar_revision1/fig2.png",
+    "plots/hearing_loss_clinvar_revision1/fig2.pdf",
+    "plots/hearing_loss_clinvar_revision1/Fig2.tif",
+    "plots/hearing_loss_clinvar_revision1/fig3.png",
+    "plots/hearing_loss_clinvar_revision1/fig3.pdf",
+    "plots/hearing_loss_clinvar_revision1/Fig3.tif",
+    "plots/hearing_loss_clinvar_revision1/fig4.png",
+    "plots/hearing_loss_clinvar_revision1/fig4.pdf",
+    "plots/hearing_loss_clinvar_revision1/Fig4.tif",
+    "plots/hearing_loss_clinvar_revision1/fig5.png",
+    "plots/hearing_loss_clinvar_revision1/fig5.pdf",
+    "plots/hearing_loss_clinvar_revision1/Fig5.tif"
+  ],
+  "png_dpi": 300,
+  "png_color_mode": "RGB",
+  "pdf_fonttype": 42,
+  "classification_buckets": {
+    "pathogenic_or_likely_pathogenic": "P/LP",
+    "vus": "VUS",
+    "conflicting": "Conflicting",
+    "benign_or_likely_benign": "B/LB",
+    "other": "Other",
+    "unknown": "Unknown"
+  },
+  "classification_hatches": {
+    "pathogenic_or_likely_pathogenic": "",
+    "vus": "///",
+    "conflicting": "...",
+    "benign_or_likely_benign": "\\\\",
+    "other": "xx",
+    "unknown": "++"
+  },
+  "gene_minimum_variants": 10,
+  "plp_review_stars_ge_2": "P/LP and official ClinVar review stars >= 2 on the same selected source row",
+  "gene_memberships": "Each unique variant counted once per annotated gene; gene counts are not additive",
+  "statistics": "Descriptive complete-snapshot counts and proportions; no inference, error bars, or significance tests",
+  "paths_note": "Paths and hashes identify the recorded figure-generation inputs; the public entrypoint is scripts/hearing_loss_clinvar/plot_figures.py."
+}

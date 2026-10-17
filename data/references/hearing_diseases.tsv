@@ -1,0 +1,2105 @@
+disease_id	disease_name	hpo_terms	source
+DECIPHER:46	Split hand/foot malformation 1 (SHFM1)	HP:0000407	HPO phenotype.hpoa
+DECIPHER:81	15q26 overgrowth syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:100800	Achondroplasia	HP:0000405	HPO phenotype.hpoa
+OMIM:101000	Neurofibromatosis, type II	HP:0000365	HPO phenotype.hpoa
+OMIM:101200	Apert syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:101400	Saethre-Chotzen syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:101800	Acrodysostosis 1, with or without hormone resistance	HP:0000365	HPO phenotype.hpoa
+OMIM:102500	Hajdu-Cheney syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:103500	Tietz albinism-deafness syndrome	HP:0008527	HPO phenotype.hpoa
+OMIM:104200	Alport syndrome 3, autosomal dominant	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:105210	Amyloidosis, hereditary, transthyretin-related	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:106260	Hay-Wells syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:107480	Townes-Brocks syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:108120	Arthrogryposis, distal, type 1A	HP:0000407	HPO phenotype.hpoa
+OMIM:108200	Arthrogryposis-Like hand anomaly and sensorineural deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:108300	Stickler syndrome, type I	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:108760	Atresia of external auditory canal and conduction deafness	HP:0000405	HPO phenotype.hpoa
+OMIM:109050	Auralcephalosyndactyly	HP:0000365	HPO phenotype.hpoa
+OMIM:109120	Axenfeld-Rieger anomaly with partially absent eye muscles, distinctive face, hydrocephaly, and skeletal abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:113620	Branchiooculofacial syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:113650	Branchiootorenal syndrome 1	HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:114290	Campomelic dysplasia	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:115150	Cardiofaciocutaneous syndrome 1	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:115250	Collagenoma, familial cutaneous	HP:0000407	HPO phenotype.hpoa
+OMIM:115470	Cat eye syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:117210	Spinocerebellar ataxia 31	HP:0000407	HPO phenotype.hpoa
+OMIM:117300	Dementia, familial danish	HP:0000365	HPO phenotype.hpoa
+OMIM:117550	Sotos syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:117650	Cerebrocostomandibular syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:118100	Klippel-Feil syndrome 1, autosomal dominant	HP:0000365|HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:118220	Charcot-Marie-Tooth disease, demyelinating, type 1A	HP:0000365	HPO phenotype.hpoa
+OMIM:118300	Charcot-Marie-Tooth disease and deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:118420	Chiari malformation type I	HP:0000365	HPO phenotype.hpoa
+OMIM:119600	Cleidocranial dysplasia	HP:0000365	HPO phenotype.hpoa
+OMIM:120100	Familial cold inflammatory syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:120330	Papillorenal syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:120433	Coloboma, ocular, with or without hearing impairment, cleft lip/palate, and/or impaired intellectual development	HP:0000365	HPO phenotype.hpoa
+OMIM:120502	Branchiootic syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:122430	Ramos-Arroyo syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:122470	Cornelia de Lange syndrome 1	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:122780	Coxoauricular syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:122860	Craniodiaphyseal dysplasia, autosomal dominant	HP:0000365	HPO phenotype.hpoa
+OMIM:122880	Craniofacial-deafness-hand syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:123000	Craniometaphyseal dysplasia	HP:0000365|HP:0000410	HPO phenotype.hpoa
+OMIM:123450	Cri-Du-Chat syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:123500	Crouzon syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:124000	Mitochondrial complex III deficiency, nuclear type 1	HP:0000365	HPO phenotype.hpoa
+OMIM:124480	Deafness, congenital, and onychodystrophy, autosomal dominant	HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:124500	Vohwinkel syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:124700	Deafness, mid-tone neural	HP:0000407|HP:0001730	HPO phenotype.hpoa
+OMIM:124900	Deafness, autosomal dominant 1	HP:0000407	HPO phenotype.hpoa
+OMIM:124950	Deafness, sensorineural, with peripheral neuropathy and arterial disease	HP:0001730|HP:0008619	HPO phenotype.hpoa
+OMIM:125000	Deafness, unilateral	HP:0009900	HPO phenotype.hpoa
+OMIM:125250	Optic atrophy with or without deafness, ophthalmoplegia, myopathy, ataxia, and neuropathy	HP:0000408	HPO phenotype.hpoa
+OMIM:126550	Calvarial doughnut lesions with bone fragility	HP:0000410	HPO phenotype.hpoa
+OMIM:128300	Ear exostoses	HP:0000365	HPO phenotype.hpoa
+OMIM:128980	Earlobes, thickened, with conductive deafness from incudostapedialabnormalities	HP:0008513|HP:0008591	HPO phenotype.hpoa
+OMIM:129400	Rapp-Hodgkin syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:129900	Ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome1	HP:0000405	HPO phenotype.hpoa
+OMIM:130720	Lateral meningocele syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:131300	Camurati-Engelmann disease	HP:0000365	HPO phenotype.hpoa
+OMIM:132450	Epiphyseal dysplasia, multiple, with myopia and conductive deafness	HP:0000405	HPO phenotype.hpoa
+OMIM:133540	Cockayne syndrome, type B	HP:0000407	HPO phenotype.hpoa
+OMIM:133705	External auditory canal, bilateral atresia of, with congenital verticaltalus	HP:0000405	HPO phenotype.hpoa
+OMIM:135100	Fibrodysplasia ossificans progressiva	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:135300	Fibromatosis, gingival, 1	HP:0000365	HPO phenotype.hpoa
+OMIM:135500	Zimmermann-Laband syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:135550	Fibromatosis, gingival, with progressive deafness	HP:0000408	HPO phenotype.hpoa
+OMIM:135900	Coffin-Siris syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:136140	Floating-Harbor syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:136300	Flynn-Aird syndrome	HP:0000408	HPO phenotype.hpoa
+OMIM:136600	Friedreich ataxia, so-called, with optic atrophy and sensorineuraldeafness	HP:0000407	HPO phenotype.hpoa
+OMIM:136760	Frontonasal dysplasia 1	HP:0000405	HPO phenotype.hpoa
+OMIM:139210	Myhre syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:141400	Hemifacial microsomia with radial defects	HP:0000405	HPO phenotype.hpoa
+OMIM:143095	Spondyloepiphyseal dysplasia with congenital joint dislocations	HP:0000365	HPO phenotype.hpoa
+OMIM:144300	Hyperlipoproteinemia, type II, and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:144750	Hyperostosis, endosteal	HP:0000407	HPO phenotype.hpoa
+OMIM:144755	Hyperostosis cranialis interna	HP:0000407	HPO phenotype.hpoa
+OMIM:146255	Hypoparathyroidism, sensorineural deafness, and renal dysplasia	HP:0000407	HPO phenotype.hpoa
+OMIM:147750	IVIC syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:147920	Kabuki syndrome 1	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:147950	Hypogonadotropic hypogonadism 2 with or without anosmia	HP:0000407	HPO phenotype.hpoa
+OMIM:148210	Keratitis-ichthyosis-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:148350	Keratoderma, palmoplantar, with deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:148820	Waardenburg syndrome, type 3	HP:0000407	HPO phenotype.hpoa
+OMIM:149200	Bart-Pumphrey syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:149730	Lacrimoauriculodentodigital syndrome-1	HP:0000365|HP:0000410	HPO phenotype.hpoa
+OMIM:150230	Trichorhinophalangeal syndrome, type II	HP:0000365	HPO phenotype.hpoa
+OMIM:150250	Larsen syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:151050	Lenz-Majewski hyperostotic dwarfism	HP:0000407	HPO phenotype.hpoa
+OMIM:151100	Leopard syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:151800	Lipomatosis, multiple symmetric, with or without peripheral neuropathy	HP:0000365	HPO phenotype.hpoa
+OMIM:154230	46,xy sex reversal 4	HP:0000407	HPO phenotype.hpoa
+OMIM:154400	Acrofacial dysostosis 1, Nager type	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:154500	Treacher Collins syndrome 1	HP:0000405	HPO phenotype.hpoa
+OMIM:154780	Marshall syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:155100	Macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss	HP:0000407	HPO phenotype.hpoa
+OMIM:156000	Meniere disease	HP:0000365	HPO phenotype.hpoa
+OMIM:156400	Metaphyseal chondrodysplasia, Jansen type	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:156550	Kniest dysplasia	HP:0000405	HPO phenotype.hpoa
+OMIM:157640	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 1	HP:0000407	HPO phenotype.hpoa
+OMIM:157800	Cardiospondylocarpofacial syndrome	HP:0000405|HP:0008527	HPO phenotype.hpoa
+OMIM:158310	Mucoepithelial dysplasia, hereditary	HP:0000365	HPO phenotype.hpoa
+OMIM:158350	Cowden syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:158900	Facioscapulohumeral muscular dystrophy 1	HP:0000407	HPO phenotype.hpoa
+OMIM:158901	Facioscapulohumeral muscular dystrophy 2	HP:0000365	HPO phenotype.hpoa
+OMIM:159800	Myoclonus, cerebellar ataxia, and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:161200	Nail-Patella syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:162400	Neuropathy, hereditary sensory and autonomic, type IA	HP:0000407	HPO phenotype.hpoa
+OMIM:163950	Noonan syndrome 1	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:164200	Oculodentodigital dysplasia	HP:0000405	HPO phenotype.hpoa
+OMIM:164210	Hemifacial microsomia	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:164280	Feingold syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:164310	Oculopharyngodistal myopathy 1	HP:0000407	HPO phenotype.hpoa
+OMIM:165199	Optic atrophy, hearing loss, and peripheral neuropathy, autosomaldominant	HP:0000408	HPO phenotype.hpoa
+OMIM:165300	Optic atrophy 3, autosomal dominant	HP:0000365	HPO phenotype.hpoa
+OMIM:165680	Ossicular malformations, familial	HP:0008591	HPO phenotype.hpoa
+OMIM:166200	Osteogenesis imperfecta, type I	HP:0000365	HPO phenotype.hpoa
+OMIM:166220	Osteogenesis imperfecta, type IV	HP:0000365	HPO phenotype.hpoa
+OMIM:166750	Otodental dysplasia	HP:0000407	HPO phenotype.hpoa
+OMIM:166780	Otofaciocervical syndrome	HP:0000405|HP:0000410	HPO phenotype.hpoa
+OMIM:166800	Otosclerosis 1	HP:0000405	HPO phenotype.hpoa
+OMIM:167250	Paget disease of bone 3	HP:0000365	HPO phenotype.hpoa
+OMIM:168000	Paragangliomas 1	HP:0000405	HPO phenotype.hpoa
+OMIM:172850	Piebald trait with neurologic defects	HP:0000365	HPO phenotype.hpoa
+OMIM:174300	Orofaciodigital syndrome V	HP:0000365	HPO phenotype.hpoa
+OMIM:174800	McCune-Albright syndrome, somatic, mosaic	HP:0000365	HPO phenotype.hpoa
+OMIM:174810	Familial expansile osteolysis	HP:0000405	HPO phenotype.hpoa
+OMIM:176690	Progeroid short stature with pigmented nevi	HP:0000407|HP:0005101	HPO phenotype.hpoa
+OMIM:178110	Contractures, pterygia, and spondylocarpostarsal fusion syndrome 1A	HP:0000365	HPO phenotype.hpoa
+OMIM:178651	Pulmonic stenosis and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:179613	Recombinant chromosome 8 syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:180849	Rubinstein-Taybi syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:182212	Shprintzen-Goldberg craniosynostosis syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:182290	Smith-Magenis syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:183600	Split-Hand/foot malformation 1	HP:0000365	HPO phenotype.hpoa
+OMIM:183900	Spondyloepiphyseal dysplasia congenita	HP:0000365	HPO phenotype.hpoa
+OMIM:184460	Stapes ankylosis with broad thumb and toes	HP:0000405	HPO phenotype.hpoa
+OMIM:184705	Steinfeld syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:184840	Stickler syndrome, type III	HP:0000407	HPO phenotype.hpoa
+OMIM:185800	Symphalangism, proximal, 1A	HP:0000405	HPO phenotype.hpoa
+OMIM:186500	Multiple synostoses syndrome 1	HP:0000405|HP:0008513|HP:0008607	HPO phenotype.hpoa
+OMIM:190685	Down syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:191200	Tune deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:191900	Muckle-Wells syndrome	HP:0000365|HP:0000408	HPO phenotype.hpoa
+OMIM:193005	Vestibulocochlear dysfunction, progressive	HP:0001730	HPO phenotype.hpoa
+OMIM:193007	Vestibulopathy, familial	HP:0000365	HPO phenotype.hpoa
+OMIM:193300	von Hippel-Lindau syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:193500	Waardenburg syndrome, type 1	HP:0008527	HPO phenotype.hpoa
+OMIM:193510	Waardenburg syndrome, type 2A	HP:0000407	HPO phenotype.hpoa
+OMIM:193700	Arthrogryposis, distal, type 2A (Freeman-Sheldon)	HP:0000365	HPO phenotype.hpoa
+OMIM:194050	Williams-Beuren syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:194190	Wolf-Hirschhorn syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:200110	Ablepharon-Macrostomia syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:200990	Acrocallosal syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:201000	Carpenter syndrome 1	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:201180	Acrofrontofacionasal dysostosis 1	HP:0000410	HPO phenotype.hpoa
+OMIM:201750	Antley-Bixler syndrome with genital anomalies and disordered steroidogenesis	HP:0000405	HPO phenotype.hpoa
+OMIM:202650	Agnathia-Otocephaly complex	HP:0000405	HPO phenotype.hpoa
+OMIM:203780	Alport syndrome 2, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:203800	Alstrom syndrome	HP:0000407|HP:0000408	HPO phenotype.hpoa
+OMIM:204000	Leber congenital amaurosis, type I	HP:0000407	HPO phenotype.hpoa
+OMIM:206900	Microphthalmia, syndromic 3	HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:208085	Arthrogryposis, renal dysfunction, and cholestasis 1	HP:0000365	HPO phenotype.hpoa
+OMIM:208750	Ataxia, deafness, and cardiomyopathy	HP:0000407	HPO phenotype.hpoa
+OMIM:208850	Ataxia-Deafness-Retardation syndrome	HP:0000408	HPO phenotype.hpoa
+OMIM:209010	Atherosclerosis, premature, with deafness, nephropathy, diabetes mellitus,photomyoclonus, and degenerative neurologic disease	HP:0000407	HPO phenotype.hpoa
+OMIM:209885	Barber-Say syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:209900	Bardet-Biedl syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:211530	Brown-Vialetto-Van Laere syndrome 1	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:212066	Congenital disorder of glycosylation, type IIa	HP:0000407	HPO phenotype.hpoa
+OMIM:212100	Cardioauditory syndrome of sanchez cascos	HP:0000365	HPO phenotype.hpoa
+OMIM:212850	Cerebellar ataxia and neurosensory deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:214100	Peroxisome biogenesis disorder 1A (Zellweger)	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:214150	Cerebrooculofacioskeletal syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:214300	Klippel-Feil syndrome, autosomal recessive	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:214800	Charge syndrome	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:215100	Rhizomelic chondrodysplasia punctata, type 1	HP:0000407	HPO phenotype.hpoa
+OMIM:215150	Otospondylomegaepiphyseal dysplasia	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:216300	Cleft palate, deafness, and oligodontia	HP:0008513	HPO phenotype.hpoa
+OMIM:216340	Yunis-Varon syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:216400	Cockayne syndrome, type A	HP:0000407	HPO phenotype.hpoa
+OMIM:217400	Corneal endothelial dystrophy and perceptive deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:218400	Craniometaphyseal dysplasia, autosomal recessive	HP:0000410	HPO phenotype.hpoa
+OMIM:218600	Baller-Gerold syndrome	HP:0000405|HP:0000410	HPO phenotype.hpoa
+OMIM:219000	Fraser syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:220110	Mitochondrial complex IV deficiency, nuclear type 1	HP:0000407	HPO phenotype.hpoa
+OMIM:220120	D-glyceric aciduria	HP:0000407	HPO phenotype.hpoa
+OMIM:220290	Deafness, autosomal recessive 1A	HP:0000407	HPO phenotype.hpoa
+OMIM:220400	Jervell and Lange-Nielsen syndrome 1	HP:0008527	HPO phenotype.hpoa
+OMIM:220500	Doors syndrome	HP:0000365|HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:220600	Split-Hand/foot malformation 1 with sensorineural hearing loss	HP:0000407	HPO phenotype.hpoa
+OMIM:220900	Deafness, congenital, with total albinism	HP:0000365	HPO phenotype.hpoa
+OMIM:221200	Deafness and myopia	HP:0000407	HPO phenotype.hpoa
+OMIM:221300	Deafness, conductive, with malformed external ear	HP:0000405	HPO phenotype.hpoa
+OMIM:221320	Deafness, conductive, with ptosis and skeletal anomalies	HP:0000405	HPO phenotype.hpoa
+OMIM:221350	Deafness, congenital, with vitiligo and achalasia	HP:0000365	HPO phenotype.hpoa
+OMIM:221400	Deafness, nerve type, with mesenteric diverticula of small bowel andprogressive sensory neuropathy	HP:0000407	HPO phenotype.hpoa
+OMIM:221500	Deafness, neural, congenital moderate	HP:0000407	HPO phenotype.hpoa
+OMIM:221700	Deafness, neural, with atypical atopic dermatitis	HP:0000407	HPO phenotype.hpoa
+OMIM:221740	Deafness-Oligodontia syndrome	HP:0008527	HPO phenotype.hpoa
+OMIM:221745	Deafness, sensorineural, Autosomal-Mitochondrial type	HP:0000407|HP:0000408	HPO phenotype.hpoa
+OMIM:221750	Deafness, sensorineural, with pituitary dwarfism	HP:0000407	HPO phenotype.hpoa
+OMIM:222300	Wolfram syndrome 1	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:222448	Donnai-Barrow syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:222600	Diastrophic dysplasia	HP:0000365	HPO phenotype.hpoa
+OMIM:223200	Disorganization, mouse, homolog of	HP:0000407	HPO phenotype.hpoa
+OMIM:223500	Dwarfism, low-birth-weight type, with unresponsiveness to growth hormone	HP:0000365	HPO phenotype.hpoa
+OMIM:224300	Dysosteosclerosis	HP:0000365	HPO phenotype.hpoa
+OMIM:224690	Meier-Gorlin syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:226500	Epidermolysis bullosa dystrophica neurotrophica	HP:0008527	HPO phenotype.hpoa
+OMIM:226950	Epiphyseal dysplasia of femoral head, myopia, and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:227010	Ermine phenotype	HP:0000407	HPO phenotype.hpoa
+OMIM:227330	Faciodigitogenital syndrome, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:227645	Fanconi anemia, complementation group C	HP:0000365	HPO phenotype.hpoa
+OMIM:227646	Fanconi anemia, complementation group D2	HP:0000365	HPO phenotype.hpoa
+OMIM:227650	Fanconi anemia	HP:0000365	HPO phenotype.hpoa
+OMIM:228355	Fetal iodine deficiency disorder	HP:0000365	HPO phenotype.hpoa
+OMIM:229120	Fountain syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:229200	Brittle cornea syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:230000	Fucosidosis	HP:0000365	HPO phenotype.hpoa
+OMIM:230350	Galactose epimerase deficiency	HP:0000407	HPO phenotype.hpoa
+OMIM:232300	Glycogen storage disease II	HP:0000365	HPO phenotype.hpoa
+OMIM:233400	Perrault syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:234580	Heimler syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:235510	Hennekam lymphangiectasia-lymphedema syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:235830	Histidinuria due to A renal tubular defect	HP:0000407	HPO phenotype.hpoa
+OMIM:236792	L-2-hydroxyglutaric aciduria	HP:0000365	HPO phenotype.hpoa
+OMIM:239000	Paget disease of bone 5, juvenile-onset	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:239100	van Buchem disease	HP:0000365	HPO phenotype.hpoa
+OMIM:239300	Hyperphosphatasia with impaired intellectual development syndrome 1	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:239800	Hypertelorism, microtia, facial clefting syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:241080	Woodhouse-Sakati syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:241520	Hypophosphatemic rickets, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:242150	Ichthyosiform erythroderma, corneal involvement, and deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:242840	Vici syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:243180	Visceral neuropathy, familial, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:243300	Cholestasis, benign recurrent intrahepatic 1	HP:0000365	HPO phenotype.hpoa
+OMIM:243310	Baraitser-Winter syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:243800	Johanson-Blizzard syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:244200	Hypogonadotropic hypogonadism 3 with or without anosmia	HP:0000365	HPO phenotype.hpoa
+OMIM:244300	Kapur-Toriello syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:244400	Ciliary dyskinesia, primary, 1	HP:0000405	HPO phenotype.hpoa
+OMIM:245150	Keutel syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:245200	Krabbe disease	HP:0000365	HPO phenotype.hpoa
+OMIM:245400	Mitochondrial DNA depletion syndrome 9 (encephalomyopathic type with methylmalonic aciduria)	HP:0000365	HPO phenotype.hpoa
+OMIM:248340	3MC syndrome 3	HP:0000365	HPO phenotype.hpoa
+OMIM:248390	Treacher Collins syndrome 3	HP:0000405	HPO phenotype.hpoa
+OMIM:248500	Alpha-mannosidosis	HP:0000407	HPO phenotype.hpoa
+OMIM:248510	Mannosidosis, beta	HP:0000365	HPO phenotype.hpoa
+OMIM:248910	Cutaneous mastocytosis, conductive hearing loss, and microtia	HP:0000405	HPO phenotype.hpoa
+OMIM:249270	Thiamine-Responsive megaloblastic anemia syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:249620	Ohdo syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:251800	Microtia with meatal atresia and conductive deafness	HP:0000405	HPO phenotype.hpoa
+OMIM:252010	Mitochondrial complex I deficiency, nuclear type 1	HP:0000407	HPO phenotype.hpoa
+OMIM:252100	Mohr syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:252900	Mucopolysaccharidosis type IIIA	HP:0000365	HPO phenotype.hpoa
+OMIM:252920	Mucopolysaccharidosis type IIIB	HP:0000365	HPO phenotype.hpoa
+OMIM:252930	Mucopolysaccharidosis type IIIC	HP:0000365	HPO phenotype.hpoa
+OMIM:252940	Mucopolysaccharidosis, type IIID	HP:0000365	HPO phenotype.hpoa
+OMIM:253000	Mucopolysaccharidosis IVA	HP:0000365	HPO phenotype.hpoa
+OMIM:253010	Mucopolysaccharidosis type IVB (Morquio)	HP:0000365	HPO phenotype.hpoa
+OMIM:253200	Mucopolysaccharidosis, type VI	HP:0000365	HPO phenotype.hpoa
+OMIM:253220	Mucopolysaccharidosis VII	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:253260	Biotinidase deficiencymultiple carboxylase deficiency, late-onset	HP:0000407	HPO phenotype.hpoa
+OMIM:254940	Carey-Fineman-Ziter syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:255990	Nathalie syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:255995	Congenital myopathy 13	HP:0000405	HPO phenotype.hpoa
+OMIM:256000	Leigh syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:256200	Nephrosis with deafness and urinary tract and digital malformations	HP:0000365	HPO phenotype.hpoa
+OMIM:256500	Netherton syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:256540	Galactosialidosis	HP:0000365	HPO phenotype.hpoa
+OMIM:256550	Neuraminidase deficiency	HP:0000407	HPO phenotype.hpoa
+OMIM:256600	Neurodegeneration with brain iron accumulation 2A	HP:0000365	HPO phenotype.hpoa
+OMIM:256810	Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)	HP:0000365	HPO phenotype.hpoa
+OMIM:257920	3MC syndrome 1	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:258450	Progressive external ophthalmoplegia with mitochondrial DNA deletions,autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:258700	Opticocochleodentate degeneration	HP:0000365	HPO phenotype.hpoa
+OMIM:259050	Primrose syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:259420	Osteogenesis imperfecta, type III	HP:0000365	HPO phenotype.hpoa
+OMIM:259700	Osteopetrosis, autosomal recessive 1	HP:0000365	HPO phenotype.hpoa
+OMIM:259775	Raine syndrome	HP:0000410	HPO phenotype.hpoa
+OMIM:260660	Cousin syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:261515	D-bifunctional protein deficiency	HP:0000365	HPO phenotype.hpoa
+OMIM:261540	Peters-plus syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:262000	Bjornstad syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:263750	Postaxial acrofacial dysostosis	HP:0000405	HPO phenotype.hpoa
+OMIM:264470	Peroxisomal acyl-CoA oxidase deficiency	HP:0008619	HPO phenotype.hpoa
+OMIM:265000	Escobar syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:265050	3MC syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:266280	RAPADILINO syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:266500	Refsum disease	HP:0000407	HPO phenotype.hpoa
+OMIM:266510	Peroxisome biogenesis disorder 3B	HP:0000407	HPO phenotype.hpoa
+OMIM:267300	Distal renal tubular acidosis 2 with progressive sensorineural hearing loss	HP:0000407|HP:0008625	HPO phenotype.hpoa
+OMIM:267400	Renal, genital, and middle ear anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:267500	Reticular dysgenesis	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:268310	Robinow syndrome, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:268315	Rod-cone dystrophy, sensorineural deafness, and Fanconi-type renal dysfunction	HP:0000365|HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:268850	Richieri-Costa/guion-Almeida syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:269500	Sclerosteosis 1	HP:0000365	HPO phenotype.hpoa
+OMIM:269880	Short syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:270400	Smith-Lemli-Opitz syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:270800	Spastic paraplegia 5A, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:271245	Mitochondrial DNA depletion syndrome 7 (hepatocerebral type)	HP:0000365	HPO phenotype.hpoa
+OMIM:271700	Spondyloperipheral dysplasia	HP:0000407	HPO phenotype.hpoa
+OMIM:271900	Canavan disease	HP:0000365	HPO phenotype.hpoa
+OMIM:272200	Multiple sulfatase deficiency	HP:0000365	HPO phenotype.hpoa
+OMIM:272460	Spondylocarpotarsal synostosis syndrome	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:274205	Thumb, hypoplastic, with choroid coloboma, poorly developed antihelix,and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:274240	Thyrocerebroretinal syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:274300	Thyroid hormone resistance, generalized, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:274600	Pendred syndrome	HP:0008527	HPO phenotype.hpoa
+OMIM:275630	Chanarin-Dorfman syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:276900	Usher syndrome, type I	HP:0000407	HPO phenotype.hpoa
+OMIM:276901	Usher syndrome, type IIA	HP:0008527	HPO phenotype.hpoa
+OMIM:276902	Usher syndrome, type IIIA	HP:0000407	HPO phenotype.hpoa
+OMIM:276904	Usher syndrome, type IC	HP:0008527	HPO phenotype.hpoa
+OMIM:277170	Orofaciodigital syndrome VI	HP:0000405	HPO phenotype.hpoa
+OMIM:277440	Rickets, vitamin D-resistant, type IIA	HP:0000365	HPO phenotype.hpoa
+OMIM:277580	Waardenburg-Shah syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:278700	Xeroderma pigmentosum, complementation group A	HP:0000407	HPO phenotype.hpoa
+OMIM:278730	Xeroderma pigmentosum, complementation group D	HP:0000407	HPO phenotype.hpoa
+OMIM:278760	Xeroderma pigmentosum, complementation group F	HP:0000365	HPO phenotype.hpoa
+OMIM:278800	De Sanctis-Cacchione syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:280000	CHIME syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:300030	Deafness, X-linked 3	HP:0008527	HPO phenotype.hpoa
+OMIM:300066	Deafness, X-linked 4	HP:0000407|HP:0005101	HPO phenotype.hpoa
+OMIM:300100	Adrenoleukodystrophy	HP:0000365	HPO phenotype.hpoa
+OMIM:300166	Microphthalmia, syndromic 2	HP:0000407	HPO phenotype.hpoa
+OMIM:300194	AMME complex	HP:0000407	HPO phenotype.hpoa
+OMIM:300238	Intellectual developmental disorder, X-linked syndromic, Shashi type	HP:0008619	HPO phenotype.hpoa
+OMIM:300373	Osteopathia striata with cranial sclerosis	HP:0000405	HPO phenotype.hpoa
+OMIM:300406	FG syndrome 3	HP:0000407	HPO phenotype.hpoa
+OMIM:300419	Intellectual developmental disorder, X-linked 29	HP:0000407	HPO phenotype.hpoa
+OMIM:300422	Fg syndrome 4	HP:0000407	HPO phenotype.hpoa
+OMIM:300436	Intellectual developmental disorder, X-linked 46	HP:0000407	HPO phenotype.hpoa
+OMIM:300438	HSD10 mitochondrial disease	HP:0000407	HPO phenotype.hpoa
+OMIM:300455	Retinitis pigmentosa, X-linked, and sinorespiratory infections, withor without deafness	HP:0005101	HPO phenotype.hpoa
+OMIM:300472	Corpus callosum, agenesis of, with impaired intellectual development, ocular coloboma and micrognathia	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:300475	Deafness, dystonia, and cerebral hypomyelination	HP:0000407	HPO phenotype.hpoa
+OMIM:300519	Martin-Probst syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:300614	Deafness, X-linked 5	HP:0000365	HPO phenotype.hpoa
+OMIM:300623	Fragile X tremor/ataxia syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:300661	Phosphoribosylpyrophosphate synthetase superactivity	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:300700	Albinism-deafness syndrome	HP:0008527	HPO phenotype.hpoa
+OMIM:300719	Deafness, cataract, retinitis pigmentosa, and sperm abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:300749	Intellectual developmental disorder and microcephaly with pontine and cerebellar hypoplasia	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:300755	Agammaglobulinemia, X-linked	HP:0000365	HPO phenotype.hpoa
+OMIM:300804	Joubert syndrome 10	HP:0000405	HPO phenotype.hpoa
+OMIM:300867	Kabuki syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:300868	Multiple congenital anomalies-hypotonia-seizures syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:300882	Cornelia de Lange syndrome 5	HP:0000365	HPO phenotype.hpoa
+OMIM:300895	Ohdo syndrome, X-linked	HP:0000365	HPO phenotype.hpoa
+OMIM:300905	Charcot-Marie-Tooth disease, X-linked dominant, 6	HP:0000407	HPO phenotype.hpoa
+OMIM:300914	Deafness, X-linked 6	HP:0008619	HPO phenotype.hpoa
+OMIM:300946	Diamond-Blackfan anemia 14 with mandibulofacial dysostosis	HP:0000405	HPO phenotype.hpoa
+OMIM:300957	Intellectual developmental disorder, X-linked syndromic, Kumar type	HP:0000407	HPO phenotype.hpoa
+OMIM:300958	Intellectual developmental disorder, X-linked, syndrome, snijders Blok type	HP:0000365	HPO phenotype.hpoa
+OMIM:300966	Intellectual developmental disorder, X-linked syndromic 33	HP:0000365	HPO phenotype.hpoa
+OMIM:300968	Intellectual developmental disorder, X-linked 99, syndromic, female-restricted	HP:0000365	HPO phenotype.hpoa
+OMIM:300972	Immunodeficiency 47	HP:0000407	HPO phenotype.hpoa
+OMIM:300990	Midface hypoplasia, hearing impairment, elliptocytosis, and nephrocalcinosis	HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:300998	Intellectual developmental disorder, X-linked syndromic 35	HP:0000365	HPO phenotype.hpoa
+OMIM:301014	Osteogenesis imperfecta, type XIX	HP:0000365	HPO phenotype.hpoa
+OMIM:301018	Deafness, X-linked 7	HP:0000365	HPO phenotype.hpoa
+OMIM:301020	Mitochondrial complex I deficiency, nuclear type 12	HP:0000408	HPO phenotype.hpoa
+OMIM:301022	Neurodevelopmental disorder, X-linked, with craniofacial abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:301026	Keipert syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:301032	Basilicata-Akhtar syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:301040	Alpha-thalassemia/impaired intellectual development syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:301043	Holoprosencephaly 13, X-linked	HP:0000365	HPO phenotype.hpoa
+OMIM:301050	Alport syndrome, X-linked	HP:0000407	HPO phenotype.hpoa
+OMIM:301054	VEXAS syndrome, somatic	HP:0000407	HPO phenotype.hpoa
+OMIM:301056	Multiple congenital anomalies-neurodevelopmental syndrome, X-linked	HP:0000365	HPO phenotype.hpoa
+OMIM:301068	Hardikar syndrome	HP:0012712	HPO phenotype.hpoa
+OMIM:301072	Neurodevelopmental disorder with epilepsy and hemochromatosis	HP:0000365	HPO phenotype.hpoa
+OMIM:301075	Myopathy, distal, 7, adult-onset, X-linked	HP:0000365	HPO phenotype.hpoa
+OMIM:301108	Cataracts, hearing impairment, nephrotic syndrome, and enterocolitis 1	HP:0000365	HPO phenotype.hpoa
+OMIM:301118	Intellectual developmental disorder, X-linked syndromic 37	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:301132	Orofaciodigital syndrome XXI	HP:0000365	HPO phenotype.hpoa
+OMIM:301133	Congenital disorder of glycosylation, type 1DD	HP:0000407	HPO phenotype.hpoa
+OMIM:301835	Arts syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:301950	Branchial arch syndrome, X-linked	HP:0000365	HPO phenotype.hpoa
+OMIM:302700	Cerebral sclerosis, diffuse, Scholz type	HP:0000365	HPO phenotype.hpoa
+OMIM:302800	Charcot-Marie-Tooth neuropathy, X-linked dominant, 1	HP:0000407	HPO phenotype.hpoa
+OMIM:302905	Charge-Like syndrome, X-linked	HP:0000365	HPO phenotype.hpoa
+OMIM:302950	Chondrodysplasia punctata 1, X-linked recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:302960	Chondrodysplasia punctata 2, X-linked dominant	HP:0000365	HPO phenotype.hpoa
+OMIM:303110	Xq21 deletion syndrome	HP:0000365|HP:0000405|HP:0000408	HPO phenotype.hpoa
+OMIM:303600	Coffin-Lowry syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:304120	Otopalatodigital syndrome, type II	HP:0000405	HPO phenotype.hpoa
+OMIM:304340	Pettigrew syndrome	HP:0000407|HP:0005101	HPO phenotype.hpoa
+OMIM:304400	Deafness, X-linked 2	HP:0000405|HP:0000408|HP:0000410|HP:0008527	HPO phenotype.hpoa
+OMIM:304500	Deafness, X-linked 1	HP:0000407	HPO phenotype.hpoa
+OMIM:304700	Mohr-Tranebjaerg syndrome	HP:0000408|HP:0008596	HPO phenotype.hpoa
+OMIM:305450	Opitz-Kaveggia syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:305600	Focal dermal hypoplasia	HP:0000410	HPO phenotype.hpoa
+OMIM:305620	Frontometaphyseal dysplasia	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:307200	Isolated growth hormone deficiency, type III, with agammaglobulinemia	HP:0000365	HPO phenotype.hpoa
+OMIM:308050	Congenital hemidysplasia with ichthyosiform erythroderma and limb defects	HP:0000365	HPO phenotype.hpoa
+OMIM:308205	IFAP syndrome with or without BRESHECK syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:308940	Leiomyomatosis, diffuse, with alport syndrome	HP:0000365|HP:0000407|HP:0001757	HPO phenotype.hpoa
+OMIM:309350	Melnick-Needles syndrome	HP:0008619	HPO phenotype.hpoa
+OMIM:309500	Renpenning syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:309555	Intellectual developmental disorder, X-linked syndromic, Gustavson type	HP:0000365	HPO phenotype.hpoa
+OMIM:309580	Intellectual disability-hypotonic facies syndrome, X-linked	HP:0000407	HPO phenotype.hpoa
+OMIM:309590	Intellectual developmental disorder, X-linked syndromic, Turner type	HP:0000365	HPO phenotype.hpoa
+OMIM:309800	Microphthalmia, syndromic 1	HP:0000365	HPO phenotype.hpoa
+OMIM:309801	Linear skin defects with multiple congenital anomalies 1	HP:0000365	HPO phenotype.hpoa
+OMIM:309900	Mucopolysaccharidosis, type II	HP:0000365	HPO phenotype.hpoa
+OMIM:310465	N syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:310490	Cowchock syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:310600	Norrie disease	HP:0000407	HPO phenotype.hpoa
+OMIM:311070	Charcot-Marie-Tooth disease, X-linked recessive, 5	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:311200	Orofaciodigital syndrome I	HP:0000365	HPO phenotype.hpoa
+OMIM:311300	Otopalatodigital syndrome, type I	HP:0000405	HPO phenotype.hpoa
+OMIM:312080	Pelizaeus-Merzbacher disease	HP:0000365	HPO phenotype.hpoa
+OMIM:312870	Simpson-Golabi-Behmel syndrome, type 1	HP:0000365	HPO phenotype.hpoa
+OMIM:312910	Spastic paraparesis and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:314600	Wildervanck syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:400043	Deafness, Y-linked 1	HP:0000407	HPO phenotype.hpoa
+OMIM:400047	Deafness, Y-linked 2	HP:0000407	HPO phenotype.hpoa
+OMIM:500007	Cyclic vomiting syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:500018	Mitochondrial spastic paraplegia	HP:0000365	HPO phenotype.hpoa
+OMIM:520000	Diabetes and deafness, maternally inherited	HP:0000407	HPO phenotype.hpoa
+OMIM:530000	Kearns-Sayre syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:540000	Mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke-like episodes	HP:0000408|HP:0008619	HPO phenotype.hpoa
+OMIM:545000	Myoclonic epilepsy associated with ragged-red fibers	HP:0000407	HPO phenotype.hpoa
+OMIM:560000	Renal tubulopathy, diabetes mellitus, and cerebellar ataxia	HP:0000365	HPO phenotype.hpoa
+OMIM:580000	Deafness, aminoglycoside-induced	HP:0011975	HPO phenotype.hpoa
+OMIM:598500	Wolfram syndrome, mitochondrial form	HP:0000407	HPO phenotype.hpoa
+OMIM:600060	Deafness, neurosensory, autosomal recessive 2	HP:0000407	HPO phenotype.hpoa
+OMIM:600101	Deafness, autosomal dominant nonsyndromic sensorineural 2	HP:0000365	HPO phenotype.hpoa
+OMIM:600193	Waardenburg syndrome, type IIB	HP:0000407	HPO phenotype.hpoa
+OMIM:600316	Deafness, neurosensory, autosomal recessive 3	HP:0011476	HPO phenotype.hpoa
+OMIM:600373	CODAS syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:600383	Mesomelia-Synostoses syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:600430	Chromosome 2q37 deletion syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:600501	ABCD syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:600624	Cone-Rod dystrophy 1	HP:0000365	HPO phenotype.hpoa
+OMIM:600627	Hypertryptophanemia	HP:0000407	HPO phenotype.hpoa
+OMIM:600652	Deafness, autosomal dominant nonsyndromic sensorineural 4	HP:0000408	HPO phenotype.hpoa
+OMIM:600791	Deafness, autosomal recessive 4, with enlarged vestibular aqueduct	HP:0000407	HPO phenotype.hpoa
+OMIM:600792	Deafness, neurosensory, autosomal recessive 5	HP:0000407	HPO phenotype.hpoa
+OMIM:600901	Fanconi anemia, complementation group E	HP:0000365	HPO phenotype.hpoa
+OMIM:600965	Deafness, autosomal dominant 6	HP:0000408|HP:0008573	HPO phenotype.hpoa
+OMIM:600971	Deafness, autosomal recessive 6	HP:0000365	HPO phenotype.hpoa
+OMIM:600974	Deafness, neurosensory, autosomal recessive 7	HP:0000407	HPO phenotype.hpoa
+OMIM:600994	Deafness, autosomal dominant nonsyndromic sensorineural 5	HP:0000408	HPO phenotype.hpoa
+OMIM:601067	Usher syndrome, type ID	HP:0000365	HPO phenotype.hpoa
+OMIM:601071	Deafness, autosomal recessive 9	HP:0000407	HPO phenotype.hpoa
+OMIM:601072	Deafness, autosomal recessive 8/10	HP:0000407	HPO phenotype.hpoa
+OMIM:601076	Mullerian duct aplasia, unilateral renal agenesis, and cervicothoracicsomite anomalies	HP:0000405	HPO phenotype.hpoa
+OMIM:601088	Ayme-Gripp syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:601152	Hereditary motor and sensory neuropathy VIA	HP:0008587	HPO phenotype.hpoa
+OMIM:601316	Deafness, autosomal dominant nonsyndromic sensorineural 10	HP:0000407	HPO phenotype.hpoa
+OMIM:601317	Deafness, autosomal dominant nonsyndromic sensorineural 11	HP:0008619	HPO phenotype.hpoa
+OMIM:601338	Cerebellar ataxia, areflexia, pes cavus, optic atrophy, and sensorineural hearing loss	HP:0000365|HP:0000407|HP:0000408	HPO phenotype.hpoa
+OMIM:601353	Brachycephaly, deafness, cataract, microstomia, and impaired intellectual development	HP:0000365	HPO phenotype.hpoa
+OMIM:601369	Deafness, autosomal dominant 9	HP:0008596	HPO phenotype.hpoa
+OMIM:601386	Deafness, autosomal recessive 12	HP:0000399	HPO phenotype.hpoa
+OMIM:601390	Van Maldergem syndrome 1	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:601412	Deafness, autosomal dominant nonsyndromic sensorineural 7	HP:0005101	HPO phenotype.hpoa
+OMIM:601449	Deafness, progressive, with stapes fixation	HP:0008513	HPO phenotype.hpoa
+OMIM:601455	Charcot-Marie-Tooth disease, type 4D	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:601499	Axenfeld-rieger syndrome, type 2	HP:0000365	HPO phenotype.hpoa
+OMIM:601536	Athabaskan brainstem dysgenesis syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:601539	Peroxisome biogenesis disorder 1B	HP:0000407	HPO phenotype.hpoa
+OMIM:601543	Deafness, autosomal dominant nonsyndromic sensorineural 12	HP:0000407	HPO phenotype.hpoa
+OMIM:601544	Deafness, autosomal dominant nonsyndromic sensorineural 3	HP:0000407	HPO phenotype.hpoa
+OMIM:601596	Charcot-Marie-Tooth disease, type 4C	HP:0000365	HPO phenotype.hpoa
+OMIM:601776	Ehlers-Danlos syndrome, musculocontractural type 1	HP:0000365	HPO phenotype.hpoa
+OMIM:601803	Pallister-Killian syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:601808	Chromosome 18q deletion syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:601812	Premature aging syndrome, Penttinen type	HP:0000407	HPO phenotype.hpoa
+OMIM:601868	Deafness, autosomal dominant nonsyndromic sensorineural 13	HP:0000407	HPO phenotype.hpoa
+OMIM:601869	Deafness, autosomal recessive 15	HP:0000399|HP:0000407	HPO phenotype.hpoa
+OMIM:602080	Paget disease of bone 2, early-onset	HP:0008513	HPO phenotype.hpoa
+OMIM:602083	Usher syndrome, type IF	HP:0008527	HPO phenotype.hpoa
+OMIM:602092	Deafness, neurosensory, autosomal recessive 18	HP:0000407	HPO phenotype.hpoa
+OMIM:602097	Usher syndrome, type IE	HP:0008527	HPO phenotype.hpoa
+OMIM:602152	Rhyns syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:602342	Pierpont syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:602459	Deafness, autosomal dominant 15	HP:0000365	HPO phenotype.hpoa
+OMIM:602471	Short stature, auditory canal atresia, mandibular hypoplasia, andskeletal abnormalities	HP:0000405	HPO phenotype.hpoa
+OMIM:602482	Axenfeld-Rieger syndrome, type 3	HP:0000407	HPO phenotype.hpoa
+OMIM:602483	Auriculocondylar syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:602522	Bartter syndrome, type 4A, neonatal, with sensorineural deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:602535	Marshall-Smith syndrome	HP:0000365|HP:0008513	HPO phenotype.hpoa
+OMIM:602540	Ichthyosis, hystrix-like, with deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:602588	Branchiootic syndrome 1	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:602722	Distal renal tubular acidosis 3, with or without sensorineural hearing loss	HP:0008619	HPO phenotype.hpoa
+OMIM:602782	Histiocytosis-lymphadenopathy plus syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:602849	Muenke syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:603010	Deafness, autosomal recessive 17	HP:0000407	HPO phenotype.hpoa
+OMIM:603041	Mitochondrial DNA depletion syndrome 1 (MNGIE type)	HP:0000407	HPO phenotype.hpoa
+OMIM:603098	Deafness, autosomal recessive 13	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:603116	CDAGS syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:603457	Bosma arhinia microphthalmia syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:603467	Fanconi anemia, complementation group F	HP:0000405	HPO phenotype.hpoa
+OMIM:603622	Deafness, autosomal dominant nonsyndromic sensorineural 17	HP:0005101	HPO phenotype.hpoa
+OMIM:603629	Deafness, autosomal recessive 21	HP:0000407	HPO phenotype.hpoa
+OMIM:603678	Deafness, autosomal recessive 14	HP:0000407	HPO phenotype.hpoa
+OMIM:603720	Deafness, autosomal recessive 16	HP:0000407	HPO phenotype.hpoa
+OMIM:603736	Ohdo syndrome, Say-Barber-Biesecker-Young-Simpson variant	HP:0000365	HPO phenotype.hpoa
+OMIM:603964	Deafness, autosomal dominant 16	HP:0008615	HPO phenotype.hpoa
+OMIM:604060	Deafness, autosomal recessive 20	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:604121	Cerebellar ataxia, deafness, and narcolepsy, autosomal dominant	HP:0000407	HPO phenotype.hpoa
+OMIM:604185	Facial paresis, hereditary congenital, 2	HP:0000365	HPO phenotype.hpoa
+OMIM:604213	Chudley-Mccullough syndrome	HP:0008625	HPO phenotype.hpoa
+OMIM:604292	Ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome 3	HP:0000365	HPO phenotype.hpoa
+OMIM:604314	Blepharophimosis with facial and genital anomalies and impaired intellectual development	HP:0000407	HPO phenotype.hpoa
+OMIM:604377	Mitochondrial complex IV deficiency, nuclear type 2	HP:0000365	HPO phenotype.hpoa
+OMIM:604563	Charcot-Marie-Tooth disease, type 4B2	HP:0000407	HPO phenotype.hpoa
+OMIM:604717	Deafness, autosomal dominant 20	HP:0000408|HP:0008619	HPO phenotype.hpoa
+OMIM:604804	Microcephaly 3, primary, autosomal recessive	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:604841	Stickler syndrome, type II	HP:0000407	HPO phenotype.hpoa
+OMIM:604928	Wolfram syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:605192	Deafness, autosomal dominant 23	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:605259	Spinocerebellar ataxia 13	HP:0000365	HPO phenotype.hpoa
+OMIM:605282	Temtamy preaxial brachydactyly syndrome	HP:0008619	HPO phenotype.hpoa
+OMIM:605362	Cardiomyopathy, dilated, 1J	HP:0000407	HPO phenotype.hpoa
+OMIM:605428	Deafness, autosomal recessive 26	HP:0000407	HPO phenotype.hpoa
+OMIM:605432	Radioulnar synostosis with amegakaryocytic thrombocytopenia	HP:0000407	HPO phenotype.hpoa
+OMIM:605472	Usher syndrome, type IIC	HP:0008527	HPO phenotype.hpoa
+OMIM:605583	Deafness, autosomal dominant 25	HP:0000407	HPO phenotype.hpoa
+OMIM:605594	Deafness, autosomal dominant 39, with dentinogenesis imperfecta 1	HP:0005101|HP:0008619	HPO phenotype.hpoa
+OMIM:605627	Cerebrooculonasal syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:605818	Deafness, autosomal recessive 27	HP:0000407	HPO phenotype.hpoa
+OMIM:605822	Spondyloocular syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:606012	Deafness, autosomal dominant 18	HP:0001730	HPO phenotype.hpoa
+OMIM:606056	Congenital disorder of glycosylation, type IIB	HP:0000407	HPO phenotype.hpoa
+OMIM:606071	Hereditary motor and sensory neuropathy, type IIC	HP:0000407	HPO phenotype.hpoa
+OMIM:606164	Diamond-Blackfan anemia 15 with mandibulofacial dysostosis	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:606170	Genitopatellar syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:606232	Phelan-Mcdermid syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:606263	Paget disease of bone 4	HP:0000365	HPO phenotype.hpoa
+OMIM:606282	Deafness, autosomal dominant 24	HP:0000365	HPO phenotype.hpoa
+OMIM:606346	Deafness, autosomal dominant 22	HP:0000407|HP:0000408	HPO phenotype.hpoa
+OMIM:606451	Deafness, autosomal dominant 30	HP:0000407	HPO phenotype.hpoa
+OMIM:606528	Homozygous 11p15-p14 deletion syndrome	HP:0008527	HPO phenotype.hpoa
+OMIM:606705	Deafness, autosomal dominant 36	HP:0000407	HPO phenotype.hpoa
+OMIM:606763	Ciliary dyskinesia, primary, 2	HP:0000365	HPO phenotype.hpoa
+OMIM:606943	Usher syndrome, type IG	HP:0000407	HPO phenotype.hpoa
+OMIM:607014	Hurler syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:607017	Deafness, autosomal dominant 21	HP:0000407	HPO phenotype.hpoa
+OMIM:607039	Deafness, autosomal recessive 22	HP:0000407	HPO phenotype.hpoa
+OMIM:607084	Deafness, autosomal recessive 31	HP:0000407	HPO phenotype.hpoa
+OMIM:607101	Deafness, autosomal recessive 30	HP:0000408|HP:0001730	HPO phenotype.hpoa
+OMIM:607115	Cinca syndrome	HP:0000365|HP:0000408	HPO phenotype.hpoa
+OMIM:607143	Congenital disorder of glycosylation, type Ig	HP:0000407	HPO phenotype.hpoa
+OMIM:607239	Deafness, autosomal recessive 33	HP:0000365	HPO phenotype.hpoa
+OMIM:607259	Spastic paraplegia 7, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:607323	Duane-Radial ray syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:607371	Dystonia, juvenile-onset	HP:0000407	HPO phenotype.hpoa
+OMIM:607426	Coenzyme Q10 deficiency, primary, 1	HP:0000407	HPO phenotype.hpoa
+OMIM:607453	Deafness, autosomal dominant 44	HP:0000407	HPO phenotype.hpoa
+OMIM:607459	Sensory ataxic neuropathy, dysarthria, and ophthalmoparesis	HP:0000407	HPO phenotype.hpoa
+OMIM:607634	Osteopetrosis, autosomal dominant 1	HP:0000405	HPO phenotype.hpoa
+OMIM:607736	Charcot-Marie-Tooth disease, type 2J	HP:0000407|HP:0000408	HPO phenotype.hpoa
+OMIM:607821	Deafness, autosomal recessive 37	HP:0000407	HPO phenotype.hpoa
+OMIM:607841	Deafness, autosomal dominant 48	HP:0000407	HPO phenotype.hpoa
+OMIM:607842	Aural atresia, congenital	HP:0000405	HPO phenotype.hpoa
+OMIM:607872	Chromosome 1p36 deletion syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:607906	Congenital disorder of glycosylation, type Ii	HP:0000407	HPO phenotype.hpoa
+OMIM:607932	Microphthalmia, syndromic 6	HP:0000365	HPO phenotype.hpoa
+OMIM:608027	Pontocerebellar hypoplasia, type 3	HP:0000365	HPO phenotype.hpoa
+OMIM:608154	Lipodystrophy, generalized, with impaired intellectual development, deafness, short stature, and slender bones	HP:0000407	HPO phenotype.hpoa
+OMIM:608219	Deafness, congenital neurosensory, autosomal recessive 38	HP:0000399	HPO phenotype.hpoa
+OMIM:608224	Deafness, autosomal dominant 41	HP:0000408	HPO phenotype.hpoa
+OMIM:608244	Otosclerosis 3	HP:0000365	HPO phenotype.hpoa
+OMIM:608257	Mandibulofacial dysostosis with ptosis, autosomal dominant	HP:0000405	HPO phenotype.hpoa
+OMIM:608264	Deafness, congenital neurosensory, autosomal recessive 40	HP:0000399	HPO phenotype.hpoa
+OMIM:608265	Deafness, congenital neurosensory, autosomal recessive 39	HP:0000399	HPO phenotype.hpoa
+OMIM:608372	Deafness, autosomal dominant nonsyndromic sensorineural 49	HP:0000407|HP:0001730	HPO phenotype.hpoa
+OMIM:608389	Branchiootic syndrome 3	HP:0000407	HPO phenotype.hpoa
+OMIM:608394	Deafness, autosomal dominant 43	HP:0000407	HPO phenotype.hpoa
+OMIM:608545	Larsen-Like syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:608565	Deafness, autosomal recessive 35	HP:0000407	HPO phenotype.hpoa
+OMIM:608572	Burn-Mckeown syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:608624	Midface hypoplasia, obesity, developmental delay, and neonatal hypotonia	HP:0000410	HPO phenotype.hpoa
+OMIM:608641	Deafness, autosomal dominant nonsyndromic sensorineural 28	HP:0000407	HPO phenotype.hpoa
+OMIM:608645	Deafness, autosomal dominant 31	HP:0040113	HPO phenotype.hpoa
+OMIM:608652	Deafness, autosomal dominant 47	HP:0000407	HPO phenotype.hpoa
+OMIM:608653	Deafness, autosomal recessive 32, with or without immotile sperm	HP:0000407	HPO phenotype.hpoa
+OMIM:608670	Robin sequence, distinctive facial appearance, and brachydactyly	HP:0000407	HPO phenotype.hpoa
+OMIM:608703	Spinocerebellar ataxia 25	HP:0000365	HPO phenotype.hpoa
+OMIM:608716	Microcephaly 5, primary, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:608747	Insulin-Like growth factor I deficiency	HP:0000407	HPO phenotype.hpoa
+OMIM:608779	Congenital disorder of glycosylation, type IIe	HP:0000407	HPO phenotype.hpoa
+OMIM:608908	Myopia 6	HP:0000365	HPO phenotype.hpoa
+OMIM:609006	Deafness, autosomal recessive 36, with or without vestibular involvement	HP:0000407	HPO phenotype.hpoa
+OMIM:609029	Emanuel syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:609053	Fanconi anemia, complementation group I	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:609056	Salt and pepper developmental regression syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:609057	Nephropathy with pretibial epidermolysis bullosa and deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:609129	Auditory neuropathy, autosomal dominant, 1	HP:0000407	HPO phenotype.hpoa
+OMIM:609136	Peripheral demyelinating neuropathy, central dysmyelination, Waardenburg syndrome, and Hirschsprung disease	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:609166	Branchiogenic-deafness syndrome	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:609242	Kanzaki disease	HP:0000407	HPO phenotype.hpoa
+OMIM:609260	Charcot-marie-tooth disease, axonal, type 2A2A	HP:0000365	HPO phenotype.hpoa
+OMIM:609283	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 2	HP:0000407	HPO phenotype.hpoa
+OMIM:609286	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 3	HP:0001730	HPO phenotype.hpoa
+OMIM:609296	B-cell immunodeficiency, distal limb anomalies, and urogenital malformations	HP:0000365	HPO phenotype.hpoa
+OMIM:609313	MEDNIK syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:609439	Deafness, autosomal recessive 48	HP:0011476	HPO phenotype.hpoa
+OMIM:609508	Stickler sydrome, type I, nonsyndromic ocular	HP:0000365	HPO phenotype.hpoa
+OMIM:609528	Cerebral dysgenesis, neuropathy, ichthyosis, and palmoplantar keratoderma syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:609533	Deafness, autosomal recessive 23	HP:0000407	HPO phenotype.hpoa
+OMIM:609560	Mitochondrial DNA depletion syndrome 2 (myopathic type)	HP:0000365	HPO phenotype.hpoa
+OMIM:609616	Spondylomegaepiphyseal dysplasia with upper limb mesomelia, punctatecalcifications, and deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:609625	Chromosome 10q26 deletion syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:609646	Deafness, neurosensory, autosomal recessive 42	HP:0000407	HPO phenotype.hpoa
+OMIM:609647	Deafness, neurosensory, autosomal recessive 46	HP:0011476	HPO phenotype.hpoa
+OMIM:609706	Deafness, autosomal recessive 53	HP:0000407	HPO phenotype.hpoa
+OMIM:609727	Spastic paraplegia 29, autosomal dominant	HP:0000407	HPO phenotype.hpoa
+OMIM:609823	Deafness, autosomal recessive 28	HP:0008625	HPO phenotype.hpoa
+OMIM:609924	Aminoacylase 1 deficiency	HP:0000407	HPO phenotype.hpoa
+OMIM:609941	Deafness, autosomal recessive 51	HP:0000407	HPO phenotype.hpoa
+OMIM:609944	Ectodermal dysplasia, sensorineural hearing loss, and distinctive facial features	HP:0000407	HPO phenotype.hpoa
+OMIM:609945	Brachyphalangy, polydactyly, and tibial aplasia/hypoplasia	HP:0000365	HPO phenotype.hpoa
+OMIM:609946	Deafness, autosomal recessive 47	HP:0000365	HPO phenotype.hpoa
+OMIM:609952	Deafness, autosomal recessive 55	HP:0000365	HPO phenotype.hpoa
+OMIM:609965	Deafness, autosomal dominant 53	HP:0000407	HPO phenotype.hpoa
+OMIM:610023	Brachydactyly, coloboma, and anterior segment dysgenesis	HP:0000365	HPO phenotype.hpoa
+OMIM:610042	Pitt-Hopkins like syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:610143	Deafness, autosomal recessive 62	HP:0000399	HPO phenotype.hpoa
+OMIM:610153	Deafness, autosomal recessive 49	HP:0000399	HPO phenotype.hpoa
+OMIM:610154	Deafness, autosomal recessive 44	HP:0000399	HPO phenotype.hpoa
+OMIM:610185	Cerebellar ataxia, impaired intellectual development, and dysquilibrium syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:610199	Diabetes mellitus, neonatal, with congenital hypothyroidism	HP:0000407	HPO phenotype.hpoa
+OMIM:610212	Deafness, autosomal recessive 66	HP:0000407	HPO phenotype.hpoa
+OMIM:610220	Deafness, autosomal recessive 59	HP:0000407	HPO phenotype.hpoa
+OMIM:610248	Deafness, autosomal recessive 65	HP:0000365	HPO phenotype.hpoa
+OMIM:610253	Kleefstra syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:610265	Deafness, autosomal recessive 67	HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:610419	Deafness, autosomal recessive 68	HP:0000407	HPO phenotype.hpoa
+OMIM:610474	Camptodactyly, tall stature, and hearing loss syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:610536	Mandibulofacial dysostosis, Guion-Almeida type	HP:0000405	HPO phenotype.hpoa
+OMIM:610651	Xeroderma pigmentosum, complementation group B	HP:0000407	HPO phenotype.hpoa
+OMIM:610706	Deafness, congenital, with inner ear agenesis, microtia, and microdontia	HP:0011476	HPO phenotype.hpoa
+OMIM:610717	Neutral lipid storage disease with myopathy	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:610738	Neutropenia, severe congenital 3, autosomal recessive	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:610743	Spinocerebellar ataxia, autosomal recessive 8	HP:0000365	HPO phenotype.hpoa
+OMIM:610756	Cerebrooculofacioskeletal syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:610759	Cornelia de Lange syndrome 3	HP:0000365	HPO phenotype.hpoa
+OMIM:610883	Potocki-Lupski syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:610896	Branchiootorenal syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:610965	XFE progeroid syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:610968	Osteogenesis imperfecta, type XI	HP:0000365	HPO phenotype.hpoa
+OMIM:611022	Deafness, autosomal recessive, 24	HP:0011476	HPO phenotype.hpoa
+OMIM:611091	Intellectual developmental disorder, autosomal recessive 5	HP:0000365	HPO phenotype.hpoa
+OMIM:611102	Deafness, sensorineural, and male infertility	HP:0008619	HPO phenotype.hpoa
+OMIM:611174	Hamamy syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:611209	Congenital disorder of glycosylation, type IIg	HP:0000405	HPO phenotype.hpoa
+OMIM:611377	Brachydactyly, type B2	HP:0000407	HPO phenotype.hpoa
+OMIM:611383	Usher syndrome, type IID	HP:0000365	HPO phenotype.hpoa
+OMIM:611390	Spastic ataxia 3, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:611451	Deafness, autosomal recessive 63	HP:0008527	HPO phenotype.hpoa
+OMIM:611571	Otosclerosis 4	HP:0000410	HPO phenotype.hpoa
+OMIM:611572	Otosclerosis 7	HP:0000365|HP:0000405|HP:0001730|HP:0011474	HPO phenotype.hpoa
+OMIM:611584	Waardenburg syndrome, type 2E	HP:0000407	HPO phenotype.hpoa
+OMIM:611762	Familial cold autoinflammatory syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:611962	Hunter-Macdonald syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:612015	Congenital disorder of glycosylation, type In	HP:0000407	HPO phenotype.hpoa
+OMIM:612073	Mitochondrial DNA depletion syndrome 5 (encephalomyopathic with or without methylmalonic aciduria)	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:612096	Otosclerosis 8	HP:0000365	HPO phenotype.hpoa
+OMIM:612097	Deafness, unilateral, with delayed endolymphatic hydrops	HP:0009900	HPO phenotype.hpoa
+OMIM:612289	Fontaine progeroid syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:612290	Microtia, hearing impairment, and cleft palate	HP:0000410	HPO phenotype.hpoa
+OMIM:612347	Jervell and Lange-Nielsen syndrome 2	HP:0008527	HPO phenotype.hpoa
+OMIM:612370	Hypogonadotropic hypogonadism 5 with or without anosmia	HP:0000407	HPO phenotype.hpoa
+OMIM:612394	Bone fragility with contractures, arterial rupture, and deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:612431	Deafness, autosomal dominant 27	HP:0000407	HPO phenotype.hpoa
+OMIM:612433	Deafness, autosomal recessive 45	HP:0000399	HPO phenotype.hpoa
+OMIM:612474	Chromosome 1q21.1 deletion syndrome, 1.35-mb	HP:0000407	HPO phenotype.hpoa
+OMIM:612513	Chromosome 2p16.1-p15 deletion syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:612541	Neutropenia, severe congenital, 4, autosomal recessive	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:612562	Diamond-Blackfan anemia 7	HP:0000365	HPO phenotype.hpoa
+OMIM:612582	Chromosome 6pter-p24 deletion syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:612642	Deafness, autosomal dominant 59	HP:0000407	HPO phenotype.hpoa
+OMIM:612643	Deafness, autosomal dominant 3B	HP:0008615	HPO phenotype.hpoa
+OMIM:612644	Deafness, autosomal dominant 2B	HP:0005101	HPO phenotype.hpoa
+OMIM:612645	Deafness, autosomal recessive 1B	HP:0000365	HPO phenotype.hpoa
+OMIM:612674	Polyneuropathy, hearing loss, ataxia, retinitis pigmentosa, and cataract	HP:0000407	HPO phenotype.hpoa
+OMIM:612702	Hypogonadotropic hypogonadism 6 with or without anosmia	HP:0000407	HPO phenotype.hpoa
+OMIM:612780	SESAME syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:612789	Deafness, autosomal recessive 71	HP:0000399	HPO phenotype.hpoa
+OMIM:612938	Growth retardation, developmental delay, coarse facies, and earlydeath	HP:0000407	HPO phenotype.hpoa
+OMIM:612951	Leukoencephalopathy, cystic, without megalencephaly	HP:0000407	HPO phenotype.hpoa
+OMIM:612989	Optic atrophy 7 with or without auditory neuropathy	HP:0000407	HPO phenotype.hpoa
+OMIM:613074	Deafness, autosomal dominant 50	HP:0000407|HP:0000408|HP:0001730	HPO phenotype.hpoa
+OMIM:613076	Myopathy, mitochondrial progressive, with congenital cataract, hearing loss, and developmental delay	HP:0000407	HPO phenotype.hpoa
+OMIM:613077	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 5	HP:0000365	HPO phenotype.hpoa
+OMIM:613079	Deafness, autosomal recessive 77	HP:0008619	HPO phenotype.hpoa
+OMIM:613090	Bartter syndrome, type 4B, neonatal, with sensorineural deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:613101	Hemophagocytic lymphohistiocytosis, familial, 5	HP:0008573	HPO phenotype.hpoa
+OMIM:613159	Nephronophthisis-Like nephropathy 1	HP:0000407	HPO phenotype.hpoa
+OMIM:613206	Spastic paraplegia 44, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:613224	Noonan syndrome 6	HP:0000407	HPO phenotype.hpoa
+OMIM:613254	Tuberous sclerosis-2	HP:0000365	HPO phenotype.hpoa
+OMIM:613265	Waardenburg syndrome, type 4B	HP:0000407	HPO phenotype.hpoa
+OMIM:613266	Waardenburg syndrome, type 4C	HP:0000407	HPO phenotype.hpoa
+OMIM:613285	Deafness, autosomal recessive 25	HP:0000365|HP:0000408	HPO phenotype.hpoa
+OMIM:613287	Charcot-Marie-Tooth disease, axonal, type 2N	HP:0000407	HPO phenotype.hpoa
+OMIM:613307	Deafness, autosomal recessive 79	HP:0000407|HP:0000408	HPO phenotype.hpoa
+OMIM:613309	Diamond-Blackfan anemia 10	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:613355	Chromosome 17q23.1-q23.2 deletion syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:613391	Deafness, autosomal recessive 84	HP:0000365	HPO phenotype.hpoa
+OMIM:613392	Deafness, autosomal recessive 85	HP:0000399	HPO phenotype.hpoa
+OMIM:613398	Warsaw breakage syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:613406	Witteveen-Kolk syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:613453	Deafness, autosomal recessive 91	HP:0001730	HPO phenotype.hpoa
+OMIM:613509	Chromosome 4q21 deletion syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:613558	Deafness, autosomal dominant 51	HP:0000365	HPO phenotype.hpoa
+OMIM:613564	Chromosome 2p12-p11.2 deletion syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:613604	Chromosome 16p12.2-p11.2 deletion syndrome, 7.1- to 8.7-mb	HP:0000365	HPO phenotype.hpoa
+OMIM:613612	Congenital disorder of glycosylation, type IIi	HP:0000365	HPO phenotype.hpoa
+OMIM:613661	Congenital disorder of glycosylation, type Ip	HP:0000407	HPO phenotype.hpoa
+OMIM:613662	Mitochondrial DNA depletion syndrome 4B (mngie type)	HP:0000365	HPO phenotype.hpoa
+OMIM:613675	Chromosome 17q11.2 deletion syndrome, 1.4-mb	HP:0000365	HPO phenotype.hpoa
+OMIM:613685	Deafness, autosomal recessive 83	HP:0000399	HPO phenotype.hpoa
+OMIM:613707	Leopard syndrome 3	HP:0000407	HPO phenotype.hpoa
+OMIM:613717	Treacher collins syndrome 2	HP:0000405	HPO phenotype.hpoa
+OMIM:613718	Deafness, autosomal recessive 74	HP:0000365	HPO phenotype.hpoa
+OMIM:613724	Leukoencephalopathy with dystonia and motor neuropathy	HP:0000365	HPO phenotype.hpoa
+OMIM:613792	Chromosome 3pter-p25 deletion syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:613849	Osteogenesis imperfecta, type XII	HP:0000365	HPO phenotype.hpoa
+OMIM:613861	Retinitis pigmentosa 59	HP:0000407	HPO phenotype.hpoa
+OMIM:613865	Deafness, autosomal recessive 61	HP:0000407	HPO phenotype.hpoa
+OMIM:613884	Chromosome 13q14 deletion syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:613916	Deafness, autosomal recessive 89	HP:0000407	HPO phenotype.hpoa
+OMIM:613951	Fanconi anemia, complementation group P	HP:0000365	HPO phenotype.hpoa
+OMIM:613982	Osteogenesis imperfecta, type VI	HP:0000365	HPO phenotype.hpoa
+OMIM:613990	Dyskeratosis congenita, autosomal dominant 3	HP:0000365	HPO phenotype.hpoa
+OMIM:614035	Deafness, autosomal recessive 29	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:614075	Hermansky-Pudlak syndrome 6	HP:0000365	HPO phenotype.hpoa
+OMIM:614078	Chondrodysplasia with joint dislocations, Gpapp type	HP:0000365	HPO phenotype.hpoa
+OMIM:614114	Mosaic variegated aneuploidy syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614116	Neuropathy, hereditary sensory, type IE	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:614129	Perrault syndrome 3	HP:0000407	HPO phenotype.hpoa
+OMIM:614134	Stickler syndrome, type IV	HP:0000407	HPO phenotype.hpoa
+OMIM:614152	Deafness, autosomal dominant 64	HP:0000407	HPO phenotype.hpoa
+OMIM:614153	Spinocerebellar ataxia 36	HP:0000365	HPO phenotype.hpoa
+OMIM:614170	Brittle cornea syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614187	Hypertelorism, preauricular sinus, punctal pits, and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:614188	Craniosynostosis and dental anomalies	HP:0000405	HPO phenotype.hpoa
+OMIM:614195	Craniofacial anomalies and anterior segment dysgenesis syndrome	HP:0008625	HPO phenotype.hpoa
+OMIM:614207	Hyperphosphatasia with impaired intellectual development syndrome 3	HP:0000407	HPO phenotype.hpoa
+OMIM:614211	Deafness, autosomal dominant 33	HP:0000407	HPO phenotype.hpoa
+OMIM:614230	Chromosome 8q21.11 deletion syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:614257	Chromosome 20q11-q12 deletion syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:614261	Microcephaly-Capillary malformation syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:614284	Stickler syndrome, type V	HP:0000407	HPO phenotype.hpoa
+OMIM:614296	Wolfram-like syndrome, autosomal dominant	HP:0000365|HP:0000407|HP:0001730	HPO phenotype.hpoa
+OMIM:614300	Hypermethioninemia due to adenosine kinase deficiency	HP:0000407	HPO phenotype.hpoa
+OMIM:614305	Sclerosteosis 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614332	Chromosome 2p16.3 deletion syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:614369	Peripheral neuropathy, myopathy, hoarseness, and hearing loss	HP:0000365	HPO phenotype.hpoa
+OMIM:614409	Spastic paraplegia 46, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:614414	Deafness, autosomal recessive 96	HP:0000365	HPO phenotype.hpoa
+OMIM:614455	Charcot-Marie-Tooth disease, dominant intermediate E	HP:0000407	HPO phenotype.hpoa
+OMIM:614482	Congenital cataracts, hearing loss, and neurodegeneration	HP:0000365	HPO phenotype.hpoa
+OMIM:614504	Usher syndrome, type IIIB	HP:0000365	HPO phenotype.hpoa
+OMIM:614527	Chromosome 17q12 deletion syndrome	HP:0008619	HPO phenotype.hpoa
+OMIM:614541	Chromosome 16q22 deletion syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:614557	Ehlers-Danlos syndrome, kyphoscoliotic type, 2	HP:0000405|HP:0000410|HP:0001757	HPO phenotype.hpoa
+OMIM:614559	Infantile cerebellar-retinal degeneration	HP:0000407	HPO phenotype.hpoa
+OMIM:614583	Baraitser-Winter syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614607	Coffin-Siris syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614608	Coffin-Siris syndrome 3	HP:0000365	HPO phenotype.hpoa
+OMIM:614609	Coffin-Siris syndrome 4	HP:0000365	HPO phenotype.hpoa
+OMIM:614614	Deafness, autosomal dominant 4B	HP:0000407	HPO phenotype.hpoa
+OMIM:614617	Deafness, autosomal recessive 86	HP:0000365	HPO phenotype.hpoa
+OMIM:614650	Coenzyme Q10 deficiency, primary, 6	HP:0000407	HPO phenotype.hpoa
+OMIM:614651	Coenzyme Q10 deficiency, primary, 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614669	Auriculocondylar syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614675	Bone marrow failure syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:614688	Pontine tegmental cap dysplasia	HP:0000407	HPO phenotype.hpoa
+OMIM:614707	Brown-Vialetto-Van laere syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:614739	3-Methylglutaconic aciduria with deafness, encephalopathy, and leigh-like syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:614744	Facial paresis, hereditary congenital, 3	HP:0000407	HPO phenotype.hpoa
+OMIM:614749	Hyperphosphatasia with impaired intellectual development syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:614856	Osteogenesis imperfecta, type XIII	HP:0000365	HPO phenotype.hpoa
+OMIM:614861	Deafness, autosomal recessive 98	HP:0000407	HPO phenotype.hpoa
+OMIM:614863	Peroxisome biogenesis disorder 4B	HP:0000407	HPO phenotype.hpoa
+OMIM:614866	Peroxisome biogenesis disorder 5A (Zellweger)	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:614867	Peroxisome biogenesis disorder 5B	HP:0000407	HPO phenotype.hpoa
+OMIM:614871	Peroxisome biogenesis disorder 6B	HP:0000407	HPO phenotype.hpoa
+OMIM:614873	Peroxisome biogenesis disorder 7B	HP:0000407	HPO phenotype.hpoa
+OMIM:614879	Peroxisome biogenesis disorder 9B	HP:0000407	HPO phenotype.hpoa
+OMIM:614885	Peroxisome biogenesis disorder 11B	HP:0000365	HPO phenotype.hpoa
+OMIM:614896	Sinoatrial node dysfunction and deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:614899	Deafness, autosomal recessive 93	HP:0000365	HPO phenotype.hpoa
+OMIM:614920	Peroxisome biogenesis disorder 14B	HP:0001730	HPO phenotype.hpoa
+OMIM:614922	Combined oxidative phosphorylation deficiency 11	HP:0000365	HPO phenotype.hpoa
+OMIM:614923	Branched-chain keto acid dehydrogenase kinase deficiency	HP:0000407	HPO phenotype.hpoa
+OMIM:614926	Perrault syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:614932	Combined oxidative phosphorylation deficiency 13	HP:0000407	HPO phenotype.hpoa
+OMIM:614934	Deafness, autosomal recessive 70	HP:0000365	HPO phenotype.hpoa
+OMIM:614944	Deafness, autosomal recessive 84B	HP:0000407	HPO phenotype.hpoa
+OMIM:614945	Deafness, autosomal recessive 18B	HP:0000407	HPO phenotype.hpoa
+OMIM:614946	Combined oxidative phosphorylation deficiency 14	HP:0000365	HPO phenotype.hpoa
+OMIM:614976	Carpenter syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:615066	Osteogenesis imperfecta, type XIV	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:615108	Cowden syndrome 5	HP:0000365	HPO phenotype.hpoa
+OMIM:615155	Steel syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:615157	Mitochondrial complex III deficiency, nuclear type 2	HP:0000365	HPO phenotype.hpoa
+OMIM:615191	Lissencephaly 5	HP:0000365	HPO phenotype.hpoa
+OMIM:615219	Hydrocephalus, congenital, 2, with or without brain or eye anomalies	HP:0000407	HPO phenotype.hpoa
+OMIM:615244	Nephrotic syndrome, type 8	HP:0000407	HPO phenotype.hpoa
+OMIM:615249	Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 12	HP:0000407	HPO phenotype.hpoa
+OMIM:615266	Hypogonadotropic hypogonadism 17 with or without anosmia	HP:0000365	HPO phenotype.hpoa
+OMIM:615267	Hypogonadotropic hypogonadism 18 with or without anosmia	HP:0000365	HPO phenotype.hpoa
+OMIM:615269	Hypogonadotropic hypogonadism 19 with or without anosmia	HP:0000365	HPO phenotype.hpoa
+OMIM:615271	Hypogonadotropic hypogonadism 21 with or without anosmia	HP:0000365	HPO phenotype.hpoa
+OMIM:615300	Perrault syndrome 4	HP:0000408	HPO phenotype.hpoa
+OMIM:615350	Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 14	HP:0000407	HPO phenotype.hpoa
+OMIM:615381	Mandibular hypoplasia, deafness, progeroid features, and lipodystrophy syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:615429	Deafness, autosomal recessive 88	HP:0000410	HPO phenotype.hpoa
+OMIM:615438	Infantile liver failure syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:615440	Combined oxidative phosphorylation deficiency 17	HP:0000407	HPO phenotype.hpoa
+OMIM:615471	Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)	HP:0000365	HPO phenotype.hpoa
+OMIM:615502	Intellectual developmental disorder, autosomal dominant 21	HP:0000365	HPO phenotype.hpoa
+OMIM:615510	Alacrima, achalasia, and impaired intellectual development syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:615540	Deafness, autosomal recessive 76	HP:0000408	HPO phenotype.hpoa
+OMIM:615546	Van maldergem syndrome 2	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:615560	Otofaciocervical syndrome 2	HP:0000410	HPO phenotype.hpoa
+OMIM:615629	Deafness, autosomal dominant 56	HP:0000407	HPO phenotype.hpoa
+OMIM:615636	Joubert syndrome 21	HP:0000407	HPO phenotype.hpoa
+OMIM:615649	Deafness, autosomal dominant 54	HP:0000365	HPO phenotype.hpoa
+OMIM:615654	Deafness, autosomal dominant 58	HP:0000407	HPO phenotype.hpoa
+OMIM:615706	Auriculocondylar syndrome 3	HP:0008513	HPO phenotype.hpoa
+OMIM:615816	Immunodeficiency 23	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:615824	Mitochondrial complex III deficiency, nuclear type 7	HP:0000407	HPO phenotype.hpoa
+OMIM:615829	Xia-Gibbs syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:615837	Deafness, autosomal recessive 101	HP:0008619	HPO phenotype.hpoa
+OMIM:615911	Frontotemporal dementia and/or amyotrophic lateral sclerosis 2	HP:0000407	HPO phenotype.hpoa
+OMIM:615919	Ataxia-telangiectasia-like disorder 2	HP:0000407	HPO phenotype.hpoa
+OMIM:615966	Immunodeficiency 26 with or without neurologic abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:615974	Deafness, autosomal recessive 102	HP:0012715	HPO phenotype.hpoa
+OMIM:615993	Bardet-Biedl syndrome 16	HP:0000365	HPO phenotype.hpoa
+OMIM:615996	Bardet-Biedl syndrome 19	HP:0000365	HPO phenotype.hpoa
+OMIM:616006	Hennekam lymphangiectasia-lymphedema syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:616007	Cataracts, growth hormone deficiency, sensory neuropathy, sensorineural hearing loss, and skeletal dysplasia	HP:0000407	HPO phenotype.hpoa
+OMIM:616029	Ectodermal dysplasia/short stature syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:616040	Myasthenic syndrome, congenital, 7, presynaptic	HP:0000365	HPO phenotype.hpoa
+OMIM:616042	Deafness, autosomal recessive 103	HP:0000407	HPO phenotype.hpoa
+OMIM:616044	Deafness, autosomal dominant 65	HP:0001730	HPO phenotype.hpoa
+OMIM:616078	Intellectual developmental disorder, autosomal dominant 29	HP:0000365	HPO phenotype.hpoa
+OMIM:616081	Pontocerebellar hypoplasia, type 1C	HP:0000365	HPO phenotype.hpoa
+OMIM:616084	Sideroblastic anemia with B-cell immunodeficiency, periodic fevers, and developmental delay	HP:0000407	HPO phenotype.hpoa
+OMIM:616113	Polyendocrine-polyneuropathy syndrome	HP:0001730	HPO phenotype.hpoa
+OMIM:616192	Ataxia, combined cerebellar and peripheral, with hearing loss and diabetes mellitus	HP:0000407	HPO phenotype.hpoa
+OMIM:616229	Osteogenesis imperfecta, type XVI	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:616239	Combined oxidative phosphorylation deficiency 24	HP:0000365	HPO phenotype.hpoa
+OMIM:616263	Neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset	HP:0000407	HPO phenotype.hpoa
+OMIM:616276	Coenzyme Q10 deficiency, primary, 7	HP:0000365	HPO phenotype.hpoa
+OMIM:616277	Mitochondrial short-chain enoyl-coa hydratase 1 deficiency	HP:0000365	HPO phenotype.hpoa
+OMIM:616291	Lichtenstein-Knorr syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:616331	Robinow syndrome, autosomal dominant 2	HP:0000365|HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:616340	Deafness, autosomal dominant 67	HP:0000407	HPO phenotype.hpoa
+OMIM:616351	Neurodevelopmental disorder with hypotonia, speech delay, and dysmorphic facies	HP:0000365	HPO phenotype.hpoa
+OMIM:616354	Spinocerebellar ataxia, autosomal recessive 20	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:616357	Deafness, autosomal dominant 40	HP:0000407	HPO phenotype.hpoa
+OMIM:616364	White-Sutton syndrome	HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:616367	Mandibulofacial dysostosis with alopecia	HP:0000405	HPO phenotype.hpoa
+OMIM:616368	CHOPS syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:616395	Trichothiodystrophy 3, photosensitive	HP:0000365	HPO phenotype.hpoa
+OMIM:616420	Leukodystrophy, hypomyelinating, 10	HP:0000365	HPO phenotype.hpoa
+OMIM:616430	Combined oxidative phosphorylation deficiency 25	HP:0000407	HPO phenotype.hpoa
+OMIM:616435	Fanconi anemia, complementation group T	HP:0000365	HPO phenotype.hpoa
+OMIM:616455	Zimmermann-Laband syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:616460	Intellectual developmental disorder, autosomal recessive 50	HP:0000407	HPO phenotype.hpoa
+OMIM:616462	Acrofacial dysostosis, Cincinnati type	HP:0000365|HP:0012712	HPO phenotype.hpoa
+OMIM:616482	Achondroplasia, severe, with developmental delay and acanthosis nigricans	HP:0000365	HPO phenotype.hpoa
+OMIM:616488	Neuropathy, hereditary sensory and autonomic, type VIII	HP:0000407	HPO phenotype.hpoa
+OMIM:616490	Joubert syndrome 23	HP:0000407	HPO phenotype.hpoa
+OMIM:616515	Deafness, autosomal recessive 104	HP:0000399	HPO phenotype.hpoa
+OMIM:616541	Short stature, microcephaly, and endocrine dysfunction	HP:0000407	HPO phenotype.hpoa
+OMIM:616577	Neurodevelopmental disorder with hearing loss, seizures, and brain abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:616580	Au-Kline syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:616602	Craniosynostosis 6	HP:0000407	HPO phenotype.hpoa
+OMIM:616617	Heimler syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:616648	Optic atrophy 8	HP:0000407	HPO phenotype.hpoa
+OMIM:616652	Yuan-Harel-Lupski syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:616672	Combined oxidative phosphorylation deficiency 27	HP:0000365	HPO phenotype.hpoa
+OMIM:616683	Leukodystrophy, hypomyelinating, 12	HP:0000365	HPO phenotype.hpoa
+OMIM:616684	Charcot-Marie-Tooth disease, type 4K	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:616688	Charcot-Marie-Tooth disease, axonal, type 2Z	HP:0000365	HPO phenotype.hpoa
+OMIM:616697	Deafness, autosomal dominant 69	HP:0000407	HPO phenotype.hpoa
+OMIM:616705	Deafness, autosomal recessive 97	HP:0000407	HPO phenotype.hpoa
+OMIM:616707	Deafness, autosomal dominant 68	HP:0000407	HPO phenotype.hpoa
+OMIM:616708	Desanto-Shinawi syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:616721	Congenital disorder of glycosylation, type IIN	HP:0000365	HPO phenotype.hpoa
+OMIM:616726	Ciliary dyskinesia, primary, 33	HP:0000405	HPO phenotype.hpoa
+OMIM:616733	Coenzyme Q10 deficiency, primary, 8	HP:0000365	HPO phenotype.hpoa
+OMIM:616737	Takenouchi-Kosaki syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:616738	Radioulnar synostosis with amegakaryocytic thrombocytopenia 2	HP:0000407	HPO phenotype.hpoa
+OMIM:616756	Spastic paraplegia and psychomotor retardation with or without seizures	HP:0000407	HPO phenotype.hpoa
+OMIM:616817	Microcephaly, short stature, and impaired glucose metabolism 2	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:616835	Meier-Gorlin syndrome 6	HP:0000405	HPO phenotype.hpoa
+OMIM:616843	Lymphedema, hereditary, III	HP:0000365	HPO phenotype.hpoa
+OMIM:616878	Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	HP:0000407	HPO phenotype.hpoa
+OMIM:616890	Split-Foot malformation with mesoaxial polydactyly	HP:0000407	HPO phenotype.hpoa
+OMIM:616894	Robinow syndrome, autosomal dominant 3	HP:0000365	HPO phenotype.hpoa
+OMIM:616896	Mitochondrial DNA depletion syndrome 14 (encephalocardiomyopathic type)	HP:0000407	HPO phenotype.hpoa
+OMIM:616900	Hypotonia, infantile, with psychomotor retardation and characteristic facies 3	HP:0000365	HPO phenotype.hpoa
+OMIM:616910	Immunodeficiency-Centromeric instability-facial anomalies syndrome 3	HP:0000405	HPO phenotype.hpoa
+OMIM:616943	Trichothiodystrophy 6, nonphotosensitive	HP:0008619	HPO phenotype.hpoa
+OMIM:616954	You-Hoover-Fong syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:616968	Deafness, autosomal dominant 70	HP:0000408	HPO phenotype.hpoa
+OMIM:616969	Deafness, autosomal dominant 66	HP:0000407	HPO phenotype.hpoa
+OMIM:616973	Intellectual developmental disorder, autosomal dominant 42	HP:0000407	HPO phenotype.hpoa
+OMIM:616974	Combined oxidative phosphorylation deficiency 30	HP:0000407	HPO phenotype.hpoa
+OMIM:616975	Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart	HP:0000407	HPO phenotype.hpoa
+OMIM:617041	Duane retraction syndrome 3 with or without deafness	HP:0000365	HPO phenotype.hpoa
+OMIM:617052	Bone marrow failure syndrome 3	HP:0000365	HPO phenotype.hpoa
+OMIM:617063	Meier-Gorlin syndrome 7	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:617070	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 4	HP:0000407	HPO phenotype.hpoa
+OMIM:617082	Congenital disorder of glycosylation, type IAA	HP:0000365	HPO phenotype.hpoa
+OMIM:617087	Charcot-Marie-Tooth disease, axonal, type 2A2B	HP:0000365	HPO phenotype.hpoa
+OMIM:617093	Growth retardation, impaired intellectual development, hypotonia, and hepatopathy	HP:0000407	HPO phenotype.hpoa
+OMIM:617107	Thauvin-Robinet-Faivre syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:617137	Frontometaphyseal dysplasia 2	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:617145	Neurodegeneration with ataxia, dystonia, and gaze palsy, childhood-onset	HP:0000365	HPO phenotype.hpoa
+OMIM:617159	Sifrim-Hitz-Weiss syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:617201	Periventricular nodular heterotopia 7	HP:0000407	HPO phenotype.hpoa
+OMIM:617236	Cone-rod dystrophy and hearing loss	HP:0000407	HPO phenotype.hpoa
+OMIM:617248	3-methylglutaconic aciduria, type VIII	HP:0000407	HPO phenotype.hpoa
+OMIM:617302	Optic atrophy 11	HP:0000365	HPO phenotype.hpoa
+OMIM:617306	Coloboma, osteopetrosis, microphthalmia, macrocephaly, albinism, and deafness	HP:0008527	HPO phenotype.hpoa
+OMIM:617394	Sclerosing cholangitis, neonatal	HP:0000365	HPO phenotype.hpoa
+OMIM:617412	Brachycephaly, trichomegaly, and developmental delay	HP:0000405	HPO phenotype.hpoa
+OMIM:617452	Intellectual developmental disorder with dysmorphic facies, seizures, and distal limb anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:617516	Stankiewicz-Isidor syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:617519	Neurodevelopmental disorder with hypotonia, neuropathy, and deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:617565	Perrault syndrome 6	HP:0000407	HPO phenotype.hpoa
+OMIM:617575	Nephrotic syndrome, type 14	HP:0000407	HPO phenotype.hpoa
+OMIM:617577	Ciliary dyskinesia, primary, 37	HP:0000365	HPO phenotype.hpoa
+OMIM:617595	Birk-Landau-Perez syndrome	HP:0000408	HPO phenotype.hpoa
+OMIM:617605	Deafness, autosomal dominant 71	HP:0000407	HPO phenotype.hpoa
+OMIM:617606	Deafness, autosomal dominant 72	HP:0000407	HPO phenotype.hpoa
+OMIM:617637	Deafness, autosomal recessive 106	HP:0000365	HPO phenotype.hpoa
+OMIM:617639	Deafness, autosomal recessive 107	HP:0000365	HPO phenotype.hpoa
+OMIM:617641	Congenital anomalies of kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmental delay	HP:0000365	HPO phenotype.hpoa
+OMIM:617654	Deafness, autosomal recessive 108	HP:0008527	HPO phenotype.hpoa
+OMIM:617660	Vertebral, cardiac, renal, and limb defects syndrome 1	HP:0000407	HPO phenotype.hpoa
+OMIM:617662	Joint laxity, short stature, and myopia	HP:0000365	HPO phenotype.hpoa
+OMIM:617663	Deafness, autosomal dominant 73	HP:0000407	HPO phenotype.hpoa
+OMIM:617669	Encephalopathy, progressive, early-onset, with brain atrophy and spasticity	HP:0000365	HPO phenotype.hpoa
+OMIM:617675	Myopathy, mitochondrial, and ataxia	HP:0000365	HPO phenotype.hpoa
+OMIM:617713	Combined oxidative phosphorylation deficiency 33	HP:0000407	HPO phenotype.hpoa
+OMIM:617717	Auditory neuropathy and optic atrophy	HP:0000365	HPO phenotype.hpoa
+OMIM:617731	Galloway-Mowat syndrome 5	HP:0000365	HPO phenotype.hpoa
+OMIM:617746	Sweeney-Cox syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:617751	Intellectual developmental disorder, autosomal dominant 48	HP:0000407	HPO phenotype.hpoa
+OMIM:617763	Short stature, hearing loss, retinitis pigmentosa, and distinctive facies	HP:0000365	HPO phenotype.hpoa
+OMIM:617780	Combined immunodeficiency and megaloblastic anemia with or without hyperhomocysteinemia	HP:0000365	HPO phenotype.hpoa
+OMIM:617796	Intellectual developmental disorder, autosomal dominant 52	HP:0000407	HPO phenotype.hpoa
+OMIM:617802	Neurodevelopmental disorder with microcephaly, seizures, and cortical atrophy	HP:0008513	HPO phenotype.hpoa
+OMIM:617808	Coffin-Siris syndrome 6	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:617854	Intellectual developmental disorder, autosomal dominant 56	HP:0000407	HPO phenotype.hpoa
+OMIM:617872	Combined oxidative phosphorylation deficiency 34	HP:0008527	HPO phenotype.hpoa
+OMIM:617877	Short stature, facial dysmorphism, and skeletal anomalies with or without cardiac anomalies 1	HP:0000405	HPO phenotype.hpoa
+OMIM:617879	Leber congenital amaurosis with early-onset deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:617882	Charcot-Marie-Tooth disease, dominant intermediate G	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:617899	Leukodystrophy, hypomyelinating, 14	HP:0000365	HPO phenotype.hpoa
+OMIM:617926	Orofaciodigital syndrome XVII	HP:0000365	HPO phenotype.hpoa
+OMIM:617930	Chromosome 1p35 deletion syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:617950	Combined oxidative phosphorylation deficiency 36	HP:0000407	HPO phenotype.hpoa
+OMIM:617951	Leukodystrophy, hypomyelinating, 15	HP:0000407	HPO phenotype.hpoa
+OMIM:617954	Multiple mitochondrial dysfunctions syndrome 6	HP:0000365	HPO phenotype.hpoa
+OMIM:617976	Epileptic encephalopathy, early infantile, 63	HP:0000405	HPO phenotype.hpoa
+OMIM:617988	Jaberi-Elahi syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:617992	Deafness, congenital heart defects, and posterior embryotoxon	HP:0000407	HPO phenotype.hpoa
+OMIM:618003	Deafness, autosomal recessive 57	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:618013	Deafness, autosomal recessive 109	HP:0008527	HPO phenotype.hpoa
+OMIM:618027	Coffin-Siris syndrome 7	HP:0000365	HPO phenotype.hpoa
+OMIM:618052	Cardiomyopathy, familial hypertrophic 27	HP:0000405	HPO phenotype.hpoa
+OMIM:618063	Ciliary dyskinesia, primary, 38	HP:0000405	HPO phenotype.hpoa
+OMIM:618094	Deafness, autosomal recessive 110	HP:0000407	HPO phenotype.hpoa
+OMIM:618098	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 5	HP:0000407	HPO phenotype.hpoa
+OMIM:618140	Deafness, autosomal dominant 74	HP:0000407	HPO phenotype.hpoa
+OMIM:618143	Glycosylphosphatidylinositol biosynthesis defect 18	HP:0000365	HPO phenotype.hpoa
+OMIM:618144	Usher syndrome, type IV	HP:0000407|HP:0000408	HPO phenotype.hpoa
+OMIM:618145	Deafness, autosomal recessive 111	HP:0000408	HPO phenotype.hpoa
+OMIM:618150	Saul-Wilson syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:618164	Cardiac, facial, and digital anomalies with developmental delay	HP:0000365	HPO phenotype.hpoa
+OMIM:618170	Neurodegeneration, childhood-onset, stress-induced, with variable ataxia and seizures	HP:0000407	HPO phenotype.hpoa
+OMIM:618175	Warburg-Cinotti syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:618186	Neuropathy, congenital hypomyelinating, 3	HP:0000365	HPO phenotype.hpoa
+OMIM:618237	Mitochondrial complex I deficiency, nuclear type 15	HP:0000365	HPO phenotype.hpoa
+OMIM:618247	Mitochondrial complex I deficiency, nuclear type 26	HP:0000365	HPO phenotype.hpoa
+OMIM:618249	Mitochondrial complex I deficiency, nuclear type 28	HP:0000365	HPO phenotype.hpoa
+OMIM:618251	Mitochondrial complex I deficiency, nuclear type 31	HP:0000407	HPO phenotype.hpoa
+OMIM:618257	Deafness, autosomal recessive 112	HP:0000407	HPO phenotype.hpoa
+OMIM:618295	Intellectual developmental disorder, autosomal recessive 67	HP:0000407	HPO phenotype.hpoa
+OMIM:618321	Encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy, 2	HP:0008619	HPO phenotype.hpoa
+OMIM:618329	Combined oxidative phosphorylation deficiency 37	HP:0000407	HPO phenotype.hpoa
+OMIM:618332	Menke-Hennekam syndrome 1	HP:0000365	HPO phenotype.hpoa
+OMIM:618333	Menke-Hennekam syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:618342	Intellectual developmental disorder with abnormal behavior, microcephaly, and short stature	HP:0000407	HPO phenotype.hpoa
+OMIM:618349	Galloway-Mowat syndrome 8	HP:0000365	HPO phenotype.hpoa
+OMIM:618358	Cone-rod dystrophy and hearing loss 2	HP:0001757	HPO phenotype.hpoa
+OMIM:618363	Short stature, amelogenesis imperfecta, and skeletal dysplasia with scoliosis	HP:0000365	HPO phenotype.hpoa
+OMIM:618371	Turnpenny-Fry syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:618379	Developmental and epileptic encephalopathy 73	HP:0000407	HPO phenotype.hpoa
+OMIM:618410	Deafness, autosomal recessive 113	HP:0000407	HPO phenotype.hpoa
+OMIM:618419	Gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	HP:0000407	HPO phenotype.hpoa
+OMIM:618422	Deafness, autosomal recessive 100	HP:0000407	HPO phenotype.hpoa
+OMIM:618434	Deafness, autosomal recessive 94	HP:0008619	HPO phenotype.hpoa
+OMIM:618440	Oculoskeletodental syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:618454	Developmental delay with or without dysmorphic facies and autism	HP:0000365	HPO phenotype.hpoa
+OMIM:618456	Deafness, autosomal recessive 114	HP:0000407	HPO phenotype.hpoa
+OMIM:618457	Deafness, autosomal recessive 115	HP:0000407	HPO phenotype.hpoa
+OMIM:618460	Khan-Khan-Katsanis syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:618481	Deafness, autosomal recessive 99	HP:0000407	HPO phenotype.hpoa
+OMIM:618494	Congenital hypotonia, epilepsy, developmental delay, and digital anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:618497	Neurodevelopmental disorder with seizures and nonepileptic hyperkinetic movements	HP:0000405	HPO phenotype.hpoa
+OMIM:618499	Noonan syndrome 11	HP:0008619	HPO phenotype.hpoa
+OMIM:618500	Holoprosencephaly 12 with or without pancreatic agenesis	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:618505	Stolerman neurodevelopmental syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:618527	Ichthyotic keratoderma, spasticity, hypomyelination, and dysmorphic facial features	HP:0000407	HPO phenotype.hpoa
+OMIM:618533	Deafness, autosomal dominant 37	HP:0000407	HPO phenotype.hpoa
+OMIM:618547	Neurodevelopmental disorder with visual defects and brain anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:618578	Myopathy, congenital, progressive, with scoliosis	HP:0000365	HPO phenotype.hpoa
+OMIM:618580	Epileptic encephalopathy, early infantile, 80	HP:0000365	HPO phenotype.hpoa
+OMIM:618608	Intellectual developmental disorder with nasal speech, dysmorphic facies, and variable skeletal anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:618618	Spondyloepiphyseal dysplasia, Nishimura type	HP:0000365	HPO phenotype.hpoa
+OMIM:618619	Weiss-Kruszka syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:618632	Usher syndrome, type 1M	HP:0000399	HPO phenotype.hpoa
+OMIM:618635	Siddiqi syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:618651	Neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:618652	Neurooculocardiogenitourinary syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:618659	Neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:618663	Epileptic encephalopathy, early infantile, 81	HP:0000407	HPO phenotype.hpoa
+OMIM:618672	Intellectual developmental disorder with speech delay, autism, and dysmorphic facies	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:618733	Neuromuscular disease and ocular or auditory anomalies with or without seizures	HP:0000407	HPO phenotype.hpoa
+OMIM:618741	Neurodevelopmental disorder with epilepsy, spasticity, and brain atrophy	HP:0000407	HPO phenotype.hpoa
+OMIM:618748	Intellectual developmental disorder with hypotonia and behavioral abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:618763	Joubert syndrome 36	HP:0000407	HPO phenotype.hpoa
+OMIM:618768	Spastic paraplegia 81, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:618774	CEBALID syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:618778	Deafness, autosomal dominant 75	HP:0000407	HPO phenotype.hpoa
+OMIM:618787	Deafness, autosomal dominant 76	HP:0000407	HPO phenotype.hpoa
+OMIM:618828	Nabais Sa-de Vries syndrome, type 1	HP:0000365	HPO phenotype.hpoa
+OMIM:618835	Combined oxidative phosphorylation deficiency 40	HP:0000365	HPO phenotype.hpoa
+OMIM:618838	Combined oxidative phosphorylation deficiency 41	HP:0000365	HPO phenotype.hpoa
+OMIM:618839	Combined oxidative phosphorylation deficiency 42	HP:0000365	HPO phenotype.hpoa
+OMIM:618846	Diets-Jongmans syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:618885	Congenital disorder of glycosylation, type IIt	HP:0000405	HPO phenotype.hpoa
+OMIM:618889	Liberfarb syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:618915	Deafness, autosomal dominant 77	HP:0000407	HPO phenotype.hpoa
+OMIM:618922	Neurodevelopmental disorder with seizures, hypotonia, and brain imaging abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:618939	Treacher-Collins syndrome 4	HP:0000405	HPO phenotype.hpoa
+OMIM:618950	Suleiman-El-Hattab syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:618958	Combined oxidative phosphorylation deficiency 47	HP:0000407	HPO phenotype.hpoa
+OMIM:618971	Tolchin-Le Caignec syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:618972	Mitochondrial DNA depletion syndrome 19	HP:0000365	HPO phenotype.hpoa
+OMIM:618977	Optic atrophy 12	HP:0000365|HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:619004	Deeah syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619046	Mitochondrial complex IV deficiency, nuclear type 3	HP:0000407	HPO phenotype.hpoa
+OMIM:619056	Neurodevelopmental disorder with speech impairment and dysmorphic facies	HP:0000365	HPO phenotype.hpoa
+OMIM:619057	Combined oxidative phosphorylation deficiency 51	HP:0000365	HPO phenotype.hpoa
+OMIM:619074	Cleft palate, proliferative retinopathy, and developmental delay	HP:0000365	HPO phenotype.hpoa
+OMIM:619075	Neurodevelopmental disorder with alopecia and brain abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:619080	Kilquist syndrome	HP:0008619	HPO phenotype.hpoa
+OMIM:619081	Deafness, autosomal dominant 78	HP:0011476	HPO phenotype.hpoa
+OMIM:619083	Delpire-Mcneill syndrome	HP:0008619	HPO phenotype.hpoa
+OMIM:619086	Deafness, autosomal dominant 79	HP:0000408	HPO phenotype.hpoa
+OMIM:619090	Developmental delay, impaired growth, dysmorphic facies, and axonal neuropathy	HP:0000365	HPO phenotype.hpoa
+OMIM:619093	Deafness, autosomal recessive 116	HP:0000407	HPO phenotype.hpoa
+OMIM:619147	Leukoencephalopathy, progressive, infantile-onset, with or without deafness	HP:0000407|HP:0008527	HPO phenotype.hpoa
+OMIM:619148	Chromosome 13q33-q34 deletion syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619149	Lessel-Kreienkamp syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619174	Deafness, autosomal recessive 117	HP:0000407	HPO phenotype.hpoa
+OMIM:619194	Neurofacioskeletal syndrome with or without renal agenesis	HP:0000407	HPO phenotype.hpoa
+OMIM:619196	Deafness, congenital, and adult-onset progressive leukoencephalopathy	HP:0000365|HP:0000407|HP:0011476	HPO phenotype.hpoa
+OMIM:619223	Immunodeficiency 77	HP:0008619	HPO phenotype.hpoa
+OMIM:619234	Short stature, oligodontia, dysmorphic facies, and motor delay	HP:0001730	HPO phenotype.hpoa
+OMIM:619243	Global developmental delay with speech and behavioral abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:619260	Spondyloepiphyseal dysplasia, sensorineural hearing loss, intellectual developmental disorder, and Leber congenital amaurosis	HP:0000407	HPO phenotype.hpoa
+OMIM:619268	Alzahrani-Kuwahara syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619269	Ondontochondrodysplasia 2 with hearing loss and diabetes	HP:0000407	HPO phenotype.hpoa
+OMIM:619273	Cimdag syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:619274	Deafness, autosomal dominant 80	HP:0008527	HPO phenotype.hpoa
+OMIM:619312	Radio-Tartaglia syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:619325	Coffin-Siris syndrome 12	HP:0000407	HPO phenotype.hpoa
+OMIM:619351	Megacystis-microcolon-intestinal hypoperistalsis syndrome 2	HP:0000407	HPO phenotype.hpoa
+OMIM:619354	Deafness, cataract, impaired intellectual development, and polyneuropathy	HP:0000365	HPO phenotype.hpoa
+OMIM:619355	Mitochondrial complex IV deficiency, nuclear type 22	HP:0008527	HPO phenotype.hpoa
+OMIM:619376	Faundes-Banka syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:619377	Osteootohepatoenteric syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619406	Hypokalemic tubulopathy and deafness	HP:0000407	HPO phenotype.hpoa
+OMIM:619418	Infantile-onset multisystem neurologic, endocrine, and pancreatic disease 2	HP:0008619|HP:0012715	HPO phenotype.hpoa
+OMIM:619422	Spinocerebellar ataxia, autosomal recessive 31	HP:0008619	HPO phenotype.hpoa
+OMIM:619436	Ciliary dyskinesia, primary, 46	HP:0000365	HPO phenotype.hpoa
+OMIM:619451	Cutis laxa, autosomal recessive, type IIE	HP:0000365	HPO phenotype.hpoa
+OMIM:619465	Visceral neuropathy, familial, 2, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:619473	Oculopharyngodistal myopathy 3	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:619475	Developmental delay, impaired speech, and behavioral abnormalities	HP:0000365|HP:0008619	HPO phenotype.hpoa
+OMIM:619488	DEGCAGS syndrome	HP:0000365|HP:0000407|HP:0040119	HPO phenotype.hpoa
+OMIM:619500	Deafness, autosomal dominant 81	HP:0000407	HPO phenotype.hpoa
+OMIM:619512	Neurodevelopmental disorder with hypotonia and brain abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:619518	Muscular dystrophy, congenital hearing loss, and ovarian insufficiency syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:619534	Biliary, renal, neurologic, and skeletal syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619539	Neuroocular syndrome	HP:0009900	HPO phenotype.hpoa
+OMIM:619553	Deafness, autosomal recessive 118, with cochlear aplasia	HP:0008527	HPO phenotype.hpoa
+OMIM:619557	SIMHA syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619575	Developmental delay with or without intellectual impairment or behavioral abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:619580	Neurodevelopmental disorder with impaired language and ataxia and with or without seizures	HP:0000365	HPO phenotype.hpoa
+OMIM:619599	Epidermolysis bullosa simplex 2D, generalized, intermediate or severe, autosomal recessive	HP:0000365	HPO phenotype.hpoa
+OMIM:619615	Deafness, autosomal recessive 119	HP:0000407	HPO phenotype.hpoa
+OMIM:619658	Cholestasis, progressive familial intrahepatic, 7, with or without hearing loss	HP:0000365	HPO phenotype.hpoa
+OMIM:619688	Leukodystrophy, hypomyelinating, 23, with ataxia, deafness, liver dysfunction, and dilated cardiomyopathy	HP:0000407	HPO phenotype.hpoa
+OMIM:619693	Agammaglobulinemia 9, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:619699	Ferguson-Bonni neurodevelopmental syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619701	Yoon-Bellen neurodevelopmental syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619721	Bryant-Li-Bhoj neurodevelopmental syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:619727	Craniotubular dysplasia, Ikegawa type	HP:0000365	HPO phenotype.hpoa
+OMIM:619736	Teebi hypertelorism syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:619737	Combined oxidative phosphorylation deficiency 54	HP:0000407	HPO phenotype.hpoa
+OMIM:619743	Combined oxidative phosphorylation deficiency 55	HP:0005101	HPO phenotype.hpoa
+OMIM:619775	Congenital disorder of deglycosylation 2	HP:0000365	HPO phenotype.hpoa
+OMIM:619795	Osteogenesis imperfecta, type XXII	HP:0000365	HPO phenotype.hpoa
+OMIM:619804	Deafness, autosomal dominant 82	HP:0000407	HPO phenotype.hpoa
+OMIM:619808	Deafness, autosomal dominant 83	HP:0008619	HPO phenotype.hpoa
+OMIM:619810	Deafness, autosomal dominant 84	HP:0000407	HPO phenotype.hpoa
+OMIM:619832	Auditory neuropathy, autosomal dominant 3	HP:0000365	HPO phenotype.hpoa
+OMIM:619833	Neurodevelopmental disorder with neuromuscular and skeletal abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:619841	Chilton-Okur-Chung neurodevelopmental syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:619847	Neurodegeneration, childhood-onset, with progressive microcephaly	HP:0000407	HPO phenotype.hpoa
+OMIM:619869	Neurocardiofaciodigital syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619877	Dentici-Novelli neurodevelopmental syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:619947	Waardenburg syndrome, type 2F	HP:0000407|HP:0008527	HPO phenotype.hpoa
+OMIM:619950	Tessadori-van Haaften neurodevelopmental syndrome 3	HP:0000365	HPO phenotype.hpoa
+OMIM:619951	Tessadori-van Haaften neurodevelopmental syndrome 4	HP:0000365	HPO phenotype.hpoa
+OMIM:619981	Braddock-Carey syndrome 2	HP:0000365	HPO phenotype.hpoa
+OMIM:619989	Neurodevelopmental disorder with speech delay and variable ocular anomalies	HP:0000365	HPO phenotype.hpoa
+OMIM:620009	Keratoderma-ichthyosis-deafness syndrome, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:620012	Developmental delay, hypotonia, and impaired language	HP:0000410	HPO phenotype.hpoa
+OMIM:620022	Stickler syndrome, type VI	HP:0000407	HPO phenotype.hpoa
+OMIM:620024	Neurodevelopmental disorder with seizures, microcephaly, and brain abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:620038	Neurodevelopmental disorder with microcephaly, hypotonia, and absent language	HP:0000365	HPO phenotype.hpoa
+OMIM:620071	Neurodevelopmental disorder with poor growth, spastic tetraplegia, and hearing loss	HP:0000365	HPO phenotype.hpoa
+OMIM:620075	Neurodevelopmental disorder with facial dysmorphism, absent language, and pseudo-Pelger-Huet anomaly	HP:0000407	HPO phenotype.hpoa
+OMIM:620086	Intellectual developmental disorder with ocular anomalies and distinctive facial features	HP:0000407	HPO phenotype.hpoa
+OMIM:620089	Neurodegeneration, childhood-onset, with multisystem involvement due to mitochondrial dysfunction	HP:0008619	HPO phenotype.hpoa
+OMIM:620099	Cleidocranial dysplasia 2	HP:0000365	HPO phenotype.hpoa
+OMIM:620114	Neurodevelopmental disorder with speech impairment and with or without seizures	HP:0000365	HPO phenotype.hpoa
+OMIM:620155	Rabin-Pappas syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:620157	Intellectual developmental disorder, autosomal dominant 70	HP:0000365	HPO phenotype.hpoa
+OMIM:620158	Spinocerebellar ataxia 50	HP:0000365	HPO phenotype.hpoa
+OMIM:620166	Muscular dystrophy, congenital, with or without seizures	HP:0001730	HPO phenotype.hpoa
+OMIM:620167	Combined oxidative phosphorylation deficiency 57	HP:0000407	HPO phenotype.hpoa
+OMIM:620186	Branchial arch abnormalities, choanal atresia, athelia, hearing loss, and hypothyroidism syndrome	HP:0000405|HP:0000408|HP:0000410|HP:0008513|HP:0008625	HPO phenotype.hpoa
+OMIM:620192	Lacrimoauriculodentodigital syndrome-2	HP:0000365	HPO phenotype.hpoa
+OMIM:620193	Lacrimoauriculodentodigital syndrome-3	HP:0000365	HPO phenotype.hpoa
+OMIM:620227	Deafness, autosomal dominant 85	HP:0000407	HPO phenotype.hpoa
+OMIM:620237	Intellectual developmental disorder, autosomal recessive 78	HP:0000407	HPO phenotype.hpoa
+OMIM:620238	Deafness, autosomal recessive 120	HP:0000407	HPO phenotype.hpoa
+OMIM:620244	Lymphatic malformation 13	HP:0009900	HPO phenotype.hpoa
+OMIM:620250	Neurodevelopmental disorder with seizures, spasticity, and complete or partial agenesis of the corpus callosum	HP:0000365	HPO phenotype.hpoa
+OMIM:620270	Neurodevelopmental disorder with absent speech and movement and behavioral abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:620275	Mitochondrial complex IV deficiency, nuclear type 23	HP:0000407	HPO phenotype.hpoa
+OMIM:620280	Deafness, autosomal dominant 86	HP:0000407	HPO phenotype.hpoa
+OMIM:620281	Deafness, autosomal dominant 87	HP:0000365	HPO phenotype.hpoa
+OMIM:620283	Deafness, autosomal dominant 88	HP:0000365	HPO phenotype.hpoa
+OMIM:620284	Deafness, autosomal dominant 89	HP:0000365	HPO phenotype.hpoa
+OMIM:620305	Neurooculorenal syndrome	HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:620320	Hematuria, benign familial, 2	HP:0000407	HPO phenotype.hpoa
+OMIM:620323	Spastic paraplegia 70, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:620327	Neurodegeneration with developmental delay, early respiratory failure, myoclonic seizures, and brain abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:620384	Auditory neuropathy, autosomal dominant 2	HP:0000407	HPO phenotype.hpoa
+OMIM:620416	Spastic paraplegia 90A, autosomal dominant	HP:0000407	HPO phenotype.hpoa
+OMIM:620417	Spastic paraplegia 90B, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:620450	Intellectual developmental disorder, autosomal dominant 73	HP:0000405	HPO phenotype.hpoa
+OMIM:620455	Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures	HP:0000365	HPO phenotype.hpoa
+OMIM:620457	Auriculocondylar syndrome 4	HP:0000365	HPO phenotype.hpoa
+OMIM:620469	Cranial dysinnervation disorder, congenital, with absent corneal reflex and developmental delay	HP:0011476	HPO phenotype.hpoa
+OMIM:620475	Thrombocytopenia 8, with dysmorphic features and developmental delay	HP:0000365	HPO phenotype.hpoa
+OMIM:620489	Neurodevelopmental disorder with dysmorphic facies and behavioral abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:620494	Neurodevelopmental disorder with impaired language, behavioral abnormalities, and dysmorphic facies	HP:0000365	HPO phenotype.hpoa
+OMIM:620536	Alport syndrome 3B, autosomal recessive	HP:0000365|HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:620551	Deafness, autosomal recessive 121	HP:0000407	HPO phenotype.hpoa
+OMIM:620576	Otosclerosis 11	HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:620629	Optic atrophy 16	HP:0000407	HPO phenotype.hpoa
+OMIM:620647	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6	HP:0000407	HPO phenotype.hpoa
+OMIM:620651	Diabetes, deafness, developmental delay, and short stature syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:620711	Leukoencephalopathy, porphyria-related	HP:0000365	HPO phenotype.hpoa
+OMIM:620714	Deafness, autosomal recessive 122	HP:0000407	HPO phenotype.hpoa
+OMIM:620722	Deafness, autosomal dominant 90	HP:0008619	HPO phenotype.hpoa
+OMIM:620745	Deafness, autosomal recessive 123	HP:0000407	HPO phenotype.hpoa
+OMIM:620746	Neurodevelopmental disorder with hypotonia and characteristic brain abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:620782	Neurodevelopmental disorder with language impairment, autism, and attention deficit-hyperactivity disorder	HP:0000365	HPO phenotype.hpoa
+OMIM:620784	Neurodevelopmental disorder plus optic atrophy	HP:0000405	HPO phenotype.hpoa
+OMIM:620792	Otosclerosis 12	HP:0000365	HPO phenotype.hpoa
+OMIM:620793	Muscular dystrophy, limb-girdle, autosomal recessive 29	HP:0000407	HPO phenotype.hpoa
+OMIM:620794	Deafness, autosomal recessive 124	HP:0000407	HPO phenotype.hpoa
+OMIM:620830	Auroneurodental syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:620836	Immunodeficiency 120	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:620851	ReNU syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:620852	Neurodevelopemental disorder with hypotonia, feeding difficulties, facial dysmorphism, and brain abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:620869	Immunodeficiency 122	HP:0000407	HPO phenotype.hpoa
+OMIM:620877	Deafness, autosomal recessive 125	HP:0000407	HPO phenotype.hpoa
+OMIM:620887	Multiple mitochondrial dysfunctions syndrome 9B	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:620910	Otofacial neurodevelopmental syndrome	HP:0000365|HP:0000407|HP:0009900	HPO phenotype.hpoa
+OMIM:620911	Spastic paraplegia 92, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:620926	Immunodeficiency 125 	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:620939	Myelofibrosis, congenital, with anemia, neutropenia, developmental delay, and ocular abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:620987	Neurodegeneration, infantile-onset, with optic atrophy and brain abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:621010	Morimoto-Ryu-Malicdan neuromuscular syndrome	HP:0000365|HP:0000407|HP:0008619	HPO phenotype.hpoa
+OMIM:621049	Pan-Chung-Bellen syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:621063	Muggenthaler-Chowdhury-Chioza syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:621071	Mitochondrial DNA depletion syndrome 21	HP:0000365	HPO phenotype.hpoa
+OMIM:621078	Myopathy, myofibrillar, 13, with rimmed vacuoles	HP:0000365	HPO phenotype.hpoa
+OMIM:621095	Charcot-Marie-Tooth disease, axonal, type 2JJ	HP:0000365	HPO phenotype.hpoa
+OMIM:621100	Intellectual developmental disorder, autosomal recessive 83	HP:0000365|HP:0000405	HPO phenotype.hpoa
+OMIM:621101	Perrault syndrome 7	HP:0008619	HPO phenotype.hpoa
+OMIM:621102	Neurodevelopmental disorder with progressive spasticity and brain abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:621123	Achalasia-progeroid syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:621129	Neurodegeneration, early-childhood-onset, with retinitis pigmentosa, sensorineural hearing loss, and demyelinating peripheral neuropathy 	HP:0000407	HPO phenotype.hpoa
+OMIM:621184	Tayoun-Maawali syndrome	HP:0000405	HPO phenotype.hpoa
+OMIM:621185	Houge-Janssens syndrome 4	HP:0000365	HPO phenotype.hpoa
+OMIM:621191	Leukodystrophy and cerebellar atrophy	HP:0000407	HPO phenotype.hpoa
+OMIM:621192	Craniofaciocardiohepatic syndrome	HP:0000365|HP:0000407|HP:0000410	HPO phenotype.hpoa
+OMIM:621195	Combined oxidative phosphorylation deficiency 60	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:621199	Neurodevelopmental disorder with ataxia and brain abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:621201	Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures	HP:0000365	HPO phenotype.hpoa
+OMIM:621220	Guillouet-Gordon syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:621234	Immunodysregulation, craniofacial anomalies, hearing impairment, athelia, and developmental delay	HP:0000365|HP:0008625	HPO phenotype.hpoa
+OMIM:621254	Immunodeficiency 133 with ectodermal dysplasia with or without peripheral neuropathy	HP:0000365	HPO phenotype.hpoa
+OMIM:621262	Diamond-Blackfan anemia 22	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:621263	Neurodevelopmental disorder with behavioral, ear, and skeletal abnormalities	HP:0000365	HPO phenotype.hpoa
+OMIM:621265	Nil-Deshwar neurodevelopmental syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+OMIM:621277	Oculovertebral syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:621285	Intellectual developmental disorder, autosomal dominant 76	HP:0000365	HPO phenotype.hpoa
+OMIM:621295	Cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1	HP:0000407	HPO phenotype.hpoa
+OMIM:621302	Neurodevelopmental disorder with seizures and joint laxity	HP:0000365|HP:0000405|HP:0008619	HPO phenotype.hpoa
+OMIM:621304	Developmental and epileptic encephalopathy 119	HP:0000365	HPO phenotype.hpoa
+OMIM:621344	Dursun-Ozgul neurodevelopmental syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:621381	Congenital disorder of glycosylation, type IICC	HP:0000365	HPO phenotype.hpoa
+OMIM:621382	Neurodevelopmental disorder with behavioral abnormalities and childhood onset spastic paraplegia	HP:0000365	HPO phenotype.hpoa
+OMIM:621384	Developmental delay with variable cardiac and renal congenital anomalies and dysmorphic facies	HP:0000407	HPO phenotype.hpoa
+OMIM:621394	Brain small vessel disease 6 with leukoencephalopathy	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:621400	Dyschromatosis, ichthyosis, deafness, and atopic disease	HP:0000407	HPO phenotype.hpoa
+OMIM:621415	Intellectual developmental disorder, autosomal dominant 77	HP:0000365	HPO phenotype.hpoa
+OMIM:621439	Neutropenia, severe congenital, 12, autosomal recessive	HP:0000407	HPO phenotype.hpoa
+OMIM:621455	Neurodevelopmental disorder with hypotonia, epilepsy, and absent speech	HP:0000407	HPO phenotype.hpoa
+OMIM:621474	Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities	HP:0000407	HPO phenotype.hpoa
+OMIM:621475	Developmental and epileptic encephalopathy 121	HP:0000365	HPO phenotype.hpoa
+OMIM:621495	STAD syndrome	HP:0000410	HPO phenotype.hpoa
+OMIM:621499	Craniosynostosis-scoliosis syndrome	HP:0000407|HP:0008513|HP:0008598	HPO phenotype.hpoa
+OMIM:621506	Neurodevelopmental disorder with parkinsonism or other movement abnormalities	HP:0000365|HP:0000407	HPO phenotype.hpoa
+OMIM:621510	Congenital myopathy 29 with contractures	HP:0000365	HPO phenotype.hpoa
+OMIM:621512	Meier-Gorlin syndrome 9	HP:0000365	HPO phenotype.hpoa
+OMIM:621525	Neurodegenerative disorder with cerebellar and caudate atrophy	HP:0000365	HPO phenotype.hpoa
+OMIM:621528	Meier-Gorlin syndrome 10	HP:0000365	HPO phenotype.hpoa
+OMIM:621533	Neurodevelopmental disorder with seizures and impaired intellectual and language development	HP:0000407	HPO phenotype.hpoa
+OMIM:621556	Deafness, autosomal dominant 91	HP:0000407	HPO phenotype.hpoa
+OMIM:621566	Davis-Wells syndrome	HP:0000365	HPO phenotype.hpoa
+OMIM:621567	Congenital disorder of glycosylation, type 1bb 	HP:0000407	HPO phenotype.hpoa
+OMIM:621570	Cornelia de Lange syndrome 7	HP:0000365	HPO phenotype.hpoa
+OMIM:621585	Mendez-Johnson immunoneurologic syndrome	HP:0000407	HPO phenotype.hpoa
+OMIM:621600	Paget disease of bone 7, early-onset	HP:0000365	HPO phenotype.hpoa
+OMIM:621608	Developmental and epileptic encephalopathy 122	HP:0000365	HPO phenotype.hpoa
+ORPHA:1000	Ocular albinism with late-onset sensorineural deafness	HP:0000407	HPO phenotype.hpoa
+ORPHA:100071	Mosaic trisomy 3 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:100084	Middle ear neuroendocrine tumor	HP:0000407|HP:0040119	HPO phenotype.hpoa
+ORPHA:1001	2q37 microdeletion syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:1006	Alopecia antibody deficiency	HP:0000405	HPO phenotype.hpoa
+ORPHA:1008	Alopecia-epilepsy-pyorrhea-intellectual disability syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:100924	Porphyria due to ALA dehydratase deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:100986	Autosomal recessive spastic paraplegia type 5A	HP:0000407	HPO phenotype.hpoa
+ORPHA:100991	Autosomal dominant spastic paraplegia type 10	HP:0000365	HPO phenotype.hpoa
+ORPHA:100994	Autosomal dominant spastic paraplegia type 13	HP:0000365	HPO phenotype.hpoa
+ORPHA:1010	Autosomal dominant palmoplantar keratoderma and congenital alopecia	HP:0009900	HPO phenotype.hpoa
+ORPHA:101004	Autosomal recessive spastic paraplegia type 24	HP:0000407	HPO phenotype.hpoa
+ORPHA:101007	Autosomal recessive spastic paraplegia type 27	HP:0000407	HPO phenotype.hpoa
+ORPHA:101009	Autosomal dominant spastic paraplegia type 29	HP:0000365	HPO phenotype.hpoa
+ORPHA:101023	Cleft hard palate	HP:0000405	HPO phenotype.hpoa
+ORPHA:101075	X-linked Charcot-Marie-Tooth disease type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:101076	X-linked Charcot-Marie-Tooth disease type 2	HP:0000407	HPO phenotype.hpoa
+ORPHA:101078	X-linked Charcot-Marie-Tooth disease type 4	HP:0000365	HPO phenotype.hpoa
+ORPHA:101082	Charcot-Marie-Tooth disease type 1B	HP:0000365	HPO phenotype.hpoa
+ORPHA:101085	Charcot-Marie-Tooth disease type 1F	HP:0000407	HPO phenotype.hpoa
+ORPHA:1018	X-linked Alport syndrome-diffuse leiomyomatosis	HP:0000407	HPO phenotype.hpoa
+ORPHA:1051	Ramos-Arroyo syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:1052	Mosaic variegated aneuploidy syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:107	BOR syndrome	HP:0000365|HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:1071	Ankyloblepharon-ectodermal defects-cleft lip/palate syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:110	Bardet-Biedl syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1123	Caudal appendage-deafness syndrome	HP:0008610	HPO phenotype.hpoa
+ORPHA:1131	X-linked mandibulofacial dysostosis	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:1144	Arthrogryposis-like hand anomaly-sensorineural deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:116	Beckwith-Wiedemann syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1171	Cerebellar ataxia-areflexia-pes cavus-optic atrophy-sensorineural hearing loss syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:118	Beta-mannosidosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:1186	Infantile-onset spinocerebellar ataxia	HP:0000365	HPO phenotype.hpoa
+ORPHA:1187	Lethal ataxia with deafness and optic atrophy	HP:0008527|HP:0011476	HPO phenotype.hpoa
+ORPHA:1188	Ataxia-deafness-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1192	Atherosclerosis-deafness-diabetes-epilepsy-nephropathy syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1199	Esophageal atresia	HP:0000365	HPO phenotype.hpoa
+ORPHA:1215	Autosomal dominant optic atrophy plus syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1225	Baller-Gerold syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:123	Björnstad syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1231	Barber-Say syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1252	Blepharonasofacial malformation syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:127	Borjeson-Forssman-Lehmann syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1272	Aymé-Gripp syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1297	Branchio-oculo-facial syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:1299	Branchioskeletogenital syndrome	HP:0000410	HPO phenotype.hpoa
+ORPHA:1305	Feingold syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1307	Distal limb deficiencies-micrognathia syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:1328	Camurati-Engelmann disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:1349	Mitochondrial DNA-related cardiomyopathy and hearing loss	HP:0000407	HPO phenotype.hpoa
+ORPHA:1368	Cataract-ataxia-deafness syndrome	HP:0000407|HP:0008615	HPO phenotype.hpoa
+ORPHA:137605	Legius syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:137634	Overgrowth-macrocephaly-facial dysmorphism syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:137754	Aminoacylase 1 deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:137817	Arachnoiditis	HP:0000365	HPO phenotype.hpoa
+ORPHA:137867	Madras motor neuron disease	HP:0000407	HPO phenotype.hpoa
+ORPHA:137888	Auriculocondylar syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:137898	Leukoencephalopathy with brain stem and spinal cord involvement-high lactate syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:138	CHARGE syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1383	Cataract-deafness-hypogonadism syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1393	Cerebrocostomandibular syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:139396	X-linked cerebral adrenoleukodystrophy	HP:0000365	HPO phenotype.hpoa
+ORPHA:139444	Leukoencephalopathy with bilateral anterior temporal lobe cysts	HP:0000407	HPO phenotype.hpoa
+ORPHA:139471	Microphthalmia with brain and digit anomalies	HP:0000407	HPO phenotype.hpoa
+ORPHA:139485	Autosomal recessive ataxia due to ubiquinone deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:1399	Richards-Rundle syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:140	Campomelic dysplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:140976	RHYNS syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:141	Canavan disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:141132	Craniofacial microsomia	HP:0000365	HPO phenotype.hpoa
+ORPHA:141145	Hemifacial hyperplasia	HP:0009900|HP:0025797	HPO phenotype.hpoa
+ORPHA:1427	Autosomal recessive otospondylomegaepiphyseal dysplasia	HP:0000407	HPO phenotype.hpoa
+ORPHA:1435	Xq21 microdeletion syndrome	HP:0000405|HP:0000407|HP:0008619	HPO phenotype.hpoa
+ORPHA:1443	Ring chromosome 19 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1451	CINCA syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:1452	Cleidocranial dysplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:1458	CODAS syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1465	Coffin-Siris syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1466	COFS syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1467	Cogan syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1473	Uveal coloboma-cleft lip and palate-intellectual disability	HP:0000407	HPO phenotype.hpoa
+ORPHA:1475	Renal coloboma syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1488	Cooper-Jabs syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:1490	Corneal dystrophy-perceptive deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1493	Vici syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:15	Achondroplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:1507	Autosomal recessive Robinow syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1508	Coxoauricular syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1513	Craniodiaphyseal dysplasia	HP:0000405	HPO phenotype.hpoa
+ORPHA:1520	Craniofrontonasal dysplasia	HP:0000407	HPO phenotype.hpoa
+ORPHA:1522	Craniometaphyseal dysplasia	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:1529	Craniofacial-deafness-hand syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:154	Familial isolated dilated cardiomyopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:155878	Submucosal cleft palate	HP:0000365	HPO phenotype.hpoa
+ORPHA:1580	Distal deletion 10p syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1596	Distal deletion 15q syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1600	Monosomy 18q syndrome	HP:0000407|HP:0008513	HPO phenotype.hpoa
+ORPHA:1606	1p36 deletion syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:1620	Distal deletion 3p syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:163937	X-linked intellectual disability, Najm type	HP:0000407	HPO phenotype.hpoa
+ORPHA:163956	X-linked intellectual disability, Nascimento type	HP:0000365	HPO phenotype.hpoa
+ORPHA:1647	Oculocerebrocutaneous syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:166100	Autosomal dominant otospondylomegaepiphyseal dysplasia	HP:0000407	HPO phenotype.hpoa
+ORPHA:168569	H syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:168572	Native American myopathy	HP:0000405	HPO phenotype.hpoa
+ORPHA:1698	Mosaic trisomy 12 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:17	Fatal infantile lactic acidosis with methylmalonic aciduria	HP:0000407	HPO phenotype.hpoa
+ORPHA:1705	Distal duplication 14q syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1708	Mosaic trisomy 16 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1711	Mosaic trisomy 17 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1713	17p11.2 microduplication syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1724	Mosaic trisomy 20 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1727	22q11.2 duplication syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1772	45,X/46,XY mixed gonadal dysgenesis	HP:0000365	HPO phenotype.hpoa
+ORPHA:1775	Dyskeratosis congenita	HP:0000365	HPO phenotype.hpoa
+ORPHA:1782	Dysosteosclerosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:178377	Osteosclerosis-developmental delay-craniosynostosis syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:18	Distal renal tubular acidosis	HP:0000407	HPO phenotype.hpoa
+ORPHA:1806	Ectodermal dysplasia-blindness syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1809	Hidrotic ectodermal dysplasia, Halal type	HP:0000365	HPO phenotype.hpoa
+ORPHA:182050	MYH9-related syndromic thrombocytopenia	HP:0000407	HPO phenotype.hpoa
+ORPHA:1825	Epiphyseal dysplasia-hearing loss-dysmorphism syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1826	Frontometaphyseal dysplasia	HP:0000365|HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:1856	Spondyloperipheral dysplasia-short ulna syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:1860	Thanatophoric dysplasia type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:1861	Thoracic dysplasia-hydrocephalus syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:1883	Ectodermal dysplasia-sensorineural deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:189	Hidrotic ectodermal dysplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:1896	EEC syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:191	Cockayne syndrome	HP:0000408|HP:0001757	HPO phenotype.hpoa
+ORPHA:1910	Fetal iodine syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1914	Vitamin K antagonist embryofetopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:1917	Fetal methylmercury syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:192	Coffin-Lowry syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1926	Diabetic embryopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:193	Cohen syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1933	Mitochondrial DNA depletion syndrome, encephalomyopathic form with methylmalonic aciduria	HP:0000407	HPO phenotype.hpoa
+ORPHA:195	Cat-eye syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:199	Cornelia de Lange syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:199302	Isolated cleft lip	HP:0000405	HPO phenotype.hpoa
+ORPHA:199306	Cleft lip/palate	HP:0000405	HPO phenotype.hpoa
+ORPHA:199343	EAST syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:1997	Blepharo-cheilo-odontic syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2003	Cleft lip/palate-deafness-sacral lipoma syndrome	HP:0008625	HPO phenotype.hpoa
+ORPHA:201	Cowden syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2010	Cleft palate-stapes fixation-oligodontia syndrome	HP:0008513	HPO phenotype.hpoa
+ORPHA:2027	Gingival fibromatosis-progressive deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2044	Floating-Harbor syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2047	Flynn-Aird syndrome	HP:0000408	HPO phenotype.hpoa
+ORPHA:205	Crigler-Najjar syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2052	Fraser syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2053	Freeman-Sheldon syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:206436	Infantile Krabbe disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:206443	Late-infantile/juvenile Krabbe disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:2067	GAPO syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:207	Crouzon syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:2072	Gaucher disease-ophthalmoplegia-cardiovascular calcification syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2074	Gemignani syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:208441	Bilateral parasagittal parieto-occipital polymicrogyria	HP:0000365	HPO phenotype.hpoa
+ORPHA:2092	Focal dermal hypoplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:2095	Gorlin-Chaudhry-Moss syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:209905	Brain-lung-thyroid syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2135	Cutaneous mastocytosis-deafness-microtia syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:2136	Hennekam syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2143	Donnai-Barrow syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2152	Mowat-Wilson syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:2155	Hirschsprung disease-deafness-polydactyly syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2158	Histidinuria-renal tubular defect syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2169	Methylcobalamin deficiency type cblE	HP:0000365	HPO phenotype.hpoa
+ORPHA:217012	Spinocerebellar ataxia type 31	HP:0000365	HPO phenotype.hpoa
+ORPHA:217017	Zechi-Ceide syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:217346	19q13.11 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:217622	Sensorineural deafness with dilated cardiomyopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:2177	Hydranencephaly	HP:0008610	HPO phenotype.hpoa
+ORPHA:2185	Congenital hydrocephalus	HP:0000407	HPO phenotype.hpoa
+ORPHA:2202	Palmoplantar keratoderma-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:220295	Xeroderma pigmentosum-Cockayne syndrome complex	HP:0000365	HPO phenotype.hpoa
+ORPHA:220386	Semilobar holoprosencephaly	HP:0000407	HPO phenotype.hpoa
+ORPHA:221120	Pseudoaminopterin syndrome	HP:0008598	HPO phenotype.hpoa
+ORPHA:2213	Hypertelorism-microtia-facial clefting syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2215	Multiple pterygium-malignant hyperthermia syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2222	Hypertrichosis lanuginosa congenita	HP:0000365	HPO phenotype.hpoa
+ORPHA:2232	Primary hypergonadotropic hypogonadism-partial alopecia syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2237	Hypoparathyroidism-sensorineural deafness-renal disease syndrome	HP:0000408	HPO phenotype.hpoa
+ORPHA:2260	Oligomeganephronia	HP:0000365	HPO phenotype.hpoa
+ORPHA:226307	Hypothyroidism due to deficient transcription factors involved in pituitary development or function	HP:0000407	HPO phenotype.hpoa
+ORPHA:228123	Coccidioidomycosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:2282	Dysmorphism-short stature-deafness-difference of sex development syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:228399	8q12 microduplication syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:228423	GATA2 deficiency spectrum	HP:0000407	HPO phenotype.hpoa
+ORPHA:2291	Congenital velopharyngeal incompetence	HP:0000365	HPO phenotype.hpoa
+ORPHA:2306	Isotretinoin-like syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:2307	IVIC syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:230851	Cardiac-valvular Ehlers-Danlos syndrome	HP:0012717	HPO phenotype.hpoa
+ORPHA:231169	Usher syndrome type 1	HP:0000407	HPO phenotype.hpoa
+ORPHA:231178	Usher syndrome type 2	HP:0000407	HPO phenotype.hpoa
+ORPHA:231183	Usher syndrome type 3	HP:0000407	HPO phenotype.hpoa
+ORPHA:2315	Johanson-Blizzard syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2316	Johnson neuroectodermal syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:231720	Non-acquired combined pituitary hormone deficiency-sensorineural hearing loss-spine abnormalities syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2322	Kabuki syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:2324	Osteopenia-intellectual disability-sparse hair syndrome	HP:0001757	HPO phenotype.hpoa
+ORPHA:2325	Epidermolysis bullosa simplex with anodontia/hypodontia	HP:0000365	HPO phenotype.hpoa
+ORPHA:2326	Kallmann syndrome-heart disease syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:233	Duane retraction syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:2332	KBG syndrome	HP:0008513	HPO phenotype.hpoa
+ORPHA:2345	Isolated Klippel-Feil syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:235	Dubowitz syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2363	Lacrimoauriculodentodigital syndrome	HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:2377	Laurence-Moon syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:238750	4q21 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2406	Locked-in syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2408	Lowe-Kohn-Cohen syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:241	Dyschromatosis universalis hereditaria	HP:0000365	HPO phenotype.hpoa
+ORPHA:243	46,XX gonadal dysgenesis	HP:0000365	HPO phenotype.hpoa
+ORPHA:2439	Patterson-Stevenson-Fontaine syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:244	Primary ciliary dyskinesia	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:2440	Isolated split hand-split foot malformation	HP:0000407	HPO phenotype.hpoa
+ORPHA:244310	RFT1-CDG	HP:0000365	HPO phenotype.hpoa
+ORPHA:245	Nager syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:246	Postaxial acrofacial dysostosis	HP:0000405	HPO phenotype.hpoa
+ORPHA:2460	Van den Ende-Gupta syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2462	Shprintzen-Goldberg syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:247245	Superficial siderosis	HP:0008619	HPO phenotype.hpoa
+ORPHA:2479	Megalocornea-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2484	Melnick-Needles syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2489	Upper limb defect-eye and ear abnormalities syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:249	Fibrous dysplasia of bone	HP:0000365	HPO phenotype.hpoa
+ORPHA:2496	Mesomelia-synostoses syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2502	Metaphyseal dysostosis-intellectual disability-conductive deafness syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:250984	Autosomal recessive Stickler syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:250989	1q21.1 microdeletion syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:251009	Maternal uniparental disomy of chromosome 1 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:251038	3q29 microduplication syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:251046	6p22 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:251056	6q25.2q25.3 microdeletion syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:251061	7q31 microdeletion syndrome	HP:0011474	HPO phenotype.hpoa
+ORPHA:251076	8p23.1 duplication syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2533	Microcephaly-deafness-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:254346	19p13.12 microdeletion syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:254875	TK2-related mitochondrial DNA maintenance defect, myopathic form	HP:0008610|HP:0008625	HPO phenotype.hpoa
+ORPHA:254886	Autosomal recessive progressive external ophthalmoplegia	HP:0000365	HPO phenotype.hpoa
+ORPHA:254892	Autosomal dominant progressive external ophthalmoplegia	HP:0000365	HPO phenotype.hpoa
+ORPHA:2549	Oculoauriculovertebral spectrum with radial defects	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:254913	Isolated ATP synthase deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:255210	Mitochondrial DNA-associated Leigh syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2554	Ear-patella-short stature syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2556	Microphthalmia with linear skin defects syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2578	Mayer-Rokitansky-Küster-Hauser syndrome type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:2588	Myhre syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2589	Myoclonus-cerebellar ataxia-deafness syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:2590	Spinal muscular atrophy-progressive myoclonic epilepsy syndrome	HP:0000407|HP:0001757	HPO phenotype.hpoa
+ORPHA:2596	Myopathy and diabetes mellitus	HP:0000407	HPO phenotype.hpoa
+ORPHA:2597	Mitochondrial myopathy-lactic acidosis-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2608	N syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:2609	Isolated complex I deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:261197	Proximal 16p11.2 microdeletion syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:261211	16p11.2p12.2 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:261236	16p13.11 microdeletion syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:261250	16q24.3 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:261265	17q12 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:261279	17q23.1q23.2 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:261290	Trisomy 17p syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:261330	Distal 22q11.2 microdeletion syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:261349	2p15p16.1 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:261494	Kleefstra syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:261537	Mowat-Wilson syndrome due to monosomy 2q22	HP:0000407	HPO phenotype.hpoa
+ORPHA:261552	Mowat-Wilson syndrome due to a ZEB2 point mutation	HP:0000407	HPO phenotype.hpoa
+ORPHA:261652	Kleefstra syndrome due to a point mutation	HP:0000365	HPO phenotype.hpoa
+ORPHA:2623	Geleophysic dysplasia	HP:0000405	HPO phenotype.hpoa
+ORPHA:263487	COG5-CDG	HP:0000407	HPO phenotype.hpoa
+ORPHA:2637	Microcephalic osteodysplastic primordial dwarfism type II	HP:0000407	HPO phenotype.hpoa
+ORPHA:264200	14q22q23 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:264450	Trisomy 8p syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2655	Thanatophoric dysplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:2662	Keipert syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2663	Nathalie syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2668	Nephropathy-deafness-hyperparathyroidism syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2669	Nephrosis-deafness-urinary tract-digital malformations syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:268249	Mycophenolate mofetil embryopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:268261	DYRK1A-related intellectual disability syndrome due to 21q22.13q22.2 microdeletion	HP:0000365	HPO phenotype.hpoa
+ORPHA:268882	Arnold-Chiari malformation type I	HP:0008615	HPO phenotype.hpoa
+ORPHA:268940	Bilateral polymicrogyria	HP:0000407	HPO phenotype.hpoa
+ORPHA:268943	Unilateral polymicrogyria	HP:0008610	HPO phenotype.hpoa
+ORPHA:269	Facioscapulohumeral dystrophy	HP:0000407	HPO phenotype.hpoa
+ORPHA:2690	Neutropenia-monocytopenia-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2697	Arthrogryposis-renal dysfunction-cholestasis syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2698	Knuckle pads-leukonychia-sensorineural deafness-palmoplantar hyperkeratosis syndrome	HP:0000410|HP:0008527	HPO phenotype.hpoa
+ORPHA:2701	Noonan syndrome-like disorder with loose anagen hair	HP:0000365	HPO phenotype.hpoa
+ORPHA:2710	Oculodentodigital dysplasia	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:2712	Oculofaciocardiodental syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:2719	Oculocerebral hypopigmentation syndrome, Cross type	HP:0000407	HPO phenotype.hpoa
+ORPHA:2720	Oculocerebral hypopigmentation syndrome, Preus type	HP:0000365	HPO phenotype.hpoa
+ORPHA:2728	Blepharophimosis-intellectual disability syndrome, Ohdo type	HP:0000365	HPO phenotype.hpoa
+ORPHA:2732	Olivopontocerebellar atrophy-deafness syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2744	Horizontal gaze palsy with progressive scoliosis	HP:0000407	HPO phenotype.hpoa
+ORPHA:2745	Opitz GBBB syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2750	Orofaciodigital syndrome type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:2751	Orofaciodigital syndrome type 2	HP:0000405	HPO phenotype.hpoa
+ORPHA:2753	Orofaciodigital syndrome type 4	HP:0000405	HPO phenotype.hpoa
+ORPHA:2754	Orofaciodigital syndrome type 6	HP:0000405	HPO phenotype.hpoa
+ORPHA:275872	Frontotemporal dementia with motor neuron disease	HP:0008619	HPO phenotype.hpoa
+ORPHA:276198	Spinocerebellar ataxia type 36	HP:0000365	HPO phenotype.hpoa
+ORPHA:276621	Sporadic pheochromocytoma/secreting paraganglioma	HP:0000405	HPO phenotype.hpoa
+ORPHA:2780	Osteopathia striata-cranial sclerosis syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2785	Osteopetrosis with renal tubular acidosis	HP:0000405	HPO phenotype.hpoa
+ORPHA:2789	Lateral meningocele syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:2790	Endosteal hyperostosis, Worth type	HP:0000407	HPO phenotype.hpoa
+ORPHA:2791	Otodental syndrome	HP:0000408|HP:0001757	HPO phenotype.hpoa
+ORPHA:2792	Otofaciocervical syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:280	Wolf-Hirschhorn syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:280071	ALG11-CDG	HP:0000365	HPO phenotype.hpoa
+ORPHA:2801	Juvenile Paget disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:2815	Spastic paraparesis-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2820	Spastic paraplegia-nephritis-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2833	Stiff skin syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2838	Renal caliceal diverticuli-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:284160	8q21.11 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:284169	Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to 10p11.21p12.31 microdeletion	HP:0000365	HPO phenotype.hpoa
+ORPHA:284180	Xp22.13p22.2 duplication syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2848	Camptodactyly-arthropathy-coxa-vara-pericarditis syndrome	HP:0008610	HPO phenotype.hpoa
+ORPHA:2850	Alopecia-intellectual disability syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2855	Perrault syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2866	Short stature-deafness-neutrophil dysfunction-dysmorphism syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2876	PHAVER syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:2884	Piebaldism	HP:0000365	HPO phenotype.hpoa
+ORPHA:2885	Piebald trait-neurologic defects syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2886	TARP syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2889	Pili torti	HP:0000365	HPO phenotype.hpoa
+ORPHA:289176	Autosomal recessive hypophosphatemic rickets	HP:0000407	HPO phenotype.hpoa
+ORPHA:289522	Microtriplication 11q24.1 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:290	Congenital rubella syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2907	Hereditary acrokeratotic poikiloderma	HP:0000365	HPO phenotype.hpoa
+ORPHA:29072	Hereditary pheochromocytoma-paraganglioma	HP:0000405	HPO phenotype.hpoa
+ORPHA:293603	Congenital hereditary endothelial dystrophy type II	HP:0000407	HPO phenotype.hpoa
+ORPHA:293843	3MC syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:293967	Hypogonadotropic hypogonadism-severe microcephaly-sensorineural hearing loss-dysmorphism syndrome	HP:0008527	HPO phenotype.hpoa
+ORPHA:293987	Rapid-onset childhood obesity-hypothalamic dysfunction-hypoventilation-autonomic dysregulation syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:294	Fetal cytomegalovirus syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:2953	Musculocontractural Ehlers-Danlos syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:2959	Progeria-short stature-pigmented nevi syndrome	HP:0000408	HPO phenotype.hpoa
+ORPHA:2962	De Barsy syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:297	Tick-borne encephalitis	HP:0000365	HPO phenotype.hpoa
+ORPHA:2971	Peroxisomal acyl-CoA oxidase deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:298	Mitochondrial neurogastrointestinal encephalomyopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:2980	Acrootoocular syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:2983	Difference of sex development-intellectual disability syndrome	HP:0008625	HPO phenotype.hpoa
+ORPHA:2990	Autosomal recessive multiple pterygium syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:300179	Kyphoscoliotic Ehlers-Danlos syndrome due to FKBP22 deficiency	HP:0008527	HPO phenotype.hpoa
+ORPHA:300385	Pituitary carcinoma	HP:0000365	HPO phenotype.hpoa
+ORPHA:300493	Sagliker syndrome	HP:0005101	HPO phenotype.hpoa
+ORPHA:300570	Cortical dysgenesis with pontocerebellar hypoplasia due to TUBB3 mutation	HP:0000407|HP:0008619	HPO phenotype.hpoa
+ORPHA:3011	Spastic tetraplegia-retinitis pigmentosa-intellectual disability syndrome	HP:0008610	HPO phenotype.hpoa
+ORPHA:3019	Ramon syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:3023	External auditory canal atresia-vertical talus-hypertelorism syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3042	Intellectual disability-cataracts-calcified pinnae-myopathy syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:306542	Frontonasal dysplasia-severe microphthalmia-severe facial clefting syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:3078	Severe X-linked intellectual disability, Gustavson type	HP:0012715	HPO phenotype.hpoa
+ORPHA:3082	Intellectual disability-polydactyly-uncombable hair syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:3085	Retinitis pigmentosa-intellectual disability-deafness-hypogonadism syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:308552	Glycogen storage disease due to acid maltase deficiency, infantile onset	HP:0000365	HPO phenotype.hpoa
+ORPHA:309252	Atypical Gaucher disease due to saposin C deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:309256	Metachromatic leukodystrophy, late infantile form	HP:0008619	HPO phenotype.hpoa
+ORPHA:309263	Metachromatic leukodystrophy, juvenile form	HP:0008619	HPO phenotype.hpoa
+ORPHA:309271	Metachromatic leukodystrophy, adult form	HP:0008619	HPO phenotype.hpoa
+ORPHA:309282	Alpha-mannosidosis, infantile form	HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:309288	Alpha-mannosidosis, adult form	HP:0000410	HPO phenotype.hpoa
+ORPHA:3107	Autosomal dominant Robinow syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3109	Mayer-Rokitansky-Küster-Hauser syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3129	Sarcosinemia	HP:0008610	HPO phenotype.hpoa
+ORPHA:313	Lamellar ichthyosis	HP:0000405	HPO phenotype.hpoa
+ORPHA:3137	Alpha-N-acetylgalactosaminidase deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:314404	Autosomal dominant cerebellar ataxia-deafness-narcolepsy syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3145	Arginine vasopressin resistance-intracranial calcification-short stature-facial dysmorphism syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:314585	15q overgrowth syndrome	HP:0000410	HPO phenotype.hpoa
+ORPHA:314588	Distal triplication 15q syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:314597	Chudley-McCullough syndrome	HP:0008527|HP:0011476	HPO phenotype.hpoa
+ORPHA:314603	Autosomal recessive spastic ataxia with leukoencephalopathy	HP:0008619	HPO phenotype.hpoa
+ORPHA:314621	Duplication of the pituitary gland	HP:0000365	HPO phenotype.hpoa
+ORPHA:314679	Cerebrofacioarticular syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:3152	Sclerosteosis	HP:0000407	HPO phenotype.hpoa
+ORPHA:3157	Septo-optic dysplasia spectrum	HP:0000407	HPO phenotype.hpoa
+ORPHA:3163	SHORT syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:317	Erythrokeratodermia variabilis	HP:0000365	HPO phenotype.hpoa
+ORPHA:3186	Holoprosencephaly-radial heart renal anomalies syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:319199	Autosomal recessive spastic paraplegia type 53	HP:0000365	HPO phenotype.hpoa
+ORPHA:3194	Corneodermatoosseous syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:319514	Combined oxidative phosphorylation defect type 13	HP:0000407	HPO phenotype.hpoa
+ORPHA:320391	Autosomal recessive spastic paraplegia type 46	HP:0000365	HPO phenotype.hpoa
+ORPHA:320401	Autosomal recessive spastic paraplegia type 44	HP:0000407	HPO phenotype.hpoa
+ORPHA:3214	Deaf blind hypopigmentation syndrome, Yemenite type	HP:0000407	HPO phenotype.hpoa
+ORPHA:3216	Conductive deafness-malformed external ear syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:3217	Deafness-small bowel diverticulosis-neuropathy syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3218	Deafness-epiphyseal dysplasia-short stature syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3219	Fountain syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3220	Deafness-enamel hypoplasia-nail defects syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:3222	Phosphoribosylpyrophosphate synthetase superactivity	HP:0000407	HPO phenotype.hpoa
+ORPHA:3224	Deafness-genital anomalies-metacarpal and metatarsal synostosis syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3225	Hearing loss-familial salivary gland insensitivity to aldosterone syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3230	Deafness-oligodontia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3232	Deafness-ear malformation-facial palsy syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:3233	Cochleosaccular degeneration-cataract syndrome	HP:0000408	HPO phenotype.hpoa
+ORPHA:3235	Progressive deafness with stapes fixation	HP:0008513	HPO phenotype.hpoa
+ORPHA:3236	Conductive deafness-ptosis-skeletal anomalies syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:3237	Multiple synostoses syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:3238	Cardiospondylocarpofacial syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:3239	Deafness-vitiligo-achalasia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:324	Fabry disease	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:3241	Deafness-craniofacial syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3242	Renpenning syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:324540	Aphonia-deafness-retinal dystrophy-bifid halluces-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3246	Symphalangism with multiple anomalies of hands and feet	HP:0000405	HPO phenotype.hpoa
+ORPHA:3250	Proximal symphalangism	HP:0000407	HPO phenotype.hpoa
+ORPHA:3258	Cenani-Lenz syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3275	Spondylocarpotarsal synostosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:329314	Adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency	HP:0008615	HPO phenotype.hpoa
+ORPHA:329336	Adult-onset chronic progressive external ophthalmoplegia with mitochondrial myopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:330054	Congenital cataract-progressive muscular hypotonia-hearing loss-developmental delay syndrome	HP:0000408	HPO phenotype.hpoa
+ORPHA:3312	Thalidomide embryopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:3320	Thrombocytopenia-absent radius syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:33226	Waldenström macroglobulinemia	HP:0000365	HPO phenotype.hpoa
+ORPHA:3327	Thyrocerebrorenal syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:33355	Reticular dysgenesis	HP:0000365	HPO phenotype.hpoa
+ORPHA:33364	Trichothiodystrophy	HP:0008619	HPO phenotype.hpoa
+ORPHA:3338	Toriello-Carey syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3339	Oculoectodermal syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:337	Fibrodysplasia ossificans progressiva	HP:0000365	HPO phenotype.hpoa
+ORPHA:3378	Trisomy 13 syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3379	Distal duplication 17q syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:3416	Hyperostosis corticalis generalisata	HP:0000407	HPO phenotype.hpoa
+ORPHA:3437	Vogt-Koyanagi-Harada disease	HP:0000407	HPO phenotype.hpoa
+ORPHA:3440	Waardenburg syndrome	HP:0000365|HP:0000407|HP:0008527	HPO phenotype.hpoa
+ORPHA:3456	Wildervanck syndrome	HP:0008527	HPO phenotype.hpoa
+ORPHA:3463	Wolfram syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3464	Woodhouse-Sakati syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:3465	Worster-Drought syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3471	Young syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3472	Yunis-Varon syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:3473	Zimmermann-Laband syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:3474	CHIME syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:349	Fucosidosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:35099	Non-syndromic bicoronal craniosynostosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:351	Galactosialidosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:35173	X-linked dominant chondrodysplasia punctata	HP:0000407	HPO phenotype.hpoa
+ORPHA:352328	MEGDEL syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:352641	Autosomal recessive cerebellar ataxia with late-onset spasticity	HP:0000407	HPO phenotype.hpoa
+ORPHA:352665	Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome due to 9q21.3 microdeletion	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:352675	X-linked Charcot-Marie-Tooth disease type 6	HP:0000407	HPO phenotype.hpoa
+ORPHA:353277	Rubinstein-Taybi syndrome due to CREBBP mutations	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:353281	Rubinstein-Taybi syndrome due to 16p13.3 microdeletion	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:353284	Rubinstein-Taybi syndrome due to EP300 haploinsufficiency	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:355	Gaucher disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:356961	SLC35A2-CDG	HP:0000407	HPO phenotype.hpoa
+ORPHA:357058	Autosomal recessive cutis laxa type 2A	HP:0000365	HPO phenotype.hpoa
+ORPHA:36	Acrocallosal syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:363417	Temtamy preaxial brachydactyly syndrome	HP:0008625	HPO phenotype.hpoa
+ORPHA:363444	THOC6-related developmental delay-microcephaly-facial dysmorphism syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:363528	Intellectual disability-strabismus syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:363710	Spinocerebellar ataxia type 37	HP:0000407	HPO phenotype.hpoa
+ORPHA:36386	Hereditary sensory and autonomic neuropathy type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:36412	Hypocomplementemic urticarial vasculitis	HP:0000407	HPO phenotype.hpoa
+ORPHA:364577	Intellectual disability-brachydactyly-Pierre Robin syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:365	Glycogen storage disease due to acid maltase deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:369837	Intellectual disability-seizures-hypophosphatasia-ophthalmic-skeletal anomalies syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:369891	Developmental delay-facial dysmorphism syndrome due to MED13L deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:369939	Severe motor and intellectual disabilities-sensorineural deafness-dystonia syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:369942	CADDS	HP:0000407	HPO phenotype.hpoa
+ORPHA:369950	Intellectual disability-seizures-macrocephaly-obesity syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:370010	Intellectual disability-facial dysmorphism-hand anomalies syndrome	HP:0012713	HPO phenotype.hpoa
+ORPHA:376	Gordon syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:389	Langerhans cell histiocytosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:391408	Primary microcephaly-mild intellectual disability-young-onset diabetes syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:391417	HSD10 disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:391428	HSD10 disease, infantile type	HP:0000365	HPO phenotype.hpoa
+ORPHA:391474	Frontorhiny	HP:0008591	HPO phenotype.hpoa
+ORPHA:391641	Feingold syndrome type 1	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:397	Giant cell arteritis	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:397596	Activated PI3K-delta syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:397709	Intellectual disability-coarse face-macrocephaly-cerebellar hypotrophy syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:397744	MYH14-related peripheral neuropathy-myopathy-hoarseness-hearing loss syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:398156	Oculoauriculofrontonasal syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:401777	Optic atrophy-intellectual disability syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:401830	Autosomal recessive spastic paraplegia type 69	HP:0000365	HPO phenotype.hpoa
+ORPHA:40366	Acitretin/etretinate embryopathy	HP:0008619	HPO phenotype.hpoa
+ORPHA:404473	Intellectual disability-eye abnormalities-microcephaly-peripheral spasticity syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:411543	Severe phosphoribosylpyrophosphate synthetase superactivity	HP:0000407	HPO phenotype.hpoa
+ORPHA:411590	Wolfram-like syndrome	HP:0008527	HPO phenotype.hpoa
+ORPHA:412035	13q12.3 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:412057	Autosomal recessive cerebellar ataxia due to STUB1 deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:412069	AHDC1-related intellectual disability-obstructive sleep apnea-mild dysmorphism syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:414	Gyrate atrophy of choroid and retina	HP:0000365	HPO phenotype.hpoa
+ORPHA:423461	Mucolipidosis type III alpha/beta	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:423479	X-linked intellectual disability-limb spasticity-retinal dystrophy-arginine vasopressin deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:42665	Tietz syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:43	X-linked adrenoleukodystrophy	HP:0001730	HPO phenotype.hpoa
+ORPHA:432	Normosmic congenital hypogonadotropic hypogonadism	HP:0008527	HPO phenotype.hpoa
+ORPHA:435638	Proximal 3p25.3 microdeletion syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:435938	X-linked microcephaly-growth retardation-prognathism-cryptorchidism syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:436174	Cataract-growth hormone deficiency-sensory neuropathy-sensorineural hearing loss-skeletal dysplasia syndrome	HP:0000399|HP:0000407|HP:0000408|HP:0008619	HPO phenotype.hpoa
+ORPHA:436271	Non-progressive predominantly posterior cavitating leukoencephalopathy with peripheral neuropathy	HP:0008619	HPO phenotype.hpoa
+ORPHA:438134	PCNA-related progressive neurodegenerative photosensitivity syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:439254	ITM2B amyloidosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:439822	PDE4D haploinsufficiency syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:44	Neonatal adrenoleukodystrophy	HP:0000407	HPO phenotype.hpoa
+ORPHA:440354	Autosomal dominant myopia-midfacial retrusion-sensorineural hearing loss-rhizomelic dysplasia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:443811	PGM3-CDG	HP:0000405|HP:0000407|HP:0008587	HPO phenotype.hpoa
+ORPHA:444051	20q11.2 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:444077	Cognitive impairment-coarse facies-heart defects-obesity-pulmonary involvement-short stature-skeletal dysplasia syndrome	HP:0000365|HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:445062	Juvenile-onset diabetes mellitus-central and peripheral neurodegeneration syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:447753	Autosomal dominant spastic paraplegia type 9A	HP:0000407	HPO phenotype.hpoa
+ORPHA:448237	Zika virus disease	HP:0012779	HPO phenotype.hpoa
+ORPHA:453499	Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:453504	Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome due to a point mutation	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:453533	Polyendocrine-polyneuropathy syndrome	HP:0001730	HPO phenotype.hpoa
+ORPHA:45358	Congenital fibrosis of extraocular muscles	HP:0008527	HPO phenotype.hpoa
+ORPHA:456312	Infantile multisystem neurologic-endocrine-pancreatic disease	HP:0000407	HPO phenotype.hpoa
+ORPHA:457260	X-linked intellectual disability-hypotonia-movement disorder syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:457351	Microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal muscle tone syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:459061	Craniofacial dysplasia-short stature-ectodermal anomalies-intellectual disability syndrome	HP:0012712	HPO phenotype.hpoa
+ORPHA:459070	X-linked intellectual disability-cerebellar hypoplasia-spondylo-epiphyseal dysplasia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:46059	Lathosterolosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:464282	Spastic paraplegia-severe developmental delay-epilepsy syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:464288	Short stature-brachydactyly-obesity-global developmental delay syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:46627	Char syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:466768	Autosomal dominant Charcot-Marie-Tooth disease type 2Z	HP:0000365	HPO phenotype.hpoa
+ORPHA:466934	VPS11-related autosomal recessive hypomyelinating leukodystrophy	HP:0000407	HPO phenotype.hpoa
+ORPHA:466943	WAC-related facial dysmorphism-developmental delay-behavioral abnormalities syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:466950	Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to WAC point mutation	HP:0000365	HPO phenotype.hpoa
+ORPHA:468631	Microcephalic cortical malformations-short stature due to RTTN deficiency	HP:0008619	HPO phenotype.hpoa
+ORPHA:468678	White-Sutton syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:468699	SLC39A8-CDG	HP:0000365	HPO phenotype.hpoa
+ORPHA:47	X-linked agammaglobulinemia	HP:0000407	HPO phenotype.hpoa
+ORPHA:47045	Familial cold urticaria	HP:0000407	HPO phenotype.hpoa
+ORPHA:477	KID syndrome	HP:0000399|HP:0008625	HPO phenotype.hpoa
+ORPHA:477774	Combined oxidative phosphorylation defect type 27	HP:0000365	HPO phenotype.hpoa
+ORPHA:478	Kallmann syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:480	Kearns-Sayre syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:480864	Recurrent metabolic encephalomyopathic crises-rhabdomyolysis-cardiac arrhythmia-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:480880	X-linked female restricted facial dysmorphism-short stature-choanal atresia-intellectual disability	HP:0000365	HPO phenotype.hpoa
+ORPHA:480907	X-linked intellectual disability-global development delay-facial dysmorphism-sacral caudal remnant syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:481152	PYCR2-related microcephaly-progressive leukoencephalopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:485	Kniest dysplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:48652	Phelan-McDermid syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:487	Krabbe disease	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:487796	Takenouchi-Kosaki syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:487825	Pierpont syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:488232	Split-foot malformation-mesoaxial polydactyly syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:488618	Transketolase deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:488627	Severe growth deficiency-strabismus-extensive dermal melanocytosis-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:488632	TBCK-related encephalopathy-severe hypotonia-craniofacial dysmorphism syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:488642	TELO2-related intellectual disability-neurodevelopmental disorder	HP:0000365|HP:0008513	HPO phenotype.hpoa
+ORPHA:49042	Dentinogenesis imperfecta	HP:0000365	HPO phenotype.hpoa
+ORPHA:494	Keratoderma hereditarium mutilans	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:494344	RERE-related neurodevelopmental syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:494444	DIAPH1-related sensorineural hearing loss-thrombocytopenia syndrome	HP:0000408	HPO phenotype.hpoa
+ORPHA:49827	Thiamine-responsive megaloblastic anemia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:499009	Congenital syphilis	HP:0000365	HPO phenotype.hpoa
+ORPHA:500	Noonan syndrome with multiple lentigines	HP:0000407|HP:0008625	HPO phenotype.hpoa
+ORPHA:500055	Hao-Fountain syndrome due to 16p13.2 microdeletion	HP:0000365	HPO phenotype.hpoa
+ORPHA:500095	Tall stature-intellectual disability-renal anomalies syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:500150	ZTTK syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:500159	Microcephaly-corpus callosum and cerebellar vermis hypoplasia-facial dysmorphism-intellectual disability syndrome	HP:0000407|HP:0008527	HPO phenotype.hpoa
+ORPHA:500166	SIN3-related intellectual disability syndrome due to a point mutation	HP:0000365	HPO phenotype.hpoa
+ORPHA:502	Trichorhinophalangeal syndrome type 2	HP:0000405	HPO phenotype.hpoa
+ORPHA:502423	Mitochondrial myopathy-cerebellar ataxia-pigmentary retinopathy syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:502430	Weiss-Kruszka Syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:503	Larsen syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:504476	Cerebellar ataxia with neuropathy and bilateral vestibular areflexia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:505237	Early-onset seizures-distal limb anomalies-facial dysmorphism-global developmental delay syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:506	Leigh syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:50811	Lipodystrophy-intellectual disability-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:50815	Branchiogenic deafness syndrome	HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:508498	Intellectual disability-cardiac anomalies-short stature-joint laxity syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:508542	Congenital progressive bone marrow failure-B-cell immunodeficiency-skeletal dysplasia syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:512	Metachromatic leukodystrophy	HP:0000365	HPO phenotype.hpoa
+ORPHA:514	Acute monoblastic/monocytic leukemia	HP:0001730	HPO phenotype.hpoa
+ORPHA:51608	Generalized arterial calcification of infancy	HP:0000365|HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:52055	Corpus callosum agenesis-intellectual disability-coloboma-micrognathia syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:521426	PLAA-associated neurodevelopmental disorder	HP:0000407	HPO phenotype.hpoa
+ORPHA:521445	Microcephaly-facial dysmorphism-ocular anomalies-multiple congenital anomalies syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:52368	Mohr-Tranebjaerg syndrome	HP:0000399|HP:0000407|HP:0008596	HPO phenotype.hpoa
+ORPHA:52427	Retinitis punctata albescens	HP:0008527	HPO phenotype.hpoa
+ORPHA:52429	Branchiootic syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:529799	Acute bilirubin encephalopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:529808	Chronic bilirubin encephalopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:529962	17q24.2 microdeletion syndrome	HP:0008607	HPO phenotype.hpoa
+ORPHA:53	Albers-Schönberg osteopetrosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:53271	Muenke syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:533	Listeriosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:536467	B3GALT6-related spondylodysplastic Ehlers-Danlos syndrome	HP:0000410	HPO phenotype.hpoa
+ORPHA:536471	Spondylodysplastic Ehlers-Danlos syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:536545	Kyphoscoliotic Ehlers-Danlos syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:53693	GRACILE syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:540	Familial hemophagocytic lymphohistiocytosis	HP:0000407	HPO phenotype.hpoa
+ORPHA:541423	Growth delay-intellectual disability-hepatopathy syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:544488	Global developmental delay-alopecia-macrocephaly-facial dysmorphism-structural brain anomalies syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:544503	RNF13-related severe early-onset epileptic encephalopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:54595	Craniopharyngioma	HP:0000365	HPO phenotype.hpoa
+ORPHA:550	MELAS	HP:0000407	HPO phenotype.hpoa
+ORPHA:551	MERRF	HP:0000407	HPO phenotype.hpoa
+ORPHA:555402	NAD(P)HX dehydratase deficiency	HP:0000405	HPO phenotype.hpoa
+ORPHA:557003	Oculoskeletodental syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:560	Marshall syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:561	Marshall-Smith syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:562	McCune-Albright syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:565612	Primary triglyceride deposit cardiomyovasculopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:566243	Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta	HP:0000407	HPO phenotype.hpoa
+ORPHA:567	22q11.2 deletion syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:568	Microphthalmia, Lenz type	HP:0000365	HPO phenotype.hpoa
+ORPHA:569	Familial or sporadic hemiplegic migraine	HP:0000365	HPO phenotype.hpoa
+ORPHA:569274	Multiple mitochondrial dysfunctions syndrome type 5	HP:0000365	HPO phenotype.hpoa
+ORPHA:570	Moebius syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:575	Muckle-Wells syndrome	HP:0000408	HPO phenotype.hpoa
+ORPHA:576	Mucolipidosis type II	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:579	Mucopolysaccharidosis type 1	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:580	Mucopolysaccharidosis type 2	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:581	Mucopolysaccharidosis type 3	HP:0000365|HP:0000405|HP:0000407|HP:0000410	HPO phenotype.hpoa
+ORPHA:582	Mucopolysaccharidosis type 4	HP:0000365	HPO phenotype.hpoa
+ORPHA:583	Mucopolysaccharidosis type 6	HP:0000365	HPO phenotype.hpoa
+ORPHA:585	Multiple sulfatase deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:586	Cystic fibrosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:589	Myasthenia gravis	HP:0000365	HPO phenotype.hpoa
+ORPHA:590	Congenital myasthenic syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:592574	Menke-Hennekam syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:606	Proximal myotonic myopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:61	Alpha-mannosidosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:616	Medulloblastoma	HP:0008619	HPO phenotype.hpoa
+ORPHA:618891	Chronic neurovisceral acid sphingomyelinase deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:628	Diastrophic dysplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:63	Alport syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:636	Neurofibromatosis type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:637	Full NF2-related schwannomatosis	HP:0000407	HPO phenotype.hpoa
+ORPHA:64	Alström syndrome	HP:0000408|HP:0008625	HPO phenotype.hpoa
+ORPHA:640	Hereditary neuropathy with liability to pressure palsies	HP:0000407	HPO phenotype.hpoa
+ORPHA:644	NARP syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:646	Niemann-Pick disease type C	HP:0000365	HPO phenotype.hpoa
+ORPHA:648	Noonan syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:649	Norrie disease	HP:0000407	HPO phenotype.hpoa
+ORPHA:65	Leber congenital amaurosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:65682	Benign recurrent intrahepatic cholestasis	HP:0000365	HPO phenotype.hpoa
+ORPHA:659	Mutilating palmoplantar keratoderma with periorificial keratotic plaques	HP:0000407	HPO phenotype.hpoa
+ORPHA:666	Osteogenesis imperfecta	HP:0000365|HP:0000410|HP:0001730	HPO phenotype.hpoa
+ORPHA:66627	Tenosynovial giant cell tumor	HP:0000405	HPO phenotype.hpoa
+ORPHA:66631	CEDNIK syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:66633	Sensorineural hearing loss-early graying-essential tremor syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:66634	Dilated cardiomyopathy with ataxia	HP:0008619	HPO phenotype.hpoa
+ORPHA:667	Autosomal recessive malignant osteopetrosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:67048	3-methylglutaconic aciduria type 4	HP:0000365	HPO phenotype.hpoa
+ORPHA:699	Pearson syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:702	Pelizaeus-Merzbacher disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:705	Pendred syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:70595	Sensory ataxic neuropathy-dysarthria-ophthalmoparesis syndrome	HP:0008619	HPO phenotype.hpoa
+ORPHA:707	Plague	HP:0000365	HPO phenotype.hpoa
+ORPHA:709	Peters plus syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:71267	Dentinogenesis imperfecta-short stature-hearing loss-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:71289	Radio-ulnar synostosis-amegakaryocytic thrombocytopenia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:728	Relapsing polychondritis	HP:0000407	HPO phenotype.hpoa
+ORPHA:73	Gorham-Stout disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:730396	Invasive meningococcal disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:73272	Growth delay due to insulin-like growth factor type 1 deficiency	HP:0000399|HP:0000407|HP:0008527|HP:0008619	HPO phenotype.hpoa
+ORPHA:740	Hutchinson-Gilford progeria syndrome	HP:0000405|HP:0001757|HP:0008573	HPO phenotype.hpoa
+ORPHA:742	Prolidase deficiency	HP:0000365	HPO phenotype.hpoa
+ORPHA:760	Purine nucleoside phosphorylase deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:763	Pycnodysostosis	HP:0008598	HPO phenotype.hpoa
+ORPHA:772	Infantile Refsum disease	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:77298	Anophthalmia/microphthalmia-esophageal atresia syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:773	Adult Refsum disease	HP:0000407	HPO phenotype.hpoa
+ORPHA:782	Axenfeld-Rieger syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:783	Rubinstein-Taybi syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:79087	Acquired partial lipodystrophy	HP:0000365	HPO phenotype.hpoa
+ORPHA:79097	Folinic acid-responsive seizures	HP:0000407	HPO phenotype.hpoa
+ORPHA:79098	Sympathetic ophthalmia	HP:0000365	HPO phenotype.hpoa
+ORPHA:791	Retinitis pigmentosa	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:79107	Developmental malformations-deafness-dystonia syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:79113	Mandibulofacial dysostosis-microcephaly syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:79155	Hydroxykynureninuria	HP:0008527	HPO phenotype.hpoa
+ORPHA:79234	Crigler-Najjar syndrome type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:79237	Galactokinase deficiency	HP:0000407	HPO phenotype.hpoa
+ORPHA:79241	Biotinidase deficiency	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:79255	GM1 gangliosidosis type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:79279	Alpha-N-acetylgalactosaminidase deficiency type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:79280	Alpha-N-acetylgalactosaminidase deficiency type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:79321	ALG3-CDG	HP:0000365	HPO phenotype.hpoa
+ORPHA:79324	ALG12-CDG	HP:0000407	HPO phenotype.hpoa
+ORPHA:79330	MOGS-CDG	HP:0000407	HPO phenotype.hpoa
+ORPHA:79345	Brachytelephalangic chondrodysplasia punctata	HP:0000410	HPO phenotype.hpoa
+ORPHA:79394	Congenital ichthyosiform erythroderma	HP:0000365	HPO phenotype.hpoa
+ORPHA:794	Saethre-Chotzen syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:79443	Pseudohypoparathyroidism type 1A	HP:0000407	HPO phenotype.hpoa
+ORPHA:79493	Brooke-Spiegler syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:79499	Autosomal dominant deafness-onychodystrophy syndrome	HP:0008625	HPO phenotype.hpoa
+ORPHA:796	Sandhoff disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:798	Schinzel-Giedion syndrome	HP:0008610	HPO phenotype.hpoa
+ORPHA:809	Mixed connective tissue disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:811	Shwachman-Diamond syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:812	Sialidosis type 1	HP:0000407	HPO phenotype.hpoa
+ORPHA:818	Smith-Lemli-Opitz syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:819	Smith-Magenis syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:821	Sotos syndrome	HP:0000365|HP:0000405	HPO phenotype.hpoa
+ORPHA:828	Stickler syndrome	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:83463	Microtia	HP:0040119	HPO phenotype.hpoa
+ORPHA:838	Susac syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:84	Fanconi anemia	HP:0000365	HPO phenotype.hpoa
+ORPHA:845	Tay-Sachs disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:847	X-linked alpha-thalassemia-intellectual disability syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:85164	Camptodactyly-tall stature-scoliosis-hearing loss syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:85179	Infantile osteopetrosis with neuroaxonal dysplasia	HP:0000405	HPO phenotype.hpoa
+ORPHA:85199	Craniosynostosis-anal anomalies-porokeratosis syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:85201	Genitopatellar syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:85202	Keutel syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:85273	X-linked intellectual disability, Abidi type	HP:0000365	HPO phenotype.hpoa
+ORPHA:85284	BRESEK syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:85285	X-linked intellectual disability, Schimke type	HP:0000365	HPO phenotype.hpoa
+ORPHA:85297	X-linked spinocerebellar ataxia type 3	HP:0000407	HPO phenotype.hpoa
+ORPHA:853	Fetal and neonatal alloimmune thrombocytopenia	HP:0008619	HPO phenotype.hpoa
+ORPHA:85321	Deafness-intellectual disability syndrome, Martin-Probst type	HP:0000407	HPO phenotype.hpoa
+ORPHA:85335	Fried syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:85448	AGel amyloidosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:857	Townes-Brocks syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:858	Congenital toxoplasmosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:861	Treacher-Collins syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:86309	DPAGT1-CDG	HP:0000365	HPO phenotype.hpoa
+ORPHA:86818	Alport syndrome-intellectual disability-midface hypoplasia-elliptocytosis syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:869	Triple A syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:87	Apert syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:870	Down syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:87876	Sialidosis type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:87884	Rare non-syndromic genetic deafness	HP:0000399|HP:0000405|HP:0000408|HP:0005101|HP:0008573|HP:0008596|HP:0011474|HP:0011476|HP:0012713|HP:0012714	HPO phenotype.hpoa
+ORPHA:881	Turner syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:886	Usher syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:88917	X-linked Alport syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:88918	Autosomal dominant Alport syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:88919	Autosomal recessive Alport syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:891	Familial exudative vitreoretinopathy	HP:0000365	HPO phenotype.hpoa
+ORPHA:894	Waardenburg syndrome type 1	HP:0000365|HP:0008527	HPO phenotype.hpoa
+ORPHA:895	Waardenburg syndrome type 2	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:896	Waardenburg syndrome type 3	HP:0000365	HPO phenotype.hpoa
+ORPHA:897	Waardenburg-Shah syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:89936	X-linked hypophosphatemia	HP:0000407	HPO phenotype.hpoa
+ORPHA:89938	Bartter syndrome type 4	HP:0008619	HPO phenotype.hpoa
+ORPHA:900	Granulomatosis with polyangiitis	HP:0000407	HPO phenotype.hpoa
+ORPHA:90024	Deafness with labyrinthine aplasia, microtia, and microdontia	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:90103	Charcot-Marie-Tooth disease-deafness-intellectual disability syndrome	HP:0008625	HPO phenotype.hpoa
+ORPHA:90153	Mandibuloacral dysplasia with type A lipodystrophy	HP:0000365	HPO phenotype.hpoa
+ORPHA:90321	Cockayne syndrome type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:90322	Cockayne syndrome type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:90324	Cockayne syndrome type 3	HP:0000405|HP:0008615	HPO phenotype.hpoa
+ORPHA:90354	Brittle cornea syndrome	HP:0000365|HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:904	Williams syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:90646	Deafness-hypogonadism syndrome	HP:0000405|HP:0000408|HP:0012717	HPO phenotype.hpoa
+ORPHA:90647	Jervell and Lange-Nielsen syndrome	HP:0008619|HP:0011476	HPO phenotype.hpoa
+ORPHA:90650	Otopalatodigital syndrome type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:90652	Otopalatodigital syndrome type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:90653	Stickler syndrome type 1	HP:0000407	HPO phenotype.hpoa
+ORPHA:90654	Stickler syndrome type 2	HP:0000407	HPO phenotype.hpoa
+ORPHA:90658	Charcot-Marie-Tooth disease type 1E	HP:0000407|HP:0011476	HPO phenotype.hpoa
+ORPHA:910	Xeroderma pigmentosum	HP:0000365|HP:0000407	HPO phenotype.hpoa
+ORPHA:912	Zellweger syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:91355	Sheehan syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:920	Ablepharon macrostomia syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:921	Abruzzo-Erickson syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:926	Acatalasemia	HP:0040113	HPO phenotype.hpoa
+ORPHA:93111	HNF1B-related autosomal dominant tubulointerstitial kidney disease	HP:0000365	HPO phenotype.hpoa
+ORPHA:93258	Pfeiffer syndrome type 1	HP:0000365	HPO phenotype.hpoa
+ORPHA:93260	Pfeiffer syndrome type 3	HP:0000365	HPO phenotype.hpoa
+ORPHA:93262	Crouzon syndrome-acanthosis nigricans syndrome	HP:0000405	HPO phenotype.hpoa
+ORPHA:93274	Thanatophoric dysplasia type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:93296	Achondrogenesis type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:93322	Isolated tibial hemimelia	HP:0000365	HPO phenotype.hpoa
+ORPHA:93333	Pelviscapular dysplasia	HP:0000365	HPO phenotype.hpoa
+ORPHA:93346	Spondyloepimetaphyseal dysplasia congenita, Strudwick type	HP:0000365	HPO phenotype.hpoa
+ORPHA:93399	Juvenile sialidosis type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:93400	Congenital sialidosis type 2	HP:0000365	HPO phenotype.hpoa
+ORPHA:93473	Hurler syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:93474	Scheie syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:93476	Hurler-Scheie syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:93921	Full schwannomatosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:93924	Lobar holoprosencephaly	HP:0000407	HPO phenotype.hpoa
+ORPHA:93925	Alobar holoprosencephaly	HP:0000407	HPO phenotype.hpoa
+ORPHA:93926	Midline interhemispheric variant of holoprosencephaly	HP:0000407	HPO phenotype.hpoa
+ORPHA:93932	FG syndrome type 1	HP:0000407	HPO phenotype.hpoa
+ORPHA:94064	Deafness-infertility syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:94065	15q24 microdeletion syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:94068	Spondyloepiphyseal dysplasia congenita	HP:0000365	HPO phenotype.hpoa
+ORPHA:94080	Non-functioning paraganglioma	HP:0000405	HPO phenotype.hpoa
+ORPHA:941	D-glyceric aciduria	HP:0000365	HPO phenotype.hpoa
+ORPHA:949	Acrocraniofacial dysostosis	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:95	Friedreich ataxia	HP:0000365	HPO phenotype.hpoa
+ORPHA:950	Acrodysostosis	HP:0000365	HPO phenotype.hpoa
+ORPHA:95433	Autosomal recessive spinocerebellar ataxia-blindness-deafness syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:955	Hajdu-Cheney syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:95512	Adenohypophysitis	HP:0000407	HPO phenotype.hpoa
+ORPHA:95513	Panhypophysitis	HP:0000407	HPO phenotype.hpoa
+ORPHA:95699	Congenital adrenal hyperplasia due to cytochrome P450 oxidoreductase deficiency	HP:0000405	HPO phenotype.hpoa
+ORPHA:95716	Familial thyroid dyshormonogenesis	HP:0000407	HPO phenotype.hpoa
+ORPHA:959	Acro-renal-ocular syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:96061	Mosaic trisomy 8 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:96121	7q11.23 microduplication syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:96125	Distal deletion 6p syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:96129	Distal deletion 19p syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:96147	Kleefstra syndrome due to 9q34 microdeletion	HP:0000365	HPO phenotype.hpoa
+ORPHA:96148	Distal deletion 10q syndrome	HP:0008527	HPO phenotype.hpoa
+ORPHA:96149	Distal deletion 12q syndrome	HP:0008513	HPO phenotype.hpoa
+ORPHA:96167	Recombinant 8 syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:96169	Koolen-De Vries syndrome	HP:0000405|HP:0000407	HPO phenotype.hpoa
+ORPHA:96170	Emanuel syndrome	HP:0000365|HP:0012714	HPO phenotype.hpoa
+ORPHA:96180	Maternal uniparental disomy of chromosome 4 syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:97229	Riboflavin transporter deficiency	HP:0001730	HPO phenotype.hpoa
+ORPHA:97286	Carney-Stratakis syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:97360	Robinow syndrome	HP:0000410	HPO phenotype.hpoa
+ORPHA:98673	Autosomal dominant optic atrophy, classic form	HP:0000407	HPO phenotype.hpoa
+ORPHA:98768	Spinocerebellar ataxia type 13	HP:0000365	HPO phenotype.hpoa
+ORPHA:98771	Spinocerebellar ataxia type 18	HP:0000365	HPO phenotype.hpoa
+ORPHA:98808	Autosomal dominant dopa-responsive dystonia	HP:0000365	HPO phenotype.hpoa
+ORPHA:98889	Bilateral perisylvian polymicrogyria	HP:0000365	HPO phenotype.hpoa
+ORPHA:98897	Oculopharyngodistal myopathy	HP:0000408	HPO phenotype.hpoa
+ORPHA:98907	Neutral lipid storage disease with ichthyosis	HP:0000407	HPO phenotype.hpoa
+ORPHA:98908	Neutral lipid storage disease with myopathy	HP:0000407	HPO phenotype.hpoa
+ORPHA:98914	Presynaptic congenital myasthenic syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:99014	X-linked Charcot-Marie-Tooth disease type 5	HP:0000365	HPO phenotype.hpoa
+ORPHA:99027	Adult-onset autosomal dominant leukodystrophy	HP:0000407	HPO phenotype.hpoa
+ORPHA:99226	Monosomy X syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:99228	Mosaic monosomy X syndrome	HP:0000365	HPO phenotype.hpoa
+ORPHA:99413	Turner syndrome due to structural X chromosome anomalies	HP:0000365	HPO phenotype.hpoa
+ORPHA:99772	Cleft velum	HP:0000405	HPO phenotype.hpoa
+ORPHA:998	Albinism-deafness syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:99803	Haddad syndrome	HP:0000407	HPO phenotype.hpoa
+ORPHA:99824	Lassa fever	HP:0000365	HPO phenotype.hpoa
+ORPHA:99843	Leukocyte adhesion deficiency type II	HP:0000405	HPO phenotype.hpoa
+ORPHA:99885	Isolated permanent neonatal diabetes mellitus	HP:0000365	HPO phenotype.hpoa
+ORPHA:99886	Transient neonatal diabetes mellitus	HP:0000365	HPO phenotype.hpoa
+ORPHA:999	Ermine phenotype	HP:0000407	HPO phenotype.hpoa
+ORPHA:99947	Autosomal dominant Charcot-Marie-Tooth disease type 2A2	HP:0000407	HPO phenotype.hpoa
+ORPHA:99949	Charcot-Marie-Tooth disease type 4C	HP:0000407	HPO phenotype.hpoa
+ORPHA:99950	Charcot-Marie-Tooth disease type 4D	HP:0000407	HPO phenotype.hpoa
+ORPHA:99956	Charcot-Marie-Tooth disease type 4B2	HP:0000407	HPO phenotype.hpoa

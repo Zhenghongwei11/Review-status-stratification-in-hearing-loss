@@ -1,0 +1,3 @@
+definition	gene_symbol	n_all_annotation_variants	n_single_gene_variants	n_all_conflicting	n_single_gene_conflicting	n_all_uncertainty	n_single_gene_uncertainty	uncertainty_proportion	uncertainty_count_rank	uncertainty_proportion_rank_n_ge_10
+primary	DIAPH1	1666	1666	59	59	943	943	0.5660264105642256	1	41
+primary	MET	269	269	126	126	256	256	0.9516728624535316	11	1

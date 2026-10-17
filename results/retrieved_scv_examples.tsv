@@ -1,0 +1,30 @@
+variation_id	scv_accession	scv_version	submitter	organization_category	classification	review_status	review_stars	date_last_evaluated	date_updated	date_submitted	contributes_to_aggregate	condition_names	condition_ids
+41608	SCV004192514	2	Baylor Genetics	laboratory	Uncertain significance	criteria provided, single submitter	1	2024-03-21	2024-06-17	2024-06-05	true		OMIM:616705
+41608	SCV000111359	9	Eurofins Ntd Llc (ga)	laboratory	Uncertain significance	criteria provided, single submitter	1	2013-04-24	2025-04-13	2018-09-19	true	not provided	
+41608	SCV000043297	2	Biesecker Lab/Clinical Genomics Section, National Institutes of Health	laboratory	Uncertain significance	no assertion criteria provided	0	2012-07-13	2025-06-08	2012-07-15	false	not provided	
+41608	SCV004107291	3	PreventionGenetics, part of Exact Sciences	laboratory	Uncertain significance	criteria provided, single submitter	1	2026-09-11	2026-10-03	2026-09-29	true	MET-related condition	
+41608	SCV000623363	9	Labcorp Genetics (formerly Invitae), Labcorp	laboratory	Uncertain significance	criteria provided, single submitter	1	2025-01-25	2025-02-25	2025-02-07	true		MedGen:C0007134
+41608	SCV002007614	5	GeneDx	laboratory	Uncertain significance	criteria provided, single submitter	1	2025-05-29	2025-06-14	2025-06-11	true	Not Provided	
+41608	SCV000673761	7	Ambry Genetics	laboratory	Likely benign	criteria provided, single submitter	1	2025-05-08	2025-07-13	2025-06-17	true		MedGen:C0027672
+41608	SCV007112168	1	Quest Diagnostics Nichols Institute San Juan Capistrano	laboratory	Uncertain significance	criteria provided, single submitter	1	2025-05-08	2025-12-07	2025-12-02	true	not provided	
+45216	SCV000968673	3	GeneDx	laboratory	Likely benign	criteria provided, single submitter	1	2019-11-27	2023-03-04	2021-10-01	true	Not Provided	
+45216	SCV007975590	1	Blueprint Genetics	laboratory	Likely benign	criteria provided, single submitter	1	2024-11-08	2026-09-22	2026-08-20	true	Not specified	
+45216	SCV000062043	5	Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine	laboratory	Likely benign	criteria provided, single submitter	1	2016-10-06	2018-04-09	2019-03-21	true	not specified	
+45216	SCV001317037	1	Illumina Laboratory Services, Illumina	laboratory	Uncertain significance	criteria provided, single submitter	1	2018-01-13	2020-05-31	2020-02-20	true		OMIM:124900
+45216	SCV001091326	8	Labcorp Genetics (formerly Invitae), Labcorp	laboratory	Likely benign	criteria provided, single submitter	1	2026-02-02	2026-02-23	2026-02-10	true		MedGen:C1852282|MedGen:C4225261
+2353	SCV002779395	1	Fulgent Genetics, Fulgent Genetics	laboratory	Pathogenic	criteria provided, single submitter	1	2022-04-18	2022-12-31	2022-12-13	false		OMIM:276901|OMIM:613809
+2353	SCV001462270	2	Natera, Inc.	laboratory	Pathogenic	criteria provided, single submitter	1	2024-12-10	2026-04-04	2026-02-26	false	Usher syndrome type 2A	
+2353	SCV000354106	3	Illumina Laboratory Services, Illumina	laboratory	Pathogenic	criteria provided, single submitter	1	2017-04-28	2019-05-24	2019-02-01	false	USH2A-Related Disorders	MedGen:CN239332
+2353	SCV001251498	1	UNC Molecular Genetics  Laboratory, University of North Carolina at Chapel Hill	laboratory	Likely pathogenic	criteria provided, single submitter	1		2020-05-31	2020-02-26	false	USH2A-Related Disorders	MedGen:CN239332
+2353	SCV000789062	3	Counsyl	laboratory	Pathogenic	no assertion criteria provided	0	2017-01-11	2025-06-29	2025-06-25	false		OMIM:613809
+2353	SCV000022605	2	OMIM	resource	Pathogenic	no assertion criteria provided	0	2010-06-01	2015-04-27	2015-04-21	false	USHER SYNDROME, TYPE IIA	
+2353	SCV001573445	1	Ocular Genomics Institute, Massachusetts Eye and Ear	laboratory	Pathogenic	criteria provided, single submitter	1	2021-04-08	2021-05-10	2021-04-26	false		OMIM:613809
+2353	SCV000840529	4	ClinGen Hearing Loss Variant Curation Expert Panel	consortium	Pathogenic	reviewed by expert panel	3	2018-09-25	2022-12-11	2019-02-27	true		Orphanet:ORPHA886
+2353	SCV001167822	3	GeneDx	laboratory	Pathogenic	criteria provided, single submitter	1	2022-05-27	2023-03-04	2022-08-31	false	Not Provided	
+2353	SCV004208287	2	Baylor Genetics	laboratory	Pathogenic	criteria provided, single submitter	1	2024-02-05	2024-06-17	2024-06-05	false		OMIM:613809
+2353	SCV002074993	2	GenomeConnect, ClinGen	other	not provided	no classification provided	0		2025-04-13	2022-02-09	false		MedGen:CN239332
+2353	SCV000933089	8	Labcorp Genetics (formerly Invitae), Labcorp	laboratory	Pathogenic	criteria provided, single submitter	1	2025-09-02	2026-02-15	2026-02-05	false		MedGen:CN517202
+2353	SCV001238846	2	Blueprint Genetics	laboratory	Pathogenic	criteria provided, single submitter	1	2024-11-21	2026-09-22	2026-08-20	false	USH2A-related disorders	
+2353	SCV005361881	2	PreventionGenetics, part of Exact Sciences	laboratory	Pathogenic	criteria provided, single submitter	1	2026-06-04	2026-10-03	2026-09-29	false	USH2A-related condition	
+17035	SCV000796349	2	Counsyl	laboratory	Uncertain significance	no assertion criteria provided	0	2017-12-12	2025-06-29	2025-06-25	true		OMIM:220290
+17035	SCV000038845	3	OMIM	resource	Pathogenic	no assertion criteria provided	0	2007-11-01	2016-08-22	2017-12-11	true	DEAFNESS, AUTOSOMAL RECESSIVE 1A	

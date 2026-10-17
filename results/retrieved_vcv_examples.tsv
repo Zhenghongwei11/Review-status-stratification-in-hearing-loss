@@ -1,0 +1,5 @@
+variation_id	vcv_accession	vcv_version	name	last_updated	number_of_submissions	number_of_submitters	review_status	classification
+41608	VCV000041608	28	NM_000245.4(MET):c.1019A>G (p.Asp340Gly)	2026-10-10	8	8	criteria provided, conflicting classifications	Conflicting classifications of pathogenicity
+45216	VCV000045216	21	NM_005219.5(DIAPH1):c.687T>C (p.Phe229=)	2026-09-27	5	5	criteria provided, conflicting classifications	Conflicting classifications of pathogenicity
+2353	VCV000002353	37	NM_206933.4(USH2A):c.4338_4339del (p.Cys1447fs)	2026-10-04	14	14	reviewed by expert panel	Pathogenic
+17035	VCV000017035	2	NC_000013.11:g.20193020G>A	2026-04-13	2	2	no assertion criteria provided	Conflicting classifications of pathogenicity

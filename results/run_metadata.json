@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-15T05:52:02.102442+00:00",
+  "source_sha256": "2f591d4ea919e81f0094c32f5901dbb3afad39a8d8de5c59ea9029d2d3a49ccc",
+  "total_rows": 8980556,
+  "definitions": [
+    "primary",
+    "expanded",
+    "disease_supported",
+    "curated_gene"
+  ],
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "reference_sha256": {
+    "hearing_diseases.tsv": "79f3be09abfd6195b6d9d81db2a2f1ad9f2870d88320c0950eeb5d127efb28d0",
+    "hearing_hpo_terms.tsv": "9858ef4b3f876cb8cdd1aad1c525fc54ce5f802a22956b6a6bbb59018c608426",
+    "hearing_genes.tsv": "107b75c53d29527708bd513c379df9ae401f9e5869fd9ad55821b8802f8fe818"
+  },
+  "aggregation_partitions": 32,
+  "elapsed_seconds": 894.7220017910004,
+  "references": "data/references",
+  "execution_code_sha256": {
+    "build_evidence_map.py": "ac277b34866feedb03f814d7d14d3eddf005b817cd1c81b8f6bd1dbb41d35466",
+    "generate_utility_tables.py": "7e26046abcc83ca8a92e5680a3dae2d45b70720ed420c2129f3c86254cee4052",
+    "run_revision.py": "42d10bb6c00e16a3719fee114e8a09fc415b9b3f6d0cab91ea6bbe7d6e6809b8",
+    "phenotype_filters.py": "fa3950f10aa28b2c124f7217e0907e7e397e4b0126b14db55a01847f21f32b0f"
+  },
+  "note": "Recorded analysis execution; file and entrypoint organization in this software release is separate from execution metadata."
+}

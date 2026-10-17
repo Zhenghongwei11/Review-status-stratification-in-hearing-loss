@@ -9,7 +9,6 @@ import sys
 import time
 import re
 from collections import Counter
-from dataclasses import dataclass
 from pathlib import Path
 from typing import TextIO
 
@@ -26,18 +25,112 @@ def normalize_review_status(text: str) -> str:
 
 def review_tier(review_status: str) -> int:
     s = normalize_review_status(review_status)
-    # Approximate star tiers using ClinVar review status wording.
-    if "practice guideline" in s:
-        return 4
-    if "reviewed by expert panel" in s:
-        return 3
-    if "criteria provided, multiple submitters, no conflicts" in s:
-        return 2
-    if "criteria provided, single submitter" in s:
-        return 1
-    if "no assertion criteria provided" in s:
-        return 0
-    return 0
+    # Official germline review statuses, not a clinical confidence score.
+    # Unknown statuses remain distinguishable from recognized zero-star statuses.
+    return {
+        "practice guideline": 4,
+        "reviewed by expert panel": 3,
+        "criteria provided, multiple submitters, no conflicts": 2,
+        "criteria provided, single submitter": 1,
+        "criteria provided, conflicting classifications": 1,
+        "criteria provided, conflicting interpretations": 1,
+        "no assertion criteria provided": 0,
+        "no classification provided": 0,
+        "no assertion provided": 0,
+        "no classifications from unflagged records": 0,
+    }.get(s, -1)
+
+
+GENE_SUMMARY_RE = re.compile(r"^covers\s+\d+\s+genes?\b", re.IGNORECASE)
+GENE_SUBSET_RE = re.compile(r"^subset\s+of\s+\d+\s+genes?\s*:\s*(.+)$", re.IGNORECASE)
+GENE_SYMBOL_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._@-]*$")
+
+
+def parse_gene_annotation_details(symbol_text: str, id_text: str) -> dict:
+    """Parse ClinVar GeneSymbol conservatively and retain an audit trail.
+
+    ClinVar structural-variant rows can contain prose summaries such as
+    ``covers 17 genes`` or ``subset of 41 genes: PKD1:TSC2``.  Those strings
+    are not gene symbols. Explicit symbols after ``subset`` are retained
+    independently of whether the source supplies usable, paired GeneIDs.
+    The stated total never supplies unnamed members of a structural variant.
+    """
+    raw = (symbol_text or "").strip()
+    ids = [s.strip() for s in re.split(r"[;,]", id_text or "") if s.strip() and s.strip() not in {"-1", "-"}]
+    symbols: list[str] = []
+    status = "missing"
+    if not raw or raw == "-":
+        status = "missing"
+    elif GENE_SUMMARY_RE.match(raw):
+        status = "unresolved_summary_label"
+    else:
+        subset = GENE_SUBSET_RE.match(raw)
+        if subset:
+            candidates = [s.strip() for s in subset.group(1).split(":") if s.strip()]
+            if candidates and all(GENE_SYMBOL_RE.fullmatch(s) for s in candidates):
+                symbols = candidates
+                status = "resolved_explicit_subset" if len(candidates) == len(ids) else "resolved_explicit_subset_unpaired_ids"
+            else:
+                status = "unresolved_non_symbol_subset"
+        else:
+            candidates = [s.strip() for s in raw.split(";") if s.strip() and s.strip() != "-"]
+            if candidates and all(GENE_SYMBOL_RE.fullmatch(s) for s in candidates):
+                symbols = candidates
+                status = "resolved"
+            else:
+                status = "unresolved_non_symbol_label"
+    # Only a one-to-one source order can support symbol-to-ID pairing.
+    pairs = set(zip(symbols, ids)) if symbols and len(symbols) == len(ids) else {(s, "") for s in symbols}
+    return {"raw_annotation": raw, "symbols": set(symbols), "ids": set(ids), "pairs": pairs,
+            "parse_status": status, "unresolved": bool(raw and status.startswith("unresolved_"))}
+
+
+def parse_gene_annotations(symbol_text: str, id_text: str) -> tuple[set[str], set[str], set[tuple[str, str]]]:
+    details = parse_gene_annotation_details(symbol_text, id_text)
+    return details["symbols"], details["ids"], details["pairs"]
+
+
+def new_entry(row: dict) -> dict:
+    return {"gene_symbols": set(), "gene_ids": set(), "gene_pairs": set(), "buckets": set(),
+            "max_tier": -1, "best_review_status": "", "best_review_tier": -2,
+            "allele_id": row.get("#AlleleID", ""), "phenotype_ids": row.get("PhenotypeIDS", ""),
+            "phenotype_list": row.get("PhenotypeList", ""), "rcv_accession": row.get("RCVaccession", ""),
+            "clinsig_example": row.get("ClinicalSignificance", ""), "source_rows": 0,
+            "assemblies": set(), "classifications": set(), "review_statuses": set(),
+            "condition_names": set(), "condition_ids": set(), "scvs": set(), "rcvs": set(),
+            "submitter_counts": set(), "inclusion_reasons": set(), "classification_review_pairs": set(),
+            "raw_gene_annotations": set(), "gene_parse_statuses": set(), "unresolved_gene_annotations": set()}
+
+
+def update_entry(entry: dict, row: dict, reasons: set[str] | None = None) -> None:
+    details = parse_gene_annotation_details(row.get("GeneSymbol", ""), row.get("GeneID", ""))
+    symbols, ids, pairs = details["symbols"], details["ids"], details["pairs"]
+    entry["gene_symbols"].update(symbols)
+    entry["gene_ids"].update(ids)
+    entry["gene_pairs"].update(pairs)
+    if details["raw_annotation"]:
+        entry["raw_gene_annotations"].add(details["raw_annotation"])
+    entry["gene_parse_statuses"].add(details["parse_status"])
+    if details["unresolved"]:
+        entry["unresolved_gene_annotations"].add((details["raw_annotation"], details["parse_status"]))
+    entry["buckets"].add(clin_sig_bucket(row.get("ClinicalSignificance", "")))
+    rs = row.get("ReviewStatus", "")
+    tier = review_tier(rs)
+    entry["classification_review_pairs"].add((row.get("ClinicalSignificance", ""), tier))
+    entry["max_tier"] = max(entry["max_tier"], tier)
+    if tier > entry["best_review_tier"]:
+        entry["best_review_tier"], entry["best_review_status"] = tier, rs
+    entry["source_rows"] += 1
+    for field, source in [("assemblies", "Assembly"), ("classifications", "ClinicalSignificance"), ("review_statuses", "ReviewStatus")]:
+        entry[field].add(row.get(source, ""))
+    entry["condition_names"].update(x.strip() for x in row.get("PhenotypeList", "").split("|") if x.strip())
+    entry["condition_ids"].update(x.strip() for x in row.get("PhenotypeIDS", "").split("|") if x.strip())
+    entry["scvs"].update(re.findall(r"SCV\d+", row.get("SCVsForAggregateGermlineClassification", "")))
+    entry["rcvs"].update(re.findall(r"RCV\d+", row.get("RCVaccession", "")))
+    n = row.get("NumberSubmitters", "")
+    if n.isdigit():
+        entry["submitter_counts"].add(int(n))
+    entry["inclusion_reasons"].update(reasons or set())
 
 
 def clin_sig_bucket(clinsig: str) -> str:
@@ -65,51 +158,6 @@ def phenotype_mentions_hearing_loss(phenotype_list: str) -> bool:
         return False
     # Backward-compatible fallback. Prefer the mode-driven pattern.
     return re.search(r"\bhearing\s+loss\b", phenotype_list, re.IGNORECASE) is not None
-
-
-@dataclass
-class GeneAgg:
-    gene_id: str
-    gene_symbol: str
-    n_variants: int = 0
-    n_plp: int = 0
-    n_benign: int = 0
-    n_vus: int = 0
-    n_conflicting: int = 0
-    n_other: int = 0
-    n_tier4_practice_guideline: int = 0
-    n_tier3_expert_panel: int = 0
-    n_tier2_multi_submitters_no_conflicts: int = 0
-    n_tier1_single_submitter: int = 0
-    n_tier0_no_criteria: int = 0
-    max_review_tier: int = 0
-
-    def update(self, bucket: str, tier: int) -> None:
-        self.n_variants += 1
-        if bucket == "pathogenic_or_likely_pathogenic":
-            self.n_plp += 1
-        elif bucket == "benign_or_likely_benign":
-            self.n_benign += 1
-        elif bucket == "vus":
-            self.n_vus += 1
-        elif bucket == "conflicting":
-            self.n_conflicting += 1
-        elif bucket == "other":
-            self.n_other += 1
-        else:
-            self.n_other += 1
-
-        if tier == 4:
-            self.n_tier4_practice_guideline += 1
-        elif tier == 3:
-            self.n_tier3_expert_panel += 1
-        elif tier == 2:
-            self.n_tier2_multi_submitters_no_conflicts += 1
-        elif tier == 1:
-            self.n_tier1_single_submitter += 1
-        else:
-            self.n_tier0_no_criteria += 1
-        self.max_review_tier = max(self.max_review_tier, tier)
 
 
 def sha256_path(path: Path) -> str:
@@ -151,7 +199,7 @@ def aggregate_bucket(buckets: set[str]) -> str:
     """
     Aggregate multiple row-level buckets into a single variant-level bucket.
 
-    Conservative ordering:
+    Fixed precedence for repeated preaggregated source rows (not SCV voting):
       conflicting > pathogenic/likely pathogenic > VUS > benign/likely benign > other/unknown
     """
     if "conflicting" in buckets:
@@ -169,276 +217,126 @@ def aggregate_bucket(buckets: set[str]) -> str:
     return "other"
 
 
-def choose_primary_gene(gene_symbols: set[str]) -> str:
-    cleaned = sorted({g.strip() for g in gene_symbols if g and g.strip()})
-    return cleaned[0] if cleaned else ""
+def export_tables(per_vid: dict, outdir: Path, source_sha: str, total_rows: int, matched_rows: int, elapsed: float) -> dict:
+    outdir.mkdir(parents=True, exist_ok=True)
+    rows, links, unresolved_rows = [], [], []
+    gene_counts = {}
+    tiers, buckets, statuses = Counter(), Counter(), Counter()
+    unknown = Counter()
+    unknown_variants = 0
+    for vid in sorted(per_vid, key=int):
+        e = per_vid[vid]
+        symbols = sorted(e["gene_symbols"])
+        bucket, tier = aggregate_bucket(e["buckets"]), e["max_tier"]
+        # Legacy primary fields are populated only for unambiguous singleton annotations.
+        # All analyses use gene_symbols and the exported many-to-many membership table.
+        gene = symbols[0] if len(symbols) == 1 else ""
+        known_ids = sorted({i for g, i in e["gene_pairs"] if g == gene and i})
+        joint_plp_ge_2 = any(
+            clin_sig_bucket(classification) == "pathogenic_or_likely_pathogenic" and stars >= 2
+            for classification, stars in e["classification_review_pairs"]
+        )
+        r = {"variation_id": vid, "primary_gene_symbol": gene,
+             "primary_gene_id": ";".join(known_ids), "gene_symbols": ";".join(symbols),
+             "gene_ids": ";".join(sorted(e["gene_ids"])), "gene_symbol_set_size": len(symbols),
+             "raw_gene_annotations": " || ".join(sorted(e["raw_gene_annotations"])),
+             "gene_parse_statuses": "|".join(sorted(e["gene_parse_statuses"])),
+             "unresolved_gene_annotation_count": len(e["unresolved_gene_annotations"]),
+             "bucket_variant_level": bucket, "review_tier_proxy_max": tier,
+             "plp_review_stars_ge_2_same_row": int(joint_plp_ge_2),
+             "review_status_best": e["best_review_status"], "allele_id_example": e["allele_id"],
+             "phenotype_list_trunc": truncate_text(e["phenotype_list"], 500),
+             "phenotype_ids_trunc": truncate_text(e["phenotype_ids"], 500),
+             "rcv_accession_example": e["rcv_accession"], "clinsig_example": e["clinsig_example"],
+             "source_row_count": e["source_rows"], "assemblies": "|".join(sorted(e["assemblies"])),
+             "source_classifications": "|".join(sorted(e["classifications"])),
+             "source_classification_count": len(e["classifications"]),
+             "source_bucket_set": "|".join(sorted(e["buckets"])), "source_bucket_count": len(e["buckets"]),
+             "source_review_statuses": "|".join(sorted(e["review_statuses"])),
+             "source_classification_review_pairs": "|".join(f"{classification}@@{stars}" for classification, stars in sorted(e["classification_review_pairs"])),
+             "condition_names": "|".join(sorted(e["condition_names"])),
+             "condition_ids": "|".join(sorted(e["condition_ids"])),
+             "germline_scv_ids": "|".join(sorted(e["scvs"])), "n_germline_scvs": len(e["scvs"]),
+             "rcv_ids": "|".join(sorted(e["rcvs"])), "n_rcvs": len(e["rcvs"]),
+             "number_submitters_min": min(e["submitter_counts"]) if e["submitter_counts"] else "",
+             "number_submitters_max": max(e["submitter_counts"]) if e["submitter_counts"] else "",
+             "inclusion_reasons": "|".join(sorted(e["inclusion_reasons"]))}
+        rows.append(r)
+        for raw_annotation, parse_status in sorted(e["unresolved_gene_annotations"]):
+            unresolved_rows.append({"variation_id": vid, "raw_annotation": raw_annotation,
+                                    "parse_status": parse_status})
+        tiers[tier] += 1; buckets[bucket] += 1; statuses[e["best_review_status"]] += 1
+        unknown_labels = [status for status in e["review_statuses"] if review_tier(status) < 0]
+        unknown_variants += bool(unknown_labels)
+        for status in unknown_labels:
+            unknown[status] += 1
+        for symbol in symbols:
+            ids = sorted({i for g, i in e["gene_pairs"] if g == symbol and i})
+            links.append({"variation_id": vid, "gene_symbol": symbol, "gene_id_unambiguous": ";".join(ids),
+                          "n_annotated_genes": len(symbols), "bucket": bucket, "review_stars": tier})
+            c = gene_counts.setdefault(symbol, Counter())
+            c["n_variants"] += 1; c[bucket] += 1; c[f"tier_{tier}"] += 1
+            if len(symbols) == 1: c["n_single_gene_variants"] += 1
+            if joint_plp_ge_2: c["n_higher_review_plp"] += 1
+    fields = list(rows[0]) if rows else ["variation_id", "gene_symbols", "bucket_variant_level", "review_tier_proxy_max"]
+    high = [r for r in rows if r["plp_review_stars_ge_2_same_row"]]
+    write_tsv(outdir / "variant_aggregate.tsv", rows, fieldnames=fields)
+    write_tsv(outdir / "variant_high_confidence.tsv", high, fieldnames=fields)
+    write_tsv(outdir / "variant_gene_links.tsv", links, fieldnames=["variation_id", "gene_symbol", "gene_id_unambiguous", "n_annotated_genes", "bucket", "review_stars"])
+    write_tsv(outdir / "unresolved_gene_annotations.tsv", unresolved_rows,
+              fieldnames=["variation_id", "raw_annotation", "parse_status"])
+    gene_rows = []
+    for symbol, c in sorted(gene_counts.items()):
+        gene_rows.append({"gene_symbol": symbol, "n_variants_hearing_loss": c["n_variants"],
+            "n_plp": c["pathogenic_or_likely_pathogenic"], "n_vus": c["vus"], "n_conflicting": c["conflicting"],
+            "n_benign": c["benign_or_likely_benign"], "n_other": c["other"] + c["unknown"],
+            "n_single_gene_variants": c["n_single_gene_variants"], "n_multi_gene_variants": c["n_variants"] - c["n_single_gene_variants"],
+            "n_plp_review_stars_ge_2": c["n_higher_review_plp"], **{f"n_stars_{i}": c[f"tier_{i}"] for i in range(-1, 5)}})
+    write_tsv(outdir / "gene_evidence_map.tsv", gene_rows, fieldnames=list(gene_rows[0]) if gene_rows else ["gene_symbol", "n_variants_hearing_loss"])
+    metrics = {"variant_summary_sha256": source_sha, "total_rows_processed": total_rows,
+        "hearing_loss_rows_record_level": matched_rows, "hearing_loss_variation_ids_unique": len(rows),
+        "plp_review_stars_ge_2_variation_ids_unique": len(high), "unique_genes_hearing_loss": len(gene_counts),
+        "plp_review_stars_ge_2_unique_genes": len({g for r in high for g in r["gene_symbols"].split(";") if g}),
+        "hearing_loss_variants_multi_gene_symbol": sum(r["gene_symbol_set_size"] > 1 for r in rows),
+        "gene_variant_memberships": len(links),
+        "variants_with_unresolved_gene_annotations": sum(r["unresolved_gene_annotation_count"] > 0 for r in rows),
+        "unresolved_gene_annotation_memberships": len(unresolved_rows),
+        "variants_differing_source_classifications": sum(r["source_classification_count"] > 1 for r in rows),
+        "variants_differing_source_buckets": sum(r["source_bucket_count"] > 1 for r in rows),
+        "conflicting_variants_stars_ge_2": sum(r["bucket_variant_level"] == "conflicting" and r["review_tier_proxy_max"] >= 2 for r in rows),
+        "unknown_review_status_variants": unknown_variants, "elapsed_seconds": round(elapsed, 2)}
+    metrics.update({f"bucket_count::{k}": v for k, v in sorted(buckets.items())})
+    metrics.update({f"review_tier_proxy_count::{k}": v for k, v in sorted(tiers.items())})
+    write_tsv(outdir / "qc_summary.tsv", [{"metric": k, "value": v} for k, v in metrics.items()], fieldnames=["metric", "value"])
+    write_tsv(outdir / "review_status_top50.tsv", [{"review_status_normalized": k, "n": v} for k, v in statuses.most_common()], fieldnames=["review_status_normalized", "n"])
+    write_tsv(outdir / "unknown_review_statuses.tsv", [{"review_status": k, "n_variants": v} for k, v in unknown.items()], fieldnames=["review_status", "n_variants"])
+    return metrics
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Build hearing-loss ClinVar evidence-map tables from variant_summary.txt.gz.")
-    ap.add_argument(
-        "--variant-summary",
-        default="data/raw/clinvar/variant_summary.txt.gz",
-        help="Path to ClinVar variant_summary.txt.gz",
-    )
-    ap.add_argument(
-        "--outdir",
-        default="results/hearing_loss_clinvar",
-        help="Output directory for tables",
-    )
-    ap.add_argument(
-        "--max-rows",
-        type=int,
-        default=0,
-        help="If >0, only process this many rows (debug/smoke).",
-    )
-    ap.add_argument(
-        "--progress-every",
-        type=int,
-        default=1_000_000,
-        help="Emit progress to stderr every N processed rows (0 disables).",
-    )
-    ap.add_argument(
-        "--phenotype-mode",
-        default=DEFAULT_PHENOTYPE_MODE,
-        help="Phenotype filter mode for ClinVar PhenotypeList (e.g., hearing_loss_only, expanded_synonyms).",
-    )
+    ap = argparse.ArgumentParser(description="Summarize phenotype-selected ClinVar variants with official stars and all gene annotations.")
+    ap.add_argument("--variant-summary", default="data/raw/clinvar/variant_summary.txt.gz")
+    ap.add_argument("--outdir", default="results/primary")
+    ap.add_argument("--phenotype-mode", default=DEFAULT_PHENOTYPE_MODE)
+    ap.add_argument("--max-rows", type=int, default=0)
+    ap.add_argument("--progress-every", type=int, default=1_000_000)
     args = ap.parse_args()
-
-    vs_path = Path(args.variant_summary)
-    outdir = Path(args.outdir)
-    outdir.mkdir(parents=True, exist_ok=True)
-
-    t0 = time.time()
-    total_rows = 0
-    hl_rows = 0
-    hl_genes: set[str] = set()
-    all_genes: set[str] = set()
-
-    review_status_counter = Counter()
-    bucket_counter = Counter()
-    tier_counter = Counter()
-
-    gene_aggs: dict[tuple[str, str], GeneAgg] = {}
-
-    phenotype_re = compile_pattern(args.phenotype_mode)
-
-    # ClinVar variant_summary repeats the same VariationID across assemblies (and other dimensions),
-    # so we must de-duplicate at the VariationID level before counting.
-    #
-    # We only retain per-VariationID aggregates for variants that match the phenotype filter at least once.
-    per_vid: dict[str, dict] = {}
-    hl_variation_ids: set[str] = set()
-    multi_gene_variants = 0
-    highconf_n = 0
-
-    with gzip.open(vs_path, "rt", encoding="utf-8", errors="replace") as f:
+    t0 = time.time(); per_vid = {}; total = matched = 0
+    pattern = compile_pattern(args.phenotype_mode)
+    with gzip.open(args.variant_summary, "rt", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter="\t")
-        required = {"GeneID", "GeneSymbol", "ClinicalSignificance", "PhenotypeList", "ReviewStatus", "VariationID", "RCVaccession"}
-        missing = required - set(reader.fieldnames or [])
-        if missing:
-            raise RuntimeError(f"variant_summary missing columns: {sorted(missing)}")
-
         for row in reader:
-            total_rows += 1
-            if args.max_rows and total_rows > args.max_rows:
-                break
-            if args.progress_every and (total_rows % args.progress_every == 0):
-                elapsed = time.time() - t0
-                rate = total_rows / elapsed if elapsed > 0 else 0.0
-                print(
-                    f"[progress] rows={total_rows:,} hearing_loss_rows_record={hl_rows:,} unique_variation_ids={len(hl_variation_ids):,} rate={rate:,.0f} rows/s",
-                    file=sys.stderr,
-                    flush=True,
-                )
-
-            gene_id = (row.get("GeneID") or "").strip()
-            gene_symbol = (row.get("GeneSymbol") or "").strip()
-            if gene_symbol:
-                all_genes.add(gene_symbol)
-
-            phenotype_list = row.get("PhenotypeList") or ""
-            if phenotype_re.search(phenotype_list) is None:
-                continue
-
-            hl_rows += 1
-
-            vid = (row.get("VariationID") or "").strip()
-            if not vid:
-                continue
-            hl_variation_ids.add(vid)
-            if gene_symbol:
-                hl_genes.add(gene_symbol)
-
-            clinsig = row.get("ClinicalSignificance") or ""
-            bucket = clin_sig_bucket(clinsig)
-            rs = row.get("ReviewStatus") or ""
-            tier = review_tier(rs)
-
-            entry = per_vid.get(vid)
-            if entry is None:
-                entry = {
-                    "gene_symbols": set(),
-                    "gene_ids": set(),
-                    "buckets": set(),
-                    "max_tier": tier,
-                    "best_review_status": rs,
-                    "best_review_tier": tier,
-                    "allele_id": (row.get("#AlleleID") or "").strip(),
-                    "phenotype_ids": (row.get("PhenotypeIDS") or "").strip(),
-                    "phenotype_list": phenotype_list,
-                    "rcv_accession": (row.get("RCVaccession") or "").strip(),
-                    "clinsig_example": clinsig,
-                }
-                per_vid[vid] = entry
-
-            if gene_symbol:
-                entry["gene_symbols"].add(gene_symbol)
-            if gene_id:
-                entry["gene_ids"].add(gene_id)
-            entry["buckets"].add(bucket)
-            if tier > entry["max_tier"]:
-                entry["max_tier"] = tier
-            if tier > entry["best_review_tier"] or (tier == entry["best_review_tier"] and not entry.get("best_review_status") and rs):
-                entry["best_review_tier"] = tier
-                entry["best_review_status"] = rs
-
-    # Variant-level aggregation (unique VariationID).
-    # We export:
-    #  - `variant_aggregate.tsv`: all unique HL-matching VariationIDs (analysis backbone for utility endpoints)
-    #  - `variant_high_confidence.tsv`: P/LP AND tier>=2 proxy (clinic-facing "reportable-now" shortlist)
-    var_fields = [
-        "variation_id",
-        "primary_gene_symbol",
-        "primary_gene_id",
-        "bucket_variant_level",
-        "review_tier_proxy_max",
-        "review_status_best",
-        "allele_id_example",
-        "phenotype_list_trunc",
-        "phenotype_ids_trunc",
-        "rcv_accession_example",
-        "clinsig_example",
-        "gene_symbol_set_size",
-    ]
-    agg_path = outdir / "variant_aggregate.tsv"
-    highconf_path = outdir / "variant_high_confidence.tsv"
-    agg_path.parent.mkdir(parents=True, exist_ok=True)
-    highconf_path.parent.mkdir(parents=True, exist_ok=True)
-
-    with agg_path.open("w", newline="", encoding="utf-8") as agg_f, highconf_path.open(
-        "w", newline="", encoding="utf-8"
-    ) as highconf_f:
-        agg_w = tsv_writer(agg_f, var_fields)
-        highconf_w = tsv_writer(highconf_f, var_fields)
-
-        for vid, entry in per_vid.items():
-            bucket_v = aggregate_bucket(entry["buckets"])
-            tier_max = int(entry["max_tier"] or 0)
-            rs_best = entry.get("best_review_status") or ""
-
-            gene_symbols: set[str] = entry["gene_symbols"]
-            gene_ids: set[str] = entry["gene_ids"]
-            primary_symbol = choose_primary_gene(gene_symbols)
-            primary_gene_id = sorted({g for g in gene_ids if g and g.strip()})[0] if gene_ids else ""
-            if len(gene_symbols) > 1:
-                multi_gene_variants += 1
-
-            row_out = {
-                "variation_id": vid,
-                "primary_gene_symbol": primary_symbol,
-                "primary_gene_id": primary_gene_id,
-                "bucket_variant_level": bucket_v,
-                "review_tier_proxy_max": str(tier_max),
-                "review_status_best": rs_best,
-                "allele_id_example": entry.get("allele_id", ""),
-                "phenotype_list_trunc": truncate_text(entry.get("phenotype_list", ""), 500),
-                "phenotype_ids_trunc": truncate_text(entry.get("phenotype_ids", ""), 500),
-                "rcv_accession_example": truncate_text(entry.get("rcv_accession", ""), 200),
-                "clinsig_example": truncate_text(entry.get("clinsig_example", ""), 200),
-                "gene_symbol_set_size": str(len(gene_symbols)),
-            }
-            agg_w.writerow(row_out)
-
-            bucket_counter[bucket_v] += 1
-            tier_counter[str(tier_max)] += 1
-            review_status_counter[normalize_review_status(rs_best)] += 1
-
-            key = (primary_gene_id, primary_symbol)
-            if primary_symbol:
-                if key not in gene_aggs:
-                    gene_aggs[key] = GeneAgg(gene_id=primary_gene_id, gene_symbol=primary_symbol)
-                gene_aggs[key].update(bucket=bucket_v, tier=tier_max)
-
-            if bucket_v == "pathogenic_or_likely_pathogenic" and tier_max >= 2:
-                highconf_w.writerow(row_out)
-                highconf_n += 1
-
-    gene_rows: list[dict] = []
-    for (gene_id, gene_symbol), agg in sorted(gene_aggs.items(), key=lambda kv: (-(kv[1].n_plp + kv[1].n_vus), kv[0][1])):
-        if not gene_symbol:
-            continue
-        gene_rows.append(
-            {
-                "gene_symbol": gene_symbol,
-                "gene_id": gene_id,
-                "n_variants_hearing_loss": str(agg.n_variants),
-                "n_plp": str(agg.n_plp),
-                "n_benign": str(agg.n_benign),
-                "n_vus": str(agg.n_vus),
-                "n_conflicting": str(agg.n_conflicting),
-                "n_other": str(agg.n_other),
-                "max_review_tier_proxy": str(agg.max_review_tier),
-                "n_tier4_practice_guideline": str(agg.n_tier4_practice_guideline),
-                "n_tier3_expert_panel": str(agg.n_tier3_expert_panel),
-                "n_tier2_multi_submitters_no_conflicts": str(agg.n_tier2_multi_submitters_no_conflicts),
-                "n_tier1_single_submitter": str(agg.n_tier1_single_submitter),
-                "n_tier0_no_criteria_or_other": str(agg.n_tier0_no_criteria),
-            }
-        )
-
-    qc_rows = [
-        {"metric": "variant_summary_sha256", "value": sha256_path(vs_path)},
-        {"metric": "total_rows_processed", "value": str(total_rows)},
-        {"metric": "hearing_loss_rows_record_level", "value": str(hl_rows)},
-        {"metric": "hearing_loss_variation_ids_unique", "value": str(len(hl_variation_ids))},
-        {"metric": "highconf_plp_tier_ge_2_variation_ids_unique", "value": str(highconf_n)},
-        {"metric": "unique_genes_all", "value": str(len(all_genes))},
-        {"metric": "unique_genes_hearing_loss", "value": str(len(hl_genes))},
-        {"metric": "hearing_loss_variants_multi_gene_symbol", "value": str(multi_gene_variants)},
-        {"metric": "elapsed_seconds", "value": str(int(time.time() - t0))},
-    ]
-    for k, v in bucket_counter.most_common():
-        qc_rows.append({"metric": f"bucket_count::{k}", "value": str(v)})
-    for k, v in tier_counter.most_common():
-        qc_rows.append({"metric": f"review_tier_proxy_count::{k}", "value": str(v)})
-
-    gene_fields = [
-        "gene_symbol",
-        "gene_id",
-        "n_variants_hearing_loss",
-        "n_plp",
-        "n_benign",
-        "n_vus",
-        "n_conflicting",
-        "n_other",
-        "max_review_tier_proxy",
-        "n_tier4_practice_guideline",
-        "n_tier3_expert_panel",
-        "n_tier2_multi_submitters_no_conflicts",
-        "n_tier1_single_submitter",
-        "n_tier0_no_criteria_or_other",
-    ]
-    qc_fields = ["metric", "value"]
-
-    write_tsv(outdir / "gene_evidence_map.tsv", gene_rows, fieldnames=gene_fields)
-    write_tsv(outdir / "qc_summary.tsv", qc_rows, fieldnames=qc_fields)
-
-    # Also write a compact review-status distribution (top 50) for debugging.
-    rs_rows = [{"review_status_normalized": k, "n": str(v)} for k, v in review_status_counter.most_common(50)]
-    write_tsv(outdir / "review_status_top50.tsv", rs_rows, fieldnames=["review_status_normalized", "n"])
-
-    print(outdir)
+            if args.max_rows and total >= args.max_rows: break
+            total += 1
+            if args.progress_every and total % args.progress_every == 0:
+                print(f"[progress] {total:,} rows; {len(per_vid):,} variants", file=sys.stderr, flush=True)
+            if not pattern.search(row.get("PhenotypeList", "")): continue
+            matched += 1
+            vid = row.get("VariationID", "").strip()
+            if not vid: continue
+            update_entry(per_vid.setdefault(vid, new_entry(row)), row, {args.phenotype_mode})
+    export_tables(per_vid, Path(args.outdir), sha256_path(Path(args.variant_summary)), total, matched, time.time() - t0)
+    print(args.outdir)
     return 0
 
 

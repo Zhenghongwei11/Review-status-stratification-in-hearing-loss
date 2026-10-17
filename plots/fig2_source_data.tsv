@@ -1,0 +1,25 @@
+definition	definition_label	n_unique_variants	n_annotated_genes	classification_bucket	n_in_bucket	bucket_proportion	n_expert_panel
+primary	Hearing-loss phrase	18384	298	pathogenic_or_likely_pathogenic	4814	0.26185813751087905	173
+primary	Hearing-loss phrase	18384	298	vus	6908	0.3757615317667537	173
+primary	Hearing-loss phrase	18384	298	conflicting	2805	0.15257832898172324	173
+primary	Hearing-loss phrase	18384	298	benign_or_likely_benign	3786	0.20593994778067884	173
+primary	Hearing-loss phrase	18384	298	other	71	0.003862053959965187	173
+primary	Hearing-loss phrase	18384	298	unknown	0	0.0	173
+expanded	Expanded text	25661	467	pathogenic_or_likely_pathogenic	6460	0.2517438915085149	205
+expanded	Expanded text	25661	467	vus	9763	0.3804606211761038	205
+expanded	Expanded text	25661	467	conflicting	3562	0.13880986711351856	205
+expanded	Expanded text	25661	467	benign_or_likely_benign	5799	0.22598495771793772	205
+expanded	Expanded text	25661	467	other	77	0.0030006624839250223	205
+expanded	Expanded text	25661	467	unknown	0	0.0	205
+disease_supported	Text + HPO-linked disease	473704	2971	pathogenic_or_likely_pathogenic	88913	0.18769738064276426	2428
+disease_supported	Text + HPO-linked disease	473704	2971	vus	171072	0.3611369125023221	2428
+disease_supported	Text + HPO-linked disease	473704	2971	conflicting	42228	0.08914427575025755	2428
+disease_supported	Text + HPO-linked disease	473704	2971	benign_or_likely_benign	170754	0.36046560721463194	2428
+disease_supported	Text + HPO-linked disease	473704	2971	other	737	0.00155582389002415	2428
+disease_supported	Text + HPO-linked disease	473704	2971	unknown	0	0.0	2428
+curated_gene	Curated-gene comparator	162683	1484	pathogenic_or_likely_pathogenic	20039	0.123178205467074	241
+curated_gene	Curated-gene comparator	162683	1484	vus	63305	0.3891310093863526	241
+curated_gene	Curated-gene comparator	162683	1484	conflicting	9614	0.05909652514399169	241
+curated_gene	Curated-gene comparator	162683	1484	benign_or_likely_benign	66683	0.40989531788816286	241
+curated_gene	Curated-gene comparator	162683	1484	other	3042	0.01869894211441884	241
+curated_gene	Curated-gene comparator	162683	1484	unknown	0	0.0	241

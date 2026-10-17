@@ -1,0 +1,1439 @@
+disease_id	disease_name	new_variation_ids_with_matching_disease_id	unit
+ORPHA:154	Familial isolated dilated cardiomyopathy	44036	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:244	Primary ciliary dyskinesia	28729	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:84	Fanconi anemia	27050	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:791	Retinitis pigmentosa	16901	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:636	Neurofibromatosis type 1	13863	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:110	Bardet-Biedl syndrome	11659	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:590	Congenital myasthenic syndrome	11157	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613254	Tuberous sclerosis-2	9884	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:65	Leber congenital amaurosis	8793	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:29072	Hereditary pheochromocytoma-paraganglioma	7660	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2322	Kabuki syndrome	7176	distinct VariationIDs; disease-ID rows may overlap
+OMIM:203800	Alstrom syndrome	6314	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:64	Alström syndrome	6314	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1775	Dyskeratosis congenita	6139	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:193	Cohen syndrome	6054	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:666	Osteogenesis imperfecta	5844	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:886	Usher syndrome	5647	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:586	Cystic fibrosis	5484	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:912	Zellweger syndrome	5180	distinct VariationIDs; disease-ID rows may overlap
+OMIM:218600	Baller-Gerold syndrome	4847	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1225	Baller-Gerold syndrome	4847	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610743	Spinocerebellar ataxia, autosomal recessive 8	4841	distinct VariationIDs; disease-ID rows may overlap
+OMIM:166200	Osteogenesis imperfecta, type I	4618	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:63	Alport syndrome	4284	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:138	CHARGE syndrome	4106	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:540	Familial hemophagocytic lymphohistiocytosis	3853	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:648	Noonan syndrome	3758	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:199	Cornelia de Lange syndrome	3648	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:783	Rubinstein-Taybi syndrome	3539	distinct VariationIDs; disease-ID rows may overlap
+OMIM:256000	Leigh syndrome	3419	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:506	Leigh syndrome	3419	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:231178	Usher syndrome type 2	3340	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:581	Mucopolysaccharidosis type 3	3194	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309350	Melnick-Needles syndrome	3156	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2484	Melnick-Needles syndrome	3156	distinct VariationIDs; disease-ID rows may overlap
+OMIM:304120	Otopalatodigital syndrome, type II	3154	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1826	Frontometaphyseal dysplasia	3154	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90652	Otopalatodigital syndrome type 2	3154	distinct VariationIDs; disease-ID rows may overlap
+OMIM:232300	Glycogen storage disease II	2880	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:365	Glycogen storage disease due to acid maltase deficiency	2880	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:646	Niemann-Pick disease type C	2820	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:275872	Frontotemporal dementia with motor neuron disease	2795	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615966	Immunodeficiency 26 with or without neurologic abnormalities	2726	distinct VariationIDs; disease-ID rows may overlap
+OMIM:276901	Usher syndrome, type IIA	2630	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617577	Ciliary dyskinesia, primary, 37	2386	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2332	KBG syndrome	2287	distinct VariationIDs; disease-ID rows may overlap
+OMIM:242840	Vici syndrome	2274	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1493	Vici syndrome	2274	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:582	Mucopolysaccharidosis type 4	2265	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:478	Kallmann syndrome	2253	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301040	Alpha-thalassemia/impaired intellectual development syndrome	2245	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:847	X-linked alpha-thalassemia-intellectual disability syndrome	2245	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261494	Kleefstra syndrome	2184	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610253	Kleefstra syndrome 1	2180	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:231169	Usher syndrome type 1	2162	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:512	Metachromatic leukodystrophy	2067	distinct VariationIDs; disease-ID rows may overlap
+OMIM:101000	Neurofibromatosis, type II	1923	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:637	Full NF2-related schwannomatosis	1923	distinct VariationIDs; disease-ID rows may overlap
+OMIM:227650	Fanconi anemia	1921	distinct VariationIDs; disease-ID rows may overlap
+OMIM:193300	von Hippel-Lindau syndrome	1918	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:44	Neonatal adrenoleukodystrophy	1906	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:324	Fabry disease	1875	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:616	Medulloblastoma	1856	distinct VariationIDs; disease-ID rows may overlap
+OMIM:248500	Alpha-mannosidosis	1803	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:61	Alpha-mannosidosis	1803	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:201	Cowden syndrome	1775	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1465	Coffin-Siris syndrome	1709	distinct VariationIDs; disease-ID rows may overlap
+OMIM:122470	Cornelia de Lange syndrome 1	1700	distinct VariationIDs; disease-ID rows may overlap
+OMIM:102500	Hajdu-Cheney syndrome	1649	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:955	Hajdu-Cheney syndrome	1649	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:579	Mucopolysaccharidosis type 1	1594	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610042	Pitt-Hopkins like syndrome 1	1587	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300100	Adrenoleukodystrophy	1550	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:43	X-linked adrenoleukodystrophy	1550	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:576	Mucolipidosis type II	1531	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1052	Mosaic variegated aneuploidy syndrome	1529	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:36386	Hereditary sensory and autonomic neuropathy type 1	1526	distinct VariationIDs; disease-ID rows may overlap
+OMIM:204000	Leber congenital amaurosis, type I	1516	distinct VariationIDs; disease-ID rows may overlap
+OMIM:147920	Kabuki syndrome 1	1506	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:487	Krabbe disease	1499	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614455	Charcot-Marie-Tooth disease, dominant intermediate E	1498	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:397596	Activated PI3K-delta syndrome	1497	distinct VariationIDs; disease-ID rows may overlap
+OMIM:200990	Acrocallosal syndrome	1477	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:36	Acrocallosal syndrome	1477	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:353284	Rubinstein-Taybi syndrome due to EP300 haploinsufficiency	1425	distinct VariationIDs; disease-ID rows may overlap
+OMIM:245200	Krabbe disease	1408	distinct VariationIDs; disease-ID rows may overlap
+OMIM:203780	Alport syndrome 2, autosomal recessive	1404	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:88919	Autosomal recessive Alport syndrome	1404	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:423461	Mucolipidosis type III alpha/beta	1376	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309900	Mucopolysaccharidosis, type II	1358	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:580	Mucopolysaccharidosis type 2	1358	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:116	Beckwith-Wiedemann syndrome	1355	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616490	Joubert syndrome 23	1341	distinct VariationIDs; disease-ID rows may overlap
+OMIM:606170	Genitopatellar syndrome	1333	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:85201	Genitopatellar syndrome	1333	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2754	Orofaciodigital syndrome type 6	1332	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:269	Facioscapulohumeral dystrophy	1330	distinct VariationIDs; disease-ID rows may overlap
+OMIM:252920	Mucopolysaccharidosis type IIIB	1326	distinct VariationIDs; disease-ID rows may overlap
+OMIM:158901	Facioscapulohumeral muscular dystrophy 2	1320	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301050	Alport syndrome, X-linked	1305	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:88917	X-linked Alport syndrome	1305	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611762	Familial cold autoinflammatory syndrome 2	1295	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2152	Mowat-Wilson syndrome	1293	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3258	Cenani-Lenz syndrome	1285	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:845	Tay-Sachs disease	1274	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3152	Sclerosteosis	1266	distinct VariationIDs; disease-ID rows may overlap
+OMIM:222448	Donnai-Barrow syndrome	1244	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2143	Donnai-Barrow syndrome	1244	distinct VariationIDs; disease-ID rows may overlap
+OMIM:252930	Mucopolysaccharidosis type IIIC	1243	distinct VariationIDs; disease-ID rows may overlap
+OMIM:253000	Mucopolysaccharidosis IVA	1242	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:191	Cockayne syndrome	1229	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614305	Sclerosteosis 2	1215	distinct VariationIDs; disease-ID rows may overlap
+OMIM:261515	D-bifunctional protein deficiency	1211	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2052	Fraser syndrome	1210	distinct VariationIDs; disease-ID rows may overlap
+OMIM:219000	Fraser syndrome	1209	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2855	Perrault syndrome	1180	distinct VariationIDs; disease-ID rows may overlap
+OMIM:252900	Mucopolysaccharidosis type IIIA	1169	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613101	Hemophagocytic lymphohistiocytosis, familial, 5	1142	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:96169	Koolen-De Vries syndrome	1135	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615636	Joubert syndrome 21	1120	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:95716	Familial thyroid dyshormonogenesis	1101	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3440	Waardenburg syndrome	1067	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615440	Combined oxidative phosphorylation deficiency 17	1066	distinct VariationIDs; disease-ID rows may overlap
+OMIM:276900	Usher syndrome, type I	1060	distinct VariationIDs; disease-ID rows may overlap
+OMIM:606071	Hereditary motor and sensory neuropathy, type IIC	1053	distinct VariationIDs; disease-ID rows may overlap
+OMIM:158350	Cowden syndrome 1	1039	distinct VariationIDs; disease-ID rows may overlap
+OMIM:270400	Smith-Lemli-Opitz syndrome	1037	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:818	Smith-Lemli-Opitz syndrome	1037	distinct VariationIDs; disease-ID rows may overlap
+OMIM:253010	Mucopolysaccharidosis type IVB (Morquio)	1021	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300867	Kabuki syndrome 2	957	distinct VariationIDs; disease-ID rows may overlap
+OMIM:193510	Waardenburg syndrome, type 2A	948	distinct VariationIDs; disease-ID rows may overlap
+OMIM:253200	Mucopolysaccharidosis, type VI	945	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:583	Mucopolysaccharidosis type 6	945	distinct VariationIDs; disease-ID rows may overlap
+OMIM:182212	Shprintzen-Goldberg craniosynostosis syndrome	935	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2462	Shprintzen-Goldberg syndrome	935	distinct VariationIDs; disease-ID rows may overlap
+OMIM:117550	Sotos syndrome	932	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:821	Sotos syndrome	932	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614749	Hyperphosphatasia with impaired intellectual development syndrome 2	928	distinct VariationIDs; disease-ID rows may overlap
+OMIM:147950	Hypogonadotropic hypogonadism 2 with or without anosmia	927	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607259	Spastic paraplegia 7, autosomal recessive	906	distinct VariationIDs; disease-ID rows may overlap
+OMIM:256600	Neurodegeneration with brain iron accumulation 2A	903	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:97229	Riboflavin transporter deficiency	898	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:567	22q11.2 deletion syndrome	888	distinct VariationIDs; disease-ID rows may overlap
+OMIM:311200	Orofaciodigital syndrome I	886	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2169	Methylcobalamin deficiency type cblE	886	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2750	Orofaciodigital syndrome type 1	886	distinct VariationIDs; disease-ID rows may overlap
+OMIM:104200	Alport syndrome 3, autosomal dominant	879	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:88918	Autosomal dominant Alport syndrome	879	distinct VariationIDs; disease-ID rows may overlap
+OMIM:103500	Tietz albinism-deafness syndrome	877	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:42665	Tietz syndrome	877	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:47045	Familial cold urticaria	869	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:861	Treacher-Collins syndrome	860	distinct VariationIDs; disease-ID rows may overlap
+OMIM:278760	Xeroderma pigmentosum, complementation group F	850	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616688	Charcot-Marie-Tooth disease, axonal, type 2Z	848	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:466768	Autosomal dominant Charcot-Marie-Tooth disease type 2Z	848	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:51608	Generalized arterial calcification of infancy	839	distinct VariationIDs; disease-ID rows may overlap
+OMIM:264470	Peroxisomal acyl-CoA oxidase deficiency	837	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2971	Peroxisomal acyl-CoA oxidase deficiency	837	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2136	Hennekam syndrome	836	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613612	Congenital disorder of glycosylation, type IIi	832	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:263487	COG5-CDG	832	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602080	Paget disease of bone 2, early-onset	831	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:796	Sandhoff disease	828	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:137605	Legius syndrome	817	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613951	Fanconi anemia, complementation group P	808	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:910	Xeroderma pigmentosum	808	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:95699	Congenital adrenal hyperplasia due to cytochrome P450 oxidoreductase deficiency	803	distinct VariationIDs; disease-ID rows may overlap
+OMIM:252010	Mitochondrial complex I deficiency, nuclear type 1	799	distinct VariationIDs; disease-ID rows may overlap
+OMIM:605362	Cardiomyopathy, dilated, 1J	787	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:217622	Sensorineural deafness with dilated cardiomyopathy	787	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:782	Axenfeld-Rieger syndrome	787	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99803	Haddad syndrome	787	distinct VariationIDs; disease-ID rows may overlap
+OMIM:600901	Fanconi anemia, complementation group E	777	distinct VariationIDs; disease-ID rows may overlap
+OMIM:272200	Multiple sulfatase deficiency	776	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:585	Multiple sulfatase deficiency	776	distinct VariationIDs; disease-ID rows may overlap
+OMIM:154500	Treacher Collins syndrome 1	769	distinct VariationIDs; disease-ID rows may overlap
+OMIM:222600	Diastrophic dysplasia	761	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:628	Diastrophic dysplasia	761	distinct VariationIDs; disease-ID rows may overlap
+OMIM:252940	Mucopolysaccharidosis, type IIID	755	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602083	Usher syndrome, type IF	740	distinct VariationIDs; disease-ID rows may overlap
+OMIM:253260	Biotinidase deficiencymultiple carboxylase deficiency, late-onset	722	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79241	Biotinidase deficiency	722	distinct VariationIDs; disease-ID rows may overlap
+OMIM:180849	Rubinstein-Taybi syndrome 1	721	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:353277	Rubinstein-Taybi syndrome due to CREBBP mutations	721	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616672	Combined oxidative phosphorylation deficiency 27	719	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:477774	Combined oxidative phosphorylation defect type 27	719	distinct VariationIDs; disease-ID rows may overlap
+OMIM:248510	Mannosidosis, beta	712	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612370	Hypogonadotropic hypogonadism 5 with or without anosmia	712	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:118	Beta-mannosidosis	712	distinct VariationIDs; disease-ID rows may overlap
+OMIM:608716	Microcephaly 5, primary, autosomal recessive	708	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300419	Intellectual developmental disorder, X-linked 29	702	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:773	Adult Refsum disease	700	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614609	Coffin-Siris syndrome 4	699	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614976	Carpenter syndrome 2	698	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2962	De Barsy syndrome	697	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99886	Transient neonatal diabetes mellitus	693	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:314679	Cerebrofacioarticular syndrome	682	distinct VariationIDs; disease-ID rows may overlap
+OMIM:253220	Mucopolysaccharidosis VII	668	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2637	Microcephalic osteodysplastic primordial dwarfism type II	667	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:414	Gyrate atrophy of choroid and retina	666	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601596	Charcot-Marie-Tooth disease, type 4C	650	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99949	Charcot-Marie-Tooth disease type 4C	650	distinct VariationIDs; disease-ID rows may overlap
+OMIM:307200	Isolated growth hormone deficiency, type III, with agammaglobulinemia	647	distinct VariationIDs; disease-ID rows may overlap
+OMIM:605472	Usher syndrome, type IIC	644	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615993	Bardet-Biedl syndrome 16	644	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609053	Fanconi anemia, complementation group I	640	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:667	Autosomal recessive malignant osteopetrosis	640	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:569	Familial or sporadic hemiplegic migraine	637	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610717	Neutral lipid storage disease with myopathy	622	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:98908	Neutral lipid storage disease with myopathy	622	distinct VariationIDs; disease-ID rows may overlap
+OMIM:277170	Orofaciodigital syndrome VI	621	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602482	Axenfeld-Rieger syndrome, type 3	620	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:828	Stickler syndrome	619	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616006	Hennekam lymphangiectasia-lymphedema syndrome 2	616	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:107	BOR syndrome	610	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614879	Peroxisome biogenesis disorder 9B	607	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615546	Van maldergem syndrome 2	605	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:355	Gaucher disease	602	distinct VariationIDs; disease-ID rows may overlap
+OMIM:227646	Fanconi anemia, complementation group D2	599	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620186	Branchial arch abnormalities, choanal atresia, athelia, hearing loss, and hypothyroidism syndrome	592	distinct VariationIDs; disease-ID rows may overlap
+OMIM:540000	Mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke-like episodes	591	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:550	MELAS	591	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614504	Usher syndrome, type IIIB	586	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93921	Full schwannomatosis	563	distinct VariationIDs; disease-ID rows may overlap
+OMIM:227645	Fanconi anemia, complementation group C	559	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615816	Immunodeficiency 23	554	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:443811	PGM3-CDG	554	distinct VariationIDs; disease-ID rows may overlap
+OMIM:209900	Bardet-Biedl syndrome 1	553	distinct VariationIDs; disease-ID rows may overlap
+OMIM:269880	Short syndrome	553	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3163	SHORT syndrome	553	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93111	HNF1B-related autosomal dominant tubulointerstitial kidney disease	548	distinct VariationIDs; disease-ID rows may overlap
+OMIM:135900	Coffin-Siris syndrome 1	544	distinct VariationIDs; disease-ID rows may overlap
+OMIM:606056	Congenital disorder of glycosylation, type IIB	538	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79330	MOGS-CDG	538	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79237	Galactokinase deficiency	533	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616084	Sideroblastic anemia with B-cell immunodeficiency, periodic fevers, and developmental delay	531	distinct VariationIDs; disease-ID rows may overlap
+OMIM:256540	Galactosialidosis	524	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612015	Congenital disorder of glycosylation, type In	524	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:244310	RFT1-CDG	524	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:351	Galactosialidosis	524	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:97360	Robinow syndrome	524	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:98808	Autosomal dominant dopa-responsive dystonia	522	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607143	Congenital disorder of glycosylation, type Ig	520	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79324	ALG12-CDG	520	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602782	Histiocytosis-lymphadenopathy plus syndrome	519	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:168569	H syndrome	519	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300166	Microphthalmia, syndromic 2	517	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2712	Oculofaciocardiodental syndrome	517	distinct VariationIDs; disease-ID rows may overlap
+OMIM:165300	Optic atrophy 3, autosomal dominant	516	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613861	Retinitis pigmentosa 59	516	distinct VariationIDs; disease-ID rows may overlap
+OMIM:136140	Floating-Harbor syndrome	515	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2044	Floating-Harbor syndrome	515	distinct VariationIDs; disease-ID rows may overlap
+OMIM:608779	Congenital disorder of glycosylation, type IIe	512	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614946	Combined oxidative phosphorylation deficiency 14	511	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614114	Mosaic variegated aneuploidy syndrome 2	508	distinct VariationIDs; disease-ID rows may overlap
+OMIM:241080	Woodhouse-Sakati syndrome	499	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616368	CHOPS syndrome	499	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3464	Woodhouse-Sakati syndrome	499	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:444077	Cognitive impairment-coarse facies-heart defects-obesity-pulmonary involvement-short stature-skeletal dysplasia syndrome	499	distinct VariationIDs; disease-ID rows may overlap
+OMIM:259700	Osteopetrosis, autosomal recessive 1	490	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620536	Alport syndrome 3B, autosomal recessive	489	distinct VariationIDs; disease-ID rows may overlap
+OMIM:271900	Canavan disease	488	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:141	Canavan disease	488	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2953	Musculocontractural Ehlers-Danlos syndrome	488	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2345	Isolated Klippel-Feil syndrome	486	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2753	Orofaciodigital syndrome type 4	486	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:89936	X-linked hypophosphatemia	478	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614707	Brown-Vialetto-Van laere syndrome 2	476	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602342	Pierpont syndrome	469	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:487825	Pierpont syndrome	469	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610759	Cornelia de Lange syndrome 3	466	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79394	Congenital ichthyosiform erythroderma	466	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:857	Townes-Brocks syndrome	464	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614866	Peroxisome biogenesis disorder 5A (Zellweger)	463	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601812	Premature aging syndrome, Penttinen type	461	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609056	Salt and pepper developmental regression syndrome	459	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614873	Peroxisome biogenesis disorder 7B	456	distinct VariationIDs; disease-ID rows may overlap
+OMIM:118100	Klippel-Feil syndrome 1, autosomal dominant	452	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620320	Hematuria, benign familial, 2	439	distinct VariationIDs; disease-ID rows may overlap
+OMIM:220110	Mitochondrial complex IV deficiency, nuclear type 1	437	distinct VariationIDs; disease-ID rows may overlap
+OMIM:243310	Baraitser-Winter syndrome 1	434	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:298	Mitochondrial neurogastrointestinal encephalomyopathy	433	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610199	Diabetes mellitus, neonatal, with congenital hypothyroidism	431	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610738	Neutropenia, severe congenital 3, autosomal recessive	431	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:289176	Autosomal recessive hypophosphatemic rickets	431	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3220	Deafness-enamel hypoplasia-nail defects syndrome	430	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:313	Lamellar ichthyosis	429	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612541	Neutropenia, severe congenital, 4, autosomal recessive	428	distinct VariationIDs; disease-ID rows may overlap
+OMIM:120330	Papillorenal syndrome	427	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1475	Renal coloboma syndrome	427	distinct VariationIDs; disease-ID rows may overlap
+OMIM:211530	Brown-Vialetto-Van Laere syndrome 1	424	distinct VariationIDs; disease-ID rows may overlap
+OMIM:230000	Fucosidosis	423	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:349	Fucosidosis	423	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615471	Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)	420	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607323	Duane-Radial ray syndrome	414	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:959	Acro-renal-ocular syndrome	414	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611209	Congenital disorder of glycosylation, type IIg	406	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:500	Noonan syndrome with multiple lentigines	392	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617082	Congenital disorder of glycosylation, type IAA	389	distinct VariationIDs; disease-ID rows may overlap
+OMIM:105210	Amyloidosis, hereditary, transthyretin-related	387	distinct VariationIDs; disease-ID rows may overlap
+OMIM:143095	Spondyloepiphyseal dysplasia with congenital joint dislocations	387	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90354	Brittle cornea syndrome	385	distinct VariationIDs; disease-ID rows may overlap
+OMIM:163950	Noonan syndrome 1	383	distinct VariationIDs; disease-ID rows may overlap
+OMIM:135300	Fibromatosis, gingival, 1	382	distinct VariationIDs; disease-ID rows may overlap
+OMIM:230350	Galactose epimerase deficiency	368	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90647	Jervell and Lange-Nielsen syndrome	364	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3137	Alpha-N-acetylgalactosaminidase deficiency	362	distinct VariationIDs; disease-ID rows may overlap
+OMIM:268310	Robinow syndrome, autosomal recessive	361	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1507	Autosomal recessive Robinow syndrome	361	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79279	Alpha-N-acetylgalactosaminidase deficiency type 1	359	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616726	Ciliary dyskinesia, primary, 33	358	distinct VariationIDs; disease-ID rows may overlap
+OMIM:133540	Cockayne syndrome, type B	357	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90322	Cockayne syndrome type 2	357	distinct VariationIDs; disease-ID rows may overlap
+OMIM:114290	Campomelic dysplasia	356	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:140	Campomelic dysplasia	356	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99885	Isolated permanent neonatal diabetes mellitus	354	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612073	Mitochondrial DNA depletion syndrome 5 (encephalomyopathic with or without methylmalonic aciduria)	345	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1933	Mitochondrial DNA depletion syndrome, encephalomyopathic form with methylmalonic aciduria	345	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3463	Wolfram syndrome	344	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:432	Normosmic congenital hypogonadotropic hypogonadism	342	distinct VariationIDs; disease-ID rows may overlap
+OMIM:214100	Peroxisome biogenesis disorder 1A (Zellweger)	339	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618332	Menke-Hennekam syndrome 1	331	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615350	Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 14	330	distinct VariationIDs; disease-ID rows may overlap
+OMIM:229200	Brittle cornea syndrome	327	distinct VariationIDs; disease-ID rows may overlap
+OMIM:303600	Coffin-Lowry syndrome	323	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:192	Coffin-Lowry syndrome	323	distinct VariationIDs; disease-ID rows may overlap
+OMIM:222300	Wolfram syndrome 1	315	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2710	Oculodentodigital dysplasia	308	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607906	Congenital disorder of glycosylation, type Ii	306	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99843	Leukocyte adhesion deficiency type II	306	distinct VariationIDs; disease-ID rows may overlap
+OMIM:161200	Nail-Patella syndrome	303	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:891	Familial exudative vitreoretinopathy	303	distinct VariationIDs; disease-ID rows may overlap
+OMIM:603736	Ohdo syndrome, Say-Barber-Biesecker-Young-Simpson variant	302	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:369891	Developmental delay-facial dysmorphism syndrome due to MED13L deficiency	301	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300882	Cornelia de Lange syndrome 5	298	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:356961	SLC35A2-CDG	297	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613159	Nephronophthisis-Like nephropathy 1	296	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:536467	B3GALT6-related spondylodysplastic Ehlers-Danlos syndrome	296	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2623	Geleophysic dysplasia	295	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:86309	DPAGT1-CDG	295	distinct VariationIDs; disease-ID rows may overlap
+OMIM:245400	Mitochondrial DNA depletion syndrome 9 (encephalomyopathic type with methylmalonic aciduria)	287	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:17	Fatal infantile lactic acidosis with methylmalonic aciduria	287	distinct VariationIDs; disease-ID rows may overlap
+OMIM:256500	Netherton syndrome	282	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300868	Multiple congenital anomalies-hypotonia-seizures syndrome 2	281	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607014	Hurler syndrome	280	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93473	Hurler syndrome	280	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616276	Coenzyme Q10 deficiency, primary, 7	276	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:760	Purine nucleoside phosphorylase deficiency	276	distinct VariationIDs; disease-ID rows may overlap
+OMIM:274600	Pendred syndrome	274	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602535	Marshall-Smith syndrome	274	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:561	Marshall-Smith syndrome	274	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:705	Pendred syndrome	274	distinct VariationIDs; disease-ID rows may overlap
+OMIM:108120	Arthrogryposis, distal, type 1A	272	distinct VariationIDs; disease-ID rows may overlap
+OMIM:108300	Stickler syndrome, type I	272	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90653	Stickler syndrome type 1	272	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:65682	Benign recurrent intrahepatic cholestasis	270	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616488	Neuropathy, hereditary sensory and autonomic, type VIII	262	distinct VariationIDs; disease-ID rows may overlap
+OMIM:101400	Saethre-Chotzen syndrome	261	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:794	Saethre-Chotzen syndrome	261	distinct VariationIDs; disease-ID rows may overlap
+OMIM:236792	L-2-hydroxyglutaric aciduria	260	distinct VariationIDs; disease-ID rows may overlap
+OMIM:214150	Cerebrooculofacioskeletal syndrome 1	255	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2554	Ear-patella-short stature syndrome	252	distinct VariationIDs; disease-ID rows may overlap
+OMIM:302800	Charcot-Marie-Tooth neuropathy, X-linked dominant, 1	250	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:101075	X-linked Charcot-Marie-Tooth disease type 1	250	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:52427	Retinitis punctata albescens	250	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616364	White-Sutton syndrome	249	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:468678	White-Sutton syndrome	249	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:369837	Intellectual disability-seizures-hypophosphatasia-ophthalmic-skeletal anomalies syndrome	248	distinct VariationIDs; disease-ID rows may overlap
+OMIM:234580	Heimler syndrome 1	247	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615249	Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 12	247	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:85448	AGel amyloidosis	247	distinct VariationIDs; disease-ID rows may overlap
+OMIM:255995	Congenital myopathy 13	244	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:168572	Native American myopathy	244	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615829	Xia-Gibbs syndrome	242	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:412069	AHDC1-related intellectual disability-obstructive sleep apnea-mild dysmorphism syndrome	242	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612780	SESAME syndrome	241	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:199343	EAST syndrome	241	distinct VariationIDs; disease-ID rows may overlap
+OMIM:261540	Peters-plus syndrome	235	distinct VariationIDs; disease-ID rows may overlap
+OMIM:277440	Rickets, vitamin D-resistant, type IIA	235	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300958	Intellectual developmental disorder, X-linked, syndrome, snijders Blok type	235	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:457260	X-linked intellectual disability-hypotonia-movement disorder syndrome	235	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:709	Peters plus syndrome	235	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309590	Intellectual developmental disorder, X-linked syndromic, Turner type	233	distinct VariationIDs; disease-ID rows may overlap
+OMIM:151100	Leopard syndrome 1	232	distinct VariationIDs; disease-ID rows may overlap
+OMIM:220400	Jervell and Lange-Nielsen syndrome 1	232	distinct VariationIDs; disease-ID rows may overlap
+OMIM:604841	Stickler syndrome, type II	231	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90654	Stickler syndrome type 2	231	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601455	Charcot-Marie-Tooth disease, type 4D	230	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99950	Charcot-Marie-Tooth disease type 4D	230	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613090	Bartter syndrome, type 4B, neonatal, with sensorineural deafness	226	distinct VariationIDs; disease-ID rows may overlap
+OMIM:139210	Myhre syndrome	225	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2588	Myhre syndrome	225	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615911	Frontotemporal dementia and/or amyotrophic lateral sclerosis 2	224	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2185	Congenital hydrocephalus	224	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614607	Coffin-Siris syndrome 2	222	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617796	Intellectual developmental disorder, autosomal dominant 52	222	distinct VariationIDs; disease-ID rows may overlap
+OMIM:235510	Hennekam lymphangiectasia-lymphedema syndrome	221	distinct VariationIDs; disease-ID rows may overlap
+OMIM:166220	Osteogenesis imperfecta, type IV	219	distinct VariationIDs; disease-ID rows may overlap
+OMIM:276904	Usher syndrome, type IC	215	distinct VariationIDs; disease-ID rows may overlap
+OMIM:604804	Microcephaly 3, primary, autosomal recessive	213	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602588	Branchiootic syndrome 1	212	distinct VariationIDs; disease-ID rows may overlap
+OMIM:604563	Charcot-Marie-Tooth disease, type 4B2	212	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1522	Craniometaphyseal dysplasia	212	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2833	Stiff skin syndrome	212	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79255	GM1 gangliosidosis type 1	212	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:98673	Autosomal dominant optic atrophy, classic form	212	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99956	Charcot-Marie-Tooth disease type 4B2	212	distinct VariationIDs; disease-ID rows may overlap
+OMIM:123000	Craniometaphyseal dysplasia	211	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616843	Lymphedema, hereditary, III	211	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607932	Microphthalmia, syndromic 6	208	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:139471	Microphthalmia with brain and digit anomalies	208	distinct VariationIDs; disease-ID rows may overlap
+OMIM:603041	Mitochondrial DNA depletion syndrome 1 (MNGIE type)	205	distinct VariationIDs; disease-ID rows may overlap
+OMIM:603467	Fanconi anemia, complementation group F	205	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:500150	ZTTK syndrome	205	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:357058	Autosomal recessive cutis laxa type 2A	204	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:869	Triple A syndrome	202	distinct VariationIDs; disease-ID rows may overlap
+OMIM:193700	Arthrogryposis, distal, type 2A (Freeman-Sheldon)	201	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2053	Freeman-Sheldon syndrome	201	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618505	Stolerman neurodevelopmental syndrome	200	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2609	Isolated complex I deficiency	200	distinct VariationIDs; disease-ID rows may overlap
+OMIM:156000	Meniere disease	198	distinct VariationIDs; disease-ID rows may overlap
+OMIM:278730	Xeroderma pigmentosum, complementation group D	198	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300905	Charcot-Marie-Tooth disease, X-linked dominant, 6	197	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607459	Sensory ataxic neuropathy, dysarthria, and ophthalmoparesis	197	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:352675	X-linked Charcot-Marie-Tooth disease type 6	197	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:70595	Sensory ataxic neuropathy-dysarthria-ophthalmoparesis syndrome	197	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2884	Piebaldism	195	distinct VariationIDs; disease-ID rows may overlap
+OMIM:166780	Otofaciocervical syndrome	194	distinct VariationIDs; disease-ID rows may overlap
+OMIM:267500	Reticular dysgenesis	194	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:33355	Reticular dysgenesis	194	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:33364	Trichothiodystrophy	193	distinct VariationIDs; disease-ID rows may overlap
+OMIM:606232	Phelan-Mcdermid syndrome	192	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:48652	Phelan-McDermid syndrome	192	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614557	Ehlers-Danlos syndrome, kyphoscoliotic type, 2	188	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:139485	Autosomal recessive ataxia due to ubiquinone deficiency	188	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:300179	Kyphoscoliotic Ehlers-Danlos syndrome due to FKBP22 deficiency	188	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616975	Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart	187	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:494344	RERE-related neurodevelopmental syndrome	187	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610756	Cerebrooculofacioskeletal syndrome 2	186	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79321	ALG3-CDG	186	distinct VariationIDs; disease-ID rows may overlap
+OMIM:113650	Branchiootorenal syndrome 1	184	distinct VariationIDs; disease-ID rows may overlap
+OMIM:206900	Microphthalmia, syndromic 3	183	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616617	Heimler syndrome 2	183	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:77298	Anophthalmia/microphthalmia-esophageal atresia syndrome	183	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:47	X-linked agammaglobulinemia	181	distinct VariationIDs; disease-ID rows may overlap
+OMIM:605282	Temtamy preaxial brachydactyly syndrome	180	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:137898	Leukoencephalopathy with brain stem and spinal cord involvement-high lactate syndrome	180	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:363417	Temtamy preaxial brachydactyly syndrome	180	distinct VariationIDs; disease-ID rows may overlap
+OMIM:259420	Osteogenesis imperfecta, type III	179	distinct VariationIDs; disease-ID rows may overlap
+OMIM:266280	RAPADILINO syndrome	178	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300755	Agammaglobulinemia, X-linked	177	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:763	Pycnodysostosis	175	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618052	Cardiomyopathy, familial hypertrophic 27	173	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619351	Megacystis-microcolon-intestinal hypoperistalsis syndrome 2	173	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:897	Waardenburg-Shah syndrome	173	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2697	Arthrogryposis-renal dysfunction-cholestasis syndrome	172	distinct VariationIDs; disease-ID rows may overlap
+OMIM:312080	Pelizaeus-Merzbacher disease	171	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:702	Pelizaeus-Merzbacher disease	171	distinct VariationIDs; disease-ID rows may overlap
+OMIM:119600	Cleidocranial dysplasia	170	distinct VariationIDs; disease-ID rows may overlap
+OMIM:182290	Smith-Magenis syndrome	170	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1452	Cleidocranial dysplasia	170	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:819	Smith-Magenis syndrome	170	distinct VariationIDs; disease-ID rows may overlap
+OMIM:244400	Ciliary dyskinesia, primary, 1	168	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614078	Chondrodysplasia with joint dislocations, Gpapp type	167	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3107	Autosomal dominant Robinow syndrome	166	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601539	Peroxisome biogenesis disorder 1B	165	distinct VariationIDs; disease-ID rows may overlap
+OMIM:147750	IVIC syndrome	163	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2307	IVIC syndrome	163	distinct VariationIDs; disease-ID rows may overlap
+OMIM:221750	Deafness, sensorineural, with pituitary dwarfism	161	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:231720	Non-acquired combined pituitary hormone deficiency-sensorineural hearing loss-spine abnormalities syndrome	161	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:293843	3MC syndrome	159	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610896	Branchiootorenal syndrome 2	158	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79493	Brooke-Spiegler syndrome	158	distinct VariationIDs; disease-ID rows may overlap
+OMIM:233400	Perrault syndrome 1	157	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:319199	Autosomal recessive spastic paraplegia type 53	157	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300804	Joubert syndrome 10	154	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613309	Diamond-Blackfan anemia 10	154	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:137888	Auriculocondylar syndrome	152	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2744	Horizontal gaze palsy with progressive scoliosis	150	distinct VariationIDs; disease-ID rows may overlap
+OMIM:216400	Cockayne syndrome, type A	149	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90321	Cockayne syndrome type 1	149	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:127	Borjeson-Forssman-Lehmann syndrome	148	distinct VariationIDs; disease-ID rows may overlap
+OMIM:278700	Xeroderma pigmentosum, complementation group A	147	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:254886	Autosomal recessive progressive external ophthalmoplegia	147	distinct VariationIDs; disease-ID rows may overlap
+OMIM:107480	Townes-Brocks syndrome 1	146	distinct VariationIDs; disease-ID rows may overlap
+OMIM:215100	Rhizomelic chondrodysplasia punctata, type 1	146	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610536	Mandibulofacial dysostosis, Guion-Almeida type	146	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79113	Mandibulofacial dysostosis-microcephaly syndrome	146	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:100991	Autosomal dominant spastic paraplegia type 10	144	distinct VariationIDs; disease-ID rows may overlap
+OMIM:215150	Otospondylomegaepiphyseal dysplasia	142	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1427	Autosomal recessive otospondylomegaepiphyseal dysplasia	142	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609528	Cerebral dysgenesis, neuropathy, ichthyosis, and palmoplantar keratoderma syndrome	141	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3237	Multiple synostoses syndrome	141	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:66631	CEDNIK syndrome	141	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:66634	Dilated cardiomyopathy with ataxia	139	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609560	Mitochondrial DNA depletion syndrome 2 (myopathic type)	138	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:254875	TK2-related mitochondrial DNA maintenance defect, myopathic form	138	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614863	Peroxisome biogenesis disorder 4B	137	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93476	Hurler-Scheie syndrome	137	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:95433	Autosomal recessive spinocerebellar ataxia-blindness-deafness syndrome	137	distinct VariationIDs; disease-ID rows may overlap
+OMIM:123500	Crouzon syndrome	135	distinct VariationIDs; disease-ID rows may overlap
+OMIM:156400	Metaphyseal chondrodysplasia, Jansen type	135	distinct VariationIDs; disease-ID rows may overlap
+OMIM:193500	Waardenburg syndrome, type 1	135	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300749	Intellectual developmental disorder and microcephaly with pontine and cerebellar hypoplasia	135	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:163937	X-linked intellectual disability, Najm type	135	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:207	Crouzon syndrome	135	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:894	Waardenburg syndrome type 1	135	distinct VariationIDs; disease-ID rows may overlap
+OMIM:157640	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 1	133	distinct VariationIDs; disease-ID rows may overlap
+OMIM:275630	Chanarin-Dorfman syndrome	132	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:98907	Neutral lipid storage disease with ichthyosis	132	distinct VariationIDs; disease-ID rows may overlap
+OMIM:257920	3MC syndrome 1	131	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607426	Coenzyme Q10 deficiency, primary, 1	131	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614669	Auriculocondylar syndrome 2	131	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:46059	Lathosterolosis	131	distinct VariationIDs; disease-ID rows may overlap
+OMIM:608747	Insulin-Like growth factor I deficiency	130	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:73272	Growth delay due to insulin-like growth factor type 1 deficiency	130	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616078	Intellectual developmental disorder, autosomal dominant 29	128	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609260	Charcot-marie-tooth disease, axonal, type 2A2A	127	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613661	Congenital disorder of glycosylation, type Ip	127	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:280071	ALG11-CDG	127	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99947	Autosomal dominant Charcot-Marie-Tooth disease type 2A2	127	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612347	Jervell and Lange-Nielsen syndrome 2	126	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618454	Developmental delay with or without dysmorphic facies and autism	125	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617808	Coffin-Siris syndrome 6	124	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1305	Feingold syndrome	124	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2439	Patterson-Stevenson-Fontaine syndrome	124	distinct VariationIDs; disease-ID rows may overlap
+OMIM:164280	Feingold syndrome 1	123	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618619	Weiss-Kruszka syndrome	123	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:391641	Feingold syndrome type 1	123	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:502430	Weiss-Kruszka Syndrome	123	distinct VariationIDs; disease-ID rows may overlap
+OMIM:101800	Acrodysostosis 1, with or without hormone resistance	122	distinct VariationIDs; disease-ID rows may overlap
+OMIM:244200	Hypogonadotropic hypogonadism 3 with or without anosmia	122	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613662	Mitochondrial DNA depletion syndrome 4B (mngie type)	122	distinct VariationIDs; disease-ID rows may overlap
+OMIM:168000	Paragangliomas 1	121	distinct VariationIDs; disease-ID rows may overlap
+OMIM:241520	Hypophosphatemic rickets, autosomal recessive	121	distinct VariationIDs; disease-ID rows may overlap
+OMIM:305450	Opitz-Kaveggia syndrome	121	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613287	Charcot-Marie-Tooth disease, axonal, type 2N	121	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619475	Developmental delay, impaired speech, and behavioral abnormalities	121	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93932	FG syndrome type 1	121	distinct VariationIDs; disease-ID rows may overlap
+OMIM:258450	Progressive external ophthalmoplegia with mitochondrial DNA deletions,autosomal recessive	120	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601067	Usher syndrome, type ID	120	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619312	Radio-Tartaglia syndrome	120	distinct VariationIDs; disease-ID rows may overlap
+OMIM:604292	Ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome 3	119	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613266	Waardenburg syndrome, type 4C	119	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1896	EEC syndrome	119	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:243	46,XX gonadal dysgenesis	119	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309580	Intellectual disability-hypotonic facies syndrome, X-linked	118	distinct VariationIDs; disease-ID rows may overlap
+OMIM:265000	Escobar syndrome	117	distinct VariationIDs; disease-ID rows may overlap
+OMIM:312870	Simpson-Golabi-Behmel syndrome, type 1	117	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2990	Autosomal recessive multiple pterygium syndrome	117	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614922	Combined oxidative phosphorylation deficiency 11	116	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616900	Hypotonia, infantile, with psychomotor retardation and characteristic facies 3	116	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617159	Sifrim-Hitz-Weiss syndrome	116	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:101082	Charcot-Marie-Tooth disease type 1B	116	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:488632	TBCK-related encephalopathy-severe hypotonia-craniofacial dysmorphism syndrome	116	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617854	Intellectual developmental disorder, autosomal dominant 56	115	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609286	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 3	114	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612938	Growth retardation, developmental delay, coarse facies, and earlydeath	114	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614075	Hermansky-Pudlak syndrome 6	114	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614856	Osteogenesis imperfecta, type XIII	114	distinct VariationIDs; disease-ID rows may overlap
+OMIM:212066	Congenital disorder of glycosylation, type IIa	113	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610968	Osteogenesis imperfecta, type XI	113	distinct VariationIDs; disease-ID rows may overlap
+OMIM:130720	Lateral meningocele syndrome	111	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611091	Intellectual developmental disorder, autosomal recessive 5	111	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617201	Periventricular nodular heterotopia 7	111	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2789	Lateral meningocele syndrome	111	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79443	Pseudohypoparathyroidism type 1A	111	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614923	Branched-chain keto acid dehydrogenase kinase deficiency	110	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:404473	Intellectual disability-eye abnormalities-microcephaly-peripheral spasticity syndrome	110	distinct VariationIDs; disease-ID rows may overlap
+OMIM:266500	Refsum disease	109	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:205	Crigler-Najjar syndrome	109	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:742	Prolidase deficiency	107	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93474	Scheie syndrome	106	distinct VariationIDs; disease-ID rows may overlap
+OMIM:201000	Carpenter syndrome 1	105	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615510	Alacrima, achalasia, and impaired intellectual development syndrome	105	distinct VariationIDs; disease-ID rows may overlap
+OMIM:271245	Mitochondrial DNA depletion syndrome 7 (hepatocerebral type)	104	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610883	Potocki-Lupski syndrome	104	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615155	Steel syndrome	104	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1186	Infantile-onset spinocerebellar ataxia	104	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1713	17p11.2 microduplication syndrome	104	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:231183	Usher syndrome type 3	104	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:97286	Carney-Stratakis syndrome	104	distinct VariationIDs; disease-ID rows may overlap
+OMIM:278800	De Sanctis-Cacchione syndrome	103	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615219	Hydrocephalus, congenital, 2, with or without brain or eye anomalies	102	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:85179	Infantile osteopetrosis with neuroaxonal dysplasia	102	distinct VariationIDs; disease-ID rows may overlap
+OMIM:606943	Usher syndrome, type IG	101	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615157	Mitochondrial complex III deficiency, nuclear type 2	101	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615502	Intellectual developmental disorder, autosomal dominant 21	101	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:209905	Brain-lung-thyroid syndrome	101	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601088	Ayme-Gripp syndrome	100	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:94065	15q24 microdeletion syndrome	100	distinct VariationIDs; disease-ID rows may overlap
+OMIM:256810	Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)	99	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300966	Intellectual developmental disorder, X-linked syndromic 33	99	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619243	Global developmental delay with speech and behavioral abnormalities	99	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:480907	X-linked intellectual disability-global development delay-facial dysmorphism-sacral caudal remnant syndrome	99	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610651	Xeroderma pigmentosum, complementation group B	98	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613406	Witteveen-Kolk syndrome	98	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3157	Septo-optic dysplasia spectrum	98	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:500166	SIN3-related intellectual disability syndrome due to a point mutation	98	distinct VariationIDs; disease-ID rows may overlap
+OMIM:270800	Spastic paraplegia 5A, autosomal recessive	97	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:100986	Autosomal recessive spastic paraplegia type 5A	97	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618672	Intellectual developmental disorder with speech delay, autism, and dysmorphic facies	96	distinct VariationIDs; disease-ID rows may overlap
+OMIM:263750	Postaxial acrofacial dysostosis	95	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:233	Duane retraction syndrome	95	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:246	Postaxial acrofacial dysostosis	95	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:401777	Optic atrophy-intellectual disability syndrome	95	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613982	Osteogenesis imperfecta, type VI	94	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619046	Mitochondrial complex IV deficiency, nuclear type 3	94	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:53693	GRACILE syndrome	94	distinct VariationIDs; disease-ID rows may overlap
+OMIM:150250	Larsen syndrome	93	distinct VariationIDs; disease-ID rows may overlap
+OMIM:167250	Paget disease of bone 3	93	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613224	Noonan syndrome 6	93	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614675	Bone marrow failure syndrome 1	93	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616708	Desanto-Shinawi syndrome	93	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:284169	Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to 10p11.21p12.31 microdeletion	93	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:466950	Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to WAC point mutation	93	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:503	Larsen syndrome	93	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:798	Schinzel-Giedion syndrome	92	distinct VariationIDs; disease-ID rows may overlap
+OMIM:164200	Oculodentodigital dysplasia	91	distinct VariationIDs; disease-ID rows may overlap
+OMIM:272460	Spondylocarpotarsal synostosis syndrome	91	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610965	XFE progeroid syndrome	91	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2701	Noonan syndrome-like disorder with loose anagen hair	91	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3275	Spondylocarpotarsal synostosis	91	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3320	Thrombocytopenia-absent radius syndrome	91	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2785	Osteopetrosis with renal tubular acidosis	90	distinct VariationIDs; disease-ID rows may overlap
+OMIM:604377	Mitochondrial complex IV deficiency, nuclear type 2	89	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:468631	Microcephalic cortical malformations-short stature due to RTTN deficiency	89	distinct VariationIDs; disease-ID rows may overlap
+OMIM:604213	Chudley-Mccullough syndrome	88	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:100924	Porphyria due to ALA dehydratase deficiency	88	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:309252	Atypical Gaucher disease due to saposin C deficiency	88	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:314597	Chudley-McCullough syndrome	88	distinct VariationIDs; disease-ID rows may overlap
+OMIM:224690	Meier-Gorlin syndrome 1	87	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616580	Au-Kline syndrome	87	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:453499	Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome	87	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:453504	Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome due to a point mutation	87	distinct VariationIDs; disease-ID rows may overlap
+OMIM:113620	Branchiooculofacial syndrome	86	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613077	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 5	86	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619056	Neurodevelopmental disorder with speech impairment and dysmorphic facies	86	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1297	Branchio-oculo-facial syndrome	86	distinct VariationIDs; disease-ID rows may overlap
+OMIM:208085	Arthrogryposis, renal dysfunction, and cholestasis 1	84	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613990	Dyskeratosis congenita, autosomal dominant 3	83	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616277	Mitochondrial short-chain enoyl-coa hydratase 1 deficiency	83	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300968	Intellectual developmental disorder, X-linked 99, syndromic, female-restricted	82	distinct VariationIDs; disease-ID rows may overlap
+OMIM:243300	Cholestasis, benign recurrent intrahepatic 1	81	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602522	Bartter syndrome, type 4A, neonatal, with sensorineural deafness	81	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609283	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 2	81	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617802	Neurodevelopmental disorder with microcephaly, seizures, and cortical atrophy	79	distinct VariationIDs; disease-ID rows may overlap
+OMIM:608027	Pontocerebellar hypoplasia, type 3	78	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612674	Polyneuropathy, hearing loss, ataxia, retinitis pigmentosa, and cataract	78	distinct VariationIDs; disease-ID rows may overlap
+OMIM:120100	Familial cold inflammatory syndrome 1	77	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601390	Van Maldergem syndrome 1	77	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613398	Warsaw breakage syndrome	77	distinct VariationIDs; disease-ID rows may overlap
+OMIM:259050	Primrose syndrome	76	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618497	Neurodevelopmental disorder with seizures and nonepileptic hyperkinetic movements	76	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618659	Neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies	76	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3042	Intellectual disability-cataracts-calcified pinnae-myopathy syndrome	76	distinct VariationIDs; disease-ID rows may overlap
+OMIM:115150	Cardiofaciocutaneous syndrome 1	75	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2745	Opitz GBBB syndrome	75	distinct VariationIDs; disease-ID rows may overlap
+OMIM:239300	Hyperphosphatasia with impaired intellectual development syndrome 1	73	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619575	Developmental delay with or without intellectual impairment or behavioral abnormalities	72	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:376	Gordon syndrome	72	distinct VariationIDs; disease-ID rows may overlap
+OMIM:302960	Chondrodysplasia punctata 2, X-linked dominant	71	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609242	Kanzaki disease	71	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619325	Coffin-Siris syndrome 12	71	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:35173	X-linked dominant chondrodysplasia punctata	71	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79280	Alpha-N-acetylgalactosaminidase deficiency type 2	71	distinct VariationIDs; disease-ID rows may overlap
+OMIM:610185	Cerebellar ataxia, impaired intellectual development, and dysquilibrium syndrome 2	70	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:317	Erythrokeratodermia variabilis	70	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:35099	Non-syndromic bicoronal craniosynostosis	70	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:812	Sialidosis type 1	70	distinct VariationIDs; disease-ID rows may overlap
+OMIM:276902	Usher syndrome, type IIIA	69	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:101085	Charcot-Marie-Tooth disease type 1F	69	distinct VariationIDs; disease-ID rows may overlap
+OMIM:184840	Stickler syndrome, type III	68	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616541	Short stature, microcephaly, and endocrine dysfunction	68	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:166100	Autosomal dominant otospondylomegaepiphyseal dysplasia	68	distinct VariationIDs; disease-ID rows may overlap
+OMIM:266510	Peroxisome biogenesis disorder 3B	67	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300895	Ohdo syndrome, X-linked	67	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:464288	Short stature-brachydactyly-obesity-global developmental delay syndrome	67	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:772	Infantile Refsum disease	67	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79234	Crigler-Najjar syndrome type 1	67	distinct VariationIDs; disease-ID rows may overlap
+OMIM:256550	Neuraminidase deficiency	66	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609136	Peripheral demyelinating neuropathy, central dysmyelination, Waardenburg syndrome, and Hirschsprung disease	66	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:87876	Sialidosis type 2	66	distinct VariationIDs; disease-ID rows may overlap
+OMIM:135100	Fibrodysplasia ossificans progressiva	65	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300957	Intellectual developmental disorder, X-linked syndromic, Kumar type	65	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614871	Peroxisome biogenesis disorder 6B	65	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616973	Intellectual developmental disorder, autosomal dominant 42	65	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618333	Menke-Hennekam syndrome 2	65	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:337	Fibrodysplasia ossificans progressiva	65	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:640	Hereditary neuropathy with liability to pressure palsies	65	distinct VariationIDs; disease-ID rows may overlap
+OMIM:214800	Charge syndrome	64	distinct VariationIDs; disease-ID rows may overlap
+OMIM:302950	Chondrodysplasia punctata 1, X-linked recessive	64	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79345	Brachytelephalangic chondrodysplasia punctata	64	distinct VariationIDs; disease-ID rows may overlap
+OMIM:201750	Antley-Bixler syndrome with genital anomalies and disordered steroidogenesis	63	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616331	Robinow syndrome, autosomal dominant 2	63	distinct VariationIDs; disease-ID rows may overlap
+OMIM:162400	Neuropathy, hereditary sensory and autonomic, type IA	62	distinct VariationIDs; disease-ID rows may overlap
+OMIM:178110	Contractures, pterygia, and spondylocarpostarsal fusion syndrome 1A	62	distinct VariationIDs; disease-ID rows may overlap
+OMIM:239000	Paget disease of bone 5, juvenile-onset	62	distinct VariationIDs; disease-ID rows may overlap
+OMIM:248390	Treacher Collins syndrome 3	62	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615191	Lissencephaly 5	62	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:250984	Autosomal recessive Stickler syndrome	62	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2801	Juvenile Paget disease	62	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309500	Renpenning syndrome	61	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619090	Developmental delay, impaired growth, dysmorphic facies, and axonal neuropathy	61	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619743	Combined oxidative phosphorylation deficiency 55	61	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1997	Blepharo-cheilo-odontic syndrome	61	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3242	Renpenning syndrome	61	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300373	Osteopathia striata with cranial sclerosis	60	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620851	ReNU syndrome	60	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2590	Spinal muscular atrophy-progressive myoclonic epilepsy syndrome	60	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2780	Osteopathia striata-cranial sclerosis syndrome	60	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614559	Infantile cerebellar-retinal degeneration	59	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618846	Diets-Jongmans syndrome	59	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611584	Waardenburg syndrome, type 2E	58	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612562	Diamond-Blackfan anemia 7	58	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612951	Leukoencephalopathy, cystic, without megalencephaly	58	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614170	Brittle cornea syndrome 2	58	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:300570	Cortical dysgenesis with pontocerebellar hypoplasia due to TUBB3 mutation	58	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:740	Hutchinson-Gilford progeria syndrome	58	distinct VariationIDs; disease-ID rows may overlap
+OMIM:308050	Congenital hemidysplasia with ichthyosiform erythroderma and limb defects	56	distinct VariationIDs; disease-ID rows may overlap
+OMIM:194050	Williams-Beuren syndrome	55	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:904	Williams syndrome	55	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620792	Otosclerosis 12	54	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90153	Mandibuloacral dysplasia with type A lipodystrophy	54	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99027	Adult-onset autosomal dominant leukodystrophy	54	distinct VariationIDs; disease-ID rows may overlap
+OMIM:259775	Raine syndrome	53	distinct VariationIDs; disease-ID rows may overlap
+OMIM:305600	Focal dermal hypoplasia	53	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614300	Hypermethioninemia due to adenosine kinase deficiency	53	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2092	Focal dermal hypoplasia	53	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2440	Isolated split hand-split foot malformation	53	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:254913	Isolated ATP synthase deficiency	53	distinct VariationIDs; disease-ID rows may overlap
+OMIM:216340	Yunis-Varon syndrome	52	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613707	Leopard syndrome 3	52	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615300	Perrault syndrome 4	52	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616354	Spinocerebellar ataxia, autosomal recessive 20	52	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616684	Charcot-Marie-Tooth disease, type 4K	52	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617087	Charcot-Marie-Tooth disease, axonal, type 2A2B	52	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1520	Craniofrontonasal dysplasia	52	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3472	Yunis-Varon syndrome	52	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:397709	Intellectual disability-coarse face-macrocephaly-cerebellar hypotrophy syndrome	52	distinct VariationIDs; disease-ID rows may overlap
+OMIM:183900	Spondyloepiphyseal dysplasia congenita	51	distinct VariationIDs; disease-ID rows may overlap
+OMIM:269500	Sclerosteosis 1	51	distinct VariationIDs; disease-ID rows may overlap
+OMIM:280000	CHIME syndrome	51	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620114	Neurodevelopmental disorder with speech impairment and with or without seizures	51	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3474	CHIME syndrome	51	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:94068	Spondyloepiphyseal dysplasia congenita	51	distinct VariationIDs; disease-ID rows may overlap
+OMIM:600373	CODAS syndrome	50	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616756	Spastic paraplegia and psychomotor retardation with or without seizures	50	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:100994	Autosomal dominant spastic paraplegia type 13	50	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1458	CODAS syndrome	50	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:464282	Spastic paraplegia-severe developmental delay-epilepsy syndrome	50	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:71289	Radio-ulnar synostosis-amegakaryocytic thrombocytopenia syndrome	50	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300422	Fg syndrome 4	49	distinct VariationIDs; disease-ID rows may overlap
+OMIM:603457	Bosma arhinia microphthalmia syndrome	49	distinct VariationIDs; disease-ID rows may overlap
+OMIM:606763	Ciliary dyskinesia, primary, 2	49	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618774	CEBALID syndrome	49	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301022	Neurodevelopmental disorder, X-linked, with craniofacial abnormalities	48	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614409	Spastic paraplegia 46, autosomal recessive	48	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2848	Camptodactyly-arthropathy-coxa-vara-pericarditis syndrome	48	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:320391	Autosomal recessive spastic paraplegia type 46	48	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93296	Achondrogenesis type 2	48	distinct VariationIDs; disease-ID rows may overlap
+OMIM:243800	Johanson-Blizzard syndrome	47	distinct VariationIDs; disease-ID rows may overlap
+OMIM:605259	Spinocerebellar ataxia 13	47	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618342	Intellectual developmental disorder with abnormal behavior, microcephaly, and short stature	47	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2315	Johanson-Blizzard syndrome	47	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3473	Zimmermann-Laband syndrome	47	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:98768	Spinocerebellar ataxia type 13	47	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616239	Combined oxidative phosphorylation deficiency 24	45	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616878	Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	45	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619841	Chilton-Okur-Chung neurodevelopmental syndrome	45	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:412057	Autosomal recessive cerebellar ataxia due to STUB1 deficiency	45	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:480864	Recurrent metabolic encephalomyopathic crises-rhabdomyolysis-cardiac arrhythmia-intellectual disability syndrome	45	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616954	You-Hoover-Fong syndrome	44	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618164	Cardiac, facial, and digital anomalies with developmental delay	44	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:488642	TELO2-related intellectual disability-neurodevelopmental disorder	44	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614332	Chromosome 2p16.3 deletion syndrome	43	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614867	Peroxisome biogenesis disorder 5B	43	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616420	Leukodystrophy, hypomyelinating, 10	43	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616462	Acrofacial dysostosis, Cincinnati type	43	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617052	Bone marrow failure syndrome 3	43	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617675	Myopathy, mitochondrial, and ataxia	43	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:481152	PYCR2-related microcephaly-progressive leukoencephalopathy	43	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:502423	Mitochondrial myopathy-cerebellar ataxia-pigmentary retinopathy syndrome	43	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614608	Coffin-Siris syndrome 3	42	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618971	Tolchin-Le Caignec syndrome	42	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619465	Visceral neuropathy, familial, 2, autosomal recessive	42	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1307	Distal limb deficiencies-micrognathia syndrome	42	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:447753	Autosomal dominant spastic paraplegia type 9A	42	distinct VariationIDs; disease-ID rows may overlap
+OMIM:118220	Charcot-Marie-Tooth disease, demyelinating, type 1A	41	distinct VariationIDs; disease-ID rows may overlap
+OMIM:154400	Acrofacial dysostosis 1, Nager type	41	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618547	Neurodevelopmental disorder with visual defects and brain anomalies	41	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:245	Nager syndrome	41	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:53	Albers-Schönberg osteopetrosis	41	distinct VariationIDs; disease-ID rows may overlap
+OMIM:310600	Norrie disease	40	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:649	Norrie disease	40	distinct VariationIDs; disease-ID rows may overlap
+OMIM:154780	Marshall syndrome	39	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619539	Neuroocular syndrome	39	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:560	Marshall syndrome	39	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609924	Aminoacylase 1 deficiency	38	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616351	Neurodevelopmental disorder with hypotonia, speech delay, and dysmorphic facies	38	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617093	Growth retardation, impaired intellectual development, hypotonia, and hepatopathy	38	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:137754	Aminoacylase 1 deficiency	38	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2556	Microphthalmia with linear skin defects syndrome	38	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:541423	Growth delay-intellectual disability-hepatopathy syndrome	38	distinct VariationIDs; disease-ID rows may overlap
+OMIM:277580	Waardenburg-Shah syndrome	37	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301032	Basilicata-Akhtar syndrome	37	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:189	Hidrotic ectodermal dysplasia	37	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:230851	Cardiac-valvular Ehlers-Danlos syndrome	37	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601152	Hereditary motor and sensory neuropathy VIA	36	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614134	Stickler syndrome, type IV	36	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616738	Radioulnar synostosis with amegakaryocytic thrombocytopenia 2	36	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617516	Stankiewicz-Isidor syndrome	36	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617751	Intellectual developmental disorder, autosomal dominant 48	36	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:500159	Microcephaly-corpus callosum and cerebellar vermis hypoplasia-facial dysmorphism-intellectual disability syndrome	36	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301068	Hardikar syndrome	35	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617951	Leukodystrophy, hypomyelinating, 15	35	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618494	Congenital hypotonia, epilepsy, developmental delay, and digital anomalies	35	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:363444	THOC6-related developmental delay-microcephaly-facial dysmorphism syndrome	35	distinct VariationIDs; disease-ID rows may overlap
+OMIM:135500	Zimmermann-Laband syndrome 1	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614261	Microcephaly-Capillary malformation syndrome	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617452	Intellectual developmental disorder with dysmorphic facies, seizures, and distal limb anomalies	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617575	Nephrotic syndrome, type 14	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617780	Combined immunodeficiency and megaloblastic anemia with or without hyperhomocysteinemia	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618733	Neuromuscular disease and ocular or auditory anomalies with or without seizures	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618748	Intellectual developmental disorder with hypotonia and behavioral abnormalities	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619512	Neurodevelopmental disorder with hypotonia and brain abnormalities	34	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2886	TARP syndrome	34	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:505237	Early-onset seizures-distal limb anomalies-facial dysmorphism-global developmental delay syndrome	34	distinct VariationIDs; disease-ID rows may overlap
+OMIM:100800	Achondroplasia	33	distinct VariationIDs; disease-ID rows may overlap
+OMIM:271700	Spondyloperipheral dysplasia	33	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300972	Immunodeficiency 47	33	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615108	Cowden syndrome 5	33	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618186	Neuropathy, congenital hypomyelinating, 3	33	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619004	Deeah syndrome	33	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:15	Achondroplasia	33	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1856	Spondyloperipheral dysplasia-short ulna syndrome	33	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2377	Laurence-Moon syndrome	33	distinct VariationIDs; disease-ID rows may overlap
+OMIM:245150	Keutel syndrome	32	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614926	Perrault syndrome 2	32	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2072	Gaucher disease-ophthalmoplegia-cardiovascular calcification syndrome	32	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:85202	Keutel syndrome	32	distinct VariationIDs; disease-ID rows may overlap
+OMIM:124000	Mitochondrial complex III deficiency, nuclear type 1	31	distinct VariationIDs; disease-ID rows may overlap
+OMIM:608908	Myopia 6	31	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609508	Stickler sydrome, type I, nonsyndromic ocular	31	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614932	Combined oxidative phosphorylation deficiency 13	31	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2067	GAPO syndrome	31	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:208441	Bilateral parasagittal parieto-occipital polymicrogyria	31	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:319514	Combined oxidative phosphorylation defect type 13	31	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300438	HSD10 mitochondrial disease	30	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614207	Hyperphosphatasia with impaired intellectual development syndrome 3	30	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618321	Encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy, 2	30	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619149	Lessel-Kreienkamp syndrome	30	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1727	22q11.2 duplication syndrome	30	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2460	Van den Ende-Gupta syndrome	30	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:363528	Intellectual disability-strabismus syndrome	30	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:391417	HSD10 disease	30	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:521426	PLAA-associated neurodevelopmental disorder	30	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:555402	NAD(P)HX dehydratase deficiency	30	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616894	Robinow syndrome, autosomal dominant 3	29	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618170	Neurodegeneration, childhood-onset, stress-induced, with variable ataxia and seizures	29	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:570	Moebius syndrome	29	distinct VariationIDs; disease-ID rows may overlap
+OMIM:194190	Wolf-Hirschhorn syndrome	28	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617145	Neurodegeneration with ataxia, dystonia, and gaze palsy, childhood-onset	28	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617954	Multiple mitochondrial dysfunctions syndrome 6	28	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618027	Coffin-Siris syndrome 7	28	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618500	Holoprosencephaly 12 with or without pancreatic agenesis	28	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619775	Congenital disorder of deglycosylation 2	28	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620012	Developmental delay, hypotonia, and impaired language	28	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:280	Wolf-Hirschhorn syndrome	28	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:391408	Primary microcephaly-mild intellectual disability-young-onset diabetes syndrome	28	distinct VariationIDs; disease-ID rows may overlap
+OMIM:600430	Chromosome 2q37 deletion syndrome	27	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616229	Osteogenesis imperfecta, type XVI	27	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618652	Neurooculocardiogenitourinary syndrome	27	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619083	Delpire-Mcneill syndrome	27	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1001	2q37 microdeletion syndrome	27	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1199	Esophageal atresia	27	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261197	Proximal 16p11.2 microdeletion syndrome	27	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:46627	Char syndrome	27	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:504476	Cerebellar ataxia with neuropathy and bilateral vestibular areflexia syndrome	27	distinct VariationIDs; disease-ID rows may overlap
+OMIM:604928	Wolfram syndrome 2	26	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618150	Saul-Wilson syndrome	26	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618247	Mitochondrial complex I deficiency, nuclear type 26	26	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618977	Optic atrophy 12	26	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619701	Yoon-Bellen neurodevelopmental syndrome	26	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:163956	X-linked intellectual disability, Nascimento type	26	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:659	Mutilating palmoplantar keratoderma with periorificial keratotic plaques	26	distinct VariationIDs; disease-ID rows may overlap
+OMIM:156550	Kniest dysplasia	25	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601536	Athabaskan brainstem dysgenesis syndrome	25	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601776	Ehlers-Danlos syndrome, musculocontractural type 1	25	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616721	Congenital disorder of glycosylation, type IIN	25	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:468699	SLC39A8-CDG	25	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:485	Kniest dysplasia	25	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301026	Keipert syndrome	24	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612702	Hypogonadotropic hypogonadism 6 with or without anosmia	24	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615438	Infantile liver failure syndrome 1	24	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617070	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 4	24	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618580	Epileptic encephalopathy, early infantile, 80	24	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619488	DEGCAGS syndrome	24	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2662	Keipert syndrome	24	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:329314	Adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency	24	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:95	Friedreich ataxia	24	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619580	Neurodevelopmental disorder with impaired language and ataxia and with or without seizures	23	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619833	Neurodevelopmental disorder with neuromuscular and skeletal abnormalities	23	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:811	Shwachman-Diamond syndrome	23	distinct VariationIDs; disease-ID rows may overlap
+OMIM:157800	Cardiospondylocarpofacial syndrome	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309800	Microphthalmia, syndromic 1	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309801	Linear skin defects with multiple congenital anomalies 1	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607842	Aural atresia, congenital	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612989	Optic atrophy 7 with or without auditory neuropathy	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613717	Treacher collins syndrome 2	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613849	Osteogenesis imperfecta, type XII	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614284	Stickler syndrome, type V	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615560	Otofaciocervical syndrome 2	22	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3109	Mayer-Rokitansky-Küster-Hauser syndrome	22	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3238	Cardiospondylocarpofacial syndrome	22	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:568	Microphthalmia, Lenz type	22	distinct VariationIDs; disease-ID rows may overlap
+OMIM:164210	Hemifacial microsomia	21	distinct VariationIDs; disease-ID rows may overlap
+OMIM:260660	Cousin syndrome	21	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301043	Holoprosencephaly 13, X-linked	21	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614129	Perrault syndrome 3	21	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614583	Baraitser-Winter syndrome 2	21	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618460	Khan-Khan-Katsanis syndrome	21	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620450	Intellectual developmental disorder, autosomal dominant 73	21	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2363	Lacrimoauriculodentodigital syndrome	21	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93333	Pelviscapular dysplasia	21	distinct VariationIDs; disease-ID rows may overlap
+OMIM:174800	McCune-Albright syndrome, somatic, mosaic	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:220120	D-glyceric aciduria	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:265050	3MC syndrome 2	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:304340	Pettigrew syndrome	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:608389	Branchiootic syndrome 3	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612474	Chromosome 1q21.1 deletion syndrome, 1.35-mb	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616683	Leukodystrophy, hypomyelinating, 12	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616733	Coenzyme Q10 deficiency, primary, 8	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617063	Meier-Gorlin syndrome 7	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618144	Usher syndrome, type IV	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619377	Osteootohepatoenteric syndrome	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620157	Intellectual developmental disorder, autosomal dominant 70	20	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:250989	1q21.1 microdeletion syndrome	20	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:466934	VPS11-related autosomal recessive hypomyelinating leukodystrophy	20	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:488618	Transketolase deficiency	20	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:562	McCune-Albright syndrome	20	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:85335	Fried syndrome	20	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:941	D-glyceric aciduria	20	distinct VariationIDs; disease-ID rows may overlap
+OMIM:118300	Charcot-Marie-Tooth disease and deafness	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301056	Multiple congenital anomalies-neurodevelopmental syndrome, X-linked	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:305620	Frontometaphyseal dysplasia	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:308205	IFAP syndrome with or without BRESHECK syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:605822	Spondyloocular syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609296	B-cell immunodeficiency, distal limb anomalies, and urogenital malformations	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614920	Peroxisome biogenesis disorder 14B	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616737	Takenouchi-Kosaki syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617595	Birk-Landau-Perez syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617660	Vertebral, cardiac, renal, and limb defects syndrome 1	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618379	Developmental and epileptic encephalopathy 73	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619223	Immunodeficiency 77	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619418	Infantile-onset multisystem neurologic, endocrine, and pancreatic disease 2	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619721	Bryant-Li-Bhoj neurodevelopmental syndrome 2	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620193	Lacrimoauriculodentodigital syndrome-3	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621049	Pan-Chung-Bellen syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621220	Guillouet-Gordon syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1299	Branchioskeletogenital syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2655	Thanatophoric dysplasia	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3250	Proximal symphalangism	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:487796	Takenouchi-Kosaki syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:488627	Severe growth deficiency-strabismus-extensive dermal melanocytosis-intellectual disability syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:544503	RNF13-related severe early-onset epileptic encephalopathy	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:85284	BRESEK syndrome	19	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90658	Charcot-Marie-Tooth disease type 1E	19	distinct VariationIDs; disease-ID rows may overlap
+OMIM:101200	Apert syndrome	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615824	Mitochondrial complex III deficiency, nuclear type 7	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616040	Myasthenic syndrome, congenital, 7, presynaptic	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617248	3-methylglutaconic aciduria, type VIII	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618098	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 5	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618143	Glycosylphosphatidylinositol biosynthesis defect 18	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620022	Stickler syndrome, type VI	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620075	Neurodevelopmental disorder with facial dysmorphism, absent language, and pseudo-Pelger-Huet anomaly	18	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1328	Camurati-Engelmann disease	18	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1860	Thanatophoric dysplasia type 1	18	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:87	Apert syndrome	18	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93346	Spondyloepimetaphyseal dysplasia congenita, Strudwick type	18	distinct VariationIDs; disease-ID rows may overlap
+OMIM:151050	Lenz-Majewski hyperostotic dwarfism	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:545000	Myoclonic epilepsy associated with ragged-red fibers	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613265	Waardenburg syndrome, type 4B	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616910	Immunodeficiency-Centromeric instability-facial anomalies syndrome 3	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617988	Jaberi-Elahi syndrome	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618440	Oculoskeletodental syndrome	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618663	Epileptic encephalopathy, early infantile, 81	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618763	Joubert syndrome 36	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619422	Spinocerebellar ataxia, autosomal recessive 31	17	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:551	MERRF	17	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:557003	Oculoskeletodental syndrome	17	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613206	Spastic paraplegia 44, autosomal recessive	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614257	Chromosome 20q11-q12 deletion syndrome	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617877	Short stature, facial dysmorphism, and skeletal anomalies with or without cardiac anomalies 1	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618251	Mitochondrial complex I deficiency, nuclear type 31	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618885	Congenital disorder of glycosylation, type IIt	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618922	Neurodevelopmental disorder with seizures, hypotonia, and brain imaging abnormalities	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620250	Neurodevelopmental disorder with seizures, spasticity, and complete or partial agenesis of the corpus callosum	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621285	Intellectual developmental disorder, autosomal dominant 76	16	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:320401	Autosomal recessive spastic paraplegia type 44	16	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:45358	Congenital fibrosis of extraocular muscles	16	distinct VariationIDs; disease-ID rows may overlap
+OMIM:185800	Symphalangism, proximal, 1A	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:243180	Visceral neuropathy, familial, autosomal recessive	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301835	Arts syndrome	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:311300	Otopalatodigital syndrome, type I	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602483	Auriculocondylar syndrome 1	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607736	Charcot-Marie-Tooth disease, type 2J	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607872	Chromosome 1p36 deletion syndrome	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615267	Hypogonadotropic hypogonadism 18 with or without anosmia	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616081	Pontocerebellar hypoplasia, type 1C	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617882	Charcot-Marie-Tooth disease, dominant intermediate G	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617950	Combined oxidative phosphorylation deficiency 36	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618835	Combined oxidative phosphorylation deficiency 40	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619057	Combined oxidative phosphorylation deficiency 51	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619075	Neurodevelopmental disorder with alopecia and brain abnormalities	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620494	Neurodevelopmental disorder with impaired language, behavioral abnormalities, and dysmorphic facies	15	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1187	Lethal ataxia with deafness and optic atrophy	15	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1606	1p36 deletion syndrome	15	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:199306	Cleft lip/palate	15	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:293603	Congenital hereditary endothelial dystrophy type II	15	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:544488	Global developmental delay-alopecia-macrocephaly-facial dysmorphism-structural brain anomalies syndrome	15	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:90650	Otopalatodigital syndrome type 1	15	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300998	Intellectual developmental disorder, X-linked syndromic 35	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:605432	Radioulnar synostosis with amegakaryocytic thrombocytopenia	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607634	Osteopetrosis, autosomal dominant 1	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615066	Osteogenesis imperfecta, type XIV	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616455	Zimmermann-Laband syndrome 2	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617662	Joint laxity, short stature, and myopia	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618950	Suleiman-El-Hattab syndrome	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619080	Kilquist syndrome	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619268	Alzahrani-Kuwahara syndrome	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620024	Neurodevelopmental disorder with seizures, microcephaly, and brain abnormalities	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620155	Rabin-Pappas syndrome	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620237	Intellectual developmental disorder, autosomal recessive 78	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620455	Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620782	Neurodevelopmental disorder with language impairment, autism, and attention deficit-hyperactivity disorder	14	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261330	Distal 22q11.2 microdeletion syndrome	14	distinct VariationIDs; disease-ID rows may overlap
+OMIM:136760	Frontonasal dysplasia 1	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:310490	Cowchock syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611390	Spastic ataxia 3, autosomal recessive	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612289	Fontaine progeroid syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613724	Leukoencephalopathy with dystonia and motor neuropathy	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614188	Craniosynostosis and dental anomalies	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614296	Wolfram-like syndrome, autosomal dominant	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614527	Chromosome 17q12 deletion syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616192	Ataxia, combined cerebellar and peripheral, with hearing loss and diabetes mellitus	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616367	Mandibulofacial dysostosis with alopecia	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618063	Ciliary dyskinesia, primary, 38	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619273	Cimdag syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620305	Neurooculorenal syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621010	Morimoto-Ryu-Malicdan neuromuscular syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621185	Houge-Janssens syndrome 4	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621201	Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:101078	X-linked Charcot-Marie-Tooth disease type 4	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2095	Gorlin-Chaudhry-Moss syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261265	17q12 microdeletion syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:314603	Autosomal recessive spastic ataxia with leukoencephalopathy	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:391474	Frontorhiny	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:411590	Wolfram-like syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:445062	Juvenile-onset diabetes mellitus-central and peripheral neurodegeneration syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:459061	Craniofacial dysplasia-short stature-ectodermal anomalies-intellectual disability syndrome	13	distinct VariationIDs; disease-ID rows may overlap
+OMIM:129400	Rapp-Hodgkin syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:158310	Mucoepithelial dysplasia, hereditary	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:174300	Orofaciodigital syndrome V	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:174810	Familial expansile osteolysis	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300238	Intellectual developmental disorder, X-linked syndromic, Shashi type	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300661	Phosphoribosylpyrophosphate synthetase superactivity	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301118	Intellectual developmental disorder, X-linked syndromic 37	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602152	Rhyns syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611174	Hamamy syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614482	Congenital cataracts, hearing loss, and neurodegeneration	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614885	Peroxisome biogenesis disorder 11B	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616291	Lichtenstein-Knorr syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616890	Split-Foot malformation with mesoaxial polydactyly	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617107	Thauvin-Robinet-Faivre syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617137	Frontometaphyseal dysplasia 2	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618175	Warburg-Cinotti syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618295	Intellectual developmental disorder, autosomal recessive 67	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618578	Myopathy, congenital, progressive, with scoliosis	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618828	Nabais Sa-de Vries syndrome, type 1	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619451	Cutis laxa, autosomal recessive, type IIE	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620746	Neurodevelopmental disorder with hypotonia and characteristic brain abnormalities	12	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:140976	RHYNS syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:141132	Craniofacial microsomia	12	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261250	16q24.3 microdeletion syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3222	Phosphoribosylpyrophosphate synthetase superactivity	12	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:488232	Split-foot malformation-mesoaxial polydactyly syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:500095	Tall stature-intellectual disability-renal anomalies syndrome	12	distinct VariationIDs; disease-ID rows may overlap
+OMIM:186500	Multiple synostoses syndrome 1	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:190685	Down syndrome	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:220500	Doors syndrome	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:274300	Thyroid hormone resistance, generalized, autosomal recessive	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301054	VEXAS syndrome, somatic	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617746	Sweeney-Cox syndrome	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617926	Orofaciodigital syndrome XVII	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618939	Treacher-Collins syndrome 4	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619376	Faundes-Banka syndrome	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619436	Ciliary dyskinesia, primary, 46	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619737	Combined oxidative phosphorylation deficiency 54	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619950	Tessadori-van Haaften neurodevelopmental syndrome 3	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621265	Nil-Deshwar neurodevelopmental syndrome	11	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:18	Distal renal tubular acidosis	11	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3129	Sarcosinemia	11	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:644	NARP syndrome	11	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:870	Down syndrome	11	distinct VariationIDs; disease-ID rows may overlap
+OMIM:120433	Coloboma, ocular, with or without hearing impairment, cleft lip/palate, and/or impaired intellectual development	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:148820	Waardenburg syndrome, type 3	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:252100	Mohr syndrome	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:607115	Cinca syndrome	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609313	MEDNIK syndrome	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613675	Chromosome 17q11.2 deletion syndrome, 1.4-mb	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615244	Nephrotic syndrome, type 8	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618249	Mitochondrial complex I deficiency, nuclear type 28	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618363	Short stature, amelogenesis imperfecta, and skeletal dysplasia with scoliosis	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618741	Neurodevelopmental disorder with epilepsy, spasticity, and brain atrophy	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619736	Teebi hypertelorism syndrome 2	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620086	Intellectual developmental disorder with ocular anomalies and distinctive facial features	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620089	Neurodegeneration, childhood-onset, with multisystem involvement due to mitochondrial dysfunction	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621063	Muggenthaler-Chowdhury-Chioza syndrome	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621381	Congenital disorder of glycosylation, type IICC	10	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1451	CINCA syndrome	10	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1473	Uveal coloboma-cleft lip and palate-intellectual disability	10	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2751	Orofaciodigital syndrome type 2	10	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:896	Waardenburg syndrome type 3	10	distinct VariationIDs; disease-ID rows may overlap
+OMIM:117650	Cerebrocostomandibular syndrome	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:144755	Hyperostosis cranialis interna	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:184460	Stapes ankylosis with broad thumb and toes	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:202650	Agnathia-Otocephaly complex	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300623	Fragile X tremor/ataxia syndrome	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601076	Mullerian duct aplasia, unilateral renal agenesis, and cervicothoracicsomite anomalies	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:608703	Spinocerebellar ataxia 25	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616113	Polyendocrine-polyneuropathy syndrome	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616430	Combined oxidative phosphorylation deficiency 25	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616435	Fanconi anemia, complementation group T	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617302	Optic atrophy 11	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617713	Combined oxidative phosphorylation deficiency 33	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618371	Turnpenny-Fry syndrome	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618635	Siddiqi syndrome	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618651	Neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618838	Combined oxidative phosphorylation deficiency 41	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619693	Agammaglobulinemia 9, autosomal recessive	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619989	Neurodevelopmental disorder with speech delay and variable ocular anomalies	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621474	Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621533	Neurodevelopmental disorder with seizures and impaired intellectual and language development	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621570	Cornelia de Lange syndrome 7	9	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1393	Cerebrocostomandibular syndrome	9	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:228423	GATA2 deficiency spectrum	9	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2578	Mayer-Rokitansky-Küster-Hauser syndrome type 2	9	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:453533	Polyendocrine-polyneuropathy syndrome	9	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:49042	Dentinogenesis imperfecta	9	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:54595	Craniopharyngioma	9	distinct VariationIDs; disease-ID rows may overlap
+OMIM:311070	Charcot-Marie-Tooth disease, X-linked recessive, 5	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:600501	ABCD syndrome	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615266	Hypogonadotropic hypogonadism 17 with or without anosmia	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615996	Bardet-Biedl syndrome 19	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616395	Trichothiodystrophy 3, photosensitive	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616835	Meier-Gorlin syndrome 6	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616896	Mitochondrial DNA depletion syndrome 14 (encephalocardiomyopathic type)	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617394	Sclerosing cholangitis, neonatal	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617731	Galloway-Mowat syndrome 5	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617976	Epileptic encephalopathy, early infantile, 63	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618237	Mitochondrial complex I deficiency, nuclear type 15	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618419	Gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618499	Noonan syndrome 11	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619557	SIMHA syndrome	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620158	Spinocerebellar ataxia 50	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620166	Muscular dystrophy, congenital, with or without seizures	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620275	Mitochondrial complex IV deficiency, nuclear type 23	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620475	Thrombocytopenia 8, with dysmorphic features and developmental delay	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620489	Neurodevelopmental disorder with dysmorphic facies and behavioral abnormalities	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621078	Myopathy, myofibrillar, 13, with rimmed vacuoles	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621277	Oculovertebral syndrome	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621304	Developmental and epileptic encephalopathy 119	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621495	STAD syndrome	8	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:309263	Metachromatic leukodystrophy, juvenile form	8	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:329336	Adult-onset chronic progressive external ophthalmoplegia with mitochondrial myopathy	8	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:98889	Bilateral perisylvian polymicrogyria	8	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:99014	X-linked Charcot-Marie-Tooth disease type 5	8	distinct VariationIDs; disease-ID rows may overlap
+OMIM:106260	Hay-Wells syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:126550	Calvarial doughnut lesions with bone fragility	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:183600	Split-Hand/foot malformation 1	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:214300	Klippel-Feil syndrome, autosomal recessive	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301072	Neurodevelopmental disorder with epilepsy and hemochromatosis	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601808	Chromosome 18q deletion syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602849	Muenke syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609625	Chromosome 10q26 deletion syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611377	Brachydactyly, type B2	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611383	Usher syndrome, type IID	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614195	Craniofacial anomalies and anterior segment dysgenesis syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615269	Hypogonadotropic hypogonadism 19 with or without anosmia	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616263	Neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616817	Microcephaly, short stature, and impaired glucose metabolism 2	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618608	Intellectual developmental disorder with nasal speech, dysmorphic facies, and variable skeletal anomalies	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618768	Spastic paraplegia 81, autosomal recessive	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619194	Neurofacioskeletal syndrome with or without renal agenesis	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620244	Lymphatic malformation 13	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620711	Leukoencephalopathy, porphyria-related	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620887	Multiple mitochondrial dysfunctions syndrome 9B	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621195	Combined oxidative phosphorylation deficiency 60	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621302	Neurodevelopmental disorder with seizures and joint laxity	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621566	Davis-Wells syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621585	Mendez-Johnson immunoneurologic syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1071	Ankyloblepharon-ectodermal defects-cleft lip/palate syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1600	Monosomy 18q syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:306542	Frontonasal dysplasia-severe microphthalmia-severe facial clefting syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:309271	Metachromatic leukodystrophy, adult form	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:363710	Spinocerebellar ataxia type 37	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:456312	Infantile multisystem neurologic-endocrine-pancreatic disease	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:53271	Muenke syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79155	Hydroxykynureninuria	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:881	Turner syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:895	Waardenburg syndrome type 2	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:96121	7q11.23 microduplication syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:96148	Distal deletion 10q syndrome	7	distinct VariationIDs; disease-ID rows may overlap
+OMIM:123450	Cri-Du-Chat syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:151800	Lipomatosis, multiple symmetric, with or without peripheral neuropathy	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:248340	3MC syndrome 3	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:254940	Carey-Fineman-Ziter syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300436	Intellectual developmental disorder, X-linked 46	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301014	Osteogenesis imperfecta, type XIX	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614744	Facial paresis, hereditary congenital, 3	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615271	Hypogonadotropic hypogonadism 21 with or without anosmia	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615706	Auriculocondylar syndrome 3	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617899	Leukodystrophy, hypomyelinating, 14	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618329	Combined oxidative phosphorylation deficiency 37	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619847	Neurodegeneration, childhood-onset, with progressive microcephaly	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619869	Neurocardiofaciodigital syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619877	Dentici-Novelli neurodevelopmental syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620987	Neurodegeneration, infantile-onset, with optic atrophy and brain abnormalities	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621254	Immunodeficiency 133 with ectodermal dysplasia with or without peripheral neuropathy	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621295	Cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621344	Dursun-Ozgul neurodevelopmental syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621510	Congenital myopathy 29 with contractures	6	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261236	16p13.11 microdeletion syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:309256	Metachromatic leukodystrophy, late infantile form	6	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3471	Young syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:466943	WAC-related facial dysmorphism-developmental delay-behavioral abnormalities syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:536471	Spondylodysplastic Ehlers-Danlos syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:98914	Presynaptic congenital myasthenic syndrome	6	distinct VariationIDs; disease-ID rows may overlap
+OMIM:132450	Epiphyseal dysplasia, multiple, with myopia and conductive deafness	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:149730	Lacrimoauriculodentodigital syndrome-1	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300472	Corpus callosum, agenesis of, with impaired intellectual development, ocular coloboma and micrognathia	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:530000	Kearns-Sayre syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:602471	Short stature, auditory canal atresia, mandibular hypoplasia, andskeletal abnormalities	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:603116	CDAGS syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:606164	Diamond-Blackfan anemia 15 with mandibulofacial dysostosis	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614153	Spinocerebellar ataxia 36	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617412	Brachycephaly, trichomegaly, and developmental delay	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617872	Combined oxidative phosphorylation deficiency 34	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618349	Galloway-Mowat syndrome 8	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618889	Liberfarb syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618972	Mitochondrial DNA depletion syndrome 19	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619534	Biliary, renal, neurologic, and skeletal syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619699	Ferguson-Bonni neurodevelopmental syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619947	Waardenburg syndrome, type 2F	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620099	Cleidocranial dysplasia 2	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620323	Spastic paraplegia 70, autosomal recessive	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620469	Cranial dysinnervation disorder, congenital, with absent corneal reflex and developmental delay	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621071	Mitochondrial DNA depletion syndrome 21	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621100	Intellectual developmental disorder, autosomal recessive 83	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621102	Neurodevelopmental disorder with progressive spasticity and brain abnormalities	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621192	Craniofaciocardiohepatic syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621384	Developmental delay with variable cardiac and renal congenital anomalies and dysmorphic facies	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621455	Neurodevelopmental disorder with hypotonia, epilepsy, and absent speech	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621475	Developmental and epileptic encephalopathy 121	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621506	Neurodevelopmental disorder with parkinsonism or other movement abnormalities	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:137634	Overgrowth-macrocephaly-facial dysmorphism syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:276198	Spinocerebellar ataxia type 36	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:439254	ITM2B amyloidosis	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:480	Kearns-Sayre syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:508498	Intellectual disability-cardiac anomalies-short stature-joint laxity syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:52055	Corpus callosum agenesis-intellectual disability-coloboma-micrognathia syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:85199	Craniosynostosis-anal anomalies-porokeratosis syndrome	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:926	Acatalasemia	5	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93274	Thanatophoric dysplasia type 2	5	distinct VariationIDs; disease-ID rows may overlap
+OMIM:144750	Hyperostosis, endosteal	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301018	Deafness, X-linked 7	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301020	Mitochondrial complex I deficiency, nuclear type 12	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301075	Myopathy, distal, 7, adult-onset, X-linked	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:309555	Intellectual developmental disorder, X-linked syndromic, Gustavson type	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613792	Chromosome 3pter-p25 deletion syndrome	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616943	Trichothiodystrophy 6, nonphotosensitive	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616974	Combined oxidative phosphorylation deficiency 30	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:617565	Perrault syndrome 6	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619074	Cleft palate, proliferative retinopathy, and developmental delay	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619727	Craniotubular dysplasia, Ikegawa type	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619951	Tessadori-van Haaften neurodevelopmental syndrome 4	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619981	Braddock-Carey syndrome 2	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620629	Optic atrophy 16	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620784	Neurodevelopmental disorder plus optic atrophy	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620910	Otofacial neurodevelopmental syndrome	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621184	Tayoun-Maawali syndrome	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621415	Intellectual developmental disorder, autosomal dominant 77	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621512	Meier-Gorlin syndrome 9	4	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1620	Distal deletion 3p syndrome	4	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2790	Endosteal hyperostosis, Worth type	4	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3078	Severe X-linked intellectual disability, Gustavson type	4	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3339	Oculoectodermal syndrome	4	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:699	Pearson syndrome	4	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:79087	Acquired partial lipodystrophy	4	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93924	Lobar holoprosencephaly	4	distinct VariationIDs; disease-ID rows may overlap
+OMIM:109120	Axenfeld-Rieger anomaly with partially absent eye muscles, distinctive face, hydrocephaly, and skeletal abnormalities	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:115470	Cat eye syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:117210	Spinocerebellar ataxia 31	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:117300	Dementia, familial danish	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:122860	Craniodiaphyseal dysplasia, autosomal dominant	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:150230	Trichorhinophalangeal syndrome, type II	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:164310	Oculopharyngodistal myopathy 1	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:209885	Barber-Say syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:302905	Charge-Like syndrome, X-linked	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601353	Brachycephaly, deafness, cataract, microstomia, and impaired intellectual development	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613509	Chromosome 4q21 deletion syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616460	Intellectual developmental disorder, autosomal recessive 50	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616602	Craniosynostosis 6	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618527	Ichthyotic keratoderma, spasticity, hypomyelination, and dysmorphic facial features	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618839	Combined oxidative phosphorylation deficiency 42	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619234	Short stature, oligodontia, dysmorphic facies, and motor delay	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619355	Mitochondrial complex IV deficiency, nuclear type 22	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619599	Epidermolysis bullosa simplex 2D, generalized, intermediate or severe, autosomal recessive	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619795	Osteogenesis imperfecta, type XXII	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620167	Combined oxidative phosphorylation deficiency 57	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620192	Lacrimoauriculodentodigital syndrome-2	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620270	Neurodevelopmental disorder with absent speech and movement and behavioral abnormalities	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620327	Neurodegeneration with developmental delay, early respiratory failure, myoclonic seizures, and brain abnormalities	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620852	Neurodevelopemental disorder with hypotonia, feeding difficulties, facial dysmorphism, and brain abnormalities	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620911	Spastic paraplegia 92, autosomal recessive	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621101	Perrault syndrome 7	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1231	Barber-Say syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1272	Aymé-Gripp syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1513	Craniodiaphyseal dysplasia	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:195	Cat-eye syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:217012	Spinocerebellar ataxia type 31	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:220386	Semilobar holoprosencephaly	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:238750	4q21 microdeletion syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:353281	Rubinstein-Taybi syndrome due to 16p13.3 microdeletion	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:502	Trichorhinophalangeal syndrome type 2	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:569274	Multiple mitochondrial dysfunctions syndrome type 5	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:606	Proximal myotonic myopathy	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:89938	Bartter syndrome type 4	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:921	Abruzzo-Erickson syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93262	Crouzon syndrome-acanthosis nigricans syndrome	3	distinct VariationIDs; disease-ID rows may overlap
+OMIM:131300	Camurati-Engelmann disease	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:179613	Recombinant chromosome 8 syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:224300	Dysosteosclerosis	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:300946	Diamond-Blackfan anemia 14 with mandibulofacial dysostosis	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301132	Orofaciodigital syndrome XXI	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:600627	Hypertryptophanemia	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:609945	Brachyphalangy, polydactyly, and tibial aplasia/hypoplasia	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614541	Chromosome 16q22 deletion syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:615919	Ataxia-telangiectasia-like disorder 2	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616029	Ectodermal dysplasia/short stature syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616482	Achondroplasia, severe, with developmental delay and acanthosis nigricans	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:616652	Yuan-Harel-Lupski syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618632	Usher syndrome, type 1M	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618958	Combined oxidative phosphorylation deficiency 47	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619148	Chromosome 13q33-q34 deletion syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620038	Neurodevelopmental disorder with microcephaly, hypotonia, and absent language	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620647	Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620836	Immunodeficiency 120	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620869	Immunodeficiency 122	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621123	Achalasia-progeroid syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621191	Leukodystrophy and cerebellar atrophy	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621234	Immunodysregulation, craniofacial anomalies, hearing impairment, athelia, and developmental delay	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621439	Neutropenia, severe congenital, 12, autosomal recessive	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621499	Craniosynostosis-scoliosis syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621528	Meier-Gorlin syndrome 10	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621567	Congenital disorder of glycosylation, type 1bb 	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:139396	X-linked cerebral adrenoleukodystrophy	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1596	Distal deletion 15q syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1782	Dysosteosclerosis	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:314585	15q overgrowth syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:314588	Distal triplication 15q syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:438134	PCNA-related progressive neurodegenerative photosensitivity syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:73	Gorham-Stout disease	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:853	Fetal and neonatal alloimmune thrombocytopenia	2	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:96167	Recombinant 8 syndrome	2	distinct VariationIDs; disease-ID rows may overlap
+OMIM:120502	Branchiootic syndrome 2	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:124500	Vohwinkel syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:154230	46,xy sex reversal 4	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:158900	Facioscapulohumeral muscular dystrophy 1	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:200110	Ablepharon-Macrostomia syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:218400	Craniometaphyseal dysplasia, autosomal recessive	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:244300	Kapur-Toriello syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:301133	Congenital disorder of glycosylation, type 1DD	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:500007	Cyclic vomiting syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:500018	Mitochondrial spastic paraplegia	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:601803	Pallister-Killian syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:611571	Otosclerosis 4	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612513	Chromosome 2p16.1-p15 deletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:612582	Chromosome 6pter-p24 deletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613355	Chromosome 17q23.1-q23.2 deletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613604	Chromosome 16p12.2-p11.2 deletion syndrome, 7.1- to 8.7-mb	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:613884	Chromosome 13q14 deletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:614230	Chromosome 8q21.11 deletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:618618	Spondyloepiphyseal dysplasia, Nishimura type	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:619473	Oculopharyngodistal myopathy 3	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620416	Spastic paraplegia 90A, autosomal dominant	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620417	Spastic paraplegia 90B, autosomal recessive	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620457	Auriculocondylar syndrome 4	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620576	Otosclerosis 11	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620793	Muscular dystrophy, limb-girdle, autosomal recessive 29	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620830	Auroneurodental syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620926	Immunodeficiency 125 	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:620939	Myelofibrosis, congenital, with anemia, neutropenia, developmental delay, and ocular abnormalities	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621095	Charcot-Marie-Tooth disease, axonal, type 2JJ	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621199	Neurodevelopmental disorder with ataxia and brain abnormalities	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621263	Neurodevelopmental disorder with behavioral, ear, and skeletal abnormalities	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621382	Neurodevelopmental disorder with behavioral abnormalities and childhood onset spastic paraplegia	1	distinct VariationIDs; disease-ID rows may overlap
+OMIM:621394	Brain small vessel disease 6 with leukoencephalopathy	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1010	Autosomal dominant palmoplantar keratoderma and congenital alopecia	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:1580	Distal deletion 10p syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:2177	Hydranencephaly	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:220295	Xeroderma pigmentosum-Cockayne syndrome complex	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:251038	3q29 microduplication syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:251056	6q25.2q25.3 microdeletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:251076	8p23.1 duplication syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:254892	Autosomal dominant progressive external ophthalmoplegia	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261211	16p11.2p12.2 microdeletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261279	17q23.1q23.2 microdeletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261349	2p15p16.1 microdeletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:261652	Kleefstra syndrome due to a point mutation	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:268940	Bilateral polymicrogyria	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:268943	Unilateral polymicrogyria	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:284160	8q21.11 microdeletion syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:300385	Pituitary carcinoma	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:314621	Duplication of the pituitary gland	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3378	Trisomy 13 syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:3465	Worster-Drought syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:494	Keratoderma hereditarium mutilans	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:508542	Congenital progressive bone marrow failure-B-cell immunodeficiency-skeletal dysplasia syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:514	Acute monoblastic/monocytic leukemia	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:566243	Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:592574	Menke-Hennekam syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:920	Ablepharon macrostomia syndrome	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93258	Pfeiffer syndrome type 1	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93260	Pfeiffer syndrome type 3	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:93925	Alobar holoprosencephaly	1	distinct VariationIDs; disease-ID rows may overlap
+ORPHA:96125	Distal deletion 6p syndrome	1	distinct VariationIDs; disease-ID rows may overlap

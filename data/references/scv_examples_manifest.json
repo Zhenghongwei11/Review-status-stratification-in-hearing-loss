@@ -1,0 +1,15 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&rettype=vcv&is_variationid=&id=41608%2C45216%2C2353%2C17035",
+  "retrieved_utc": "2026-10-16T04:00:19.965666+00:00",
+  "sha256": "79139ada652bb93ae3971a068f87435da0a4b7494c54e06cb602e48211752946",
+  "source_path": "data/sources/clinvar_examples_vcv.xml",
+  "variation_ids": [
+    "41608",
+    "45216",
+    "2353",
+    "17035"
+  ],
+  "n_scvs": 29,
+  "snapshot_boundary": "Current VCV versions retrieved in October 2026; illustrative only. They do not reconstruct May 2026 SCV classifications. No population-level SCV analysis is inferred from four purposive examples.",
+  "selection": "First baseline conflict records in MET and DIAPH1; USH2A expert-panel syndromic omission; GJB2 zero-star conflict exception."
+}

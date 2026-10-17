@@ -1,0 +1,5 @@
+review_tier_proxy	n_variants	n::pathogenic_or_likely_pathogenic	n::vus	n::conflicting	n::benign_or_likely_benign	n::other	n::unknown	n_plp_review_stars_ge_2
+3	173	88	43	0	41	1	0	88
+2	6466	1722	2644	0	2100	0	0	1722
+1	10727	2393	3896	2800	1636	2	0	0
+0	1018	611	325	5	9	68	0	0
