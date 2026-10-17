@@ -50,7 +50,7 @@ def download(url: str, path: Path) -> dict:
     partial = path.with_suffix(path.suffix + ".part")
     headers = path.with_suffix(path.suffix + ".headers")
     previous_headers = headers.read_text() if headers.exists() else ""
-    proxy = os.environ.get("REVISION_REFERENCE_PROXY")
+    proxy = os.environ.get("REFERENCE_DOWNLOAD_PROXY")
     command = ["curl", "--http1.1", "-fL", "--retry", "2", "--connect-timeout", "30",
                "--max-time", "1800", *(["--proxy", proxy] if proxy else []), "-sS"]
     head = subprocess.run([*command, "--head", "--dump-header", str(headers),

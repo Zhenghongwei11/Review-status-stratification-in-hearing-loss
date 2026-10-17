@@ -1,16 +1,4 @@
 {
-  "renderer": "scripts/hearing_loss_clinvar/plot_revision.py",
-  "renderer_sha256": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
-  "inputs_sha256": {
-    "results/hearing_loss_clinvar_revision1/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
-    "results/hearing_loss_clinvar_revision1/primary/variant_aggregate.tsv": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
-    "results/hearing_loss_clinvar_revision1/expanded/variant_aggregate.tsv": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
-    "results/hearing_loss_clinvar_revision1/disease_supported/variant_aggregate.tsv": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
-    "results/hearing_loss_clinvar_revision1/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
-    "results/hearing_loss_clinvar_revision1/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
-    "results/hearing_loss_clinvar_revision1/run_metadata.json": "beb558fc2b4e53f9fc184b8feea143afa5f7504e89f0abf61a6b6bd0d84bb3ba",
-    "data/revision1/references/references_manifest.json": "dc4511ff0c2b8a08c0a72d94ca834accaa339c73e2a772d6c5f03def2f72ea32"
-  },
   "analysis_metadata": {
     "started_utc": "2026-10-15T05:52:02.102442+00:00",
     "source_sha256": "2f591d4ea919e81f0094c32f5901dbb3afad39a8d8de5c59ea9029d2d3a49ccc",
@@ -33,8 +21,8 @@
     "execution_code_sha256": {
       "build_evidence_map.py": "ac277b34866feedb03f814d7d14d3eddf005b817cd1c81b8f6bd1dbb41d35466",
       "generate_utility_tables.py": "7e26046abcc83ca8a92e5680a3dae2d45b70720ed420c2129f3c86254cee4052",
-      "run_revision.py": "42d10bb6c00e16a3719fee114e8a09fc415b9b3f6d0cab91ea6bbe7d6e6809b8",
-      "phenotype_filters.py": "fa3950f10aa28b2c124f7217e0907e7e397e4b0126b14db55a01847f21f32b0f"
+      "phenotype_filters.py": "fa3950f10aa28b2c124f7217e0907e7e397e4b0126b14db55a01847f21f32b0f",
+      "record_selection_runner": "42d10bb6c00e16a3719fee114e8a09fc415b9b3f6d0cab91ea6bbe7d6e6809b8"
     },
     "note": "Recorded analysis execution; file and entrypoint organization in this software release is separate from execution metadata."
   },
@@ -102,23 +90,23 @@
     "#tracker: https://github.com/obophenotype/human-phenotype-ontology/issues",
     "#hpo-version: http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json"
   ],
-  "temporal_limitation": "HPO September 2026 and revision-time gene-disease curations are applied to fixed May 2026 ClinVar records; these are not May 2026 annotations or an exhaustive gold standard.",
+  "temporal_limitation": "HPO September 2026 and later gene-disease curations are applied to fixed May 2026 ClinVar records; these are not May 2026 annotations or an exhaustive gold standard.",
   "outputs": [
-    "plots/hearing_loss_clinvar_revision1/fig1.png",
-    "plots/hearing_loss_clinvar_revision1/fig1.pdf",
-    "plots/hearing_loss_clinvar_revision1/Fig1.tif",
-    "plots/hearing_loss_clinvar_revision1/fig2.png",
-    "plots/hearing_loss_clinvar_revision1/fig2.pdf",
-    "plots/hearing_loss_clinvar_revision1/Fig2.tif",
-    "plots/hearing_loss_clinvar_revision1/fig3.png",
-    "plots/hearing_loss_clinvar_revision1/fig3.pdf",
-    "plots/hearing_loss_clinvar_revision1/Fig3.tif",
-    "plots/hearing_loss_clinvar_revision1/fig4.png",
-    "plots/hearing_loss_clinvar_revision1/fig4.pdf",
-    "plots/hearing_loss_clinvar_revision1/Fig4.tif",
-    "plots/hearing_loss_clinvar_revision1/fig5.png",
-    "plots/hearing_loss_clinvar_revision1/fig5.pdf",
-    "plots/hearing_loss_clinvar_revision1/Fig5.tif"
+    "plots/fig1.png",
+    "plots/fig1.pdf",
+    "plots/Fig1.tif",
+    "plots/fig2.png",
+    "plots/fig2.pdf",
+    "plots/Fig2.tif",
+    "plots/fig3.png",
+    "plots/fig3.pdf",
+    "plots/Fig3.tif",
+    "plots/fig4.png",
+    "plots/fig4.pdf",
+    "plots/Fig4.tif",
+    "plots/fig5.png",
+    "plots/fig5.pdf",
+    "plots/Fig5.tif"
   ],
   "png_dpi": 300,
   "png_color_mode": "RGB",
@@ -143,5 +131,26 @@
   "plp_review_stars_ge_2": "P/LP and official ClinVar review stars >= 2 on the same selected source row",
   "gene_memberships": "Each unique variant counted once per annotated gene; gene counts are not additive",
   "statistics": "Descriptive complete-snapshot counts and proportions; no inference, error bars, or significance tests",
-  "paths_note": "Paths and hashes identify the recorded figure-generation inputs; the public entrypoint is scripts/hearing_loss_clinvar/plot_figures.py."
+  "paths_note": "Recorded computational hashes describe the original figure execution. Public code paths and released metadata hashes are listed separately.",
+  "recorded_renderer_sha256": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
+  "public_renderer": "scripts/hearing_loss_clinvar/plot_figures.py",
+  "public_renderer_sha256": "8a86cf41ce001af3df1b7fe4248aa2bc681cda77459d00fb8ed59af8cdaf04aa",
+  "recorded_result_table_sha256": {
+    "results/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
+    "results/primary/variant_aggregate.tsv": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
+    "results/expanded/variant_aggregate.tsv": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
+    "results/disease_supported/variant_aggregate.tsv": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
+    "results/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
+    "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7"
+  },
+  "release_input_sha256": {
+    "results/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
+    "results/primary/variant_aggregate.tsv": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
+    "results/expanded/variant_aggregate.tsv": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
+    "results/disease_supported/variant_aggregate.tsv": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
+    "results/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
+    "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
+    "results/run_metadata.json": "f9b34e2387d71034afef6b296a3f51bbb5f1ff0be88f3cbb1a5ec233171ba459",
+    "data/references/references_manifest.json": "31c8e7cec3b59f137d843c62c1face903fa6c09991ff568f1b7c52d3bf46e093"
+  }
 }
