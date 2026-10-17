@@ -2,18 +2,18 @@
   "title": "Phenotype selection and evidence composition in hearing-loss-related ClinVar records",
   "description": "Scientific analysis code, fixed-input metadata, derived tables and five figures comparing text-based, HPO-linked and ClinGen gene-based ClinVar record selection. Includes a complete reproduction entrypoint and table exporter. Large fixed source inputs are supplied as a checksummed release asset.",
   "upload_type": "software",
-  "version": "v2.0.0",
+  "version": "v2.0.1",
   "creators": [
     {
       "name": "Dai, Sihai",
       "affiliation": "Quanzhou Women’s and Children’s Hospital"
     },
     {
-      "name": "Zheng, Hongwei",
+      "name": "Lin, Shaomei",
       "affiliation": "Quanzhou Medical College"
     },
     {
-      "name": "Lin, Shaomei",
+      "name": "Zheng, Hongwei",
       "affiliation": "Quanzhou Medical College"
     }
   ],

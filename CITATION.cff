@@ -5,11 +5,11 @@ type: software
 authors:
   - family-names: Dai
     given-names: Sihai
-  - family-names: Zheng
-    given-names: Hongwei
   - family-names: Lin
     given-names: Shaomei
-version: 2.0.0
+  - family-names: Zheng
+    given-names: Hongwei
+version: 2.0.1
 date-released: 2026-10-17
 url: "https://github.com/Zhenghongwei11/Review-status-stratification-in-hearing-loss"
 license: MIT
