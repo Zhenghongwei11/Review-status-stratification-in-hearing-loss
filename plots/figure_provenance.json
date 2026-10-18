@@ -134,14 +134,16 @@
   "paths_note": "Recorded computational hashes describe the original figure execution. Public code paths and released metadata hashes are listed separately.",
   "recorded_renderer_sha256": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
   "public_renderer": "scripts/hearing_loss_clinvar/plot_figures.py",
-  "public_renderer_sha256": "8a86cf41ce001af3df1b7fe4248aa2bc681cda77459d00fb8ed59af8cdaf04aa",
+  "public_renderer_sha256": "f453576a5e11a64068d8db48658e749290de63daa25a005ae635db770054d564",
   "recorded_result_table_sha256": {
     "results/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
     "results/primary/variant_aggregate.tsv": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
     "results/expanded/variant_aggregate.tsv": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
     "results/disease_supported/variant_aggregate.tsv": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
     "results/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
-    "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7"
+    "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
+    "results/clingen_grade_sensitivity.tsv": "5831aef1e2aeefd50158cc42012f7794931ddfe9a4f940fafc3d916b776ba3b9",
+    "results/definition_overlaps.tsv": "e068729a16e8ddabb8b2ba2c98a6c25668ab977390f5d41a5fd555bba432f023"
   },
   "release_input_sha256": {
     "results/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
@@ -151,6 +153,17 @@
     "results/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
     "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
     "results/run_metadata.json": "f9b34e2387d71034afef6b296a3f51bbb5f1ff0be88f3cbb1a5ec233171ba459",
-    "data/references/references_manifest.json": "31c8e7cec3b59f137d843c62c1face903fa6c09991ff568f1b7c52d3bf46e093"
-  }
+    "data/references/references_manifest.json": "31c8e7cec3b59f137d843c62c1face903fa6c09991ff568f1b7c52d3bf46e093",
+    "results/clingen_grade_sensitivity.tsv": "5831aef1e2aeefd50158cc42012f7794931ddfe9a4f940fafc3d916b776ba3b9",
+    "results/definition_overlaps.tsv": "e068729a16e8ddabb8b2ba2c98a6c25668ab977390f5d41a5fd555bba432f023"
+  },
+  "recorded_renderer_sha256_by_figure": {
+    "2": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
+    "3": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
+    "4": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
+    "5": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
+    "1": "59c2c4cdfbd69507d083601dbce5602a52a2f463b248ba3ffc9a6565ab17f0a9"
+  },
+  "recorded_renderer_scope": "The previous recorded_renderer_sha256 applies to Figures 2–5; Figure 1 has its own generation hash.",
+  "figure1_description": "Nested phenotype selections and a separate ClinGen comparator, with summaries within each set and scientific comparison domains."
 }

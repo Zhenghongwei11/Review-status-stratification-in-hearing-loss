@@ -1,5 +1,5 @@
-definition	selection_rule	unique_variation_ids
-primary	Hearing-loss phrase	18384
-expanded	Expanded text	25661
-disease_supported	Text plus HPO-linked diseases	473704
-curated_gene	Curated-gene annotation comparator	162683
+definition	selection_rule	unique_variation_ids	qualifying_reference_genes
+primary	Hearing-loss phrase	18384	
+expanded	Expanded text	25661	
+disease_supported	Text plus HPO-linked diseases	473704	
+curated_gene	Curated-gene annotation comparator	162683	164

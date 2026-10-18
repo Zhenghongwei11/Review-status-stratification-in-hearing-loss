@@ -2,7 +2,7 @@
 
 ## Figure 1
 
-Study design and record selection. Three phenotype-based rules and a gene-based comparator were applied to the same ClinVar export. Each branch reports its number of distinct VariationIDs; annotated gene memberships are summarized separately. The curated-gene comparator includes records across annotated conditions.
+Study design and record selection. The three phenotype-based sets are nested: hearing-loss phrase, expanded text, and expanded text plus HPO-linked diseases. A separate comparator retrieves records across annotated conditions for 164 genes with qualifying ClinGen gene–disease evidence. Each set is summarized separately by VariationID. Comparisons address record coverage and disease context, classification and review-status composition, and gene-level counts and proportions. Main-text gene profiles use the phrase-selected set.
 
 ## Figure 2
 

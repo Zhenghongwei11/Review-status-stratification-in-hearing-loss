@@ -109,28 +109,90 @@ class Renderer:
         counts = {name: integer(coverage[name], "n_variation_ids") for name in definitions}
         if any(count <= 0 for count in counts.values()):
             raise ValueError("Figure 1 requires a positive VariationID count for each definition")
-        fig, ax = plt.subplots(figsize=(7.4, 4.4)); ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
-        boxes = [
-            (0.22, 0.81, 0.56, 0.16, "ClinVar variation records", "Accessed 2026-05-23"),
-            (0.02, 0.47, 0.45, 0.27, "Phenotype-based selection", "Hearing-loss phrase: n = " + f"{counts['primary']:,}" + " distinct VariationIDs" +
-             "\nExpanded text: n = " + f"{counts['expanded']:,}" + " distinct VariationIDs" +
-             "\nText + HPO diseases: n = " + f"{counts['disease_supported']:,}" + " distinct VariationIDs"),
-            (0.53, 0.47, 0.45, 0.27, "Gene-based selection", "Curated-gene comparator:" +
-             "\nn = " + f"{counts['curated_gene']:,}" + " distinct VariationIDs" +
-             "\nRecords across annotated conditions"),
-            (0.12, 0.23, 0.76, 0.17, "One aggregate record per VariationID", "Aggregate classifications and review status\nGene memberships and disease annotations"),
-            (0.12, 0.015, 0.76, 0.13, "Descriptive comparisons", "Coverage / review status / gene membership counts and proportions")]
-        for x, y, w, h, title, detail in boxes:
-            ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle="round,pad=0.009",linewidth=0.9,edgecolor="#555555",facecolor="#F6F8FA"))
-            ax.text(x+w/2, y+h*0.73, title, ha="center", va="center", fontweight="bold", fontsize=9)
-            ax.text(x+w/2, y+h*0.31, detail, ha="center", va="center", fontsize=8, linespacing=1.4)
-        for xy, xytext in [((.245,.753),(.40,.80)),((.755,.753),(.60,.80)),((.35,.412),(.245,.46)),((.65,.412),(.755,.46)),((.5,.158),(.5,.22))]:
-            ax.annotate("",xy=xy,xytext=xytext,arrowprops={"arrowstyle":"->","color":"#444444","lw":1.1})
+        grades = self.load("clingen_grade_sensitivity.tsv")
+        broad = next(row for row in grades if row["evidence_threshold"] == "broad")
+        reference_genes = integer(broad, "qualifying_gene_symbols")
+        if integer(broad, "selected_variation_ids") != counts["curated_gene"]:
+            raise ValueError("ClinGen reference and coverage summaries disagree")
+        overlaps = {(row["left"], row["right"]): row
+                    for row in self.load("definition_overlaps.tsv")}
+        for smaller, larger in [("primary", "expanded"), ("expanded", "disease_supported")]:
+            if integer(overlaps[(smaller, larger)], "n_left_only"):
+                raise ValueError("Figure 1's nested phenotype sets require complete inclusion")
+
+        fig, ax = plt.subplots(figsize=(7.4, 4.85))
+        ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
+
+        def box(x, y, width, height, *, fill="#F7F8F9"):
+            ax.add_patch(FancyBboxPatch((x, y), width, height,
+                boxstyle="round,pad=0.006", linewidth=0.9,
+                edgecolor="#555555", facecolor=fill))
+
+        def arrow(start, end):
+            ax.annotate("", xy=end, xytext=start,
+                arrowprops={"arrowstyle": "->", "color": "#555555", "lw": 1.0,
+                            "shrinkA": 0, "shrinkB": 0, "mutation_scale": 9})
+
+        box(.20, .875, .60, .105)
+        ax.text(.50, .944, "Fixed ClinVar variant-summary export", ha="center",
+                va="center", fontsize=10, fontweight="bold")
+        ax.text(.50, .905, "Accessed 2026-05-23", ha="center", va="center", fontsize=8.7)
+        ax.text(.310, .820, "Phenotype-based selection", ha="center",
+                va="center", fontsize=9.5, fontweight="bold")
+        ax.text(.820, .820, "Gene-based comparator", ha="center",
+                va="center", fontsize=9.5, fontweight="bold")
+
+        for y, title, name in [(.675, "Hearing-loss phrase", "primary"),
+                               (.535, "Expanded hearing-related text", "expanded"),
+                               (.395, "Expanded text + HPO-linked diseases", "disease_supported")]:
+            box(.025, y, .570, .100, fill="#F2F6F9")
+            ax.text(.310, y + .069, title, ha="center", va="center", fontsize=8.9)
+            ax.text(.310, y + .027, f"n = {counts[name]:,} distinct VariationIDs",
+                    ha="center", va="center", fontsize=8.9)
+        arrow((.310, .667), (.310, .643))
+        arrow((.310, .527), (.310, .503))
+
+        box(.665, .395, .310, .380)
+        ax.text(.820, .718, "ClinGen gene reference", ha="center", va="center",
+                fontsize=8.9, fontweight="bold")
+        ax.text(.820, .666, f"{reference_genes} qualifying genes", ha="center", va="center", fontsize=8.9)
+        ax.text(.820, .576, "Records across\nannotated conditions", ha="center",
+                va="center", fontsize=8.9, linespacing=1.35)
+        ax.text(.820, .463, f"n = {counts['curated_gene']:,}\ndistinct VariationIDs",
+                ha="center", va="center", fontsize=8.9, linespacing=1.35)
+        arrow((.38, .867), (.310, .850))
+        arrow((.62, .867), (.820, .850))
+
+        box(.075, .220, .850, .115)
+        ax.text(.50, .296, "Variation-level summaries within each set", ha="center",
+                va="center", fontsize=9.5, fontweight="bold")
+        ax.text(.50, .249, "Aggregate classifications, review status and gene annotations",
+                ha="center", va="center", fontsize=8.7)
+        # Every phenotype set contributes a separate summary; the last expanded
+        # set is not the sole population carried into the comparisons.
+        for y in [.725, .585, .445]:
+            ax.plot([.603, .625], [y, y], color="#555555", lw=.85)
+        ax.plot([.625, .625], [.725, .375], color="#555555", lw=.85)
+        arrow((.625, .375), (.625, .347))
+        arrow((.820, .387), (.720, .347))
+
+        topics = [( .025, "Record coverage\nand disease context"),
+                  ( .350, "Classification and\nreview-status composition"),
+                  ( .675, "Gene profiles in the phrase set\nCounts and proportions")]
+        for x, text in topics:
+            box(x, .025, .300, .115, fill="white")
+            ax.text(x + .150, .0825, text, ha="center", va="center",
+                    fontsize=8.6, linespacing=1.4)
+            arrow((x + .150, .212), (x + .150, .152))
         labels = {"primary": "Hearing-loss phrase", "expanded": "Expanded text", "disease_supported": "Text plus HPO-linked diseases", "curated_gene": "Curated-gene annotation comparator"}
-        rows = [{"definition": name, "selection_rule": labels[name], "unique_variation_ids": counts[name]} for name in definitions]
-        caption = ("Study design and record selection. Three phenotype-based rules and a gene-based comparator were applied to the same ClinVar export. "
-            "Each branch reports its number of distinct VariationIDs; annotated gene memberships are summarized separately. "
-            "The curated-gene comparator includes records across annotated conditions.")
+        rows = [{"definition": name, "selection_rule": labels[name], "unique_variation_ids": counts[name],
+                 "qualifying_reference_genes": reference_genes if name == "curated_gene" else ""}
+                for name in definitions]
+        caption = ("Study design and record selection. The three phenotype-based sets are nested: hearing-loss phrase, expanded text, "
+            "and expanded text plus HPO-linked diseases. A separate comparator retrieves records across annotated conditions "
+            f"for {reference_genes} genes with qualifying ClinGen gene–disease evidence. Each set is summarized separately by VariationID. "
+            "Comparisons address record coverage and disease context, classification and review-status composition, "
+            "and gene-level counts and proportions. Main-text gene profiles use the phrase-selected set.")
         self.save(fig,1,rows,caption)
 
     def plot_review_status_distribution(self):
@@ -299,6 +361,7 @@ class Renderer:
         self.save(fig,2,rows,"Record-set size and classification composition across selection rules. (A) Distinct VariationIDs selected by the phrase, expanded-text and HPO-linked rules and the gene comparator. (B) Classification proportions among all selected records in each set, regardless of review status. P/LP, pathogenic/likely pathogenic; VUS, variant of uncertain significance; B/LB, benign/likely benign.")
 
     def document(self):
+        rendered_figures = sorted(self.captions)
         caption_path=self.docs/"figure_captions.md"
         prior=caption_path.read_text() if caption_path.exists() else ""
         # A partial figure run updates only those sections while retaining completed captions.
@@ -325,6 +388,19 @@ class Renderer:
             "classification_buckets":dict(zip(BUCKETS,LABELS)),"classification_hatches":dict(zip(BUCKETS,HATCHES)),"gene_minimum_variants":10,
             "plp_review_stars_ge_2":"P/LP and official ClinVar review stars >= 2 on the same selected source row","gene_memberships":"Each unique variant counted once per annotated gene; gene counts are not additive",
             "statistics":"Descriptive complete-snapshot counts and proportions; no inference, error bars, or significance tests"}
+        prior_path = self.outdir / "figure_provenance.json"
+        prior_provenance = json.loads(prior_path.read_text()) if prior_path.exists() else {}
+        per_figure = dict(prior_provenance.get("per_figure_renderer_sha256", {}))
+        for number in self.captions:
+            if number not in rendered_figures and str(number) not in per_figure:
+                per_figure[str(number)] = prior_provenance.get("renderer_sha256")
+        for number in rendered_figures:
+            per_figure[str(number)] = provenance["renderer_sha256"]
+        provenance["per_figure_renderer_sha256"] = per_figure
+        provenance["latest_rendered_figures"] = rendered_figures
+        if len(rendered_figures) < 5:
+            provenance["inputs_sha256"] = {**prior_provenance.get("inputs_sha256", {}), **provenance["inputs_sha256"]}
+            provenance["outputs"] = sorted(set(prior_provenance.get("outputs", [])) | set(provenance["outputs"]))
         (self.outdir/"figure_provenance.json").write_text(json.dumps(provenance,indent=2)+"\n")
         lines=["# Figure provenance", "", "Renderer: `scripts/hearing_loss_clinvar/plot_figures.py`. The renderer resolves input and output paths from its own location.", "",
             "Figures use white backgrounds, an accessible discrete palette, embedded TrueType PDF fonts, and 300 dpi PNG exports. Category labels, classification hatches, labelled points and marker shapes supplement colour for grayscale interpretation. The dataset is a complete selected snapshot; no sampling error bars or significance tests are implied.", "",

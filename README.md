@@ -34,6 +34,7 @@ To export tables or figures from existing result files:
 python3 scripts/hearing_loss_clinvar/export_tables.py --main-workbook
 python3 scripts/hearing_loss_clinvar/plot_figures.py
 ```
+The study-design figure distinguishes three nested phenotype selections from the separate ClinGen gene comparator. It can be plotted individually with `python3 scripts/hearing_loss_clinvar/plot_figures.py --figures 1`.
 
 ## Inputs and interpretation
 
