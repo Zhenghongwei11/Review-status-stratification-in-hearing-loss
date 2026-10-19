@@ -1,6 +1,6 @@
-Review stars	Variation records	P/LP	VUS	Conflicting	B/LB	Other/unknown
-0	1018	611	325	5	9	68
-1	10727	2393	3896	2800	1636	2
-2	6466	1722	2644	0	2100	0
-3	173	88	43	0	41	1
-4	0	0	0	0	0	0
+Record or disease annotation	Records	Evidence in the fixed export
+USH2A VariationID 2353; Usher syndrome among its annotations	1	Pathogenic; 3 review stars (expert panel)
+CFTR records; cystic fibrosis among every record’s annotations	23	Pathogenic; 4 review stars (practice guideline)
+Familial isolated dilated cardiomyopathy (ORPHA:154)	44,036	Matching disease identifier
+Primary ciliary dyskinesia (ORPHA:244)	28,729	Matching disease identifier
+Fanconi anemia (ORPHA:84)	27,050	Matching disease identifier

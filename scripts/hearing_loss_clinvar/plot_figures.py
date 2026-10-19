@@ -230,7 +230,7 @@ class Renderer:
         handles, labels=axes[0].get_legend_handles_labels()
         fig.legend(handles,labels,loc="lower center",ncol=5,frameon=False,bbox_to_anchor=(.5,-.01))
         fig.subplots_adjust(left=.09,right=.97,top=.87,bottom=.22,wspace=.40)
-        self.save(fig,3,rows,f"Review-status distribution under the phrase rule. (A) Classification categories by official review stars for {len(variants):,} VariationIDs. (B) Composition of the {n_expert:,} expert-panel records. The Other category represents one drug-response record (n = 1). No VariationIDs had 4-star review status (practice guidelines; n = 0). P/LP, pathogenic/likely pathogenic; VUS, variant of uncertain significance; B/LB, benign/likely benign.")
+        self.save(fig,3,rows,f"Review-status distribution under the phrase rule. (A) Classification categories by official review stars for {len(variants):,} VariationIDs. (B) Composition of the {n_expert:,} expert-panel records. In panel B, Other represents one drug-response record (n = 1). No VariationIDs had 4-star review status (practice guidelines; n = 0). P/LP, pathogenic/likely pathogenic; VUS, variant of uncertain significance; B/LB, benign/likely benign.")
 
     def plot_gene_level_classification_profiles(self):
         genes = self.load("primary/utility_gene_all.tsv")
@@ -278,7 +278,7 @@ class Renderer:
         panel(axes[0],"A","Gene membership counts")
         panel(axes[1],"B","Within-gene proportions")
         fig.subplots_adjust(left=.09,right=.98,bottom=.18,top=.88,wspace=.40)
-        self.save(fig,4,rows,f"Gene-level classification profiles under the phrase rule. Points represent {len(selected)} genes with at least ten distinct VariationIDs. Orange highlights DIAPH1 and MET; blue highlights MYO7A and SLC26A4; grey marks the other {len(selected) - 4} genes. (A) Counts of P/LP records with at least two review stars versus VUS-plus-conflicting counts; values from 0 to 1 are shown linearly and values above 1 logarithmically on symmetric-log axes. (B) Corresponding within-gene proportions. Each VariationID contributes once to each annotated gene, so gene counts are nonadditive. P/LP, pathogenic/likely pathogenic; VUS, variant of uncertain significance.")
+        self.save(fig,4,rows,f"Gene-level classification profiles under the phrase rule. Points represent {len(selected)} genes with at least ten distinct VariationIDs. Orange highlights DIAPH1 and MET, which lead by VUS-plus-conflicting count and proportion, respectively. Blue highlights MYO7A and SLC26A4, the two genes contributing the most P/LP records with at least two review stars; grey marks the other {len(selected) - 4} genes. (A) Counts of P/LP records with at least two review stars versus VUS-plus-conflicting counts; values from 0 to 1 are shown linearly and values above 1 logarithmically on symmetric-log axes. (B) Corresponding within-gene proportions. Each VariationID contributes once to each annotated gene, so gene counts are nonadditive. P/LP, pathogenic/likely pathogenic; VUS, variant of uncertain significance.")
 
     def plot_conflict_gene_rankings(self):
         genes = self.load("primary/utility_gene_all.tsv")
@@ -322,7 +322,7 @@ class Renderer:
                         ha="left",va="center",fontsize=8,color="#444444",clip_on=False)
                 panel(ax,"B","Highest conflict proportions")
         fig.subplots_adjust(left=.11,right=.87,bottom=.17,top=.89,wspace=.58)
-        self.save(fig,5,rows,"Gene rankings by conflict count and proportion. Genes had at least ten annotated VariationIDs. (A) Twelve largest conflict counts. (B) Twelve largest conflict proportions, with gene-level denominators shown as n. Panels are ranked independently; tied ranks are ordered alphabetically by gene symbol. Single-gene sensitivity results are in S5 Table.")
+        self.save(fig,5,rows,"Gene rankings by conflict count and proportion. Genes had at least ten annotated VariationIDs. (A) Twelve largest conflict counts. (B) Twelve largest conflict proportions, with gene-level denominators shown as n. Proportions based on few records are more sensitive to changes in individual classifications. Panels are ranked independently; tied ranks are ordered alphabetically by gene symbol. Single-gene sensitivity results are in S5 Table.")
 
     def plot_selection_coverage_and_classification_composition(self):
         sets={}; rows=[]

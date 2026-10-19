@@ -9,6 +9,7 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
+from export_disease_context import generate_disease_context_display
 
 ROOT = Path(__file__).resolve().parents[2]
 RESULTS = ROOT / "results"
@@ -478,7 +479,31 @@ def table1_rows(results_dir):
     return output
 
 
-def table2_rows(results_dir):
+def table2_rows(display_rows):
+    """Create the five-row disease-context table from its traceable source."""
+    expected_keys = [
+        "ush2a_2353", "cftr_practice_guideline_all", "hpo_disease_1",
+        "hpo_disease_2", "hpo_disease_3",
+    ]
+    if [row["key"] for row in display_rows] != expected_keys:
+        raise RuntimeError("Disease-context display rows do not match the manuscript table order")
+    headers = ["Record or disease annotation", "Records", "Evidence in the fixed export"]
+    evidence_by_stars = {3: "expert panel", 4: "practice guideline"}
+    output = [headers]
+    for row in display_rows:
+        stars = row["review_stars"]
+        if stars:
+            stars = int(stars)
+            if stars not in evidence_by_stars:
+                raise RuntimeError(f"Unexpected review-star count for {row['key']}: {stars}")
+            evidence = f"{row['classification_label']}; {stars} review stars ({evidence_by_stars[stars]})"
+        else:
+            evidence = "Matching disease identifier"
+        output.append([row["row_label"], f"{int(row['n_variation_ids']):,}", evidence])
+    return output
+
+
+def table3_rows(results_dir):
     """Create the primary-definition review-star table from saved tier results."""
     path = results_dir / "primary/utility_overall_by_tier.tsv"
     with path.open(encoding="utf-8", newline="") as stream:
@@ -504,7 +529,7 @@ def table2_rows(results_dir):
             "n::other": "0",
             "n::unknown": "0",
         }
-    headers = ["Review stars", "Variation records", "P/LP", "VUS", "Conflicting", "B/LB", "Other/unknown"]
+    headers = ["Review stars", "Variation records", "P/LP", "VUS", "Conflicting", "B/LB", "Other"]
     output = [headers]
     for tier in range(5):
         row = by_tier[tier]
@@ -516,13 +541,14 @@ def table2_rows(results_dir):
             int(row["n::benign_or_likely_benign"]),
             int(row["n::other"]) + int(row["n::unknown"]),
         ]
-        output.append([tier, *values])
+        tier_label = {3: "3: expert panel", 4: "4: practice guideline"}.get(tier, tier)
+        output.append([tier_label, *values])
     expected = [
         (0, 1018, 611, 325, 5, 9, 68),
         (1, 10727, 2393, 3896, 2800, 1636, 2),
         (2, 6466, 1722, 2644, 0, 2100, 0),
-        (3, 173, 88, 43, 0, 41, 1),
-        (4, 0, 0, 0, 0, 0, 0),
+        ("3: expert panel", 173, 88, 43, 0, 41, 1),
+        ("4: practice guideline", 0, 0, 0, 0, 0, 0),
     ]
     observed = [tuple(row) for row in output[1:]]
     if observed != expected:
@@ -541,7 +567,7 @@ def write_tsv(path, rows):
 
 
 def main_tables_workbook(path, tables):
-    """Write an optional two-sheet workbook containing the main table exports."""
+    """Write an optional three-sheet workbook containing the main table exports."""
     wb = Workbook()
     for index, (sheet_name, rows) in enumerate(tables):
         ws = wb.active if index == 0 else wb.create_sheet()
@@ -574,19 +600,24 @@ def main():
     parser.add_argument("--outdir", type=Path, default=ROOT / "tables",
                         help="directory for exported workbooks and TSV files")
     parser.add_argument("--main-workbook", action="store_true",
-                        help="also write Main_Tables.xlsx with Table1 and Table2 sheets")
+                        help="also write Main_Tables.xlsx with Table1, Table2, and Table3 sheets")
     args = parser.parse_args()
     global RESULTS, OUTDIR
     RESULTS = args.results.expanduser().resolve()
     OUTDIR = args.outdir.expanduser().resolve()
     OUTDIR.mkdir(parents=True, exist_ok=True)
     workbook()
+    display_rows, _, _ = generate_disease_context_display(RESULTS, RESULTS)
     table1 = table1_rows(RESULTS)
-    table2 = table2_rows(RESULTS)
+    table2 = table2_rows(display_rows)
+    table3 = table3_rows(RESULTS)
     write_tsv(OUTDIR / "Table1.tsv", table1)
     write_tsv(OUTDIR / "Table2.tsv", table2)
+    write_tsv(OUTDIR / "Table3.tsv", table3)
     if args.main_workbook:
-        main_tables_workbook(OUTDIR / "Main_Tables.xlsx", [("Table1", table1), ("Table2", table2)])
+        main_tables_workbook(OUTDIR / "Main_Tables.xlsx", [
+            ("Table1", table1), ("Table2", table2), ("Table3", table3),
+        ])
 
 
 if __name__ == "__main__":

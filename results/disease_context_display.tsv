@@ -1,0 +1,6 @@
+key	row_label	n_variation_ids	selection_context	classification_label	review_stars	observation_type	source_path
+ush2a_2353	USH2A VariationID 2353; Usher syndrome among its annotations	1	HPO-linked disease_supported set; absent from primary and expanded text sets	Pathogenic	3	single_variation_example	results/disease_supported/variant_aggregate.tsv:252010
+cftr_practice_guideline_all	CFTR records; cystic fibrosis among every record’s annotations	23	All disease_supported practice-guideline records; absent from primary and expanded text sets	Pathogenic	4	complete_review_status_group	results/disease_supported/variant_aggregate.tsv (selected source lines in provenance JSON)
+hpo_disease_1	Familial isolated dilated cardiomyopathy (ORPHA:154)	44036	New distinct VariationIDs beyond expanded text with matching disease ID; denominator 448043			nonadditive_disease_id_contribution	results/hpo_disease_contributions.tsv:2
+hpo_disease_2	Primary ciliary dyskinesia (ORPHA:244)	28729	New distinct VariationIDs beyond expanded text with matching disease ID; denominator 448043			nonadditive_disease_id_contribution	results/hpo_disease_contributions.tsv:3
+hpo_disease_3	Fanconi anemia (ORPHA:84)	27050	New distinct VariationIDs beyond expanded text with matching disease ID; denominator 448043			nonadditive_disease_id_contribution	results/hpo_disease_contributions.tsv:4

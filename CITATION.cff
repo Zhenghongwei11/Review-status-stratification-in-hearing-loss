@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite this software when using the analysis code or results."
-title: "Phenotype selection and evidence composition in hearing-loss-related ClinVar records"
+title: "Record coverage and disease context in hearing-loss-related ClinVar records"
 type: software
 authors:
   - family-names: Dai
@@ -9,7 +9,7 @@ authors:
     given-names: Shaomei
   - family-names: Zheng
     given-names: Hongwei
-version: 2.0.2
-date-released: 2026-10-18
+version: 2.0.3
+date-released: 2026-10-19
 url: "https://github.com/Zhenghongwei11/Review-status-stratification-in-hearing-loss"
 license: MIT

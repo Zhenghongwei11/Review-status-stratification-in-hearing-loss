@@ -71,7 +71,7 @@ def main():
     for name, *options in programs:
         print('Running:', name, flush=True)
         subprocess.run([sys.executable, str(ROOT / 'scripts/hearing_loss_clinvar' / name), *options], check=True, cwd=ROOT)
-    print('Complete: plots/fig1–5, tables/Table1.tsv, tables/Table2.tsv and tables/Supplementary_Tables.xlsx', flush=True)
+    print('Complete: plots/fig1–5, tables/Table1.tsv, tables/Table2.tsv, tables/Table3.tsv and tables/Supplementary_Tables.xlsx', flush=True)
 
 
 if __name__ == '__main__':

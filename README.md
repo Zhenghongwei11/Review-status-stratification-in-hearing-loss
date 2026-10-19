@@ -1,4 +1,4 @@
-# Phenotype selection in hearing-loss-related ClinVar records
+# Record coverage and disease context in hearing-loss-related ClinVar records
 
 Analysis code and results for comparisons of text-based, HPO-linked and ClinGen gene-based ClinVar record selection. The analysis uses fixed public inputs and summarizes germline aggregate classifications, official review stars and annotated gene memberships.
 
@@ -24,7 +24,9 @@ It derives the phenotype and gene references from their original source files, c
 ## Outputs
 
 - `plots/fig1.png` through `plots/fig5.png`, plus PDF/TIFF and plotting data.
-- `tables/Table1.tsv` and `tables/Table2.tsv`: the two main data tables.
+- `tables/Table1.tsv`: record coverage under the four selection definitions.
+- `tables/Table2.tsv`: disease contexts and classification evidence among HPO-linked additions.
+- `tables/Table3.tsv`: review-status composition under the phrase rule.
 - `tables/Supplementary_Tables.xlsx`: S1–S15, a Readme and a field Codebook.
 - `results/`: selection summaries, gene profiles, comparisons and individual-submission examples.
 
@@ -35,6 +37,8 @@ python3 scripts/hearing_loss_clinvar/export_tables.py --main-workbook
 python3 scripts/hearing_loss_clinvar/plot_figures.py
 ```
 The study-design figure distinguishes three nested phenotype selections from the separate ClinGen gene comparator. It can be plotted individually with `python3 scripts/hearing_loss_clinvar/plot_figures.py --figures 1`.
+
+The table exporter also creates `Main_Tables.xlsx` when `--main-workbook` is specified. `results/disease_context_display.tsv` and its provenance JSON identify the selected records, source hashes and nonadditive disease contributions behind Table 2. `docs/OUTPUT_PROVENANCE.tsv` maps every main figure and main/supporting table to its generating code and input results. Table 2 combines a single-record example, the complete four-star group and three overlapping disease-identifier contributions; its rows are not mutually exclusive categories.
 
 ## Inputs and interpretation
 

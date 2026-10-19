@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "outputs": {
+    "display_tsv": "results/disease_context_display.tsv",
+    "display_tsv_sha256": "aed328b32ad39d34735bb063614b635f49fbc08bb23bd4f415d16d58e6a585d1"
+  },
+  "inputs": {
+    "disease_supported": {
+      "path": "results/disease_supported/variant_aggregate.tsv",
+      "sha256": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
+      "bytes": 348811456,
+      "data_rows": 473704
+    },
+    "primary": {
+      "path": "results/primary/variant_aggregate.tsv",
+      "sha256": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
+      "bytes": 16774019,
+      "data_rows": 18384
+    },
+    "expanded": {
+      "path": "results/expanded/variant_aggregate.tsv",
+      "sha256": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
+      "bytes": 22975279,
+      "data_rows": 25661
+    },
+    "coverage_summary": {
+      "path": "results/coverage_summary.tsv",
+      "sha256": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
+      "bytes": 775,
+      "data_rows": 4
+    },
+    "hpo_disease_contributions": {
+      "path": "results/hpo_disease_contributions.tsv",
+      "sha256": "56d9f9459a8d6bb386311c8dee78a5861232fcca8981c2a900f1a1673332dbcc",
+      "bytes": 153150,
+      "data_rows": 1438
+    },
+    "run_metadata": {
+      "path": "results/run_metadata.json",
+      "sha256": "f9b34e2387d71034afef6b296a3f51bbb5f1ff0be88f3cbb1a5ec233171ba459",
+      "bytes": 1354,
+      "data_rows": null
+    }
+  },
+  "fixed_record_snapshot": {
+    "clinvar_source_sha256": "2f591d4ea919e81f0094c32f5901dbb3afad39a8d8de5c59ea9029d2d3a49ccc",
+    "clinvar_source_rows": 8980556,
+    "analysis_started_utc": "2026-10-15T05:52:02.102442+00:00"
+  },
+  "population_counts": {
+    "primary": 18384,
+    "expanded": 25661,
+    "disease_supported": 473704,
+    "added_beyond_expanded": 448043,
+    "practice_guideline": 23,
+    "coverage_source": "results/coverage_summary.tsv",
+    "coverage_lines": {
+      "primary": 2,
+      "expanded": 3,
+      "disease_supported": 4
+    }
+  },
+  "selected_variation_ids": {
+    "ush2a_example": [
+      2353
+    ],
+    "cftr_practice_guideline_group": [
+      7105,
+      7106,
+      7109,
+      7110,
+      7111,
+      7112,
+      7113,
+      7115,
+      7120,
+      7122,
+      7129,
+      7136,
+      7137,
+      7139,
+      7143,
+      7166,
+      7168,
+      7224,
+      35868,
+      38493,
+      38494,
+      38497,
+      38799
+    ]
+  },
+  "selected_record_provenance": [
+    {
+      "variation_id": 2353,
+      "source": "results/disease_supported/variant_aggregate.tsv:252010",
+      "gene_symbols": "USH2A",
+      "classification_review_pair": "Pathogenic@@3",
+      "review_status_best": "reviewed by expert panel",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Usher syndrome",
+        "Usher syndrome type 2A"
+      ],
+      "matched_condition_ids": [
+        "OMIM:276901",
+        "Orphanet:886"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7105,
+      "source": "results/disease_supported/variant_aggregate.tsv:14990",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7106,
+      "source": "results/disease_supported/variant_aggregate.tsv:29879",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7109,
+      "source": "results/disease_supported/variant_aggregate.tsv:74382",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7110,
+      "source": "results/disease_supported/variant_aggregate.tsv:89342",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7111,
+      "source": "results/disease_supported/variant_aggregate.tsv:104244",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7112,
+      "source": "results/disease_supported/variant_aggregate.tsv:119019",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7113,
+      "source": "results/disease_supported/variant_aggregate.tsv:133841",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7115,
+      "source": "results/disease_supported/variant_aggregate.tsv:163178",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7120,
+      "source": "results/disease_supported/variant_aggregate.tsv:237163",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7122,
+      "source": "results/disease_supported/variant_aggregate.tsv:266963",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7129,
+      "source": "results/disease_supported/variant_aggregate.tsv:370120",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7136,
+      "source": "results/disease_supported/variant_aggregate.tsv:75",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7137,
+      "source": "results/disease_supported/variant_aggregate.tsv:14991",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7139,
+      "source": "results/disease_supported/variant_aggregate.tsv:44875",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7143,
+      "source": "results/disease_supported/variant_aggregate.tsv:104245",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7166,
+      "source": "results/disease_supported/variant_aggregate.tsv:444198",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7168,
+      "source": "results/disease_supported/variant_aggregate.tsv:76",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 7224,
+      "source": "results/disease_supported/variant_aggregate.tsv:355182",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 35868,
+      "source": "results/disease_supported/variant_aggregate.tsv:414769",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 38493,
+      "source": "results/disease_supported/variant_aggregate.tsv:429535",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 38494,
+      "source": "results/disease_supported/variant_aggregate.tsv:444323",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 38497,
+      "source": "results/disease_supported/variant_aggregate.tsv:15114",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    },
+    {
+      "variation_id": 38799,
+      "source": "results/disease_supported/variant_aggregate.tsv:222426",
+      "gene_symbols": "CFTR",
+      "classification_review_pair": "Pathogenic@@4",
+      "review_status_best": "practice guideline",
+      "inclusion_reasons": "HPO_disease_id|HPO_disease_name_exact",
+      "matched_condition_names": [
+        "Cystic fibrosis"
+      ],
+      "matched_condition_ids": [
+        "Orphanet:586"
+      ],
+      "absent_from_primary": true,
+      "absent_from_expanded": true
+    }
+  ],
+  "disease_contribution_provenance": [
+    {
+      "disease_id": "ORPHA:154",
+      "disease_name": "Familial isolated dilated cardiomyopathy",
+      "n_variation_ids": 44036,
+      "unit": "distinct VariationIDs; disease-ID rows may overlap",
+      "source": "results/hpo_disease_contributions.tsv:2",
+      "classification_label": null,
+      "review_stars": null
+    },
+    {
+      "disease_id": "ORPHA:244",
+      "disease_name": "Primary ciliary dyskinesia",
+      "n_variation_ids": 28729,
+      "unit": "distinct VariationIDs; disease-ID rows may overlap",
+      "source": "results/hpo_disease_contributions.tsv:3",
+      "classification_label": null,
+      "review_stars": null
+    },
+    {
+      "disease_id": "ORPHA:84",
+      "disease_name": "Fanconi anemia",
+      "n_variation_ids": 27050,
+      "unit": "distinct VariationIDs; disease-ID rows may overlap",
+      "source": "results/hpo_disease_contributions.tsv:4",
+      "classification_label": null,
+      "review_stars": null
+    }
+  ],
+  "interpretation_limits": [
+    "Classification and review stars are variation-level aggregates, not condition-specific classifications.",
+    "Disease-ID contributions may overlap; they are not mutually exclusive and do not establish hearing-loss causality.",
+    "Disease-contribution classification fields are blank because condition-specific summaries are not provided."
+  ],
+  "validation": {
+    "joint_pairs": true,
+    "24_records_absent_from_primary_and_expanded": true,
+    "23_cftr_records_include_cystic_fibrosis_name_and_orphanet_586": true,
+    "ush2a_2353_has_usher_annotation": true,
+    "new_count_matches_coverage_difference": true,
+    "disease_counts_marked_nonadditive": true
+  }
+}
