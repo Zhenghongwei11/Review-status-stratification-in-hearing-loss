@@ -1,4 +1,11 @@
 {
+  "renderer": "scripts/hearing_loss_clinvar/plot_figures.py",
+  "renderer_sha256": "9e0022da927f25ee51ef981f1c08ddb4c65d12d6aea476ddc05c3ac89f231002",
+  "inputs_sha256": {
+    "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
+    "results/run_metadata.json": "f9b34e2387d71034afef6b296a3f51bbb5f1ff0be88f3cbb1a5ec233171ba459",
+    "data/references/references_manifest.json": "31c8e7cec3b59f137d843c62c1face903fa6c09991ff568f1b7c52d3bf46e093"
+  },
   "analysis_metadata": {
     "started_utc": "2026-10-15T05:52:02.102442+00:00",
     "source_sha256": "2f591d4ea919e81f0094c32f5901dbb3afad39a8d8de5c59ea9029d2d3a49ccc",
@@ -30,25 +37,25 @@
     "hp.obo": {
       "requested_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/hp.obo",
       "version": "v2026-09-01",
-      "retrieved_at_utc": "2026-10-13T08:56:38.123011+00:00",
+      "retrieved_at_utc": "2026-10-13T08:56:38.105503+00:00",
       "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22"
     },
     "phenotype.hpoa": {
       "requested_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/phenotype.hpoa",
       "version": "v2026-09-01",
-      "retrieved_at_utc": "2026-10-13T08:56:38.190350+00:00",
+      "retrieved_at_utc": "2026-10-13T08:56:38.171859+00:00",
       "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72"
     },
     "hpo_license.md": {
       "requested_url": "https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/v2026-09-01/LICENSE.md",
       "version": "v2026-09-01",
-      "retrieved_at_utc": "2026-10-13T08:56:41.931309+00:00",
+      "retrieved_at_utc": "2026-10-13T08:56:41.923564+00:00",
       "sha256": "534f0ba30b74d13590247ddb5e24d749f5733b41cf19a730010b55edf4266336"
     },
     "hpo_legacy_license.html": {
       "requested_url": "https://human-phenotype-ontology.github.io/license.html",
       "version": "retrieval-time official legacy license page",
-      "retrieved_at_utc": "2026-10-13T08:56:51.163641+00:00",
+      "retrieved_at_utc": "2026-10-13T08:56:51.158477+00:00",
       "sha256": "d63799ff8d381891114b22e78c8164f198a9642f9ed0ca8b53bc73238c318b39"
     },
     "clingen_gene_validity.csv": {
@@ -92,21 +99,21 @@
   ],
   "temporal_limitation": "HPO September 2026 and later gene-disease curations are applied to fixed May 2026 ClinVar records; these are not May 2026 annotations or an exhaustive gold standard.",
   "outputs": [
-    "plots/fig1.png",
-    "plots/fig1.pdf",
     "plots/Fig1.tif",
-    "plots/fig2.png",
-    "plots/fig2.pdf",
     "plots/Fig2.tif",
-    "plots/fig3.png",
-    "plots/fig3.pdf",
     "plots/Fig3.tif",
-    "plots/fig4.png",
-    "plots/fig4.pdf",
     "plots/Fig4.tif",
-    "plots/fig5.png",
+    "plots/Fig5.tif",
+    "plots/fig1.pdf",
+    "plots/fig1.png",
+    "plots/fig2.pdf",
+    "plots/fig2.png",
+    "plots/fig3.pdf",
+    "plots/fig3.png",
+    "plots/fig4.pdf",
+    "plots/fig4.png",
     "plots/fig5.pdf",
-    "plots/Fig5.tif"
+    "plots/fig5.png"
   ],
   "png_dpi": 300,
   "png_color_mode": "RGB",
@@ -131,39 +138,14 @@
   "plp_review_stars_ge_2": "P/LP and official ClinVar review stars >= 2 on the same selected source row",
   "gene_memberships": "Each unique variant counted once per annotated gene; gene counts are not additive",
   "statistics": "Descriptive complete-snapshot counts and proportions; no inference, error bars, or significance tests",
-  "paths_note": "Recorded computational hashes describe the original figure execution. Public code paths and released metadata hashes are listed separately.",
-  "recorded_renderer_sha256": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
-  "public_renderer": "scripts/hearing_loss_clinvar/plot_figures.py",
-  "public_renderer_sha256": "f453576a5e11a64068d8db48658e749290de63daa25a005ae635db770054d564",
-  "recorded_result_table_sha256": {
-    "results/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
-    "results/primary/variant_aggregate.tsv": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
-    "results/expanded/variant_aggregate.tsv": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
-    "results/disease_supported/variant_aggregate.tsv": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
-    "results/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
-    "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
-    "results/clingen_grade_sensitivity.tsv": "5831aef1e2aeefd50158cc42012f7794931ddfe9a4f940fafc3d916b776ba3b9",
-    "results/definition_overlaps.tsv": "e068729a16e8ddabb8b2ba2c98a6c25668ab977390f5d41a5fd555bba432f023"
+  "per_figure_renderer_sha256": {
+    "1": null,
+    "2": null,
+    "3": null,
+    "5": null,
+    "4": "9e0022da927f25ee51ef981f1c08ddb4c65d12d6aea476ddc05c3ac89f231002"
   },
-  "release_input_sha256": {
-    "results/coverage_summary.tsv": "ffbfbc80c88765bb77c78b86a3a46da37737227be35004483cca29b446e6d5d1",
-    "results/primary/variant_aggregate.tsv": "3f02c6c0377760926fefbb12f8d0cc6f14116e54201da4a209b3c383bb0446fe",
-    "results/expanded/variant_aggregate.tsv": "e48e0c8628e520a94c5ff5c7660c3ac6ee10abefeea4c9d8ffa4deb6a7435ab7",
-    "results/disease_supported/variant_aggregate.tsv": "f1d8e6c74de1047e3fade9df2734ba9ee21175456cf8087aa9447c6ad971b5ea",
-    "results/curated_gene/variant_aggregate.tsv": "56ed5f57ab5f762049eb5494700d411004468b3c6bb14f568760c755a9766703",
-    "results/primary/utility_gene_all.tsv": "c559233a41ca454561649677630fdaedb268beb866078aea1e2c3ef101097bf7",
-    "results/run_metadata.json": "f9b34e2387d71034afef6b296a3f51bbb5f1ff0be88f3cbb1a5ec233171ba459",
-    "data/references/references_manifest.json": "31c8e7cec3b59f137d843c62c1face903fa6c09991ff568f1b7c52d3bf46e093",
-    "results/clingen_grade_sensitivity.tsv": "5831aef1e2aeefd50158cc42012f7794931ddfe9a4f940fafc3d916b776ba3b9",
-    "results/definition_overlaps.tsv": "e068729a16e8ddabb8b2ba2c98a6c25668ab977390f5d41a5fd555bba432f023"
-  },
-  "recorded_renderer_sha256_by_figure": {
-    "2": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
-    "3": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
-    "4": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
-    "5": "3c5090cf74cd615e3076f8ec5bc67b3dd9d148a04c7e8e97e769a28bf646e9ae",
-    "1": "59c2c4cdfbd69507d083601dbce5602a52a2f463b248ba3ffc9a6565ab17f0a9"
-  },
-  "recorded_renderer_scope": "The previous recorded_renderer_sha256 applies to Figures 2–5; Figure 1 has its own generation hash.",
-  "figure1_description": "Nested phenotype selections and a separate ClinGen comparator, with summaries within each set and scientific comparison domains."
+  "latest_rendered_figures": [
+    4
+  ]
 }

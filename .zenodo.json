@@ -2,7 +2,7 @@
   "title": "Record coverage and disease context in hearing-loss-related ClinVar records",
   "description": "Scientific analysis code, fixed-input metadata, complete derived results, five figures, three main tables and fifteen supporting tables comparing text-based, HPO-linked and ClinGen gene-based ClinVar record selection. Includes disease-context extraction, figure/table provenance and a fixed-input reproduction entrypoint. Large fixed source inputs are supplied as a checksummed release asset.",
   "upload_type": "software",
-  "version": "v2.0.3",
+  "version": "v2.0.4",
   "creators": [
     {
       "name": "Dai, Sihai",

@@ -9,7 +9,7 @@ authors:
     given-names: Shaomei
   - family-names: Zheng
     given-names: Hongwei
-version: 2.0.3
+version: 2.0.4
 date-released: 2026-10-20
 url: "https://github.com/Zhenghongwei11/Review-status-stratification-in-hearing-loss"
 license: MIT

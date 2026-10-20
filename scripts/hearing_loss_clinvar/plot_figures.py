@@ -13,6 +13,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
+from matplotlib.lines import Line2D
 from matplotlib.ticker import FuncFormatter, MaxNLocator, PercentFormatter
 import numpy as np
 from PIL import Image
@@ -244,7 +245,7 @@ class Renderer:
         for g,pos in zip(leaders,leader_positions):
             count_positions[g["gene_symbol"]]=pos
             proportion_positions[g["gene_symbol"]]=pos
-        fig, axes=plt.subplots(1,2,figsize=(7.5,4.1))
+        fig, axes=plt.subplots(1,2,figsize=(7.5,4.5))
         rows=[]
         for g in selected:
             n=integer(g,"n_unique_variants"); high=integer(g,"n_plp_review_stars_ge_2"); unc=integer(g,"uncertainty_burden")
@@ -255,7 +256,7 @@ class Renderer:
         for ax,proportion in zip(axes,[False,True]):
             xv=[r["plp_review_stars_ge_2_proportion"] if proportion else r["n_plp_review_stars_ge_2"] for r in rows]
             yv=[r["vus_plus_conflicting_proportion"] if proportion else r["n_vus_plus_conflicting"] for r in rows]
-            ax.scatter(xv,yv,s=16,color="#A6ADB4",alpha=.72,linewidths=.2,edgecolors="white",zorder=2)
+            ax.scatter(xv,yv,s=16,color="#7B838B",alpha=.85,linewidths=.2,edgecolors="white",zorder=2)
             if proportion:
                 ax.set_xlim(-.02,1.04); ax.set_ylim(-.02,1.10)
                 ax.xaxis.set_major_formatter(PercentFormatter(1)); ax.yaxis.set_major_formatter(PercentFormatter(1))
@@ -269,7 +270,8 @@ class Renderer:
                 if not r["annotated"]: continue
                 target=(r["plp_review_stars_ge_2_proportion"],r["vus_plus_conflicting_proportion"]) if proportion else (r["n_plp_review_stars_ge_2"],r["n_vus_plus_conflicting"])
                 color="#D55E00" if r["gene_symbol"] in {"DIAPH1","MET"} else "#0072B2"
-                ax.scatter(*target,s=30,color=color,edgecolor="white",linewidth=.5,zorder=3)
+                marker="^" if r["gene_symbol"] in {"DIAPH1","MET"} else "s"
+                ax.scatter(*target,s=34,color=color,marker=marker,edgecolor="white",linewidth=.5,zorder=3)
                 positions = proportion_positions if proportion else count_positions
                 ax.annotate(r["gene_symbol"],xy=target,xytext=positions[r["gene_symbol"]],textcoords="axes fraction",
                     fontsize=8,fontstyle="italic",color=color,ha="left",va="center",
@@ -277,8 +279,17 @@ class Renderer:
                     arrowprops={"arrowstyle":"->","lw":.7,"color":color,"connectionstyle":"arc3,rad=.03"},zorder=4)
         panel(axes[0],"A","Gene membership counts")
         panel(axes[1],"B","Within-gene proportions")
-        fig.subplots_adjust(left=.09,right=.98,bottom=.18,top=.88,wspace=.40)
-        self.save(fig,4,rows,f"Gene-level classification profiles under the phrase rule. Points represent {len(selected)} genes with at least ten distinct VariationIDs. Orange highlights DIAPH1 and MET, which lead by VUS-plus-conflicting count and proportion, respectively. Blue highlights MYO7A and SLC26A4, the two genes contributing the most P/LP records with at least two review stars; grey marks the other {len(selected) - 4} genes. (A) Counts of P/LP records with at least two review stars versus VUS-plus-conflicting counts; values from 0 to 1 are shown linearly and values above 1 logarithmically on symmetric-log axes. (B) Corresponding within-gene proportions. Each VariationID contributes once to each annotated gene, so gene counts are nonadditive. P/LP, pathogenic/likely pathogenic; VUS, variant of uncertain significance.")
+        key = [Line2D([], [], marker="^", linestyle="none", color="#D55E00", markersize=6,
+                      label="VUS + conflicting leaders"),
+               Line2D([], [], marker="s", linestyle="none", color="#0072B2", markersize=5,
+                      label="P/LP ≥2-star count leaders"),
+               Line2D([], [], marker="o", linestyle="none", color="#7B838B", markersize=4,
+                      label="Other genes")]
+        fig.legend(handles=key, loc="lower center", bbox_to_anchor=(.54,.015), ncol=3,
+                   frameon=True, edgecolor="#D0D0D0", facecolor="white", fontsize=8,
+                   handletextpad=.5, columnspacing=1.3)
+        fig.subplots_adjust(left=.09,right=.98,bottom=.24,top=.88,wspace=.40)
+        self.save(fig,4,rows,f"Gene-level classification profiles under the phrase rule. Points represent {len(selected)} genes with at least ten distinct VariationIDs. Orange triangles highlight DIAPH1 and MET, which lead by VUS-plus-conflicting count and proportion, respectively. Blue squares highlight MYO7A and SLC26A4, the two genes contributing the most P/LP records with at least two review stars; grey circles mark the other {len(selected) - 4} genes. (A) Counts of P/LP records with at least two review stars versus VUS-plus-conflicting counts; values from 0 to 1 are shown linearly and values above 1 logarithmically on symmetric-log axes. (B) Corresponding within-gene proportions. Each VariationID contributes once to each annotated gene, so gene counts are nonadditive. P/LP, pathogenic/likely pathogenic; VUS, variant of uncertain significance.")
 
     def plot_conflict_gene_rankings(self):
         genes = self.load("primary/utility_gene_all.tsv")
@@ -322,7 +333,7 @@ class Renderer:
                         ha="left",va="center",fontsize=8,color="#444444",clip_on=False)
                 panel(ax,"B","Highest conflict proportions")
         fig.subplots_adjust(left=.11,right=.87,bottom=.17,top=.89,wspace=.58)
-        self.save(fig,5,rows,"Gene rankings by conflict count and proportion. Genes had at least ten annotated VariationIDs. (A) Twelve largest conflict counts. (B) Twelve largest conflict proportions, with gene-level denominators shown as n. Proportions based on few records are more sensitive to changes in individual classifications. Panels are ranked independently; tied ranks are ordered alphabetically by gene symbol. Single-gene sensitivity results are in S5 Table.")
+        self.save(fig,5,rows,"Gene rankings by conflict count and proportion. Genes had at least ten annotated VariationIDs. (A) Twelve largest conflict counts. (B) Twelve largest conflict proportions, with gene-level denominators shown as n. Proportions for EXOSC2, TYR, NMNAT1 and TJP2 were based on 10–11 records and are sensitive to changes in individual classifications. Rankings describe gene annotations within the phrase-selected records, which can carry multiple disease labels. Panels are ranked independently; tied ranks are ordered alphabetically by gene symbol. Single-gene sensitivity results are in S5 Table.")
 
     def plot_selection_coverage_and_classification_composition(self):
         sets={}; rows=[]

@@ -49,3 +49,5 @@ Large raw inputs and complete record-level outputs are distributed as release as
 ## Citation and license
 
 Software citation metadata are provided in `CITATION.cff`. Code is available under the MIT license. Source data retain their respective terms; see `docs/DATA_MANIFEST.tsv` and `docs/DATA_LICENSES.md`. We acknowledge ClinVar and ClinGen contributors and the Human Phenotype Ontology Consortium.
+
+The curated-gene comparator counts every explicitly named gene on each selected record. Its 1,484 annotated symbols comprise 164 qualifying reference genes and 1,320 coannotated symbols outside that reference. Figure 4 distinguishes highlighted groups by both color and marker shape; Figure 5 ranks annotations in phrase-selected records, whose disease labels can differ or overlap.
